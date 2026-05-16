@@ -1,0 +1,701 @@
+City,Province,"Risk Level","Risk Score",Confidence,"Model Name","Prediction Date"
+Imus,CALABARZON,critical,99.00,77.00,"Multi-Factor Risk Model",2026-01-11
+Bacoor,CALABARZON,critical,92.00,93.00,"ML-Based Outbreak Forecast",2026-01-11
+"Cavite City",CALABARZON,critical,88.00,89.00,"Multi-Factor Risk Model",2026-01-11
+Cainta,CALABARZON,critical,97.00,75.00,"Multi-Factor Risk Model",2026-01-11
+Dasmarinas,CALABARZON,critical,89.00,83.00,"ASF Risk Predictor",2026-01-11
+"Batangas City",CALABARZON,high,65.00,76.00,"Movement Pattern Predictor",2026-01-11
+Bacoor,CALABARZON,high,65.00,74.00,"Movement Pattern Predictor",2026-01-10
+Taytay,CALABARZON,high,65.00,95.00,"Multi-Factor Risk Model",2026-01-10
+Dasmarinas,CALABARZON,high,80.00,75.00,"ASF Risk Predictor",2026-01-10
+Biñan,CALABARZON,critical,95.00,80.00,"Environmental Risk Analyzer",2026-01-10
+Dasmarinas,CALABARZON,high,63.00,91.00,"Environmental Risk Analyzer",2026-01-09
+Bacoor,CALABARZON,high,80.00,89.00,"Movement Pattern Predictor",2026-01-08
+Imus,CALABARZON,critical,97.00,90.00,"Movement Pattern Predictor",2026-01-08
+Cainta,CALABARZON,high,79.00,85.00,"Movement Pattern Predictor",2026-01-08
+Bacoor,CALABARZON,critical,98.00,94.00,"ML-Based Outbreak Forecast",2026-01-08
+Angono,CALABARZON,high,66.00,88.00,"ML-Based Outbreak Forecast",2026-01-08
+Tayabas,CALABARZON,medium,55.00,76.00,"Movement Pattern Predictor",2026-01-07
+Dasmarinas,CALABARZON,critical,87.00,91.00,"Environmental Risk Analyzer",2026-01-07
+Calamba,CALABARZON,critical,95.00,95.00,"Multi-Factor Risk Model",2026-01-07
+"Batangas City",CALABARZON,critical,98.00,76.00,"Environmental Risk Analyzer",2026-01-07
+"San Pedro",CALABARZON,high,69.00,86.00,"Multi-Factor Risk Model",2026-01-06
+Dasmarinas,CALABARZON,critical,87.00,93.00,"ML-Based Outbreak Forecast",2026-01-06
+Gumaca,CALABARZON,critical,85.00,85.00,"ASF Risk Predictor",2026-01-06
+Tagaytay,CALABARZON,high,69.00,91.00,"Multi-Factor Risk Model",2026-01-06
+Calamba,CALABARZON,high,79.00,85.00,"Multi-Factor Risk Model",2026-01-06
+Dasmarinas,CALABARZON,critical,88.00,85.00,"ML-Based Outbreak Forecast",2026-01-06
+"Cavite City",CALABARZON,high,65.00,83.00,"Movement Pattern Predictor",2026-01-05
+Antipolo,CALABARZON,high,65.00,92.00,"ML-Based Outbreak Forecast",2026-01-05
+Angono,CALABARZON,critical,100.00,80.00,"ASF Risk Predictor",2026-01-04
+Lipa,CALABARZON,high,80.00,91.00,"Environmental Risk Analyzer",2026-01-04
+"Cavite City",CALABARZON,high,80.00,88.00,"ML-Based Outbreak Forecast",2026-01-03
+Tanauan,CALABARZON,critical,100.00,83.00,"ASF Risk Predictor",2026-01-03
+Biñan,CALABARZON,critical,92.00,86.00,"Movement Pattern Predictor",2026-01-03
+"Batangas City",CALABARZON,critical,80.00,78.00,"ML-Based Outbreak Forecast",2026-01-02
+"Batangas City",CALABARZON,high,73.00,77.00,"Multi-Factor Risk Model",2026-01-02
+Lipa,CALABARZON,critical,95.00,80.00,"Multi-Factor Risk Model",2026-01-02
+Angono,CALABARZON,medium,56.00,80.00,"Multi-Factor Risk Model",2026-01-02
+Tagaytay,CALABARZON,high,78.00,85.00,"ASF Risk Predictor",2026-01-01
+Tanauan,CALABARZON,critical,88.00,91.00,"Multi-Factor Risk Model",2026-01-01
+Tagaytay,CALABARZON,high,79.00,89.00,"ML-Based Outbreak Forecast",2026-01-01
+"Los Baños",CALABARZON,high,75.00,85.00,"Environmental Risk Analyzer",2026-01-01
+Gumaca,CALABARZON,critical,80.00,90.00,"Environmental Risk Analyzer",2026-01-01
+Tayabas,CALABARZON,medium,55.00,77.00,"Movement Pattern Predictor",2026-01-01
+"Los Baños",CALABARZON,high,75.00,77.00,"ML-Based Outbreak Forecast",2025-12-31
+Biñan,CALABARZON,high,69.00,88.00,"Multi-Factor Risk Model",2025-12-31
+Lucena,CALABARZON,critical,90.00,92.00,"ML-Based Outbreak Forecast",2025-12-31
+Tagaytay,CALABARZON,high,80.00,77.00,"ASF Risk Predictor",2025-12-30
+"San Pedro",CALABARZON,critical,87.00,76.00,"Environmental Risk Analyzer",2025-12-30
+"Santa Rosa",CALABARZON,high,79.00,79.00,"Movement Pattern Predictor",2025-12-28
+Taytay,CALABARZON,critical,86.00,78.00,"Movement Pattern Predictor",2025-12-28
+Calamba,CALABARZON,critical,100.00,76.00,"ML-Based Outbreak Forecast",2025-12-28
+Cainta,CALABARZON,high,70.00,87.00,"Multi-Factor Risk Model",2025-12-28
+Imus,CALABARZON,high,63.00,82.00,"Multi-Factor Risk Model",2025-12-28
+Taytay,CALABARZON,high,75.00,78.00,"Multi-Factor Risk Model",2025-12-27
+Antipolo,CALABARZON,critical,97.00,87.00,"ASF Risk Predictor",2025-12-27
+Taytay,CALABARZON,high,68.00,93.00,"ML-Based Outbreak Forecast",2025-12-27
+Lucena,CALABARZON,medium,46.00,90.00,"Environmental Risk Analyzer",2025-12-26
+Taytay,CALABARZON,high,70.00,80.00,"Multi-Factor Risk Model",2025-12-26
+Lipa,CALABARZON,critical,99.00,81.00,"Environmental Risk Analyzer",2025-12-25
+"Santa Rosa",CALABARZON,critical,90.00,85.00,"ASF Risk Predictor",2025-12-25
+Antipolo,CALABARZON,high,76.00,80.00,"ASF Risk Predictor",2025-12-25
+Lipa,CALABARZON,critical,80.00,88.00,"Environmental Risk Analyzer",2025-12-25
+"Los Baños",CALABARZON,high,65.00,95.00,"ASF Risk Predictor",2025-12-25
+Bacoor,CALABARZON,high,64.00,82.00,"ASF Risk Predictor",2025-12-24
+"Cavite City",CALABARZON,high,76.00,84.00,"Multi-Factor Risk Model",2025-12-23
+Imus,CALABARZON,critical,87.00,87.00,"ML-Based Outbreak Forecast",2025-12-23
+Taytay,CALABARZON,high,69.00,85.00,"Environmental Risk Analyzer",2025-12-23
+Tagaytay,CALABARZON,critical,85.00,92.00,"ASF Risk Predictor",2025-12-22
+Bacoor,CALABARZON,high,63.00,85.00,"ASF Risk Predictor",2025-12-22
+Imus,CALABARZON,critical,97.00,90.00,"Multi-Factor Risk Model",2025-12-22
+Lipa,CALABARZON,high,65.00,79.00,"ASF Risk Predictor",2025-12-22
+Lipa,CALABARZON,high,66.00,94.00,"ASF Risk Predictor",2025-12-22
+Dasmarinas,CALABARZON,medium,55.00,75.00,"ASF Risk Predictor",2025-12-21
+Tanauan,CALABARZON,critical,96.00,76.00,"Environmental Risk Analyzer",2025-12-21
+Tanauan,CALABARZON,critical,100.00,91.00,"Movement Pattern Predictor",2025-12-21
+Biñan,CALABARZON,medium,41.00,93.00,"Multi-Factor Risk Model",2025-12-21
+Tayabas,CALABARZON,critical,95.00,94.00,"Multi-Factor Risk Model",2025-12-21
+Lipa,CALABARZON,critical,89.00,76.00,"ASF Risk Predictor",2025-12-21
+Bacoor,CALABARZON,critical,87.00,86.00,"ASF Risk Predictor",2025-12-20
+Bacoor,CALABARZON,medium,54.00,77.00,"Environmental Risk Analyzer",2025-12-20
+"Cavite City",CALABARZON,critical,100.00,94.00,"ASF Risk Predictor",2025-12-20
+Dasmarinas,CALABARZON,critical,98.00,88.00,"Movement Pattern Predictor",2025-12-20
+"Los Baños",CALABARZON,critical,97.00,80.00,"Movement Pattern Predictor",2025-12-19
+Bacoor,CALABARZON,critical,88.00,89.00,"Movement Pattern Predictor",2025-12-19
+Lucena,CALABARZON,high,66.00,85.00,"ML-Based Outbreak Forecast",2025-12-19
+"Los Baños",CALABARZON,critical,97.00,91.00,"Multi-Factor Risk Model",2025-12-19
+Tagaytay,CALABARZON,critical,88.00,84.00,"ASF Risk Predictor",2025-12-19
+Lipa,CALABARZON,high,71.00,81.00,"Multi-Factor Risk Model",2025-12-19
+Tagaytay,CALABARZON,high,79.00,83.00,"ASF Risk Predictor",2025-12-18
+"Batangas City",CALABARZON,critical,96.00,79.00,"Multi-Factor Risk Model",2025-12-18
+Antipolo,CALABARZON,critical,92.00,89.00,"Movement Pattern Predictor",2025-12-18
+"San Pedro",CALABARZON,critical,89.00,76.00,"Multi-Factor Risk Model",2025-12-18
+Tanauan,CALABARZON,critical,80.00,88.00,"Movement Pattern Predictor",2025-12-18
+"Cavite City",CALABARZON,high,65.00,94.00,"ASF Risk Predictor",2025-12-18
+Calamba,CALABARZON,critical,80.00,87.00,"ASF Risk Predictor",2025-12-18
+Tagaytay,CALABARZON,critical,92.00,95.00,"Movement Pattern Predictor",2025-12-17
+Lucena,CALABARZON,high,70.00,90.00,"ASF Risk Predictor",2025-12-17
+Tagaytay,CALABARZON,critical,91.00,83.00,"Movement Pattern Predictor",2025-12-17
+Angono,CALABARZON,high,65.00,90.00,"Environmental Risk Analyzer",2025-12-17
+"Cavite City",CALABARZON,critical,80.00,74.00,"Multi-Factor Risk Model",2025-12-16
+Tayabas,CALABARZON,critical,95.00,88.00,"Movement Pattern Predictor",2025-12-16
+Tagaytay,CALABARZON,critical,87.00,76.00,"Multi-Factor Risk Model",2025-12-16
+"Batangas City",CALABARZON,critical,99.00,80.00,"Movement Pattern Predictor",2025-12-16
+Biñan,CALABARZON,critical,97.00,83.00,"ASF Risk Predictor",2025-12-15
+Dasmarinas,CALABARZON,critical,80.00,84.00,"Environmental Risk Analyzer",2025-12-15
+"Los Baños",CALABARZON,critical,80.00,82.00,"Multi-Factor Risk Model",2025-12-15
+Calamba,CALABARZON,medium,55.00,86.00,"Multi-Factor Risk Model",2025-12-14
+Imus,CALABARZON,critical,97.00,92.00,"Multi-Factor Risk Model",2025-12-14
+Tagaytay,CALABARZON,critical,98.00,88.00,"ASF Risk Predictor",2025-12-13
+"Batangas City",CALABARZON,critical,95.00,79.00,"ASF Risk Predictor",2025-12-13
+Imus,CALABARZON,critical,96.00,91.00,"Movement Pattern Predictor",2025-12-13
+Imus,CALABARZON,high,65.00,95.00,"ML-Based Outbreak Forecast",2025-12-13
+Tagaytay,CALABARZON,high,65.00,74.00,"ML-Based Outbreak Forecast",2025-12-13
+Tanauan,CALABARZON,high,65.00,85.00,"Movement Pattern Predictor",2025-12-13
+Tagaytay,CALABARZON,critical,94.00,83.00,"ASF Risk Predictor",2025-12-12
+Lipa,CALABARZON,critical,89.00,95.00,"Movement Pattern Predictor",2025-12-12
+Antipolo,CALABARZON,high,72.00,84.00,"ML-Based Outbreak Forecast",2025-12-12
+"Santa Rosa",CALABARZON,critical,87.00,89.00,"Movement Pattern Predictor",2025-12-12
+Biñan,CALABARZON,high,78.00,88.00,"Environmental Risk Analyzer",2025-12-12
+Tanauan,CALABARZON,high,64.00,92.00,"Multi-Factor Risk Model",2025-12-12
+Biñan,CALABARZON,critical,94.00,79.00,"Multi-Factor Risk Model",2025-12-12
+Calamba,CALABARZON,critical,97.00,78.00,"Movement Pattern Predictor",2025-12-11
+Calamba,CALABARZON,critical,97.00,91.00,"Environmental Risk Analyzer",2025-12-11
+Imus,CALABARZON,medium,55.00,94.00,"Multi-Factor Risk Model",2025-12-11
+Angono,CALABARZON,high,70.00,72.00,"ASF Risk Predictor",2025-12-10
+Cainta,CALABARZON,high,62.00,80.00,"ML-Based Outbreak Forecast",2025-12-10
+"San Pedro",CALABARZON,high,74.00,89.00,"Movement Pattern Predictor",2025-12-10
+Tanauan,CALABARZON,high,64.00,76.00,"Movement Pattern Predictor",2025-12-10
+Calamba,CALABARZON,critical,97.00,91.00,"Multi-Factor Risk Model",2025-12-10
+Dasmarinas,CALABARZON,critical,91.00,81.00,"Multi-Factor Risk Model",2025-12-09
+Calamba,CALABARZON,critical,85.00,77.00,"ML-Based Outbreak Forecast",2025-12-09
+"Cavite City",CALABARZON,high,66.00,77.00,"Multi-Factor Risk Model",2025-12-09
+Angono,CALABARZON,high,62.00,82.00,"Environmental Risk Analyzer",2025-12-08
+"Santa Rosa",CALABARZON,high,70.00,89.00,"Environmental Risk Analyzer",2025-12-08
+Cainta,CALABARZON,critical,90.00,91.00,"Movement Pattern Predictor",2025-12-07
+Angono,CALABARZON,critical,88.00,89.00,"Movement Pattern Predictor",2025-12-07
+Lipa,CALABARZON,high,65.00,80.00,"Multi-Factor Risk Model",2025-12-07
+Dasmarinas,CALABARZON,critical,90.00,91.00,"Multi-Factor Risk Model",2025-12-07
+Taytay,CALABARZON,critical,89.00,84.00,"Movement Pattern Predictor",2025-12-07
+Antipolo,CALABARZON,high,63.00,95.00,"ASF Risk Predictor",2025-12-06
+Taytay,CALABARZON,critical,99.00,89.00,"ML-Based Outbreak Forecast",2025-12-06
+Bacoor,CALABARZON,critical,86.00,93.00,"Environmental Risk Analyzer",2025-12-06
+Bacoor,CALABARZON,high,74.00,77.00,"ASF Risk Predictor",2025-12-06
+Cainta,CALABARZON,critical,86.00,86.00,"ASF Risk Predictor",2025-12-06
+Tagaytay,CALABARZON,critical,80.00,84.00,"ASF Risk Predictor",2025-12-06
+Gumaca,CALABARZON,high,75.00,93.00,"ML-Based Outbreak Forecast",2025-12-05
+Dasmarinas,CALABARZON,high,75.00,86.00,"Environmental Risk Analyzer",2025-12-05
+Biñan,CALABARZON,high,77.00,89.00,"Multi-Factor Risk Model",2025-12-05
+"Santa Rosa",CALABARZON,critical,86.00,76.00,"ML-Based Outbreak Forecast",2025-12-05
+Tagaytay,CALABARZON,high,72.00,89.00,"Movement Pattern Predictor",2025-12-05
+"Los Baños",CALABARZON,high,75.00,83.00,"Movement Pattern Predictor",2025-12-05
+"Los Baños",CALABARZON,critical,88.00,91.00,"ML-Based Outbreak Forecast",2025-12-04
+"Santa Rosa",CALABARZON,high,70.00,93.00,"ASF Risk Predictor",2025-12-04
+"San Pedro",CALABARZON,critical,80.00,84.00,"Multi-Factor Risk Model",2025-12-04
+"Cavite City",CALABARZON,medium,55.00,85.00,"Environmental Risk Analyzer",2025-12-03
+Angono,CALABARZON,high,78.00,91.00,"Multi-Factor Risk Model",2025-12-03
+"San Pedro",CALABARZON,high,71.00,91.00,"Environmental Risk Analyzer",2025-12-03
+Dasmarinas,CALABARZON,critical,96.00,85.00,"ASF Risk Predictor",2025-12-03
+Cainta,CALABARZON,critical,93.00,82.00,"Environmental Risk Analyzer",2025-12-02
+Dasmarinas,CALABARZON,high,63.00,83.00,"Environmental Risk Analyzer",2025-12-02
+Bacoor,CALABARZON,high,73.00,88.00,"ML-Based Outbreak Forecast",2025-12-02
+Lucena,CALABARZON,critical,95.00,81.00,"Movement Pattern Predictor",2025-12-02
+Taytay,CALABARZON,critical,88.00,83.00,"Multi-Factor Risk Model",2025-12-02
+"Batangas City",CALABARZON,high,75.00,82.00,"ASF Risk Predictor",2025-12-02
+Cainta,CALABARZON,high,70.00,87.00,"ML-Based Outbreak Forecast",2025-12-01
+"Batangas City",CALABARZON,critical,100.00,76.00,"Multi-Factor Risk Model",2025-12-01
+Tayabas,CALABARZON,critical,97.00,86.00,"ML-Based Outbreak Forecast",2025-12-01
+Lipa,CALABARZON,critical,98.00,85.00,"Movement Pattern Predictor",2025-12-01
+Angono,CALABARZON,high,70.00,82.00,"Environmental Risk Analyzer",2025-12-01
+Taytay,CALABARZON,high,60.00,79.00,"ML-Based Outbreak Forecast",2025-11-30
+Bacoor,CALABARZON,medium,48.00,77.00,"ML-Based Outbreak Forecast",2025-11-29
+Angono,CALABARZON,high,78.00,75.00,"Environmental Risk Analyzer",2025-11-29
+Dasmarinas,CALABARZON,high,60.00,89.00,"Movement Pattern Predictor",2025-11-29
+"Cavite City",CALABARZON,high,77.00,81.00,"Movement Pattern Predictor",2025-11-29
+Lucena,CALABARZON,high,71.00,90.00,"ML-Based Outbreak Forecast",2025-11-29
+Tagaytay,CALABARZON,critical,80.00,80.00,"Environmental Risk Analyzer",2025-11-29
+Lipa,CALABARZON,critical,90.00,77.00,"ASF Risk Predictor",2025-11-28
+Tagaytay,CALABARZON,high,67.00,84.00,"Movement Pattern Predictor",2025-11-28
+Bacoor,CALABARZON,medium,58.00,78.00,"Movement Pattern Predictor",2025-11-27
+Lipa,CALABARZON,critical,99.00,89.00,"Environmental Risk Analyzer",2025-11-27
+"Los Baños",CALABARZON,high,75.00,81.00,"ML-Based Outbreak Forecast",2025-11-27
+Tagaytay,CALABARZON,medium,55.00,83.00,"Multi-Factor Risk Model",2025-11-27
+Calamba,CALABARZON,critical,90.00,77.00,"ASF Risk Predictor",2025-11-27
+Dasmarinas,CALABARZON,high,65.00,94.00,"Environmental Risk Analyzer",2025-11-27
+Dasmarinas,CALABARZON,medium,55.00,74.00,"ML-Based Outbreak Forecast",2025-11-26
+Lucena,CALABARZON,critical,92.00,91.00,"Environmental Risk Analyzer",2025-11-26
+Lipa,CALABARZON,high,68.00,83.00,"Movement Pattern Predictor",2025-11-26
+Antipolo,CALABARZON,high,67.00,94.00,"Environmental Risk Analyzer",2025-11-26
+"Batangas City",CALABARZON,critical,89.00,95.00,"Movement Pattern Predictor",2025-11-25
+"Santa Rosa",CALABARZON,medium,55.00,70.00,"ASF Risk Predictor",2025-11-25
+"Cavite City",CALABARZON,medium,54.00,89.00,"Environmental Risk Analyzer",2025-11-24
+"Santa Rosa",CALABARZON,high,67.00,77.00,"ASF Risk Predictor",2025-11-24
+"San Pedro",CALABARZON,high,78.00,85.00,"Movement Pattern Predictor",2025-11-23
+Taytay,CALABARZON,high,65.00,92.00,"Environmental Risk Analyzer",2025-11-23
+Antipolo,CALABARZON,critical,80.00,87.00,"Environmental Risk Analyzer",2025-11-23
+Bacoor,CALABARZON,high,71.00,90.00,"Multi-Factor Risk Model",2025-11-22
+Bacoor,CALABARZON,critical,95.00,88.00,"ASF Risk Predictor",2025-11-22
+Lipa,CALABARZON,high,75.00,79.00,"ML-Based Outbreak Forecast",2025-11-22
+Tanauan,CALABARZON,high,70.00,90.00,"Multi-Factor Risk Model",2025-11-22
+Imus,CALABARZON,high,74.00,93.00,"Environmental Risk Analyzer",2025-11-21
+Tayabas,CALABARZON,medium,42.00,75.00,"Movement Pattern Predictor",2025-11-21
+Dasmarinas,CALABARZON,high,61.00,95.00,"Environmental Risk Analyzer",2025-11-20
+Tayabas,CALABARZON,high,67.00,94.00,"Multi-Factor Risk Model",2025-11-20
+"Cavite City",CALABARZON,critical,94.00,79.00,"Environmental Risk Analyzer",2025-11-20
+Taytay,CALABARZON,high,77.00,77.00,"Multi-Factor Risk Model",2025-11-20
+Taytay,CALABARZON,critical,88.00,93.00,"Multi-Factor Risk Model",2025-11-20
+Lucena,CALABARZON,medium,55.00,76.00,"Multi-Factor Risk Model",2025-11-20
+Taytay,CALABARZON,medium,55.00,88.00,"Multi-Factor Risk Model",2025-11-20
+"Batangas City",CALABARZON,high,74.00,85.00,"Multi-Factor Risk Model",2025-11-19
+"Cavite City",CALABARZON,critical,97.00,75.00,"Movement Pattern Predictor",2025-11-19
+"San Pedro",CALABARZON,critical,92.00,84.00,"ASF Risk Predictor",2025-11-19
+Dasmarinas,CALABARZON,critical,95.00,94.00,"Environmental Risk Analyzer",2025-11-18
+Antipolo,CALABARZON,critical,100.00,86.00,"Multi-Factor Risk Model",2025-11-18
+Imus,CALABARZON,critical,91.00,95.00,"ASF Risk Predictor",2025-11-18
+Gumaca,CALABARZON,high,66.00,83.00,"Environmental Risk Analyzer",2025-11-18
+Lipa,CALABARZON,high,75.00,70.00,"Multi-Factor Risk Model",2025-11-18
+Cainta,CALABARZON,high,65.00,93.00,"Environmental Risk Analyzer",2025-11-18
+Bacoor,CALABARZON,high,65.00,90.00,"ASF Risk Predictor",2025-11-17
+Taytay,CALABARZON,high,70.00,78.00,"ASF Risk Predictor",2025-11-17
+Angono,CALABARZON,medium,51.00,90.00,"ASF Risk Predictor",2025-11-17
+Lipa,CALABARZON,critical,86.00,77.00,"ML-Based Outbreak Forecast",2025-11-17
+Lucena,CALABARZON,high,62.00,80.00,"Movement Pattern Predictor",2025-11-17
+"Los Baños",CALABARZON,critical,86.00,84.00,"ML-Based Outbreak Forecast",2025-11-16
+"Cavite City",CALABARZON,high,67.00,83.00,"Multi-Factor Risk Model",2025-11-15
+Tagaytay,CALABARZON,critical,96.00,84.00,"ML-Based Outbreak Forecast",2025-11-15
+"Los Baños",CALABARZON,critical,96.00,79.00,"ML-Based Outbreak Forecast",2025-11-15
+Biñan,CALABARZON,critical,89.00,86.00,"Multi-Factor Risk Model",2025-11-15
+"Batangas City",CALABARZON,critical,98.00,84.00,"Multi-Factor Risk Model",2025-11-15
+Calamba,CALABARZON,high,65.00,92.00,"Movement Pattern Predictor",2025-11-15
+Gumaca,CALABARZON,high,65.00,90.00,"ASF Risk Predictor",2025-11-14
+"Los Baños",CALABARZON,high,65.00,87.00,"Multi-Factor Risk Model",2025-11-13
+Taytay,CALABARZON,critical,90.00,86.00,"Movement Pattern Predictor",2025-11-13
+Cainta,CALABARZON,critical,95.00,88.00,"Environmental Risk Analyzer",2025-11-13
+Lipa,CALABARZON,critical,90.00,80.00,"ML-Based Outbreak Forecast",2025-11-12
+Tayabas,CALABARZON,medium,58.00,80.00,"Multi-Factor Risk Model",2025-11-12
+"Cavite City",CALABARZON,high,70.00,87.00,"ML-Based Outbreak Forecast",2025-11-12
+Gumaca,CALABARZON,high,80.00,86.00,"Movement Pattern Predictor",2025-11-12
+Antipolo,CALABARZON,high,80.00,87.00,"ASF Risk Predictor",2025-11-12
+Antipolo,CALABARZON,critical,85.00,83.00,"Environmental Risk Analyzer",2025-11-12
+Taytay,CALABARZON,critical,100.00,94.00,"ML-Based Outbreak Forecast",2025-11-11
+"Cavite City",CALABARZON,medium,57.00,77.00,"ASF Risk Predictor",2025-11-11
+"Cavite City",CALABARZON,high,78.00,87.00,"Movement Pattern Predictor",2025-11-11
+"Los Baños",CALABARZON,critical,95.00,86.00,"Multi-Factor Risk Model",2025-11-11
+Tagaytay,CALABARZON,critical,86.00,87.00,"ML-Based Outbreak Forecast",2025-11-11
+Cainta,CALABARZON,critical,95.00,86.00,"Movement Pattern Predictor",2025-11-11
+"Batangas City",CALABARZON,critical,88.00,91.00,"ML-Based Outbreak Forecast",2025-11-11
+"Cavite City",CALABARZON,high,62.00,94.00,"Environmental Risk Analyzer",2025-11-10
+Tanauan,CALABARZON,critical,97.00,94.00,"ASF Risk Predictor",2025-11-10
+Biñan,CALABARZON,high,70.00,76.00,"Environmental Risk Analyzer",2025-11-10
+Imus,CALABARZON,medium,55.00,95.00,"ASF Risk Predictor",2025-11-10
+Lipa,CALABARZON,high,70.00,85.00,"ML-Based Outbreak Forecast",2025-11-09
+Bacoor,CALABARZON,critical,88.00,90.00,"ML-Based Outbreak Forecast",2025-11-09
+Gumaca,CALABARZON,critical,87.00,92.00,"ML-Based Outbreak Forecast",2025-11-09
+Tagaytay,CALABARZON,high,65.00,85.00,"Movement Pattern Predictor",2025-11-09
+Tanauan,CALABARZON,critical,91.00,88.00,"ML-Based Outbreak Forecast",2025-11-09
+Tayabas,CALABARZON,high,67.00,83.00,"ASF Risk Predictor",2025-11-09
+Tanauan,CALABARZON,high,73.00,82.00,"ASF Risk Predictor",2025-11-08
+Biñan,CALABARZON,critical,80.00,75.00,"ASF Risk Predictor",2025-11-08
+"Santa Rosa",CALABARZON,high,65.00,76.00,"Multi-Factor Risk Model",2025-11-08
+Tayabas,CALABARZON,high,75.00,84.00,"Multi-Factor Risk Model",2025-11-07
+"Santa Rosa",CALABARZON,medium,55.00,73.00,"Environmental Risk Analyzer",2025-11-07
+Taytay,CALABARZON,critical,87.00,77.00,"ASF Risk Predictor",2025-11-07
+Angono,CALABARZON,medium,42.00,75.00,"ML-Based Outbreak Forecast",2025-11-07
+"Cavite City",CALABARZON,high,67.00,79.00,"ASF Risk Predictor",2025-11-07
+Taytay,CALABARZON,high,65.00,95.00,"Multi-Factor Risk Model",2025-11-07
+Tagaytay,CALABARZON,high,74.00,85.00,"ML-Based Outbreak Forecast",2025-11-07
+Lipa,CALABARZON,critical,85.00,79.00,"Movement Pattern Predictor",2025-11-07
+Antipolo,CALABARZON,high,71.00,87.00,"ML-Based Outbreak Forecast",2025-11-07
+Lucena,CALABARZON,high,78.00,83.00,"Movement Pattern Predictor",2025-11-06
+"Cavite City",CALABARZON,critical,80.00,78.00,"Movement Pattern Predictor",2025-11-06
+Cainta,CALABARZON,critical,80.00,85.00,"Movement Pattern Predictor",2025-11-06
+Tayabas,CALABARZON,critical,95.00,82.00,"Multi-Factor Risk Model",2025-11-05
+Taytay,CALABARZON,high,75.00,83.00,"Movement Pattern Predictor",2025-11-05
+"San Pedro",CALABARZON,critical,98.00,83.00,"ML-Based Outbreak Forecast",2025-11-04
+Bacoor,CALABARZON,high,80.00,77.00,"Environmental Risk Analyzer",2025-11-04
+Tagaytay,CALABARZON,high,75.00,92.00,"ASF Risk Predictor",2025-11-04
+Calamba,CALABARZON,critical,92.00,85.00,"ASF Risk Predictor",2025-11-03
+"Los Baños",CALABARZON,critical,93.00,89.00,"ML-Based Outbreak Forecast",2025-11-03
+"Los Baños",CALABARZON,high,78.00,95.00,"Environmental Risk Analyzer",2025-11-03
+"Los Baños",CALABARZON,medium,43.00,82.00,"Environmental Risk Analyzer",2025-11-03
+"San Pedro",CALABARZON,high,75.00,70.00,"ML-Based Outbreak Forecast",2025-11-03
+Biñan,CALABARZON,high,75.00,77.00,"Movement Pattern Predictor",2025-11-03
+"Santa Rosa",CALABARZON,critical,85.00,84.00,"Environmental Risk Analyzer",2025-11-02
+Tagaytay,CALABARZON,critical,96.00,78.00,"ASF Risk Predictor",2025-11-02
+Lucena,CALABARZON,critical,98.00,80.00,"Movement Pattern Predictor",2025-11-02
+Biñan,CALABARZON,critical,87.00,89.00,"ASF Risk Predictor",2025-11-01
+Bacoor,CALABARZON,high,75.00,87.00,"Environmental Risk Analyzer",2025-11-01
+Antipolo,CALABARZON,high,70.00,80.00,"ML-Based Outbreak Forecast",2025-11-01
+Taytay,CALABARZON,critical,95.00,83.00,"Multi-Factor Risk Model",2025-11-01
+Cainta,CALABARZON,critical,80.00,94.00,"ML-Based Outbreak Forecast",2025-11-01
+Cainta,CALABARZON,high,80.00,79.00,"ASF Risk Predictor",2025-10-31
+"Santa Rosa",CALABARZON,high,70.00,87.00,"Environmental Risk Analyzer",2025-10-31
+"Batangas City",CALABARZON,high,65.00,79.00,"Multi-Factor Risk Model",2025-10-31
+Tanauan,CALABARZON,critical,100.00,94.00,"Multi-Factor Risk Model",2025-10-31
+Antipolo,CALABARZON,high,66.00,92.00,"Multi-Factor Risk Model",2025-10-30
+Tanauan,CALABARZON,critical,92.00,92.00,"ASF Risk Predictor",2025-10-30
+"San Pedro",CALABARZON,high,65.00,71.00,"Multi-Factor Risk Model",2025-10-30
+Tanauan,CALABARZON,medium,55.00,80.00,"Movement Pattern Predictor",2025-10-29
+Imus,CALABARZON,high,75.00,83.00,"Environmental Risk Analyzer",2025-10-29
+Tagaytay,CALABARZON,high,70.00,88.00,"ASF Risk Predictor",2025-10-28
+Tanauan,CALABARZON,medium,55.00,83.00,"Movement Pattern Predictor",2025-10-28
+Tayabas,CALABARZON,high,77.00,87.00,"Environmental Risk Analyzer",2025-10-28
+"Santa Rosa",CALABARZON,medium,51.00,88.00,"Movement Pattern Predictor",2025-10-27
+Antipolo,CALABARZON,high,70.00,95.00,"ASF Risk Predictor",2025-10-27
+Calamba,CALABARZON,critical,86.00,93.00,"Multi-Factor Risk Model",2025-10-26
+Cainta,CALABARZON,high,69.00,87.00,"Multi-Factor Risk Model",2025-10-26
+Biñan,CALABARZON,high,70.00,89.00,"Multi-Factor Risk Model",2025-10-25
+Angono,CALABARZON,high,65.00,89.00,"ML-Based Outbreak Forecast",2025-10-25
+Lipa,CALABARZON,high,68.00,80.00,"ASF Risk Predictor",2025-10-25
+Taytay,CALABARZON,critical,96.00,93.00,"Multi-Factor Risk Model",2025-10-25
+"Cavite City",CALABARZON,medium,42.00,80.00,"Movement Pattern Predictor",2025-10-25
+Tayabas,CALABARZON,high,70.00,78.00,"ML-Based Outbreak Forecast",2025-10-25
+"Santa Rosa",CALABARZON,critical,99.00,87.00,"Multi-Factor Risk Model",2025-10-25
+"Cavite City",CALABARZON,high,66.00,78.00,"Multi-Factor Risk Model",2025-10-25
+Tagaytay,CALABARZON,medium,55.00,85.00,"ASF Risk Predictor",2025-10-24
+"Batangas City",CALABARZON,high,65.00,81.00,"Multi-Factor Risk Model",2025-10-24
+Tayabas,CALABARZON,high,65.00,70.00,"Multi-Factor Risk Model",2025-10-23
+Antipolo,CALABARZON,high,65.00,87.00,"Movement Pattern Predictor",2025-10-23
+"Batangas City",CALABARZON,high,80.00,86.00,"ML-Based Outbreak Forecast",2025-10-23
+"Santa Rosa",CALABARZON,critical,99.00,77.00,"ASF Risk Predictor",2025-10-23
+Cainta,CALABARZON,high,73.00,77.00,"Movement Pattern Predictor",2025-10-23
+Tanauan,CALABARZON,critical,92.00,83.00,"Movement Pattern Predictor",2025-10-22
+"Los Baños",CALABARZON,high,69.00,85.00,"Movement Pattern Predictor",2025-10-22
+Cainta,CALABARZON,high,80.00,76.00,"ASF Risk Predictor",2025-10-21
+"Cavite City",CALABARZON,high,79.00,77.00,"ASF Risk Predictor",2025-10-21
+Lipa,CALABARZON,critical,95.00,90.00,"Movement Pattern Predictor",2025-10-21
+Lucena,CALABARZON,medium,57.00,90.00,"Movement Pattern Predictor",2025-10-21
+Tayabas,CALABARZON,critical,93.00,82.00,"ML-Based Outbreak Forecast",2025-10-21
+"Batangas City",CALABARZON,high,77.00,80.00,"ASF Risk Predictor",2025-10-20
+Tanauan,CALABARZON,critical,95.00,76.00,"ML-Based Outbreak Forecast",2025-10-20
+Tanauan,CALABARZON,high,73.00,82.00,"ML-Based Outbreak Forecast",2025-10-20
+Biñan,CALABARZON,critical,80.00,93.00,"ASF Risk Predictor",2025-10-20
+Dasmarinas,CALABARZON,high,70.00,71.00,"ML-Based Outbreak Forecast",2025-10-20
+"Los Baños",CALABARZON,medium,55.00,95.00,"ASF Risk Predictor",2025-10-19
+"Santa Rosa",CALABARZON,high,70.00,82.00,"Multi-Factor Risk Model",2025-10-19
+Angono,CALABARZON,high,77.00,87.00,"ASF Risk Predictor",2025-10-19
+Antipolo,CALABARZON,high,61.00,86.00,"Movement Pattern Predictor",2025-10-19
+Antipolo,CALABARZON,critical,93.00,88.00,"Environmental Risk Analyzer",2025-10-19
+Lipa,CALABARZON,high,64.00,76.00,"Environmental Risk Analyzer",2025-10-18
+Calamba,CALABARZON,critical,87.00,85.00,"Environmental Risk Analyzer",2025-10-18
+Tayabas,CALABARZON,medium,51.00,84.00,"Environmental Risk Analyzer",2025-10-18
+"Cavite City",CALABARZON,high,70.00,92.00,"Environmental Risk Analyzer",2025-10-18
+Taytay,CALABARZON,high,65.00,93.00,"Environmental Risk Analyzer",2025-10-18
+Lipa,CALABARZON,high,75.00,79.00,"ML-Based Outbreak Forecast",2025-10-18
+Lipa,CALABARZON,medium,55.00,87.00,"ML-Based Outbreak Forecast",2025-10-18
+"Cavite City",CALABARZON,critical,99.00,76.00,"ASF Risk Predictor",2025-10-17
+"Santa Rosa",CALABARZON,critical,95.00,94.00,"Movement Pattern Predictor",2025-10-17
+Lucena,CALABARZON,critical,96.00,91.00,"Multi-Factor Risk Model",2025-10-17
+Antipolo,CALABARZON,high,68.00,80.00,"ML-Based Outbreak Forecast",2025-10-15
+"Batangas City",CALABARZON,critical,91.00,88.00,"Multi-Factor Risk Model",2025-10-15
+Bacoor,CALABARZON,critical,97.00,85.00,"ML-Based Outbreak Forecast",2025-10-15
+Gumaca,CALABARZON,high,65.00,94.00,"ASF Risk Predictor",2025-10-15
+Antipolo,CALABARZON,critical,88.00,80.00,"Movement Pattern Predictor",2025-10-15
+Antipolo,CALABARZON,medium,55.00,90.00,"ML-Based Outbreak Forecast",2025-10-15
+"Santa Rosa",CALABARZON,critical,80.00,94.00,"Movement Pattern Predictor",2025-10-14
+"San Pedro",CALABARZON,medium,52.00,79.00,"ASF Risk Predictor",2025-10-14
+Imus,CALABARZON,high,63.00,79.00,"Multi-Factor Risk Model",2025-10-14
+Biñan,CALABARZON,critical,87.00,94.00,"Multi-Factor Risk Model",2025-10-14
+Antipolo,CALABARZON,high,76.00,88.00,"Multi-Factor Risk Model",2025-10-14
+Tanauan,CALABARZON,high,65.00,92.00,"ASF Risk Predictor",2025-10-13
+Tagaytay,CALABARZON,high,65.00,78.00,"ASF Risk Predictor",2025-10-13
+"Cavite City",CALABARZON,high,70.00,77.00,"Environmental Risk Analyzer",2025-10-12
+Imus,CALABARZON,critical,80.00,81.00,"ML-Based Outbreak Forecast",2025-10-12
+"Santa Rosa",CALABARZON,medium,40.00,88.00,"ASF Risk Predictor",2025-10-12
+Antipolo,CALABARZON,high,65.00,92.00,"Movement Pattern Predictor",2025-10-11
+"Cavite City",CALABARZON,high,75.00,84.00,"Multi-Factor Risk Model",2025-10-11
+Tanauan,CALABARZON,high,79.00,77.00,"Multi-Factor Risk Model",2025-10-11
+Calamba,CALABARZON,critical,89.00,88.00,"ASF Risk Predictor",2025-10-11
+Imus,CALABARZON,critical,100.00,94.00,"ML-Based Outbreak Forecast",2025-10-11
+Bacoor,CALABARZON,high,77.00,80.00,"Environmental Risk Analyzer",2025-10-11
+Tanauan,CALABARZON,high,65.00,88.00,"ASF Risk Predictor",2025-10-11
+"Batangas City",CALABARZON,medium,55.00,83.00,"ML-Based Outbreak Forecast",2025-10-10
+Bacoor,CALABARZON,high,60.00,94.00,"Multi-Factor Risk Model",2025-10-10
+Tayabas,CALABARZON,critical,98.00,77.00,"Movement Pattern Predictor",2025-10-10
+"Los Baños",CALABARZON,critical,80.00,76.00,"ASF Risk Predictor",2025-10-09
+Antipolo,CALABARZON,high,65.00,81.00,"Multi-Factor Risk Model",2025-10-08
+Tagaytay,CALABARZON,high,65.00,77.00,"Movement Pattern Predictor",2025-10-08
+Dasmarinas,CALABARZON,high,70.00,73.00,"Environmental Risk Analyzer",2025-10-08
+Calamba,CALABARZON,critical,94.00,89.00,"ASF Risk Predictor",2025-10-08
+"Batangas City",CALABARZON,high,63.00,82.00,"ML-Based Outbreak Forecast",2025-10-08
+"Los Baños",CALABARZON,medium,40.00,82.00,"ML-Based Outbreak Forecast",2025-10-07
+Biñan,CALABARZON,critical,86.00,86.00,"ASF Risk Predictor",2025-10-07
+"Los Baños",CALABARZON,critical,97.00,86.00,"Multi-Factor Risk Model",2025-10-07
+Lipa,CALABARZON,critical,80.00,80.00,"Environmental Risk Analyzer",2025-10-07
+Lucena,CALABARZON,medium,55.00,82.00,"Movement Pattern Predictor",2025-10-06
+Imus,CALABARZON,critical,86.00,91.00,"Environmental Risk Analyzer",2025-10-06
+"San Pedro",CALABARZON,high,77.00,89.00,"Multi-Factor Risk Model",2025-10-06
+"Cavite City",CALABARZON,high,60.00,77.00,"ASF Risk Predictor",2025-10-06
+"Los Baños",CALABARZON,critical,95.00,85.00,"ASF Risk Predictor",2025-10-05
+"Cavite City",CALABARZON,critical,87.00,78.00,"Multi-Factor Risk Model",2025-10-05
+"Cavite City",CALABARZON,high,60.00,83.00,"Environmental Risk Analyzer",2025-10-05
+Tagaytay,CALABARZON,high,65.00,94.00,"Movement Pattern Predictor",2025-10-05
+"San Pedro",CALABARZON,high,65.00,90.00,"Environmental Risk Analyzer",2025-10-05
+Cainta,CALABARZON,high,74.00,83.00,"Multi-Factor Risk Model",2025-10-04
+Lipa,CALABARZON,high,80.00,95.00,"ASF Risk Predictor",2025-10-03
+Cainta,CALABARZON,critical,91.00,75.00,"ASF Risk Predictor",2025-10-02
+Imus,CALABARZON,critical,100.00,83.00,"Environmental Risk Analyzer",2025-10-02
+Dasmarinas,CALABARZON,high,65.00,81.00,"Multi-Factor Risk Model",2025-10-01
+Lucena,CALABARZON,high,65.00,93.00,"Multi-Factor Risk Model",2025-09-30
+Antipolo,CALABARZON,medium,55.00,83.00,"Multi-Factor Risk Model",2025-09-30
+Lucena,CALABARZON,critical,94.00,82.00,"Movement Pattern Predictor",2025-09-30
+"San Pedro",CALABARZON,high,79.00,81.00,"Multi-Factor Risk Model",2025-09-30
+"Los Baños",CALABARZON,medium,47.00,86.00,"ML-Based Outbreak Forecast",2025-09-30
+"Batangas City",CALABARZON,critical,93.00,95.00,"Movement Pattern Predictor",2025-09-29
+Antipolo,CALABARZON,critical,94.00,89.00,"Movement Pattern Predictor",2025-09-28
+Biñan,CALABARZON,high,76.00,92.00,"Multi-Factor Risk Model",2025-09-28
+Tayabas,CALABARZON,critical,90.00,70.00,"ML-Based Outbreak Forecast",2025-09-28
+Antipolo,CALABARZON,high,78.00,90.00,"ASF Risk Predictor",2025-09-27
+Angono,CALABARZON,critical,91.00,78.00,"ML-Based Outbreak Forecast",2025-09-27
+"San Pedro",CALABARZON,critical,93.00,87.00,"ASF Risk Predictor",2025-09-26
+Lucena,CALABARZON,critical,88.00,79.00,"Movement Pattern Predictor",2025-09-26
+"Los Baños",CALABARZON,high,70.00,76.00,"Multi-Factor Risk Model",2025-09-26
+Antipolo,CALABARZON,medium,55.00,77.00,"Movement Pattern Predictor",2025-09-25
+Lucena,CALABARZON,medium,52.00,87.00,"ASF Risk Predictor",2025-09-25
+Biñan,CALABARZON,critical,95.00,81.00,"ASF Risk Predictor",2025-09-24
+Antipolo,CALABARZON,medium,55.00,76.00,"ASF Risk Predictor",2025-09-24
+Lucena,CALABARZON,medium,55.00,91.00,"ASF Risk Predictor",2025-09-24
+Dasmarinas,CALABARZON,high,65.00,88.00,"Environmental Risk Analyzer",2025-09-23
+Antipolo,CALABARZON,critical,80.00,74.00,"ASF Risk Predictor",2025-09-23
+Lucena,CALABARZON,high,74.00,92.00,"ASF Risk Predictor",2025-09-23
+Bacoor,CALABARZON,critical,91.00,95.00,"ML-Based Outbreak Forecast",2025-09-22
+"Santa Rosa",CALABARZON,critical,93.00,89.00,"ASF Risk Predictor",2025-09-22
+Tanauan,CALABARZON,high,75.00,83.00,"Environmental Risk Analyzer",2025-09-22
+Imus,CALABARZON,medium,57.00,81.00,"ASF Risk Predictor",2025-09-22
+Biñan,CALABARZON,medium,55.00,71.00,"ASF Risk Predictor",2025-09-22
+Taytay,CALABARZON,high,65.00,93.00,"Movement Pattern Predictor",2025-09-21
+Bacoor,CALABARZON,high,62.00,90.00,"Environmental Risk Analyzer",2025-09-21
+Imus,CALABARZON,critical,92.00,79.00,"Environmental Risk Analyzer",2025-09-21
+Bacoor,CALABARZON,high,69.00,85.00,"Environmental Risk Analyzer",2025-09-20
+Tayabas,CALABARZON,critical,80.00,70.00,"ML-Based Outbreak Forecast",2025-09-20
+Angono,CALABARZON,medium,55.00,92.00,"Environmental Risk Analyzer",2025-09-19
+Calamba,CALABARZON,critical,90.00,82.00,"ASF Risk Predictor",2025-09-19
+Taytay,CALABARZON,high,65.00,73.00,"ASF Risk Predictor",2025-09-18
+Bacoor,CALABARZON,high,70.00,87.00,"Movement Pattern Predictor",2025-09-18
+Lucena,CALABARZON,high,70.00,87.00,"Multi-Factor Risk Model",2025-09-18
+"San Pedro",CALABARZON,high,65.00,82.00,"Environmental Risk Analyzer",2025-09-17
+"Batangas City",CALABARZON,medium,55.00,93.00,"ML-Based Outbreak Forecast",2025-09-17
+Gumaca,CALABARZON,high,64.00,81.00,"Environmental Risk Analyzer",2025-09-17
+Calamba,CALABARZON,high,62.00,77.00,"Multi-Factor Risk Model",2025-09-17
+Tagaytay,CALABARZON,high,69.00,82.00,"Multi-Factor Risk Model",2025-09-17
+"Los Baños",CALABARZON,high,68.00,84.00,"ASF Risk Predictor",2025-09-16
+Tanauan,CALABARZON,critical,90.00,77.00,"Movement Pattern Predictor",2025-09-16
+Antipolo,CALABARZON,critical,90.00,78.00,"Environmental Risk Analyzer",2025-09-16
+Bacoor,CALABARZON,critical,80.00,91.00,"ASF Risk Predictor",2025-09-16
+Cainta,CALABARZON,critical,80.00,79.00,"ML-Based Outbreak Forecast",2025-09-15
+Gumaca,CALABARZON,high,75.00,71.00,"Environmental Risk Analyzer",2025-09-15
+Lucena,CALABARZON,critical,88.00,93.00,"Environmental Risk Analyzer",2025-09-15
+Taytay,CALABARZON,critical,94.00,90.00,"ASF Risk Predictor",2025-09-15
+Dasmarinas,CALABARZON,critical,94.00,80.00,"ASF Risk Predictor",2025-09-15
+Taytay,CALABARZON,high,62.00,83.00,"ML-Based Outbreak Forecast",2025-09-15
+Angono,CALABARZON,high,64.00,88.00,"ASF Risk Predictor",2025-09-14
+Angono,CALABARZON,high,68.00,92.00,"Multi-Factor Risk Model",2025-09-14
+"Santa Rosa",CALABARZON,critical,100.00,92.00,"ML-Based Outbreak Forecast",2025-09-14
+Imus,CALABARZON,critical,98.00,82.00,"ML-Based Outbreak Forecast",2025-09-14
+"Santa Rosa",CALABARZON,high,65.00,90.00,"Movement Pattern Predictor",2025-09-14
+Biñan,CALABARZON,high,65.00,88.00,"Multi-Factor Risk Model",2025-09-14
+"Los Baños",CALABARZON,critical,80.00,77.00,"Movement Pattern Predictor",2025-09-13
+Tanauan,CALABARZON,medium,58.00,80.00,"ASF Risk Predictor",2025-09-13
+"Cavite City",CALABARZON,high,62.00,91.00,"Movement Pattern Predictor",2025-09-13
+"Los Baños",CALABARZON,critical,89.00,76.00,"Multi-Factor Risk Model",2025-09-13
+"San Pedro",CALABARZON,critical,90.00,76.00,"Movement Pattern Predictor",2025-09-12
+Imus,CALABARZON,critical,80.00,70.00,"ASF Risk Predictor",2025-09-12
+Tanauan,CALABARZON,high,80.00,85.00,"ML-Based Outbreak Forecast",2025-09-11
+Dasmarinas,CALABARZON,high,80.00,90.00,"ASF Risk Predictor",2025-09-11
+Dasmarinas,CALABARZON,high,73.00,84.00,"ML-Based Outbreak Forecast",2025-09-11
+Gumaca,CALABARZON,critical,91.00,78.00,"Multi-Factor Risk Model",2025-09-10
+"Santa Rosa",CALABARZON,high,67.00,92.00,"ASF Risk Predictor",2025-09-10
+Tagaytay,CALABARZON,critical,87.00,90.00,"Movement Pattern Predictor",2025-09-10
+Cainta,CALABARZON,high,73.00,78.00,"Environmental Risk Analyzer",2025-09-09
+"Los Baños",CALABARZON,critical,100.00,76.00,"ML-Based Outbreak Forecast",2025-09-09
+Biñan,CALABARZON,high,71.00,89.00,"ASF Risk Predictor",2025-09-09
+Taytay,CALABARZON,critical,99.00,75.00,"Movement Pattern Predictor",2025-09-09
+Imus,CALABARZON,critical,97.00,88.00,"ML-Based Outbreak Forecast",2025-09-09
+Antipolo,CALABARZON,high,65.00,93.00,"Movement Pattern Predictor",2025-09-08
+Calamba,CALABARZON,medium,55.00,90.00,"Movement Pattern Predictor",2025-09-07
+Taytay,CALABARZON,critical,94.00,91.00,"ML-Based Outbreak Forecast",2025-09-07
+"Santa Rosa",CALABARZON,high,67.00,77.00,"Movement Pattern Predictor",2025-09-06
+Cainta,CALABARZON,high,69.00,94.00,"Multi-Factor Risk Model",2025-09-06
+"Cavite City",CALABARZON,critical,89.00,81.00,"Environmental Risk Analyzer",2025-09-06
+Dasmarinas,CALABARZON,critical,98.00,80.00,"ASF Risk Predictor",2025-09-06
+Lipa,CALABARZON,critical,100.00,91.00,"Multi-Factor Risk Model",2025-09-05
+Biñan,CALABARZON,high,60.00,79.00,"Movement Pattern Predictor",2025-09-05
+"Cavite City",CALABARZON,high,70.00,89.00,"Environmental Risk Analyzer",2025-09-05
+Cainta,CALABARZON,medium,55.00,82.00,"Multi-Factor Risk Model",2025-09-05
+Tagaytay,CALABARZON,high,75.00,78.00,"Environmental Risk Analyzer",2025-09-04
+Calamba,CALABARZON,high,65.00,95.00,"ASF Risk Predictor",2025-09-04
+Gumaca,CALABARZON,critical,80.00,91.00,"ASF Risk Predictor",2025-09-04
+"Santa Rosa",CALABARZON,critical,90.00,72.00,"ML-Based Outbreak Forecast",2025-09-04
+"Cavite City",CALABARZON,critical,94.00,93.00,"ML-Based Outbreak Forecast",2025-09-04
+"Santa Rosa",CALABARZON,critical,93.00,90.00,"Movement Pattern Predictor",2025-09-04
+Dasmarinas,CALABARZON,high,69.00,75.00,"ML-Based Outbreak Forecast",2025-09-04
+"Santa Rosa",CALABARZON,high,72.00,86.00,"ASF Risk Predictor",2025-09-04
+Angono,CALABARZON,high,77.00,85.00,"ML-Based Outbreak Forecast",2025-09-04
+Bacoor,CALABARZON,critical,91.00,77.00,"ASF Risk Predictor",2025-09-03
+Lipa,CALABARZON,critical,90.00,82.00,"ASF Risk Predictor",2025-09-03
+Taytay,CALABARZON,critical,99.00,92.00,"ML-Based Outbreak Forecast",2025-09-03
+Lipa,CALABARZON,critical,98.00,86.00,"ASF Risk Predictor",2025-09-03
+Cainta,CALABARZON,medium,55.00,92.00,"ASF Risk Predictor",2025-09-02
+Biñan,CALABARZON,high,71.00,92.00,"ASF Risk Predictor",2025-09-02
+Antipolo,CALABARZON,high,75.00,82.00,"Movement Pattern Predictor",2025-09-02
+Lucena,CALABARZON,high,71.00,89.00,"ML-Based Outbreak Forecast",2025-09-01
+Lipa,CALABARZON,critical,91.00,84.00,"Multi-Factor Risk Model",2025-09-01
+Dasmarinas,CALABARZON,critical,96.00,75.00,"ASF Risk Predictor",2025-09-01
+Gumaca,CALABARZON,high,80.00,76.00,"Movement Pattern Predictor",2025-08-31
+"San Pedro",CALABARZON,critical,91.00,80.00,"Environmental Risk Analyzer",2025-08-31
+"Santa Rosa",CALABARZON,critical,99.00,81.00,"Multi-Factor Risk Model",2025-08-31
+"Cavite City",CALABARZON,high,75.00,93.00,"ML-Based Outbreak Forecast",2025-08-31
+Angono,CALABARZON,high,75.00,94.00,"Movement Pattern Predictor",2025-08-30
+Dasmarinas,CALABARZON,critical,95.00,94.00,"Movement Pattern Predictor",2025-08-30
+Taytay,CALABARZON,medium,60.00,80.00,"Environmental Risk Analyzer",2025-08-29
+Calamba,CALABARZON,high,67.00,75.00,"Movement Pattern Predictor",2025-08-29
+"Los Baños",CALABARZON,high,68.00,87.00,"Movement Pattern Predictor",2025-08-29
+Taytay,CALABARZON,medium,41.00,93.00,"Multi-Factor Risk Model",2025-08-28
+Antipolo,CALABARZON,high,80.00,87.00,"ASF Risk Predictor",2025-08-28
+"Los Baños",CALABARZON,critical,80.00,89.00,"Environmental Risk Analyzer",2025-08-28
+Antipolo,CALABARZON,medium,55.00,93.00,"ASF Risk Predictor",2025-08-28
+"Cavite City",CALABARZON,medium,55.00,87.00,"ML-Based Outbreak Forecast",2025-08-27
+Angono,CALABARZON,high,75.00,93.00,"Movement Pattern Predictor",2025-08-27
+Bacoor,CALABARZON,high,63.00,93.00,"Environmental Risk Analyzer",2025-08-27
+Cainta,CALABARZON,medium,60.00,85.00,"Multi-Factor Risk Model",2025-08-27
+Imus,CALABARZON,critical,80.00,72.00,"ASF Risk Predictor",2025-08-26
+"Los Baños",CALABARZON,critical,90.00,92.00,"ASF Risk Predictor",2025-08-26
+Angono,CALABARZON,high,65.00,93.00,"Movement Pattern Predictor",2025-08-26
+Dasmarinas,CALABARZON,critical,95.00,85.00,"ML-Based Outbreak Forecast",2025-08-25
+"Batangas City",CALABARZON,high,74.00,94.00,"Movement Pattern Predictor",2025-08-25
+"Cavite City",CALABARZON,critical,94.00,79.00,"ML-Based Outbreak Forecast",2025-08-24
+"San Pedro",CALABARZON,high,71.00,84.00,"ASF Risk Predictor",2025-08-24
+Calamba,CALABARZON,high,69.00,89.00,"ASF Risk Predictor",2025-08-24
+"Batangas City",CALABARZON,critical,98.00,77.00,"ML-Based Outbreak Forecast",2025-08-24
+Tayabas,CALABARZON,high,80.00,85.00,"ML-Based Outbreak Forecast",2025-08-24
+"Cavite City",CALABARZON,high,61.00,76.00,"ASF Risk Predictor",2025-08-24
+Lucena,CALABARZON,critical,80.00,75.00,"Movement Pattern Predictor",2025-08-24
+"Cavite City",CALABARZON,high,65.00,95.00,"Environmental Risk Analyzer",2025-08-24
+"Los Baños",CALABARZON,critical,80.00,79.00,"ASF Risk Predictor",2025-08-23
+Calamba,CALABARZON,critical,96.00,85.00,"Multi-Factor Risk Model",2025-08-23
+Angono,CALABARZON,critical,85.00,91.00,"ML-Based Outbreak Forecast",2025-08-23
+Tanauan,CALABARZON,high,80.00,79.00,"Movement Pattern Predictor",2025-08-23
+Imus,CALABARZON,high,65.00,90.00,"Movement Pattern Predictor",2025-08-23
+Taytay,CALABARZON,critical,95.00,77.00,"Environmental Risk Analyzer",2025-08-23
+"Santa Rosa",CALABARZON,high,66.00,92.00,"ASF Risk Predictor",2025-08-22
+Antipolo,CALABARZON,critical,80.00,84.00,"Environmental Risk Analyzer",2025-08-21
+Lucena,CALABARZON,high,65.00,90.00,"ML-Based Outbreak Forecast",2025-08-21
+Taytay,CALABARZON,medium,53.00,77.00,"ASF Risk Predictor",2025-08-21
+Imus,CALABARZON,high,65.00,72.00,"Multi-Factor Risk Model",2025-08-21
+Gumaca,CALABARZON,medium,55.00,79.00,"Multi-Factor Risk Model",2025-08-19
+Dasmarinas,CALABARZON,high,65.00,83.00,"Environmental Risk Analyzer",2025-08-19
+"Los Baños",CALABARZON,high,60.00,83.00,"ASF Risk Predictor",2025-08-19
+"Los Baños",CALABARZON,medium,55.00,89.00,"Environmental Risk Analyzer",2025-08-18
+"Batangas City",CALABARZON,high,65.00,84.00,"Environmental Risk Analyzer",2025-08-18
+"San Pedro",CALABARZON,medium,55.00,89.00,"ASF Risk Predictor",2025-08-18
+Biñan,CALABARZON,critical,97.00,87.00,"ASF Risk Predictor",2025-08-18
+"Batangas City",CALABARZON,medium,47.00,90.00,"Movement Pattern Predictor",2025-08-18
+Imus,CALABARZON,critical,93.00,92.00,"ASF Risk Predictor",2025-08-18
+Gumaca,CALABARZON,critical,85.00,83.00,"Movement Pattern Predictor",2025-08-18
+Dasmarinas,CALABARZON,critical,91.00,90.00,"ML-Based Outbreak Forecast",2025-08-18
+"Los Baños",CALABARZON,high,68.00,79.00,"Movement Pattern Predictor",2025-08-17
+"Cavite City",CALABARZON,critical,98.00,82.00,"Multi-Factor Risk Model",2025-08-17
+Lucena,CALABARZON,critical,99.00,80.00,"Multi-Factor Risk Model",2025-08-17
+Antipolo,CALABARZON,high,64.00,82.00,"ASF Risk Predictor",2025-08-17
+Antipolo,CALABARZON,high,67.00,77.00,"Environmental Risk Analyzer",2025-08-17
+"Cavite City",CALABARZON,critical,88.00,75.00,"Environmental Risk Analyzer",2025-08-16
+Tayabas,CALABARZON,critical,80.00,84.00,"Movement Pattern Predictor",2025-08-15
+Taytay,CALABARZON,medium,55.00,78.00,"ASF Risk Predictor",2025-08-14
+Tanauan,CALABARZON,critical,90.00,74.00,"Multi-Factor Risk Model",2025-08-14
+Bacoor,CALABARZON,critical,89.00,84.00,"ML-Based Outbreak Forecast",2025-08-14
+"Los Baños",CALABARZON,medium,44.00,75.00,"Environmental Risk Analyzer",2025-08-13
+Lipa,CALABARZON,critical,86.00,87.00,"ASF Risk Predictor",2025-08-13
+Biñan,CALABARZON,high,65.00,70.00,"Environmental Risk Analyzer",2025-08-13
+Calamba,CALABARZON,high,65.00,95.00,"Environmental Risk Analyzer",2025-08-12
+Tayabas,CALABARZON,critical,95.00,95.00,"Environmental Risk Analyzer",2025-08-12
+Lipa,CALABARZON,high,77.00,87.00,"ASF Risk Predictor",2025-08-12
+Calamba,CALABARZON,high,70.00,91.00,"ASF Risk Predictor",2025-08-12
+"Cavite City",CALABARZON,high,69.00,87.00,"ASF Risk Predictor",2025-08-12
+"Santa Rosa",CALABARZON,high,79.00,77.00,"Multi-Factor Risk Model",2025-08-12
+Lipa,CALABARZON,critical,92.00,84.00,"Environmental Risk Analyzer",2025-08-12
+"Los Baños",CALABARZON,high,66.00,94.00,"Movement Pattern Predictor",2025-08-12
+"San Pedro",CALABARZON,high,66.00,92.00,"Movement Pattern Predictor",2025-08-12
+Angono,CALABARZON,critical,92.00,82.00,"ML-Based Outbreak Forecast",2025-08-11
+Gumaca,CALABARZON,critical,89.00,92.00,"Multi-Factor Risk Model",2025-08-11
+"San Pedro",CALABARZON,critical,97.00,92.00,"Multi-Factor Risk Model",2025-08-11
+Cainta,CALABARZON,critical,87.00,76.00,"Multi-Factor Risk Model",2025-08-11
+"Cavite City",CALABARZON,critical,95.00,81.00,"Movement Pattern Predictor",2025-08-11
+Cainta,CALABARZON,high,70.00,89.00,"ASF Risk Predictor",2025-08-11
+Tanauan,CALABARZON,medium,55.00,91.00,"ASF Risk Predictor",2025-08-10
+Calamba,CALABARZON,high,65.00,78.00,"Environmental Risk Analyzer",2025-08-10
+Lucena,CALABARZON,high,77.00,78.00,"ML-Based Outbreak Forecast",2025-08-10
+"Los Baños",CALABARZON,critical,86.00,87.00,"ASF Risk Predictor",2025-08-10
+Gumaca,CALABARZON,critical,100.00,87.00,"Environmental Risk Analyzer",2025-08-10
+Biñan,CALABARZON,high,63.00,81.00,"ASF Risk Predictor",2025-08-09
+Angono,CALABARZON,critical,91.00,93.00,"ML-Based Outbreak Forecast",2025-08-09
+Antipolo,CALABARZON,high,77.00,95.00,"ASF Risk Predictor",2025-08-09
+Biñan,CALABARZON,critical,92.00,76.00,"Movement Pattern Predictor",2025-08-09
+Imus,CALABARZON,high,74.00,80.00,"Movement Pattern Predictor",2025-08-09
+Biñan,CALABARZON,critical,97.00,94.00,"Multi-Factor Risk Model",2025-08-09
+"Los Baños",CALABARZON,critical,96.00,95.00,"Multi-Factor Risk Model",2025-08-09
+Gumaca,CALABARZON,high,70.00,94.00,"Movement Pattern Predictor",2025-08-09
+"San Pedro",CALABARZON,high,75.00,87.00,"Environmental Risk Analyzer",2025-08-09
+"Batangas City",CALABARZON,high,75.00,82.00,"Environmental Risk Analyzer",2025-08-09
+Tayabas,CALABARZON,high,65.00,75.00,"ML-Based Outbreak Forecast",2025-08-08
+Angono,CALABARZON,high,71.00,92.00,"Environmental Risk Analyzer",2025-08-08
+Gumaca,CALABARZON,critical,89.00,80.00,"Environmental Risk Analyzer",2025-08-08
+"Santa Rosa",CALABARZON,critical,90.00,80.00,"Environmental Risk Analyzer",2025-08-08
+Tagaytay,CALABARZON,critical,87.00,87.00,"ML-Based Outbreak Forecast",2025-08-08
+"Santa Rosa",CALABARZON,critical,92.00,79.00,"Movement Pattern Predictor",2025-08-08
+Calamba,CALABARZON,high,70.00,80.00,"ASF Risk Predictor",2025-08-07
+Gumaca,CALABARZON,critical,89.00,83.00,"Environmental Risk Analyzer",2025-08-07
+Lucena,CALABARZON,critical,98.00,90.00,"ML-Based Outbreak Forecast",2025-08-07
+Tayabas,CALABARZON,high,75.00,78.00,"ASF Risk Predictor",2025-08-07
+"San Pedro",CALABARZON,high,70.00,70.00,"ASF Risk Predictor",2025-08-06
+Bacoor,CALABARZON,high,70.00,92.00,"Movement Pattern Predictor",2025-08-06
+Imus,CALABARZON,critical,96.00,93.00,"ML-Based Outbreak Forecast",2025-08-06
+Angono,CALABARZON,critical,99.00,90.00,"Multi-Factor Risk Model",2025-08-06
+Dasmarinas,CALABARZON,critical,98.00,95.00,"Movement Pattern Predictor",2025-08-06
+"Santa Rosa",CALABARZON,critical,94.00,81.00,"Movement Pattern Predictor",2025-08-06
+Angono,CALABARZON,high,76.00,88.00,"Environmental Risk Analyzer",2025-08-06
+Calamba,CALABARZON,critical,87.00,83.00,"ASF Risk Predictor",2025-08-05
+Bacoor,CALABARZON,critical,90.00,82.00,"ASF Risk Predictor",2025-08-05
+Lipa,CALABARZON,high,65.00,95.00,"ASF Risk Predictor",2025-08-05
+Angono,CALABARZON,medium,55.00,79.00,"ML-Based Outbreak Forecast",2025-08-05
+Angono,CALABARZON,high,65.00,92.00,"ML-Based Outbreak Forecast",2025-08-05
+Gumaca,CALABARZON,critical,80.00,77.00,"Movement Pattern Predictor",2025-08-04
+Tanauan,CALABARZON,high,65.00,81.00,"Multi-Factor Risk Model",2025-08-04
+Dasmarinas,CALABARZON,critical,90.00,85.00,"ML-Based Outbreak Forecast",2025-08-04
+Calamba,CALABARZON,critical,86.00,86.00,"ML-Based Outbreak Forecast",2025-08-04
+Taytay,CALABARZON,high,71.00,80.00,"Environmental Risk Analyzer",2025-08-04
+Imus,CALABARZON,high,78.00,78.00,"Environmental Risk Analyzer",2025-08-03
+Tagaytay,CALABARZON,critical,87.00,82.00,"Multi-Factor Risk Model",2025-08-03
+Tanauan,CALABARZON,critical,85.00,76.00,"ML-Based Outbreak Forecast",2025-08-03
+Dasmarinas,CALABARZON,critical,86.00,82.00,"Environmental Risk Analyzer",2025-08-01
+"Santa Rosa",CALABARZON,high,77.00,86.00,"Environmental Risk Analyzer",2025-08-01
+Dasmarinas,CALABARZON,high,80.00,77.00,"Environmental Risk Analyzer",2025-08-01
+Lucena,CALABARZON,high,70.00,89.00,"ML-Based Outbreak Forecast",2025-08-01
+Calamba,CALABARZON,critical,90.00,93.00,"ASF Risk Predictor",2025-08-01
+Gumaca,CALABARZON,high,65.00,81.00,"Multi-Factor Risk Model",2025-08-01
+"San Pedro",CALABARZON,medium,55.00,78.00,"Multi-Factor Risk Model",2025-08-01
+Biñan,CALABARZON,high,65.00,83.00,"ML-Based Outbreak Forecast",2025-08-01
+"Cavite City",CALABARZON,medium,55.00,77.00,"ML-Based Outbreak Forecast",2025-07-31
+Biñan,CALABARZON,high,66.00,80.00,"ML-Based Outbreak Forecast",2025-07-31
+Cainta,CALABARZON,medium,58.00,86.00,"ASF Risk Predictor",2025-07-31
+"Los Baños",CALABARZON,high,78.00,85.00,"Multi-Factor Risk Model",2025-07-31
+Tayabas,CALABARZON,critical,99.00,85.00,"Environmental Risk Analyzer",2025-07-30
+"Los Baños",CALABARZON,medium,44.00,75.00,"ASF Risk Predictor",2025-07-30
+"San Pedro",CALABARZON,high,65.00,89.00,"Multi-Factor Risk Model",2025-07-30
+Gumaca,CALABARZON,critical,98.00,75.00,"ASF Risk Predictor",2025-07-29
+Angono,CALABARZON,high,80.00,86.00,"ASF Risk Predictor",2025-07-29
+Bacoor,CALABARZON,critical,91.00,76.00,"Movement Pattern Predictor",2025-07-28
+Dasmarinas,CALABARZON,critical,85.00,94.00,"Multi-Factor Risk Model",2025-07-28
+Imus,CALABARZON,critical,85.00,95.00,"Movement Pattern Predictor",2025-07-28
+Imus,CALABARZON,critical,90.00,81.00,"ASF Risk Predictor",2025-07-28
+"Santa Rosa",CALABARZON,high,79.00,92.00,"ML-Based Outbreak Forecast",2025-07-28
+"Cavite City",CALABARZON,medium,55.00,82.00,"ASF Risk Predictor",2025-07-28
+Dasmarinas,CALABARZON,high,65.00,95.00,"ML-Based Outbreak Forecast",2025-07-27
+Antipolo,CALABARZON,medium,55.00,85.00,"Environmental Risk Analyzer",2025-07-27
+Calamba,CALABARZON,high,69.00,83.00,"ML-Based Outbreak Forecast",2025-07-27
+Cainta,CALABARZON,critical,94.00,78.00,"ASF Risk Predictor",2025-07-27
+Imus,CALABARZON,critical,92.00,88.00,"Environmental Risk Analyzer",2025-07-26
+Lucena,CALABARZON,medium,55.00,70.00,"ASF Risk Predictor",2025-07-26
+Lipa,CALABARZON,high,65.00,84.00,"Multi-Factor Risk Model",2025-07-26
+Cainta,CALABARZON,high,65.00,72.00,"Movement Pattern Predictor",2025-07-25
+"Santa Rosa",CALABARZON,high,75.00,83.00,"Movement Pattern Predictor",2025-07-25
+"Batangas City",CALABARZON,high,65.00,73.00,"ML-Based Outbreak Forecast",2025-07-25
+Tagaytay,CALABARZON,high,65.00,94.00,"Environmental Risk Analyzer",2025-07-25
+Antipolo,CALABARZON,high,79.00,83.00,"Multi-Factor Risk Model",2025-07-25
+Antipolo,CALABARZON,critical,90.00,87.00,"ML-Based Outbreak Forecast",2025-07-25
+Bacoor,CALABARZON,critical,87.00,89.00,"ASF Risk Predictor",2025-07-24
+Tanauan,CALABARZON,high,70.00,81.00,"Multi-Factor Risk Model",2025-07-24
+Imus,CALABARZON,critical,86.00,78.00,"ML-Based Outbreak Forecast",2025-07-24
+Antipolo,CALABARZON,high,72.00,88.00,"ASF Risk Predictor",2025-07-24
+Lipa,CALABARZON,high,65.00,91.00,"Movement Pattern Predictor",2025-07-24
+"Santa Rosa",CALABARZON,critical,80.00,94.00,"ASF Risk Predictor",2025-07-24
+"San Pedro",CALABARZON,high,65.00,89.00,"Movement Pattern Predictor",2025-07-24
+Dasmarinas,CALABARZON,critical,90.00,70.00,"ML-Based Outbreak Forecast",2025-07-23
+"Batangas City",CALABARZON,high,73.00,87.00,"ML-Based Outbreak Forecast",2025-07-23
+"Batangas City",CALABARZON,high,78.00,92.00,"Multi-Factor Risk Model",2025-07-23
+Angono,CALABARZON,high,65.00,89.00,"ML-Based Outbreak Forecast",2025-07-23
+Lipa,CALABARZON,high,76.00,83.00,"ASF Risk Predictor",2025-07-23
+Lucena,CALABARZON,high,62.00,93.00,"ML-Based Outbreak Forecast",2025-07-22
+"San Pedro",CALABARZON,high,66.00,87.00,"Movement Pattern Predictor",2025-07-22
+Biñan,CALABARZON,high,65.00,76.00,"Multi-Factor Risk Model",2025-07-22
+"Cavite City",CALABARZON,critical,85.00,87.00,"ML-Based Outbreak Forecast",2025-07-21
+Gumaca,CALABARZON,critical,89.00,81.00,"Environmental Risk Analyzer",2025-07-21
+Tayabas,CALABARZON,critical,97.00,95.00,"ASF Risk Predictor",2025-07-20
+Dasmarinas,CALABARZON,critical,86.00,83.00,"ML-Based Outbreak Forecast",2025-07-20
+"Cavite City",CALABARZON,high,65.00,78.00,"Movement Pattern Predictor",2025-07-20
+Gumaca,CALABARZON,high,76.00,85.00,"Environmental Risk Analyzer",2025-07-20
+Tayabas,CALABARZON,high,65.00,82.00,"Environmental Risk Analyzer",2025-07-20
+Cainta,CALABARZON,critical,80.00,74.00,"Environmental Risk Analyzer",2025-07-20
+"Los Baños",CALABARZON,critical,91.00,76.00,"ML-Based Outbreak Forecast",2025-07-19
+"Batangas City",CALABARZON,high,77.00,75.00,"ML-Based Outbreak Forecast",2025-07-19
+Tanauan,CALABARZON,high,76.00,83.00,"ML-Based Outbreak Forecast",2025-07-18
+Lipa,CALABARZON,high,65.00,92.00,"ML-Based Outbreak Forecast",2025-07-18
+Biñan,CALABARZON,high,65.00,87.00,"ML-Based Outbreak Forecast",2025-07-18
+Dasmarinas,CALABARZON,critical,94.00,87.00,"ML-Based Outbreak Forecast",2025-07-17
+"San Pedro",CALABARZON,high,73.00,81.00,"Multi-Factor Risk Model",2025-07-16
+Dasmarinas,CALABARZON,critical,99.00,92.00,"Environmental Risk Analyzer",2025-07-16
+Calamba,CALABARZON,high,65.00,76.00,"ASF Risk Predictor",2025-07-16
+Biñan,CALABARZON,medium,55.00,70.00,"Multi-Factor Risk Model",2025-07-16
+"Los Baños",CALABARZON,medium,55.00,90.00,"ML-Based Outbreak Forecast",2025-07-15
+Imus,CALABARZON,high,69.00,75.00,"Movement Pattern Predictor",2025-07-15
+Antipolo,CALABARZON,high,64.00,89.00,"Environmental Risk Analyzer",2025-07-15

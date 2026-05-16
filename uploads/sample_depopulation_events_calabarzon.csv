@@ -1,0 +1,501 @@
+location_name,latitude,longitude,province,city,barangay,farm_name,event_date,head_count,depopulation_method
+"San Pedro Depopulation Site 1",14.4087,121.149,CALABARZON,"San Pedro",,,2024-04-16,145,other
+"Imus Depopulation Site 2",14.4667,120.8827,CALABARZON,Imus,Mabuhay,,2024-08-01,108,humane_euthanasia
+"Lipa Depopulation Site 3",14.0397,121.0893,CALABARZON,Lipa,"San Roque",,2023-05-07,28,humane_euthanasia
+"Santa Rosa Depopulation Site 4",14.2787,121.0367,CALABARZON,"Santa Rosa","Barangay 2",,2024-05-13,252,humane_euthanasia
+"Tagaytay Depopulation Site 5",14.053,120.9363,CALABARZON,Tagaytay,"San Isidro",,2023-01-22,616,humane_euthanasia
+"Biñan Depopulation Site 6",14.2713,121.0493,CALABARZON,Biñan,,"Farm 6 - Biñan",2023-03-15,387,culling
+"Los Baños Depopulation Site 7",14.0697,121.1693,CALABARZON,"Los Baños","Sta. Maria","Farm 7 - Los Baños",2024-01-18,332,humane_euthanasia
+"Calamba Depopulation Site 8",14.3101,121.2113,CALABARZON,Calamba,"Sta. Maria",,2023-02-26,335,other
+"Lucena Depopulation Site 9",13.8933,121.6857,CALABARZON,Lucena,Villa,"Farm 9 - Lucena",2023-05-05,158,other
+"Batangas City Depopulation Site 10",13.6805,120.9803,CALABARZON,"Batangas City","Sta. Cruz",,2024-10-28,71,other
+"Tayabas Depopulation Site 11",13.9497,121.5783,CALABARZON,Tayabas,"Sta. Cruz",,2023-05-25,589,culling
+"Los Baños Depopulation Site 12",14.2167,121.1733,CALABARZON,"Los Baños",Mabuhay,"Farm 12 - Los Baños",2023-12-19,690,other
+"Taytay Depopulation Site 13",14.5907,121.1563,CALABARZON,Taytay,Maligaya,,2023-02-25,390,culling
+"San Pedro Depopulation Site 14",14.4627,121.084,CALABARZON,"San Pedro",Poblacion,,2024-05-30,38,humane_euthanasia
+"San Pedro Depopulation Site 15",14.4327,121.094,CALABARZON,"San Pedro",,,2023-05-17,944,culling
+"Batangas City Depopulation Site 16",13.7005,121.0483,CALABARZON,"Batangas City",,"Farm 16 - Batangas City",2023-08-25,65,culling
+"Lipa Depopulation Site 17",13.8987,121.1153,CALABARZON,Lipa,"Barangay 2",,2024-01-10,134,other
+"Los Baños Depopulation Site 18",14.0897,121.1563,CALABARZON,"Los Baños","San Miguel",,2024-06-24,553,other
+"Cainta Depopulation Site 19",14.5881,121.0382,CALABARZON,Cainta,"San Antonio",,2023-09-02,127,humane_euthanasia
+"Bacoor Depopulation Site 20",14.3601,120.9238,CALABARZON,Bacoor,"Sta. Ana","Farm 20 - Bacoor",2023-07-01,487,humane_euthanasia
+"Taytay Depopulation Site 21",14.5997,121.0383,CALABARZON,Taytay,,,2023-01-20,397,culling
+"Tayabas Depopulation Site 22",14.0367,121.6353,CALABARZON,Tayabas,Masagana,,2024-02-29,858,culling
+"Antipolo Depopulation Site 23",14.5292,121.2043,CALABARZON,Antipolo,Sampaguita,,2023-06-22,667,culling
+"Imus Depopulation Site 24",14.3597,120.9317,CALABARZON,Imus,"San Isidro","Farm 24 - Imus",2024-01-19,725,other
+"Lipa Depopulation Site 25",13.8777,121.1393,CALABARZON,Lipa,Sampaguita,,2023-02-06,316,culling
+"Tagaytay Depopulation Site 26",14.01,120.9823,CALABARZON,Tagaytay,Masagana,,2024-06-28,950,culling
+"Gumaca Depopulation Site 27",13.9997,122.083,CALABARZON,Gumaca,,,2023-01-19,685,humane_euthanasia
+"Tagaytay Depopulation Site 28",14.041,120.8853,CALABARZON,Tagaytay,"Sta. Ana",,2024-03-13,345,other
+"Tanauan Depopulation Site 29",14.0803,121.169,CALABARZON,Tanauan,"San Roque",,2024-10-05,303,culling
+"Santa Rosa Depopulation Site 30",14.2937,121.0977,CALABARZON,"Santa Rosa","Barangay 3",,2023-11-19,588,humane_euthanasia
+"Imus Depopulation Site 31",14.3917,120.8447,CALABARZON,Imus,"San Antonio",,2024-03-27,353,culling
+"Bacoor Depopulation Site 32",14.4541,120.9118,CALABARZON,Bacoor,"Barangay 2",,2023-03-03,601,humane_euthanasia
+"Santa Rosa Depopulation Site 33",14.2177,121.1497,CALABARZON,"Santa Rosa",Pangarap,"Farm 33 - Santa Rosa",2023-11-22,713,humane_euthanasia
+"Dasmarinas Depopulation Site 34",14.2774,120.8617,CALABARZON,Dasmarinas,Sampaguita,,2024-01-06,132,other
+"Dasmarinas Depopulation Site 35",14.4004,120.9907,CALABARZON,Dasmarinas,"Barangay 1",,2024-10-26,337,humane_euthanasia
+"Cainta Depopulation Site 36",14.5371,121.1512,CALABARZON,Cainta,Mabuhay,,2024-12-16,393,culling
+"San Pedro Depopulation Site 37",14.3087,120.969,CALABARZON,"San Pedro",Villa,"Farm 37 - San Pedro",2023-03-06,772,culling
+"Biñan Depopulation Site 38",14.2773,120.9973,CALABARZON,Biñan,Bagumbayan,"Farm 38 - Biñan",2024-07-13,633,humane_euthanasia
+"Angono Depopulation Site 39",14.5516,121.1684,CALABARZON,Angono,"Bagong Silang",,2024-12-27,157,humane_euthanasia
+"Taytay Depopulation Site 40",14.6537,121.1173,CALABARZON,Taytay,Villa,"Farm 40 - Taytay",2023-10-15,331,humane_euthanasia
+"Antipolo Depopulation Site 41",14.5052,121.1033,CALABARZON,Antipolo,"Sta. Maria",,2023-05-14,973,humane_euthanasia
+"Antipolo Depopulation Site 42",14.6002,121.1193,CALABARZON,Antipolo,,"Farm 42 - Antipolo",2023-12-22,866,humane_euthanasia
+"Imus Depopulation Site 43",14.3347,120.9417,CALABARZON,Imus,Poblacion,"Farm 43 - Imus",2023-11-16,143,other
+"Santa Rosa Depopulation Site 44",14.2677,121.2027,CALABARZON,"Santa Rosa",Masagana,,2023-07-22,941,culling
+"Calamba Depopulation Site 45",14.2811,121.2643,CALABARZON,Calamba,Mabuhay,"Farm 45 - Calamba",2024-02-26,578,humane_euthanasia
+"Los Baños Depopulation Site 46",14.0857,121.1673,CALABARZON,"Los Baños",Sampaguita,,2023-05-13,516,humane_euthanasia
+"Angono Depopulation Site 47",14.4526,121.2284,CALABARZON,Angono,"Sta. Maria","Farm 47 - Angono",2023-03-21,978,other
+"Bacoor Depopulation Site 48",14.4621,121.0218,CALABARZON,Bacoor,,"Farm 48 - Bacoor",2024-04-15,321,humane_euthanasia
+"Calamba Depopulation Site 49",14.3031,121.1533,CALABARZON,Calamba,"San Antonio","Farm 49 - Calamba",2024-12-20,687,humane_euthanasia
+"Santa Rosa Depopulation Site 50",14.2867,121.1307,CALABARZON,"Santa Rosa","San Roque","Farm 50 - Santa Rosa",2024-09-05,675,other
+"Gumaca Depopulation Site 51",13.8747,122.174,CALABARZON,Gumaca,,"Farm 51 - Gumaca",2024-11-09,604,other
+"Cavite City Depopulation Site 52",14.5633,120.883,CALABARZON,"Cavite City",Villa,"Farm 52 - Cavite City",2023-08-26,300,culling
+"Tagaytay Depopulation Site 53",14.033,120.9463,CALABARZON,Tagaytay,Masagana,,2023-07-11,115,culling
+"Santa Rosa Depopulation Site 54",14.2237,121.0737,CALABARZON,"Santa Rosa",Pangarap,"Farm 54 - Santa Rosa",2023-12-04,159,culling
+"Tagaytay Depopulation Site 55",14.161,120.9233,CALABARZON,Tagaytay,"Sta. Ana",,2023-01-28,140,humane_euthanasia
+"Santa Rosa Depopulation Site 56",14.3677,121.0657,CALABARZON,"Santa Rosa",,,2023-01-02,927,humane_euthanasia
+"Angono Depopulation Site 57",14.4466,121.0754,CALABARZON,Angono,,,2023-06-21,591,culling
+"Cavite City Depopulation Site 58",14.4163,120.824,CALABARZON,"Cavite City","San Isidro","Farm 58 - Cavite City",2023-10-01,835,other
+"Bacoor Depopulation Site 59",14.3821,120.9048,CALABARZON,Bacoor,Maligaya,"Farm 59 - Bacoor",2023-09-27,233,humane_euthanasia
+"Taytay Depopulation Site 60",14.4867,121.0563,CALABARZON,Taytay,,"Farm 60 - Taytay",2023-06-20,979,culling
+"Lipa Depopulation Site 61",13.9097,121.1243,CALABARZON,Lipa,,"Farm 61 - Lipa",2024-03-04,711,humane_euthanasia
+"Tayabas Depopulation Site 62",14.0457,121.6273,CALABARZON,Tayabas,"Bagong Silang",,2024-09-24,444,humane_euthanasia
+"Biñan Depopulation Site 63",14.2773,121.0103,CALABARZON,Biñan,"San Isidro","Farm 63 - Biñan",2024-03-24,190,culling
+"Batangas City Depopulation Site 64",13.7955,121.0793,CALABARZON,"Batangas City",Bagumbayan,,2023-01-21,127,other
+"Santa Rosa Depopulation Site 65",14.3337,121.0887,CALABARZON,"Santa Rosa",Bagumbayan,"Farm 65 - Santa Rosa",2023-12-12,392,humane_euthanasia
+"Antipolo Depopulation Site 66",14.5542,121.2753,CALABARZON,Antipolo,"San Jose","Farm 66 - Antipolo",2023-12-01,717,other
+"Lipa Depopulation Site 67",13.8627,121.1603,CALABARZON,Lipa,Poblacion,"Farm 67 - Lipa",2023-11-25,923,other
+"Taytay Depopulation Site 68",14.4917,121.2183,CALABARZON,Taytay,Mabuhay,,2023-04-24,800,other
+"Los Baños Depopulation Site 69",14.0997,121.2303,CALABARZON,"Los Baños","San Miguel","Farm 69 - Los Baños",2024-10-19,902,humane_euthanasia
+"Lipa Depopulation Site 70",14.0347,121.2463,CALABARZON,Lipa,"San Antonio","Farm 70 - Lipa",2024-09-04,65,culling
+"San Pedro Depopulation Site 71",14.3087,121.103,CALABARZON,"San Pedro","San Roque",,2023-11-18,414,humane_euthanasia
+"Batangas City Depopulation Site 72",13.8205,121.0823,CALABARZON,"Batangas City","Barangay 2","Farm 72 - Batangas City",2024-06-28,486,culling
+"Gumaca Depopulation Site 73",13.8507,122.122,CALABARZON,Gumaca,"San Roque","Farm 73 - Gumaca",2023-01-10,727,humane_euthanasia
+"Lucena Depopulation Site 74",13.9133,121.6797,CALABARZON,Lucena,Maligaya,,2024-02-02,483,other
+"Los Baños Depopulation Site 75",14.2337,121.2953,CALABARZON,"Los Baños",Villa,,2023-10-13,209,humane_euthanasia
+"Tagaytay Depopulation Site 76",14.027,121.0123,CALABARZON,Tagaytay,Mabuhay,"Farm 76 - Tagaytay",2024-09-29,513,culling
+"Batangas City Depopulation Site 77",13.6645,120.9653,CALABARZON,"Batangas City",Mabuhay,,2023-12-16,707,humane_euthanasia
+"Batangas City Depopulation Site 78",13.6635,121.0533,CALABARZON,"Batangas City","San Miguel",,2024-05-16,207,culling
+"San Pedro Depopulation Site 79",14.3027,120.996,CALABARZON,"San Pedro","Sta. Ana",,2023-12-22,113,humane_euthanasia
+"Biñan Depopulation Site 80",14.2993,121.1033,CALABARZON,Biñan,Poblacion,"Farm 80 - Biñan",2023-02-06,12,other
+"Taytay Depopulation Site 81",14.6037,121.1263,CALABARZON,Taytay,Masagana,,2023-03-09,298,other
+"Lucena Depopulation Site 82",13.9023,121.5167,CALABARZON,Lucena,Poblacion,,2023-02-23,844,other
+"San Pedro Depopulation Site 83",14.3327,120.981,CALABARZON,"San Pedro","San Jose","Farm 83 - San Pedro",2024-02-12,475,other
+"San Pedro Depopulation Site 84",14.4297,120.98,CALABARZON,"San Pedro","Sta. Maria","Farm 84 - San Pedro",2024-02-07,803,other
+"Tayabas Depopulation Site 85",14.1037,121.5413,CALABARZON,Tayabas,"San Isidro","Farm 85 - Tayabas",2024-02-25,661,culling
+"Lucena Depopulation Site 86",13.9443,121.5457,CALABARZON,Lucena,Poblacion,,2024-01-04,393,other
+"Antipolo Depopulation Site 87",14.5372,121.1633,CALABARZON,Antipolo,Mabuhay,,2024-01-11,634,other
+"Cainta Depopulation Site 88",14.6171,121.1872,CALABARZON,Cainta,"San Antonio","Farm 88 - Cainta",2023-11-27,420,culling
+"San Pedro Depopulation Site 89",14.3627,121.109,CALABARZON,"San Pedro","San Jose","Farm 89 - San Pedro",2024-06-24,416,other
+"Tagaytay Depopulation Site 90",14.129,121.0163,CALABARZON,Tagaytay,Bagumbayan,,2024-10-04,795,other
+"Angono Depopulation Site 91",14.4976,121.0814,CALABARZON,Angono,,"Farm 91 - Angono",2024-08-22,832,humane_euthanasia
+"Tanauan Depopulation Site 92",14.1773,121.16,CALABARZON,Tanauan,Villa,,2023-01-21,220,culling
+"Bacoor Depopulation Site 93",14.5121,121.0338,CALABARZON,Bacoor,,,2023-01-10,985,culling
+"Batangas City Depopulation Site 94",13.8465,121.1253,CALABARZON,"Batangas City","Barangay 1","Farm 94 - Batangas City",2024-11-12,564,culling
+"Angono Depopulation Site 95",14.4266,121.1344,CALABARZON,Angono,"Sta. Maria","Farm 95 - Angono",2024-09-29,417,culling
+"Cainta Depopulation Site 96",14.6681,121.0732,CALABARZON,Cainta,"Sta. Ana",,2023-05-14,76,culling
+"Calamba Depopulation Site 97",14.2311,121.2003,CALABARZON,Calamba,,,2024-07-24,355,humane_euthanasia
+"Batangas City Depopulation Site 98",13.6945,121.0453,CALABARZON,"Batangas City",,"Farm 98 - Batangas City",2023-02-17,125,humane_euthanasia
+"Calamba Depopulation Site 99",14.2221,121.2233,CALABARZON,Calamba,"San Roque","Farm 99 - Calamba",2023-12-30,652,other
+"Bacoor Depopulation Site 100",14.4521,121.0218,CALABARZON,Bacoor,"San Miguel","Farm 100 - Bacoor",2023-01-04,324,culling
+"Imus Depopulation Site 101",14.3317,120.8467,CALABARZON,Imus,,"Farm 101 - Imus",2023-01-22,307,culling
+"Imus Depopulation Site 102",14.4697,121.0007,CALABARZON,Imus,"Bagong Silang",,2024-04-20,908,humane_euthanasia
+"Bacoor Depopulation Site 103",14.5281,121.0178,CALABARZON,Bacoor,,"Farm 103 - Bacoor",2024-08-20,124,humane_euthanasia
+"Tagaytay Depopulation Site 104",14.109,120.8783,CALABARZON,Tagaytay,"San Antonio","Farm 104 - Tagaytay",2024-07-22,141,humane_euthanasia
+"Biñan Depopulation Site 105",14.4103,121.1213,CALABARZON,Biñan,"Barangay 2",,2023-02-06,897,humane_euthanasia
+"Batangas City Depopulation Site 106",13.7995,121.1493,CALABARZON,"Batangas City",Mabuhay,,2024-04-15,482,humane_euthanasia
+"Cavite City Depopulation Site 107",14.5423,120.978,CALABARZON,"Cavite City",,,2023-03-31,554,other
+"Lucena Depopulation Site 108",13.9333,121.6787,CALABARZON,Lucena,Villa,,2023-12-27,648,humane_euthanasia
+"Lucena Depopulation Site 109",14.0183,121.6817,CALABARZON,Lucena,Sampaguita,,2023-08-07,995,culling
+"Batangas City Depopulation Site 110",13.7565,121.0013,CALABARZON,"Batangas City",Mabuhay,"Farm 110 - Batangas City",2024-12-04,572,culling
+"San Pedro Depopulation Site 111",14.4017,120.957,CALABARZON,"San Pedro","Barangay 1",,2023-07-13,40,other
+"Angono Depopulation Site 112",14.4696,121.1064,CALABARZON,Angono,"San Jose",,2023-11-29,655,culling
+"Tagaytay Depopulation Site 113",14.039,121.0323,CALABARZON,Tagaytay,"San Roque","Farm 113 - Tagaytay",2023-10-09,94,humane_euthanasia
+"Cainta Depopulation Site 114",14.5981,121.0562,CALABARZON,Cainta,"San Roque",,2024-05-28,433,other
+"Gumaca Depopulation Site 115",14.0087,122.039,CALABARZON,Gumaca,"Barangay 2","Farm 115 - Gumaca",2023-03-10,164,humane_euthanasia
+"Cavite City Depopulation Site 116",14.5063,120.985,CALABARZON,"Cavite City",Masagana,"Farm 116 - Cavite City",2024-02-04,888,culling
+"Calamba Depopulation Site 117",14.2291,121.2383,CALABARZON,Calamba,"Barangay 2","Farm 117 - Calamba",2024-08-31,46,culling
+"Calamba Depopulation Site 118",14.1361,121.2163,CALABARZON,Calamba,Masagana,,2024-06-02,154,culling
+"Calamba Depopulation Site 119",14.2411,121.1463,CALABARZON,Calamba,,"Farm 119 - Calamba",2024-03-02,287,culling
+"Bacoor Depopulation Site 120",14.4631,121.0218,CALABARZON,Bacoor,"San Isidro",,2023-04-29,896,humane_euthanasia
+"Lipa Depopulation Site 121",13.9977,121.2133,CALABARZON,Lipa,Poblacion,,2023-07-07,614,other
+"Bacoor Depopulation Site 122",14.3921,120.8878,CALABARZON,Bacoor,"San Miguel",,2024-08-22,778,humane_euthanasia
+"Bacoor Depopulation Site 123",14.5501,120.9408,CALABARZON,Bacoor,"San Miguel",,2023-07-21,475,other
+"Tanauan Depopulation Site 124",14.1643,121.097,CALABARZON,Tanauan,Masagana,,2023-05-14,653,culling
+"Bacoor Depopulation Site 125",14.4911,120.9358,CALABARZON,Bacoor,"Barangay 2","Farm 125 - Bacoor",2024-05-28,364,other
+"Tanauan Depopulation Site 126",14.1693,121.216,CALABARZON,Tanauan,Poblacion,,2023-10-12,215,culling
+"Santa Rosa Depopulation Site 127",14.3947,121.1317,CALABARZON,"Santa Rosa","San Jose","Farm 127 - Santa Rosa",2024-04-17,49,culling
+"Bacoor Depopulation Site 128",14.5241,120.9198,CALABARZON,Bacoor,"Sta. Ana",,2023-09-08,526,culling
+"Santa Rosa Depopulation Site 129",14.2957,121.0707,CALABARZON,"Santa Rosa","Barangay 1","Farm 129 - Santa Rosa",2024-05-23,119,culling
+"Tagaytay Depopulation Site 130",14.043,120.8373,CALABARZON,Tagaytay,"Bagong Silang","Farm 130 - Tagaytay",2023-08-23,231,other
+"Los Baños Depopulation Site 131",14.2447,121.2983,CALABARZON,"Los Baños","Barangay 2","Farm 131 - Los Baños",2024-09-02,30,culling
+"Bacoor Depopulation Site 132",14.4861,120.9478,CALABARZON,Bacoor,"Sta. Maria","Farm 132 - Bacoor",2024-02-22,153,other
+"Los Baños Depopulation Site 133",14.2037,121.1673,CALABARZON,"Los Baños",,,2023-04-25,204,other
+"Tanauan Depopulation Site 134",14.1833,121.092,CALABARZON,Tanauan,Maligaya,"Farm 134 - Tanauan",2023-08-13,469,culling
+"Dasmarinas Depopulation Site 135",14.2824,120.8757,CALABARZON,Dasmarinas,Mabuhay,"Farm 135 - Dasmarinas",2023-10-06,307,humane_euthanasia
+"Cainta Depopulation Site 136",14.5641,121.0862,CALABARZON,Cainta,Pangarap,"Farm 136 - Cainta",2023-08-11,150,humane_euthanasia
+"Antipolo Depopulation Site 137",14.5592,121.2633,CALABARZON,Antipolo,Pangarap,,2024-12-10,711,other
+"Batangas City Depopulation Site 138",13.7065,120.9713,CALABARZON,"Batangas City",Poblacion,,2024-07-06,975,humane_euthanasia
+"Calamba Depopulation Site 139",14.2591,121.2383,CALABARZON,Calamba,"Sta. Ana","Farm 139 - Calamba",2023-12-06,596,other
+"Batangas City Depopulation Site 140",13.8145,121.1253,CALABARZON,"Batangas City","Sta. Ana","Farm 140 - Batangas City",2024-02-08,250,other
+"Cainta Depopulation Site 141",14.6711,121.0462,CALABARZON,Cainta,"San Jose","Farm 141 - Cainta",2024-05-14,99,culling
+"Lucena Depopulation Site 142",13.9413,121.6787,CALABARZON,Lucena,"Barangay 1","Farm 142 - Lucena",2024-06-26,828,humane_euthanasia
+"Dasmarinas Depopulation Site 143",14.3404,120.9777,CALABARZON,Dasmarinas,"Barangay 3",,2024-12-25,549,humane_euthanasia
+"Cavite City Depopulation Site 144",14.5813,120.999,CALABARZON,"Cavite City",,,2024-03-03,194,other
+"Tayabas Depopulation Site 145",13.9387,121.5913,CALABARZON,Tayabas,"San Antonio","Farm 145 - Tayabas",2024-03-07,993,humane_euthanasia
+"Imus Depopulation Site 146",14.5297,120.8587,CALABARZON,Imus,"San Roque",,2023-12-27,365,humane_euthanasia
+"Imus Depopulation Site 147",14.4247,120.8507,CALABARZON,Imus,"Barangay 1",,2024-06-22,727,humane_euthanasia
+"Antipolo Depopulation Site 148",14.5852,121.2553,CALABARZON,Antipolo,,"Farm 148 - Antipolo",2024-07-08,720,culling
+"Antipolo Depopulation Site 149",14.5302,121.2283,CALABARZON,Antipolo,"Barangay 2","Farm 149 - Antipolo",2023-01-03,160,culling
+"Taytay Depopulation Site 150",14.6177,121.0703,CALABARZON,Taytay,Bagumbayan,,2024-01-24,959,culling
+"Gumaca Depopulation Site 151",13.8997,122.166,CALABARZON,Gumaca,,"Farm 151 - Gumaca",2024-06-09,201,humane_euthanasia
+"Lucena Depopulation Site 152",13.9703,121.6167,CALABARZON,Lucena,"Sta. Ana","Farm 152 - Lucena",2023-02-09,89,humane_euthanasia
+"Lipa Depopulation Site 153",13.9007,121.1483,CALABARZON,Lipa,,,2024-05-03,657,humane_euthanasia
+"Lipa Depopulation Site 154",13.8957,121.0803,CALABARZON,Lipa,"Barangay 1","Farm 154 - Lipa",2024-07-26,133,culling
+"Taytay Depopulation Site 155",14.6497,121.1383,CALABARZON,Taytay,Villa,,2024-02-10,514,humane_euthanasia
+"Angono Depopulation Site 156",14.5656,121.1704,CALABARZON,Angono,Sampaguita,"Farm 156 - Angono",2024-07-31,398,other
+"Lucena Depopulation Site 157",13.8633,121.6537,CALABARZON,Lucena,Poblacion,,2024-02-11,344,other
+"Antipolo Depopulation Site 158",14.6012,121.2623,CALABARZON,Antipolo,Sampaguita,,2023-11-10,921,culling
+"Gumaca Depopulation Site 159",13.9327,122.11,CALABARZON,Gumaca,"Barangay 1","Farm 159 - Gumaca",2024-07-26,726,culling
+"San Pedro Depopulation Site 160",14.3047,120.962,CALABARZON,"San Pedro","Barangay 1",,2024-01-30,405,other
+"Santa Rosa Depopulation Site 161",14.3817,121.1357,CALABARZON,"Santa Rosa",,"Farm 161 - Santa Rosa",2024-04-11,633,humane_euthanasia
+"Tayabas Depopulation Site 162",13.9397,121.5783,CALABARZON,Tayabas,Villa,"Farm 162 - Tayabas",2023-08-10,525,humane_euthanasia
+"Tagaytay Depopulation Site 163",14.092,120.8333,CALABARZON,Tagaytay,"Bagong Silang","Farm 163 - Tagaytay",2023-05-29,125,other
+"Tayabas Depopulation Site 164",14.1157,121.5853,CALABARZON,Tayabas,Poblacion,"Farm 164 - Tayabas",2023-12-08,639,culling
+"Dasmarinas Depopulation Site 165",14.3934,120.9567,CALABARZON,Dasmarinas,Maligaya,"Farm 165 - Dasmarinas",2024-10-07,592,other
+"Dasmarinas Depopulation Site 166",14.4274,120.9067,CALABARZON,Dasmarinas,Bagumbayan,"Farm 166 - Dasmarinas",2024-11-26,863,other
+"Bacoor Depopulation Site 167",14.4531,121.0218,CALABARZON,Bacoor,Maligaya,,2023-05-02,715,culling
+"Tagaytay Depopulation Site 168",14.016,121.0083,CALABARZON,Tagaytay,"Sta. Maria",,2023-12-24,691,other
+"Tanauan Depopulation Site 169",14.0933,121.138,CALABARZON,Tanauan,Mabuhay,,2023-06-24,334,culling
+"Santa Rosa Depopulation Site 170",14.2977,121.1167,CALABARZON,"Santa Rosa",,"Farm 170 - Santa Rosa",2024-02-25,154,humane_euthanasia
+"Lucena Depopulation Site 171",13.8653,121.6987,CALABARZON,Lucena,Masagana,"Farm 171 - Lucena",2024-05-29,147,humane_euthanasia
+"Dasmarinas Depopulation Site 172",14.4244,120.8647,CALABARZON,Dasmarinas,"Bagong Silang",,2023-10-30,418,humane_euthanasia
+"Bacoor Depopulation Site 173",14.4281,120.9628,CALABARZON,Bacoor,,"Farm 173 - Bacoor",2024-06-27,706,culling
+"Taytay Depopulation Site 174",14.5387,121.1163,CALABARZON,Taytay,"Sta. Ana",,2024-09-28,516,culling
+"Santa Rosa Depopulation Site 175",14.3617,121.0837,CALABARZON,"Santa Rosa","Sta. Maria","Farm 175 - Santa Rosa",2024-04-04,651,other
+"Gumaca Depopulation Site 176",13.8927,122.078,CALABARZON,Gumaca,Mabuhay,,2024-04-03,888,other
+"Taytay Depopulation Site 177",14.6477,121.1713,CALABARZON,Taytay,,"Farm 177 - Taytay",2024-02-22,666,culling
+"Lucena Depopulation Site 178",13.9063,121.6597,CALABARZON,Lucena,Pangarap,"Farm 178 - Lucena",2023-08-08,858,culling
+"Batangas City Depopulation Site 179",13.6865,120.9783,CALABARZON,"Batangas City",,"Farm 179 - Batangas City",2023-12-01,271,humane_euthanasia
+"Angono Depopulation Site 180",14.5576,121.0804,CALABARZON,Angono,"Sta. Ana",,2023-08-04,955,other
+"Tagaytay Depopulation Site 181",14.111,120.9843,CALABARZON,Tagaytay,Pangarap,,2024-01-15,677,culling
+"Los Baños Depopulation Site 182",14.1917,121.3033,CALABARZON,"Los Baños","Sta. Ana",,2023-06-12,115,other
+"Taytay Depopulation Site 183",14.6657,121.1973,CALABARZON,Taytay,Masagana,,2024-04-24,415,humane_euthanasia
+"Lucena Depopulation Site 184",14.0333,121.6857,CALABARZON,Lucena,"San Roque",,2024-12-23,817,other
+"Gumaca Depopulation Site 185",13.9317,122.188,CALABARZON,Gumaca,"San Roque","Farm 185 - Gumaca",2024-11-20,800,other
+"Batangas City Depopulation Site 186",13.6585,121.0473,CALABARZON,"Batangas City","Barangay 2",,2023-11-07,280,other
+"Cavite City Depopulation Site 187",14.4703,120.918,CALABARZON,"Cavite City",,"Farm 187 - Cavite City",2023-01-28,131,other
+"Lucena Depopulation Site 188",14.0043,121.5237,CALABARZON,Lucena,Villa,"Farm 188 - Lucena",2023-04-20,603,culling
+"Taytay Depopulation Site 189",14.5697,121.0933,CALABARZON,Taytay,Bagumbayan,,2023-03-19,65,culling
+"Bacoor Depopulation Site 190",14.5581,120.9268,CALABARZON,Bacoor,Bagumbayan,,2024-06-22,281,other
+"Los Baños Depopulation Site 191",14.2367,121.1723,CALABARZON,"Los Baños",Pangarap,"Farm 191 - Los Baños",2023-02-17,535,culling
+"San Pedro Depopulation Site 192",14.4247,121.049,CALABARZON,"San Pedro","Bagong Silang","Farm 192 - San Pedro",2024-08-30,606,humane_euthanasia
+"Taytay Depopulation Site 193",14.5537,121.1483,CALABARZON,Taytay,"Sta. Cruz","Farm 193 - Taytay",2023-06-25,17,humane_euthanasia
+"Angono Depopulation Site 194",14.4446,121.1874,CALABARZON,Angono,,"Farm 194 - Angono",2023-12-18,819,culling
+"San Pedro Depopulation Site 195",14.3947,120.992,CALABARZON,"San Pedro","San Roque","Farm 195 - San Pedro",2024-09-29,940,culling
+"Tagaytay Depopulation Site 196",14.129,120.9193,CALABARZON,Tagaytay,"San Isidro",,2024-08-06,58,humane_euthanasia
+"Cavite City Depopulation Site 197",14.4423,120.941,CALABARZON,"Cavite City",Bagumbayan,"Farm 197 - Cavite City",2024-12-30,333,culling
+"Lipa Depopulation Site 198",13.8547,121.2043,CALABARZON,Lipa,"San Roque",,2023-09-15,489,humane_euthanasia
+"Gumaca Depopulation Site 199",13.9117,122.04,CALABARZON,Gumaca,"Bagong Silang",,2024-09-23,747,other
+"Batangas City Depopulation Site 200",13.8375,121.1193,CALABARZON,"Batangas City",,,2024-04-22,654,humane_euthanasia
+"Tayabas Depopulation Site 201",14.0747,121.4913,CALABARZON,Tayabas,"San Isidro",,2024-06-06,983,humane_euthanasia
+"Angono Depopulation Site 202",14.5776,121.2234,CALABARZON,Angono,,,2023-01-15,392,culling
+"Lucena Depopulation Site 203",13.9463,121.6937,CALABARZON,Lucena,Sampaguita,"Farm 203 - Lucena",2023-12-10,636,other
+"Lipa Depopulation Site 204",13.9997,121.1513,CALABARZON,Lipa,Masagana,,2023-02-09,317,humane_euthanasia
+"Antipolo Depopulation Site 205",14.5972,121.1313,CALABARZON,Antipolo,"Sta. Maria","Farm 205 - Antipolo",2024-03-25,764,other
+"Taytay Depopulation Site 206",14.5427,121.2283,CALABARZON,Taytay,"Sta. Maria","Farm 206 - Taytay",2023-07-05,775,other
+"Batangas City Depopulation Site 207",13.8115,120.9893,CALABARZON,"Batangas City","San Isidro","Farm 207 - Batangas City",2024-05-09,88,culling
+"San Pedro Depopulation Site 208",14.2917,121.13,CALABARZON,"San Pedro",Mabuhay,"Farm 208 - San Pedro",2023-06-23,652,culling
+"San Pedro Depopulation Site 209",14.3137,121.108,CALABARZON,"San Pedro","San Miguel","Farm 209 - San Pedro",2023-06-23,752,culling
+"Dasmarinas Depopulation Site 210",14.2944,121.0077,CALABARZON,Dasmarinas,"San Roque","Farm 210 - Dasmarinas",2024-05-09,932,humane_euthanasia
+"Bacoor Depopulation Site 211",14.4811,120.9438,CALABARZON,Bacoor,"San Jose",,2023-06-09,391,humane_euthanasia
+"Imus Depopulation Site 212",14.4537,120.9457,CALABARZON,Imus,Villa,,2023-12-17,614,culling
+"Tayabas Depopulation Site 213",13.9207,121.5723,CALABARZON,Tayabas,,"Farm 213 - Tayabas",2024-09-18,937,humane_euthanasia
+"Tanauan Depopulation Site 214",14.1673,121.207,CALABARZON,Tanauan,Poblacion,,2023-12-21,832,other
+"Taytay Depopulation Site 215",14.6357,121.1133,CALABARZON,Taytay,"San Miguel","Farm 215 - Taytay",2024-06-10,612,other
+"Cavite City Depopulation Site 216",14.5433,120.931,CALABARZON,"Cavite City","Barangay 1","Farm 216 - Cavite City",2024-11-11,823,culling
+"Los Baños Depopulation Site 217",14.2527,121.2983,CALABARZON,"Los Baños","San Isidro",,2024-07-21,966,humane_euthanasia
+"Cavite City Depopulation Site 218",14.4083,120.808,CALABARZON,"Cavite City",Villa,"Farm 218 - Cavite City",2023-09-27,45,humane_euthanasia
+"Angono Depopulation Site 219",14.5286,121.2274,CALABARZON,Angono,"San Isidro","Farm 219 - Angono",2023-02-12,376,other
+"Cainta Depopulation Site 220",14.5941,121.1632,CALABARZON,Cainta,"Barangay 2",,2024-10-27,10,other
+"Gumaca Depopulation Site 221",13.9467,122.011,CALABARZON,Gumaca,Poblacion,,2024-01-01,946,other
+"Tayabas Depopulation Site 222",14.0007,121.4883,CALABARZON,Tayabas,"San Antonio","Farm 222 - Tayabas",2023-05-10,74,culling
+"Tanauan Depopulation Site 223",14.0173,121.194,CALABARZON,Tanauan,,,2023-05-09,457,humane_euthanasia
+"Tanauan Depopulation Site 224",14.1473,121.237,CALABARZON,Tanauan,"San Isidro","Farm 224 - Tanauan",2024-08-26,225,humane_euthanasia
+"Bacoor Depopulation Site 225",14.4201,120.8988,CALABARZON,Bacoor,"Sta. Cruz",,2024-04-29,96,other
+"Tanauan Depopulation Site 226",14.0973,121.125,CALABARZON,Tanauan,"Sta. Ana",,2024-06-26,875,other
+"Gumaca Depopulation Site 227",13.9967,122.051,CALABARZON,Gumaca,"Barangay 3",,2024-05-24,722,humane_euthanasia
+"Cavite City Depopulation Site 228",14.4713,120.866,CALABARZON,"Cavite City","San Roque","Farm 228 - Cavite City",2024-09-19,286,humane_euthanasia
+"Taytay Depopulation Site 229",14.5377,121.1763,CALABARZON,Taytay,,,2024-04-14,138,culling
+"Bacoor Depopulation Site 230",14.4231,121.0148,CALABARZON,Bacoor,,,2023-09-06,702,culling
+"San Pedro Depopulation Site 231",14.3857,120.995,CALABARZON,"San Pedro","Sta. Ana","Farm 231 - San Pedro",2023-04-05,294,culling
+"Batangas City Depopulation Site 232",13.7175,121.0023,CALABARZON,"Batangas City","Sta. Cruz",,2023-05-03,33,humane_euthanasia
+"Antipolo Depopulation Site 233",14.6292,121.1263,CALABARZON,Antipolo,Mabuhay,,2023-03-27,255,culling
+"Calamba Depopulation Site 234",14.2031,121.1923,CALABARZON,Calamba,"Sta. Ana","Farm 234 - Calamba",2024-08-20,926,other
+"San Pedro Depopulation Site 235",14.2947,121.094,CALABARZON,"San Pedro",,,2024-06-11,470,other
+"Bacoor Depopulation Site 236",14.4981,120.9268,CALABARZON,Bacoor,"San Jose",,2024-03-25,479,humane_euthanasia
+"Dasmarinas Depopulation Site 237",14.4054,120.9727,CALABARZON,Dasmarinas,"San Isidro",,2023-05-16,611,culling
+"Imus Depopulation Site 238",14.4277,120.9937,CALABARZON,Imus,"Barangay 2",,2024-09-15,300,culling
+"Batangas City Depopulation Site 239",13.7105,121.0183,CALABARZON,"Batangas City","Barangay 1","Farm 239 - Batangas City",2024-12-29,990,culling
+"Angono Depopulation Site 240",14.4546,121.1704,CALABARZON,Angono,Villa,"Farm 240 - Angono",2024-12-10,382,humane_euthanasia
+"Gumaca Depopulation Site 241",13.8947,122.022,CALABARZON,Gumaca,"San Roque",,2024-12-11,166,humane_euthanasia
+"Taytay Depopulation Site 242",14.6477,121.1333,CALABARZON,Taytay,,,2024-07-01,188,other
+"Tayabas Depopulation Site 243",14.1107,121.5453,CALABARZON,Tayabas,,,2023-09-16,239,culling
+"Antipolo Depopulation Site 244",14.6352,121.2723,CALABARZON,Antipolo,Maligaya,"Farm 244 - Antipolo",2023-09-06,665,humane_euthanasia
+"Bacoor Depopulation Site 245",14.5051,120.8648,CALABARZON,Bacoor,Bagumbayan,,2024-09-11,548,humane_euthanasia
+"Cavite City Depopulation Site 246",14.4953,120.847,CALABARZON,"Cavite City",,"Farm 246 - Cavite City",2024-01-01,929,culling
+"Cavite City Depopulation Site 247",14.4343,120.988,CALABARZON,"Cavite City","Barangay 3",,2024-01-01,302,other
+"Angono Depopulation Site 248",14.5516,121.2354,CALABARZON,Angono,Masagana,,2023-10-06,885,culling
+"Calamba Depopulation Site 249",14.1791,121.0893,CALABARZON,Calamba,"San Jose",,2024-01-07,311,humane_euthanasia
+"Gumaca Depopulation Site 250",13.8237,122.192,CALABARZON,Gumaca,,,2023-07-10,252,humane_euthanasia
+"Dasmarinas Depopulation Site 251",14.3884,120.8877,CALABARZON,Dasmarinas,Mabuhay,"Farm 251 - Dasmarinas",2023-09-14,360,other
+"Tanauan Depopulation Site 252",14.0233,121.22,CALABARZON,Tanauan,,,2024-12-17,290,culling
+"Biñan Depopulation Site 253",14.2973,121.1493,CALABARZON,Biñan,"Sta. Cruz","Farm 253 - Biñan",2024-02-11,85,other
+"Cainta Depopulation Site 254",14.6711,121.0712,CALABARZON,Cainta,Masagana,"Farm 254 - Cainta",2024-12-22,541,other
+"Dasmarinas Depopulation Site 255",14.3544,120.9247,CALABARZON,Dasmarinas,Pangarap,,2023-08-02,118,other
+"Lipa Depopulation Site 256",13.9177,121.1813,CALABARZON,Lipa,Poblacion,,2023-09-11,162,culling
+"Los Baños Depopulation Site 257",14.0977,121.2653,CALABARZON,"Los Baños",,,2024-11-22,594,other
+"Cainta Depopulation Site 258",14.5941,121.0852,CALABARZON,Cainta,"Sta. Ana",,2023-03-21,714,other
+"San Pedro Depopulation Site 259",14.2687,120.974,CALABARZON,"San Pedro","Sta. Ana",,2023-04-21,33,other
+"Tagaytay Depopulation Site 260",14.085,120.9773,CALABARZON,Tagaytay,"San Jose","Farm 260 - Tagaytay",2024-06-28,651,humane_euthanasia
+"Lucena Depopulation Site 261",13.9863,121.6447,CALABARZON,Lucena,"Sta. Cruz",,2024-04-02,839,humane_euthanasia
+"Santa Rosa Depopulation Site 262",14.2837,121.2147,CALABARZON,"Santa Rosa","Sta. Ana",,2024-11-28,747,culling
+"Tagaytay Depopulation Site 263",14.186,120.9853,CALABARZON,Tagaytay,,"Farm 263 - Tagaytay",2023-03-01,321,humane_euthanasia
+"Gumaca Depopulation Site 264",13.8207,122.151,CALABARZON,Gumaca,"San Roque","Farm 264 - Gumaca",2024-05-10,171,other
+"Dasmarinas Depopulation Site 265",14.2764,120.8817,CALABARZON,Dasmarinas,Masagana,,2024-12-02,997,culling
+"Antipolo Depopulation Site 266",14.5922,121.2083,CALABARZON,Antipolo,"San Isidro","Farm 266 - Antipolo",2024-01-02,604,other
+"Bacoor Depopulation Site 267",14.5111,120.9398,CALABARZON,Bacoor,,"Farm 267 - Bacoor",2023-07-17,46,other
+"Lipa Depopulation Site 268",13.9687,121.1963,CALABARZON,Lipa,Mabuhay,"Farm 268 - Lipa",2024-02-10,354,humane_euthanasia
+"Tanauan Depopulation Site 269",14.0133,121.235,CALABARZON,Tanauan,"Sta. Ana","Farm 269 - Tanauan",2024-02-18,305,humane_euthanasia
+"Biñan Depopulation Site 270",14.3343,121.1113,CALABARZON,Biñan,"Bagong Silang",,2024-07-21,258,culling
+"Angono Depopulation Site 271",14.5636,121.1564,CALABARZON,Angono,"San Miguel","Farm 271 - Angono",2023-12-22,707,other
+"Bacoor Depopulation Site 272",14.4131,120.8978,CALABARZON,Bacoor,Villa,,2023-07-07,28,humane_euthanasia
+"Biñan Depopulation Site 273",14.2793,121.0443,CALABARZON,Biñan,Bagumbayan,,2024-10-18,793,humane_euthanasia
+"Santa Rosa Depopulation Site 274",14.3217,121.2117,CALABARZON,"Santa Rosa",,,2024-10-06,720,other
+"Biñan Depopulation Site 275",14.2533,121.0663,CALABARZON,Biñan,"Sta. Maria",,2023-07-09,532,culling
+"Lucena Depopulation Site 276",13.9693,121.6827,CALABARZON,Lucena,Bagumbayan,"Farm 276 - Lucena",2023-02-16,113,other
+"Taytay Depopulation Site 277",14.5307,121.0653,CALABARZON,Taytay,,"Farm 277 - Taytay",2024-09-02,641,culling
+"Antipolo Depopulation Site 278",14.5162,121.2113,CALABARZON,Antipolo,,"Farm 278 - Antipolo",2024-04-15,456,culling
+"Tayabas Depopulation Site 279",13.9367,121.5333,CALABARZON,Tayabas,,,2023-08-08,490,other
+"Batangas City Depopulation Site 280",13.6775,121.0483,CALABARZON,"Batangas City",Mabuhay,"Farm 280 - Batangas City",2023-05-03,463,other
+"Los Baños Depopulation Site 281",14.2387,121.3053,CALABARZON,"Los Baños","Sta. Cruz","Farm 281 - Los Baños",2023-03-26,50,culling
+"Los Baños Depopulation Site 282",14.1027,121.1513,CALABARZON,"Los Baños",Mabuhay,,2023-07-31,101,other
+"Lipa Depopulation Site 283",13.9777,121.1703,CALABARZON,Lipa,Masagana,"Farm 283 - Lipa",2023-08-27,25,other
+"Calamba Depopulation Site 284",14.1351,121.2453,CALABARZON,Calamba,,,2023-08-06,90,other
+"Angono Depopulation Site 285",14.5966,121.1004,CALABARZON,Angono,Bagumbayan,"Farm 285 - Angono",2024-10-31,513,culling
+"Angono Depopulation Site 286",14.4746,121.1854,CALABARZON,Angono,Villa,,2023-05-02,638,other
+"Cainta Depopulation Site 287",14.5021,121.1382,CALABARZON,Cainta,"San Miguel","Farm 287 - Cainta",2024-09-26,546,humane_euthanasia
+"Tanauan Depopulation Site 288",14.1683,121.176,CALABARZON,Tanauan,Pangarap,"Farm 288 - Tanauan",2023-01-27,246,humane_euthanasia
+"Tayabas Depopulation Site 289",14.0107,121.5993,CALABARZON,Tayabas,"Sta. Cruz","Farm 289 - Tayabas",2023-03-03,566,other
+"Lipa Depopulation Site 290",13.9047,121.2423,CALABARZON,Lipa,"Sta. Ana","Farm 290 - Lipa",2024-05-11,910,humane_euthanasia
+"Imus Depopulation Site 291",14.4717,120.9047,CALABARZON,Imus,,,2023-06-24,416,culling
+"Cavite City Depopulation Site 292",14.5643,120.871,CALABARZON,"Cavite City",Masagana,"Farm 292 - Cavite City",2023-06-26,632,humane_euthanasia
+"Tayabas Depopulation Site 293",13.9667,121.5373,CALABARZON,Tayabas,"San Miguel",,2023-02-05,356,humane_euthanasia
+"Antipolo Depopulation Site 294",14.6642,121.1063,CALABARZON,Antipolo,"San Miguel","Farm 294 - Antipolo",2024-09-20,311,humane_euthanasia
+"Bacoor Depopulation Site 295",14.4411,120.8888,CALABARZON,Bacoor,"Sta. Maria",,2024-10-02,734,humane_euthanasia
+"Taytay Depopulation Site 296",14.5157,121.2243,CALABARZON,Taytay,Bagumbayan,"Farm 296 - Taytay",2024-07-28,539,culling
+"Lucena Depopulation Site 297",13.9373,121.6457,CALABARZON,Lucena,Sampaguita,,2023-10-23,293,other
+"Tanauan Depopulation Site 298",14.1233,121.222,CALABARZON,Tanauan,,"Farm 298 - Tanauan",2024-01-09,403,culling
+"Tanauan Depopulation Site 299",14.1483,121.156,CALABARZON,Tanauan,"Barangay 2",,2024-12-07,57,humane_euthanasia
+"Dasmarinas Depopulation Site 300",14.2774,120.9597,CALABARZON,Dasmarinas,"Sta. Ana","Farm 300 - Dasmarinas",2023-12-20,246,other
+"Tagaytay Depopulation Site 301",14.126,120.8603,CALABARZON,Tagaytay,Pangarap,"Farm 301 - Tagaytay",2023-06-23,689,humane_euthanasia
+"Tayabas Depopulation Site 302",14.1137,121.6003,CALABARZON,Tayabas,Sampaguita,"Farm 302 - Tayabas",2023-12-26,682,culling
+"Imus Depopulation Site 303",14.4777,120.9437,CALABARZON,Imus,"San Roque","Farm 303 - Imus",2023-06-03,707,culling
+"Batangas City Depopulation Site 304",13.7735,121.0733,CALABARZON,"Batangas City","Barangay 3",,2024-01-24,883,humane_euthanasia
+"Tayabas Depopulation Site 305",14.0137,121.6483,CALABARZON,Tayabas,Bagumbayan,"Farm 305 - Tayabas",2023-07-06,243,humane_euthanasia
+"Dasmarinas Depopulation Site 306",14.2794,120.9767,CALABARZON,Dasmarinas,,"Farm 306 - Dasmarinas",2024-05-16,479,humane_euthanasia
+"Tayabas Depopulation Site 307",14.0477,121.5793,CALABARZON,Tayabas,Sampaguita,"Farm 307 - Tayabas",2024-01-02,300,other
+"San Pedro Depopulation Site 308",14.4597,121.084,CALABARZON,"San Pedro",Masagana,"Farm 308 - San Pedro",2024-04-26,38,culling
+"Batangas City Depopulation Site 309",13.7435,121.1133,CALABARZON,"Batangas City",Poblacion,,2024-02-02,952,other
+"Tanauan Depopulation Site 310",14.0873,121.092,CALABARZON,Tanauan,"Sta. Ana","Farm 310 - Tanauan",2023-10-11,130,humane_euthanasia
+"Tagaytay Depopulation Site 311",14.009,120.8683,CALABARZON,Tagaytay,"San Isidro",,2024-11-07,340,culling
+"Tagaytay Depopulation Site 312",14.151,120.8393,CALABARZON,Tagaytay,Bagumbayan,"Farm 312 - Tagaytay",2023-05-14,496,culling
+"Los Baños Depopulation Site 313",14.1667,121.2323,CALABARZON,"Los Baños","Bagong Silang",,2023-04-14,438,other
+"Lipa Depopulation Site 314",13.9997,121.2163,CALABARZON,Lipa,"San Isidro",,2023-04-30,960,other
+"Calamba Depopulation Site 315",14.1331,121.2573,CALABARZON,Calamba,,,2023-01-16,796,culling
+"Taytay Depopulation Site 316",14.5747,121.0973,CALABARZON,Taytay,"Barangay 2","Farm 316 - Taytay",2024-06-17,16,humane_euthanasia
+"Bacoor Depopulation Site 317",14.4141,120.9198,CALABARZON,Bacoor,Masagana,,2023-02-21,333,other
+"Lipa Depopulation Site 318",14.0047,121.1463,CALABARZON,Lipa,"Barangay 3",,2024-11-28,445,culling
+"San Pedro Depopulation Site 319",14.3847,121.012,CALABARZON,"San Pedro",,"Farm 319 - San Pedro",2023-06-25,728,other
+"Calamba Depopulation Site 320",14.2901,121.0753,CALABARZON,Calamba,,"Farm 320 - Calamba",2023-05-19,96,culling
+"Taytay Depopulation Site 321",14.5507,121.1193,CALABARZON,Taytay,Poblacion,,2023-09-28,161,other
+"Gumaca Depopulation Site 322",13.8277,122.089,CALABARZON,Gumaca,"San Isidro",,2023-01-20,796,other
+"Santa Rosa Depopulation Site 323",14.2217,121.0597,CALABARZON,"Santa Rosa","San Roque","Farm 323 - Santa Rosa",2024-05-05,842,other
+"Tagaytay Depopulation Site 324",14.182,120.8383,CALABARZON,Tagaytay,Mabuhay,,2024-04-29,715,culling
+"Dasmarinas Depopulation Site 325",14.4254,120.9867,CALABARZON,Dasmarinas,"San Miguel",,2024-02-25,621,humane_euthanasia
+"Tayabas Depopulation Site 326",13.9437,121.6563,CALABARZON,Tayabas,"San Jose","Farm 326 - Tayabas",2023-05-23,870,other
+"Cavite City Depopulation Site 327",14.4483,120.891,CALABARZON,"Cavite City",Maligaya,"Farm 327 - Cavite City",2023-10-07,919,culling
+"Antipolo Depopulation Site 328",14.6772,121.1263,CALABARZON,Antipolo,Villa,"Farm 328 - Antipolo",2024-03-23,750,other
+"Bacoor Depopulation Site 329",14.3621,121.0238,CALABARZON,Bacoor,"Sta. Maria","Farm 329 - Bacoor",2023-01-26,938,humane_euthanasia
+"Biñan Depopulation Site 330",14.3333,121.1543,CALABARZON,Biñan,"Sta. Ana","Farm 330 - Biñan",2023-12-27,791,humane_euthanasia
+"Los Baños Depopulation Site 331",14.0697,121.1963,CALABARZON,"Los Baños",Poblacion,"Farm 331 - Los Baños",2024-10-26,20,humane_euthanasia
+"Dasmarinas Depopulation Site 332",14.2414,120.8967,CALABARZON,Dasmarinas,"San Miguel",,2024-11-16,311,humane_euthanasia
+"San Pedro Depopulation Site 333",14.4627,120.967,CALABARZON,"San Pedro","San Antonio","Farm 333 - San Pedro",2023-12-03,522,humane_euthanasia
+"Bacoor Depopulation Site 334",14.4801,120.9828,CALABARZON,Bacoor,"Bagong Silang","Farm 334 - Bacoor",2024-10-04,750,culling
+"Cavite City Depopulation Site 335",14.4453,120.828,CALABARZON,"Cavite City",Maligaya,"Farm 335 - Cavite City",2023-10-23,199,humane_euthanasia
+"Tayabas Depopulation Site 336",13.9327,121.5803,CALABARZON,Tayabas,Maligaya,,2024-01-17,24,culling
+"Dasmarinas Depopulation Site 337",14.2744,120.9997,CALABARZON,Dasmarinas,Poblacion,"Farm 337 - Dasmarinas",2023-07-26,869,other
+"Calamba Depopulation Site 338",14.2581,121.2313,CALABARZON,Calamba,"Barangay 1",,2023-07-02,840,culling
+"Antipolo Depopulation Site 339",14.5192,121.1663,CALABARZON,Antipolo,"Bagong Silang","Farm 339 - Antipolo",2023-02-22,850,culling
+"San Pedro Depopulation Site 340",14.3927,121.079,CALABARZON,"San Pedro",,,2023-06-28,265,humane_euthanasia
+"Cainta Depopulation Site 341",14.6591,121.0462,CALABARZON,Cainta,"Barangay 1","Farm 341 - Cainta",2023-03-04,365,humane_euthanasia
+"Santa Rosa Depopulation Site 342",14.2807,121.1887,CALABARZON,"Santa Rosa",,,2023-09-25,349,other
+"Santa Rosa Depopulation Site 343",14.3577,121.0737,CALABARZON,"Santa Rosa","San Antonio","Farm 343 - Santa Rosa",2024-10-29,551,other
+"Dasmarinas Depopulation Site 344",14.2714,120.9207,CALABARZON,Dasmarinas,Masagana,,2024-06-07,508,humane_euthanasia
+"Tagaytay Depopulation Site 345",14.171,120.9503,CALABARZON,Tagaytay,Sampaguita,"Farm 345 - Tagaytay",2024-04-06,532,humane_euthanasia
+"Batangas City Depopulation Site 346",13.7455,121.0123,CALABARZON,"Batangas City",Sampaguita,"Farm 346 - Batangas City",2023-06-16,707,culling
+"Dasmarinas Depopulation Site 347",14.3494,120.8577,CALABARZON,Dasmarinas,Bagumbayan,"Farm 347 - Dasmarinas",2023-07-10,89,humane_euthanasia
+"Biñan Depopulation Site 348",14.3313,121.0503,CALABARZON,Biñan,"San Isidro","Farm 348 - Biñan",2023-08-24,227,other
+"Los Baños Depopulation Site 349",14.1217,121.2693,CALABARZON,"Los Baños",,"Farm 349 - Los Baños",2024-04-29,782,other
+"Gumaca Depopulation Site 350",13.8957,122.066,CALABARZON,Gumaca,Bagumbayan,"Farm 350 - Gumaca",2024-09-30,195,other
+"Gumaca Depopulation Site 351",13.8177,122.119,CALABARZON,Gumaca,Sampaguita,"Farm 351 - Gumaca",2023-11-07,446,other
+"Santa Rosa Depopulation Site 352",14.2717,121.2127,CALABARZON,"Santa Rosa","San Isidro","Farm 352 - Santa Rosa",2023-11-04,99,culling
+"Los Baños Depopulation Site 353",14.2477,121.1613,CALABARZON,"Los Baños",Pangarap,,2023-04-13,603,culling
+"Cainta Depopulation Site 354",14.5641,121.1222,CALABARZON,Cainta,,"Farm 354 - Cainta",2023-12-09,217,humane_euthanasia
+"Dasmarinas Depopulation Site 355",14.4124,120.9337,CALABARZON,Dasmarinas,Mabuhay,"Farm 355 - Dasmarinas",2024-04-03,164,humane_euthanasia
+"San Pedro Depopulation Site 356",14.3917,121.026,CALABARZON,"San Pedro",,"Farm 356 - San Pedro",2024-08-06,408,culling
+"Gumaca Depopulation Site 357",14.0107,122.07,CALABARZON,Gumaca,Sampaguita,,2023-12-14,260,other
+"Tagaytay Depopulation Site 358",14.176,120.8753,CALABARZON,Tagaytay,"San Antonio",,2023-10-15,204,culling
+"Gumaca Depopulation Site 359",13.8517,122.174,CALABARZON,Gumaca,Sampaguita,"Farm 359 - Gumaca",2023-12-23,981,culling
+"Tanauan Depopulation Site 360",14.0043,121.059,CALABARZON,Tanauan,"Barangay 3","Farm 360 - Tanauan",2023-05-05,823,other
+"Antipolo Depopulation Site 361",14.5142,121.2543,CALABARZON,Antipolo,,,2023-03-23,248,humane_euthanasia
+"Calamba Depopulation Site 362",14.2031,121.1353,CALABARZON,Calamba,Sampaguita,,2024-02-02,718,other
+"Calamba Depopulation Site 363",14.1931,121.2293,CALABARZON,Calamba,"Sta. Cruz",,2023-03-30,482,other
+"Lucena Depopulation Site 364",14.0143,121.5827,CALABARZON,Lucena,,"Farm 364 - Lucena",2023-06-03,210,humane_euthanasia
+"Taytay Depopulation Site 365",14.6427,121.1793,CALABARZON,Taytay,"Sta. Maria",,2024-12-01,76,other
+"Cainta Depopulation Site 366",14.5651,121.1692,CALABARZON,Cainta,Maligaya,"Farm 366 - Cainta",2024-10-05,760,other
+"San Pedro Depopulation Site 367",14.3967,121.066,CALABARZON,"San Pedro","Barangay 2","Farm 367 - San Pedro",2024-12-05,80,other
+"Tayabas Depopulation Site 368",13.9207,121.5333,CALABARZON,Tayabas,Bagumbayan,,2024-06-30,348,humane_euthanasia
+"Batangas City Depopulation Site 369",13.8255,121.1023,CALABARZON,"Batangas City","San Antonio",,2023-02-26,391,culling
+"Taytay Depopulation Site 370",14.6417,121.1623,CALABARZON,Taytay,"Barangay 2","Farm 370 - Taytay",2023-10-09,564,other
+"Cavite City Depopulation Site 371",14.5263,120.988,CALABARZON,"Cavite City",Masagana,,2023-08-30,440,humane_euthanasia
+"Lucena Depopulation Site 372",13.8563,121.6657,CALABARZON,Lucena,Maligaya,,2023-09-09,752,humane_euthanasia
+"Bacoor Depopulation Site 373",14.4191,121.0268,CALABARZON,Bacoor,Mabuhay,"Farm 373 - Bacoor",2024-08-04,466,humane_euthanasia
+"Santa Rosa Depopulation Site 374",14.3737,121.2167,CALABARZON,"Santa Rosa",,"Farm 374 - Santa Rosa",2023-01-01,733,culling
+"Antipolo Depopulation Site 375",14.5962,121.2073,CALABARZON,Antipolo,,,2023-07-10,955,other
+"Angono Depopulation Site 376",14.4576,121.1874,CALABARZON,Angono,"Sta. Ana","Farm 376 - Angono",2024-04-25,154,humane_euthanasia
+"Tanauan Depopulation Site 377",13.9933,121.248,CALABARZON,Tanauan,"San Jose","Farm 377 - Tanauan",2024-01-08,875,culling
+"Taytay Depopulation Site 378",14.6577,121.1813,CALABARZON,Taytay,Mabuhay,,2024-04-02,898,humane_euthanasia
+"Cavite City Depopulation Site 379",14.5783,120.831,CALABARZON,"Cavite City",,"Farm 379 - Cavite City",2024-02-12,972,culling
+"Cainta Depopulation Site 380",14.5491,121.1982,CALABARZON,Cainta,"Sta. Cruz","Farm 380 - Cainta",2024-05-01,693,humane_euthanasia
+"Cavite City Depopulation Site 381",14.4003,120.897,CALABARZON,"Cavite City",,"Farm 381 - Cavite City",2024-04-26,598,other
+"Angono Depopulation Site 382",14.4536,121.1094,CALABARZON,Angono,"San Jose",,2023-08-13,322,other
+"Dasmarinas Depopulation Site 383",14.4114,120.8837,CALABARZON,Dasmarinas,,,2024-04-19,107,culling
+"Tanauan Depopulation Site 384",14.0363,121.201,CALABARZON,Tanauan,"Barangay 1",,2023-02-10,369,culling
+"San Pedro Depopulation Site 385",14.3747,121.062,CALABARZON,"San Pedro","Sta. Ana",,2024-09-20,999,humane_euthanasia
+"Angono Depopulation Site 386",14.4966,121.1634,CALABARZON,Angono,"Bagong Silang",,2024-11-17,910,humane_euthanasia
+"Antipolo Depopulation Site 387",14.4982,121.1193,CALABARZON,Antipolo,"San Roque","Farm 387 - Antipolo",2024-12-09,483,culling
+"Cainta Depopulation Site 388",14.6381,121.2072,CALABARZON,Cainta,Sampaguita,"Farm 388 - Cainta",2023-10-02,395,humane_euthanasia
+"Bacoor Depopulation Site 389",14.5231,120.8928,CALABARZON,Bacoor,"Bagong Silang",,2024-04-29,642,other
+"Tanauan Depopulation Site 390",14.1353,121.246,CALABARZON,Tanauan,,,2023-02-28,848,humane_euthanasia
+"Dasmarinas Depopulation Site 391",14.3674,120.9327,CALABARZON,Dasmarinas,Villa,,2023-01-15,287,other
+"Tagaytay Depopulation Site 392",14.034,121.0183,CALABARZON,Tagaytay,Villa,,2024-05-30,702,other
+"Angono Depopulation Site 393",14.4866,121.1304,CALABARZON,Angono,,,2024-10-22,89,humane_euthanasia
+"Batangas City Depopulation Site 394",13.8495,120.9873,CALABARZON,"Batangas City","Bagong Silang",,2023-02-11,856,other
+"Biñan Depopulation Site 395",14.2843,121.0863,CALABARZON,Biñan,"Bagong Silang",,2024-06-13,988,other
+"San Pedro Depopulation Site 396",14.3007,120.995,CALABARZON,"San Pedro",Poblacion,"Farm 396 - San Pedro",2023-09-18,229,culling
+"San Pedro Depopulation Site 397",14.4457,121.082,CALABARZON,"San Pedro",,,2024-02-08,129,culling
+"Santa Rosa Depopulation Site 398",14.3607,121.0187,CALABARZON,"Santa Rosa","Sta. Ana",,2024-11-23,510,other
+"Lucena Depopulation Site 399",13.9613,121.7067,CALABARZON,Lucena,"San Miguel","Farm 399 - Lucena",2023-01-10,164,humane_euthanasia
+"Imus Depopulation Site 400",14.4837,121.0137,CALABARZON,Imus,"San Jose",,2023-11-23,815,culling
+"Cavite City Depopulation Site 401",14.3943,120.98,CALABARZON,"Cavite City","Sta. Cruz",,2024-08-22,535,other
+"Batangas City Depopulation Site 402",13.7355,121.0963,CALABARZON,"Batangas City",,,2024-10-21,591,culling
+"San Pedro Depopulation Site 403",14.2767,121.14,CALABARZON,"San Pedro","San Miguel",,2023-07-04,719,culling
+"Calamba Depopulation Site 404",14.1881,121.1123,CALABARZON,Calamba,"Sta. Cruz",,2023-05-19,209,humane_euthanasia
+"Santa Rosa Depopulation Site 405",14.2217,121.1667,CALABARZON,"Santa Rosa",Mabuhay,"Farm 405 - Santa Rosa",2024-08-18,728,other
+"Cavite City Depopulation Site 406",14.4953,120.848,CALABARZON,"Cavite City",,,2023-09-22,109,other
+"Antipolo Depopulation Site 407",14.6812,121.2543,CALABARZON,Antipolo,Sampaguita,"Farm 407 - Antipolo",2024-06-08,771,humane_euthanasia
+"Tayabas Depopulation Site 408",14.0917,121.5853,CALABARZON,Tayabas,Poblacion,"Farm 408 - Tayabas",2023-10-16,987,culling
+"Biñan Depopulation Site 409",14.4153,121.0603,CALABARZON,Biñan,,"Farm 409 - Biñan",2023-03-29,843,other
+"Dasmarinas Depopulation Site 410",14.3494,120.9417,CALABARZON,Dasmarinas,Villa,,2023-12-20,185,humane_euthanasia
+"Tayabas Depopulation Site 411",14.1157,121.5853,CALABARZON,Tayabas,,,2024-04-25,758,humane_euthanasia
+"Los Baños Depopulation Site 412",14.1127,121.1793,CALABARZON,"Los Baños","San Jose",,2024-11-20,92,other
+"Tanauan Depopulation Site 413",14.0123,121.149,CALABARZON,Tanauan,"San Roque","Farm 413 - Tanauan",2024-11-15,79,other
+"Cainta Depopulation Site 414",14.5211,121.1112,CALABARZON,Cainta,Sampaguita,"Farm 414 - Cainta",2023-04-06,107,culling
+"Angono Depopulation Site 415",14.5186,121.1144,CALABARZON,Angono,Maligaya,,2023-06-11,369,humane_euthanasia
+"Calamba Depopulation Site 416",14.1871,121.1903,CALABARZON,Calamba,Bagumbayan,"Farm 416 - Calamba",2024-09-26,960,other
+"Santa Rosa Depopulation Site 417",14.2427,121.1247,CALABARZON,"Santa Rosa",Villa,,2023-02-03,804,other
+"Taytay Depopulation Site 418",14.5397,121.2113,CALABARZON,Taytay,Maligaya,,2024-12-25,383,humane_euthanasia
+"Lipa Depopulation Site 419",13.9277,121.1273,CALABARZON,Lipa,"San Miguel",,2024-11-06,261,other
+"Batangas City Depopulation Site 420",13.7545,121.0893,CALABARZON,"Batangas City",Masagana,"Farm 420 - Batangas City",2024-09-06,512,other
+"Biñan Depopulation Site 421",14.2673,121.0053,CALABARZON,Biñan,,"Farm 421 - Biñan",2024-05-28,348,culling
+"Tanauan Depopulation Site 422",14.0583,121.107,CALABARZON,Tanauan,"Sta. Ana","Farm 422 - Tanauan",2023-11-15,182,other
+"Antipolo Depopulation Site 423",14.5102,121.1533,CALABARZON,Antipolo,,,2023-05-05,218,humane_euthanasia
+"San Pedro Depopulation Site 424",14.3147,120.975,CALABARZON,"San Pedro",Masagana,,2023-02-07,757,humane_euthanasia
+"Batangas City Depopulation Site 425",13.7095,121.0453,CALABARZON,"Batangas City",Masagana,"Farm 425 - Batangas City",2024-09-12,855,humane_euthanasia
+"Los Baños Depopulation Site 426",14.1027,121.2093,CALABARZON,"Los Baños","San Antonio",,2023-02-04,945,other
+"Gumaca Depopulation Site 427",13.8507,122.187,CALABARZON,Gumaca,"San Jose","Farm 427 - Gumaca",2023-08-04,726,culling
+"Batangas City Depopulation Site 428",13.7645,120.9843,CALABARZON,"Batangas City",Pangarap,"Farm 428 - Batangas City",2024-09-02,903,other
+"Antipolo Depopulation Site 429",14.5972,121.1233,CALABARZON,Antipolo,"San Roque",,2024-09-05,301,culling
+"Gumaca Depopulation Site 430",13.8637,122.039,CALABARZON,Gumaca,"San Jose","Farm 430 - Gumaca",2024-11-19,222,humane_euthanasia
+"Biñan Depopulation Site 431",14.3083,121.0353,CALABARZON,Biñan,"Sta. Ana",,2023-05-04,151,humane_euthanasia
+"Antipolo Depopulation Site 432",14.4872,121.2053,CALABARZON,Antipolo,,"Farm 432 - Antipolo",2024-05-29,503,other
+"Tayabas Depopulation Site 433",14.0447,121.6633,CALABARZON,Tayabas,"Sta. Cruz",,2024-07-10,86,other
+"Batangas City Depopulation Site 434",13.7075,120.9593,CALABARZON,"Batangas City","Bagong Silang","Farm 434 - Batangas City",2024-10-15,663,culling
+"Biñan Depopulation Site 435",14.3253,121.0233,CALABARZON,Biñan,"Bagong Silang",,2024-12-15,988,culling
+"Taytay Depopulation Site 436",14.6167,121.0583,CALABARZON,Taytay,"San Roque","Farm 436 - Taytay",2024-02-24,739,other
+"San Pedro Depopulation Site 437",14.4497,121.057,CALABARZON,"San Pedro",,"Farm 437 - San Pedro",2023-11-05,944,culling
+"San Pedro Depopulation Site 438",14.3157,121.093,CALABARZON,"San Pedro",Pangarap,,2024-05-04,647,humane_euthanasia
+"Lipa Depopulation Site 439",13.9107,121.1603,CALABARZON,Lipa,Bagumbayan,"Farm 439 - Lipa",2024-04-06,989,other
+"Batangas City Depopulation Site 440",13.8205,121.0773,CALABARZON,"Batangas City",Poblacion,"Farm 440 - Batangas City",2023-08-28,10,humane_euthanasia
+"Santa Rosa Depopulation Site 441",14.3327,121.0737,CALABARZON,"Santa Rosa",Bagumbayan,,2023-01-04,971,humane_euthanasia
+"Taytay Depopulation Site 442",14.6467,121.2313,CALABARZON,Taytay,Poblacion,,2023-12-08,169,other
+"Dasmarinas Depopulation Site 443",14.3314,120.9767,CALABARZON,Dasmarinas,,,2024-02-21,324,culling
+"Dasmarinas Depopulation Site 444",14.3514,120.9447,CALABARZON,Dasmarinas,"Barangay 3",,2024-03-02,574,humane_euthanasia
+"Tayabas Depopulation Site 445",13.9857,121.5083,CALABARZON,Tayabas,"Sta. Cruz",,2023-09-24,382,humane_euthanasia
+"Lucena Depopulation Site 446",13.8463,121.5377,CALABARZON,Lucena,,,2024-07-19,19,other
+"Santa Rosa Depopulation Site 447",14.2577,121.2137,CALABARZON,"Santa Rosa","Barangay 2",,2023-10-05,840,culling
+"Lucena Depopulation Site 448",13.9263,121.6897,CALABARZON,Lucena,"San Jose",,2024-11-13,294,humane_euthanasia
+"Tagaytay Depopulation Site 449",14.113,120.9483,CALABARZON,Tagaytay,"Barangay 1","Farm 449 - Tagaytay",2023-05-17,461,culling
+"Imus Depopulation Site 450",14.3707,120.9467,CALABARZON,Imus,Maligaya,"Farm 450 - Imus",2024-03-05,419,other
+"Antipolo Depopulation Site 451",14.6652,121.1583,CALABARZON,Antipolo,"San Isidro","Farm 451 - Antipolo",2024-12-22,390,humane_euthanasia
+"Biñan Depopulation Site 452",14.3233,121.0123,CALABARZON,Biñan,"Sta. Ana",,2023-03-13,15,culling
+"Angono Depopulation Site 453",14.6186,121.0634,CALABARZON,Angono,"Barangay 1",,2023-11-09,443,culling
+"Los Baños Depopulation Site 454",14.2347,121.2093,CALABARZON,"Los Baños","San Antonio",,2023-02-02,394,humane_euthanasia
+"Batangas City Depopulation Site 455",13.7775,121.0163,CALABARZON,"Batangas City","Sta. Cruz",,2023-11-28,288,culling
+"Antipolo Depopulation Site 456",14.5172,121.1723,CALABARZON,Antipolo,"San Miguel","Farm 456 - Antipolo",2024-10-11,513,humane_euthanasia
+"Los Baños Depopulation Site 457",14.1517,121.2893,CALABARZON,"Los Baños",,"Farm 457 - Los Baños",2023-10-09,752,other
+"Los Baños Depopulation Site 458",14.1417,121.2183,CALABARZON,"Los Baños",Villa,,2023-12-15,48,humane_euthanasia
+"Bacoor Depopulation Site 459",14.5411,121.0358,CALABARZON,Bacoor,Mabuhay,,2023-06-04,691,culling
+"Gumaca Depopulation Site 460",13.8367,122.176,CALABARZON,Gumaca,"Sta. Maria",,2024-03-09,931,humane_euthanasia
+"Biñan Depopulation Site 461",14.2713,121.0023,CALABARZON,Biñan,"Sta. Cruz","Farm 461 - Biñan",2024-05-09,79,humane_euthanasia
+"Tagaytay Depopulation Site 462",14.085,120.8683,CALABARZON,Tagaytay,Masagana,,2023-06-29,226,humane_euthanasia
+"Santa Rosa Depopulation Site 463",14.4027,121.0187,CALABARZON,"Santa Rosa",Villa,,2023-02-06,331,humane_euthanasia
+"Lipa Depopulation Site 464",13.8987,121.2073,CALABARZON,Lipa,"San Antonio","Farm 464 - Lipa",2023-03-31,976,humane_euthanasia
+"Bacoor Depopulation Site 465",14.3611,120.8938,CALABARZON,Bacoor,"Barangay 3",,2023-11-06,691,culling
+"Angono Depopulation Site 466",14.5176,121.2294,CALABARZON,Angono,,"Farm 466 - Angono",2023-05-23,792,humane_euthanasia
+"Tanauan Depopulation Site 467",14.1523,121.176,CALABARZON,Tanauan,"San Isidro","Farm 467 - Tanauan",2023-11-23,424,other
+"Lucena Depopulation Site 468",13.9273,121.6007,CALABARZON,Lucena,"San Isidro","Farm 468 - Lucena",2024-04-03,653,other
+"Tanauan Depopulation Site 469",13.9993,121.171,CALABARZON,Tanauan,,"Farm 469 - Tanauan",2023-09-24,789,culling
+"Batangas City Depopulation Site 470",13.6605,121.1393,CALABARZON,"Batangas City",,,2024-12-06,763,other
+"Cainta Depopulation Site 471",14.6091,121.1412,CALABARZON,Cainta,"San Antonio","Farm 471 - Cainta",2024-01-15,281,humane_euthanasia
+"Batangas City Depopulation Site 472",13.6595,121.1163,CALABARZON,"Batangas City",,"Farm 472 - Batangas City",2023-01-05,32,humane_euthanasia
+"Tayabas Depopulation Site 473",13.9747,121.6363,CALABARZON,Tayabas,"Barangay 2","Farm 473 - Tayabas",2024-07-10,32,culling
+"Angono Depopulation Site 474",14.4976,121.1984,CALABARZON,Angono,"San Jose","Farm 474 - Angono",2023-04-03,159,culling
+"Lipa Depopulation Site 475",13.9737,121.1423,CALABARZON,Lipa,,"Farm 475 - Lipa",2024-06-16,696,other
+"Dasmarinas Depopulation Site 476",14.3244,120.9077,CALABARZON,Dasmarinas,Poblacion,"Farm 476 - Dasmarinas",2023-12-10,886,culling
+"Santa Rosa Depopulation Site 477",14.3847,121.0647,CALABARZON,"Santa Rosa","San Jose",,2023-07-29,120,other
+"Cavite City Depopulation Site 478",14.4813,120.964,CALABARZON,"Cavite City","Sta. Maria","Farm 478 - Cavite City",2023-12-08,694,other
+"Santa Rosa Depopulation Site 479",14.4077,121.1467,CALABARZON,"Santa Rosa","San Jose",,2023-08-15,87,culling
+"Gumaca Depopulation Site 480",13.9047,122.053,CALABARZON,Gumaca,,,2023-01-04,601,other
+"Lipa Depopulation Site 481",13.8657,121.2113,CALABARZON,Lipa,Pangarap,,2024-11-13,158,humane_euthanasia
+"Los Baños Depopulation Site 482",14.0807,121.1783,CALABARZON,"Los Baños","San Jose",,2023-12-13,862,humane_euthanasia
+"Tagaytay Depopulation Site 483",14.192,121.0043,CALABARZON,Tagaytay,Maligaya,,2024-03-02,375,culling
+"Lipa Depopulation Site 484",13.9477,121.2553,CALABARZON,Lipa,Maligaya,,2023-02-03,12,culling
+"Batangas City Depopulation Site 485",13.7655,121.1503,CALABARZON,"Batangas City","Barangay 1","Farm 485 - Batangas City",2024-01-20,927,culling
+"Taytay Depopulation Site 486",14.5247,121.0753,CALABARZON,Taytay,,"Farm 486 - Taytay",2023-01-30,997,humane_euthanasia
+"Calamba Depopulation Site 487",14.2281,121.1633,CALABARZON,Calamba,Bagumbayan,"Farm 487 - Calamba",2024-03-05,315,other
+"Cavite City Depopulation Site 488",14.5653,120.874,CALABARZON,"Cavite City",Maligaya,"Farm 488 - Cavite City",2024-08-16,549,other
+"Gumaca Depopulation Site 489",13.8927,122.04,CALABARZON,Gumaca,"San Jose",,2024-07-19,921,culling
+"Tagaytay Depopulation Site 490",14.136,120.9293,CALABARZON,Tagaytay,"San Roque",,2024-04-17,462,culling
+"Bacoor Depopulation Site 491",14.5041,120.8798,CALABARZON,Bacoor,Sampaguita,"Farm 491 - Bacoor",2024-07-02,984,other
+"Gumaca Depopulation Site 492",13.9247,122.045,CALABARZON,Gumaca,Villa,"Farm 492 - Gumaca",2023-09-13,486,culling
+"Dasmarinas Depopulation Site 493",14.2344,120.8577,CALABARZON,Dasmarinas,Bagumbayan,"Farm 493 - Dasmarinas",2023-03-10,928,culling
+"Batangas City Depopulation Site 494",13.7475,121.1283,CALABARZON,"Batangas City",,"Farm 494 - Batangas City",2023-08-02,819,other
+"Tanauan Depopulation Site 495",14.0143,121.151,CALABARZON,Tanauan,,"Farm 495 - Tanauan",2023-11-12,519,humane_euthanasia
+"Cavite City Depopulation Site 496",14.5483,120.955,CALABARZON,"Cavite City",Bagumbayan,,2024-11-25,546,other
+"Tagaytay Depopulation Site 497",14.166,120.9433,CALABARZON,Tagaytay,"Barangay 3",,2024-04-03,616,other
+"Batangas City Depopulation Site 498",13.8445,121.0193,CALABARZON,"Batangas City","San Miguel",,2024-06-07,537,culling
+"Cainta Depopulation Site 499",14.5321,121.0322,CALABARZON,Cainta,Poblacion,"Farm 499 - Cainta",2024-09-30,47,humane_euthanasia
+"Bacoor Depopulation Site 500",14.4671,121.0188,CALABARZON,Bacoor,"Bagong Silang","Farm 500 - Bacoor",2023-03-01,421,culling

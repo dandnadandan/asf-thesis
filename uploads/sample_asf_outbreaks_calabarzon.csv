@@ -1,0 +1,501 @@
+location_name,latitude,longitude,province,city,barangay,farm_name,farm_type,outbreak_date,reported_date,status,total_pigs_affected,total_pigs_mortality,total_pigs_depopulated,severity_level
+"Dasmarinas Area 1",14.2324,120.8427,CALABARZON,Dasmarinas,Maligaya,"Farm 1 - Dasmarinas",backyard,2023-07-21,"2023-07-23 07:00:00",confirmed,322,239,270,low
+"Tagaytay Area 2",14.155,120.9863,CALABARZON,Tagaytay,,"Farm 2 - Tagaytay",semi-commercial,2023-01-04,"2023-01-05 14:00:00",false_alarm,247,28,221,high
+"Los Baños Area 3",14.1357,121.2783,CALABARZON,"Los Baños",Mabuhay,,commercial,2024-05-09,"2024-05-09 14:00:00",confirmed,106,84,5,medium
+"Calamba Area 4",14.2181,121.2243,CALABARZON,Calamba,"San Miguel",,backyard,2023-08-15,"2023-08-16 08:00:00",confirmed,278,67,41,medium
+"Angono Area 5",14.5416,121.2484,CALABARZON,Angono,"San Jose","Farm 5 - Angono",commercial,2024-04-16,"2024-04-18 08:00:00",confirmed,262,25,104,
+"Los Baños Area 6",14.0837,121.1633,CALABARZON,"Los Baños","Sta. Ana","Farm 6 - Los Baños",wild_boar,2024-04-30,"2024-05-01 23:00:00",false_alarm,485,141,406,medium
+"Gumaca Area 7",14.0017,122.026,CALABARZON,Gumaca,"San Isidro",,backyard,2024-05-09,"2024-05-09 12:00:00",false_alarm,80,39,50,high
+"Lipa Area 8",13.9877,121.0883,CALABARZON,Lipa,"Barangay 2","Farm 8 - Lipa",backyard,2024-03-01,"2024-03-03 03:00:00",contained,274,22,205,
+"Lucena Area 9",13.9693,121.7057,CALABARZON,Lucena,,,semi-commercial,2024-10-23,"2024-10-24 01:00:00",resolved,474,94,269,low
+"Batangas City Area 10",13.6975,121.1513,CALABARZON,"Batangas City",Pangarap,"Farm 10 - Batangas City",backyard,2023-10-27,"2023-10-28 19:00:00",false_alarm,247,190,114,high
+"Tagaytay Area 11",14.062,120.9633,CALABARZON,Tagaytay,Pangarap,"Farm 11 - Tagaytay",commercial,2024-04-10,"2024-04-11 13:00:00",contained,5,2,2,
+"Tayabas Area 12",13.9347,121.5773,CALABARZON,Tayabas,"San Jose","Farm 12 - Tayabas",commercial,2023-11-20,"2023-11-20 01:00:00",contained,34,6,12,
+"Calamba Area 13",14.2331,121.1863,CALABARZON,Calamba,Villa,,backyard,2024-06-21,"2024-06-21 01:00:00",confirmed,460,181,313,
+"Lipa Area 14",13.8467,121.2023,CALABARZON,Lipa,"San Miguel","Farm 14 - Lipa",commercial,2024-12-17,"2024-12-18 01:00:00",confirmed,433,185,24,medium
+"Tayabas Area 15",14.0357,121.6833,CALABARZON,Tayabas,"San Roque",,semi-commercial,2024-08-22,"2024-08-23 00:00:00",contained,329,185,145,medium
+"Antipolo Area 16",14.5152,121.2293,CALABARZON,Antipolo,"San Antonio","Farm 16 - Antipolo",backyard,2024-10-11,"2024-10-13 20:00:00",contained,203,87,187,
+"Dasmarinas Area 17",14.2514,121.0047,CALABARZON,Dasmarinas,"Sta. Cruz",,semi-commercial,2024-05-23,"2024-05-23 09:00:00",confirmed,464,35,48,low
+"Biñan Area 18",14.3403,121.0203,CALABARZON,Biñan,Mabuhay,"Farm 18 - Biñan",semi-commercial,2023-05-12,"2023-05-13 08:00:00",contained,293,174,145,medium
+"Santa Rosa Area 19",14.3957,121.0207,CALABARZON,"Santa Rosa",,"Farm 19 - Santa Rosa",wild_boar,2024-10-06,"2024-10-08 15:00:00",contained,286,31,12,low
+"Biñan Area 20",14.2993,121.1563,CALABARZON,Biñan,,,wild_boar,2023-06-24,"2023-06-26 10:00:00",contained,431,52,186,high
+"Biñan Area 21",14.2883,121.1193,CALABARZON,Biñan,"Barangay 1",,wild_boar,2024-11-11,"2024-11-13 12:00:00",confirmed,21,10,16,
+"Bacoor Area 22",14.4291,120.8888,CALABARZON,Bacoor,"Barangay 3",,semi-commercial,2023-07-15,"2023-07-16 08:00:00",confirmed,25,20,6,high
+"Calamba Area 23",14.1461,121.2163,CALABARZON,Calamba,"Barangay 2","Farm 23 - Calamba",backyard,2024-01-12,"2024-01-13 23:00:00",false_alarm,151,112,1,high
+"Cainta Area 24",14.6501,121.0842,CALABARZON,Cainta,Villa,,commercial,2024-10-05,"2024-10-06 18:00:00",suspected,490,380,248,medium
+"Tagaytay Area 25",14.106,120.8813,CALABARZON,Tagaytay,,"Farm 25 - Tagaytay",backyard,2024-09-04,"2024-09-04 03:00:00",confirmed,56,12,37,
+"Antipolo Area 26",14.5212,121.1613,CALABARZON,Antipolo,"San Jose",,wild_boar,2024-02-23,"2024-02-24 16:00:00",suspected,314,143,138,low
+"Santa Rosa Area 27",14.3667,121.2077,CALABARZON,"Santa Rosa","Sta. Maria","Farm 27 - Santa Rosa",wild_boar,2023-06-12,"2023-06-14 08:00:00",resolved,307,70,189,high
+"Santa Rosa Area 28",14.2237,121.1317,CALABARZON,"Santa Rosa",,"Farm 28 - Santa Rosa",wild_boar,2023-04-17,"2023-04-18 11:00:00",false_alarm,476,360,4,high
+"San Pedro Area 29",14.3167,121.057,CALABARZON,"San Pedro",Villa,"Farm 29 - San Pedro",commercial,2023-03-26,"2023-03-28 04:00:00",resolved,414,272,159,high
+"Antipolo Area 30",14.5322,121.1383,CALABARZON,Antipolo,"Sta. Ana","Farm 30 - Antipolo",backyard,2023-04-16,"2023-04-16 18:00:00",false_alarm,281,85,77,
+"Tayabas Area 31",14.1117,121.4983,CALABARZON,Tayabas,"San Antonio",,commercial,2024-07-08,"2024-07-10 17:00:00",confirmed,172,27,155,high
+"Bacoor Area 32",14.4401,120.8588,CALABARZON,Bacoor,Pangarap,"Farm 32 - Bacoor",backyard,2023-09-30,"2023-10-01 11:00:00",resolved,363,263,75,low
+"Biñan Area 33",14.3643,121.0833,CALABARZON,Biñan,"Sta. Cruz","Farm 33 - Biñan",wild_boar,2024-09-20,"2024-09-22 19:00:00",false_alarm,58,35,18,high
+"Antipolo Area 34",14.5522,121.1053,CALABARZON,Antipolo,Bagumbayan,,wild_boar,2024-02-14,"2024-02-16 07:00:00",resolved,65,20,8,
+"Los Baños Area 35",14.2407,121.1413,CALABARZON,"Los Baños",,,wild_boar,2023-03-30,"2023-04-01 09:00:00",contained,275,1,205,
+"Los Baños Area 36",14.0857,121.2213,CALABARZON,"Los Baños",Poblacion,"Farm 36 - Los Baños",backyard,2023-06-22,"2023-06-23 19:00:00",suspected,364,83,300,
+"Antipolo Area 37",14.5612,121.1733,CALABARZON,Antipolo,,"Farm 37 - Antipolo",backyard,2023-04-29,"2023-04-30 12:00:00",false_alarm,138,51,88,high
+"Lipa Area 38",13.9167,121.2193,CALABARZON,Lipa,"Barangay 3","Farm 38 - Lipa",semi-commercial,2024-06-03,"2024-06-04 15:00:00",false_alarm,75,3,23,high
+"Lucena Area 39",14.0003,121.5887,CALABARZON,Lucena,Sampaguita,"Farm 39 - Lucena",commercial,2023-08-03,"2023-08-05 12:00:00",suspected,420,156,389,medium
+"Cavite City Area 40",14.5393,120.966,CALABARZON,"Cavite City",,"Farm 40 - Cavite City",commercial,2024-04-25,"2024-04-25 09:00:00",confirmed,209,55,14,
+"Tanauan Area 41",14.1063,121.194,CALABARZON,Tanauan,"Barangay 3","Farm 41 - Tanauan",semi-commercial,2024-09-24,"2024-09-26 14:00:00",contained,280,209,190,critical
+"Taytay Area 42",14.6067,121.2033,CALABARZON,Taytay,"San Roque","Farm 42 - Taytay",semi-commercial,2024-06-19,"2024-06-21 13:00:00",contained,221,48,145,critical
+"Biñan Area 43",14.2473,120.9953,CALABARZON,Biñan,"Sta. Ana","Farm 43 - Biñan",semi-commercial,2023-01-16,"2023-01-17 14:00:00",suspected,136,45,11,high
+"Cainta Area 44",14.5711,121.2132,CALABARZON,Cainta,,,backyard,2024-06-10,"2024-06-11 21:00:00",confirmed,493,293,426,
+"Antipolo Area 45",14.4902,121.2433,CALABARZON,Antipolo,"Bagong Silang","Farm 45 - Antipolo",commercial,2023-01-03,"2023-01-04 05:00:00",confirmed,497,254,334,high
+"Dasmarinas Area 46",14.3614,120.9907,CALABARZON,Dasmarinas,,"Farm 46 - Dasmarinas",wild_boar,2023-08-14,"2023-08-15 04:00:00",suspected,5,0,5,high
+"Cainta Area 47",14.6431,121.0352,CALABARZON,Cainta,Maligaya,,semi-commercial,2024-04-30,"2024-05-01 19:00:00",false_alarm,297,197,294,
+"Bacoor Area 48",14.4641,120.9938,CALABARZON,Bacoor,,"Farm 48 - Bacoor",wild_boar,2024-10-02,"2024-10-02 19:00:00",resolved,264,85,37,critical
+"Cavite City Area 49",14.5053,120.922,CALABARZON,"Cavite City",Mabuhay,"Farm 49 - Cavite City",commercial,2023-11-03,"2023-11-04 13:00:00",contained,320,247,38,high
+"Imus Area 50",14.3497,120.8437,CALABARZON,Imus,"Sta. Cruz","Farm 50 - Imus",commercial,2024-12-09,"2024-12-10 19:00:00",contained,495,63,149,
+"Bacoor Area 51",14.5161,121.0368,CALABARZON,Bacoor,"San Jose","Farm 51 - Bacoor",wild_boar,2024-09-29,"2024-09-30 20:00:00",resolved,386,32,145,critical
+"Angono Area 52",14.4656,121.2324,CALABARZON,Angono,,,backyard,2023-11-24,"2023-11-26 00:00:00",resolved,138,31,64,critical
+"Taytay Area 53",14.6367,121.1343,CALABARZON,Taytay,Bagumbayan,"Farm 53 - Taytay",semi-commercial,2023-08-21,"2023-08-22 06:00:00",contained,315,62,221,critical
+"Dasmarinas Area 54",14.3264,120.9577,CALABARZON,Dasmarinas,Mabuhay,"Farm 54 - Dasmarinas",semi-commercial,2024-12-09,"2024-12-10 20:00:00",resolved,426,10,99,medium
+"Bacoor Area 55",14.5561,121.0308,CALABARZON,Bacoor,"Barangay 1",,wild_boar,2023-02-14,"2023-02-15 16:00:00",contained,119,36,80,low
+"Los Baños Area 56",14.0727,121.1633,CALABARZON,"Los Baños","Bagong Silang","Farm 56 - Los Baños",semi-commercial,2024-04-25,"2024-04-26 06:00:00",false_alarm,318,5,174,critical
+"Angono Area 57",14.5186,121.2064,CALABARZON,Angono,"San Isidro","Farm 57 - Angono",backyard,2024-09-19,"2024-09-21 01:00:00",contained,456,290,264,
+"San Pedro Area 58",14.4317,121.054,CALABARZON,"San Pedro",,"Farm 58 - San Pedro",commercial,2024-12-18,"2024-12-18 22:00:00",confirmed,362,32,134,low
+"Batangas City Area 59",13.7555,120.9913,CALABARZON,"Batangas City",Masagana,"Farm 59 - Batangas City",semi-commercial,2023-09-11,"2023-09-11 15:00:00",suspected,207,11,128,
+"Imus Area 60",14.3467,120.8387,CALABARZON,Imus,Bagumbayan,"Farm 60 - Imus",semi-commercial,2023-11-03,"2023-11-05 15:00:00",suspected,359,119,221,
+"Santa Rosa Area 61",14.3547,121.0237,CALABARZON,"Santa Rosa",Masagana,,semi-commercial,2024-08-29,"2024-08-29 18:00:00",confirmed,10,2,4,medium
+"Tagaytay Area 62",14.017,120.9433,CALABARZON,Tagaytay,Villa,"Farm 62 - Tagaytay",backyard,2024-06-21,"2024-06-23 01:00:00",suspected,174,64,39,medium
+"Santa Rosa Area 63",14.3447,121.1627,CALABARZON,"Santa Rosa",,,wild_boar,2024-06-20,"2024-06-21 19:00:00",contained,296,195,7,critical
+"Tanauan Area 64",14.0153,121.139,CALABARZON,Tanauan,"Barangay 2",,semi-commercial,2023-12-23,"2023-12-23 07:00:00",suspected,29,15,9,high
+"Calamba Area 65",14.3001,121.0853,CALABARZON,Calamba,,,wild_boar,2023-10-09,"2023-10-09 06:00:00",suspected,325,195,277,
+"Cainta Area 66",14.5311,121.0372,CALABARZON,Cainta,,"Farm 66 - Cainta",wild_boar,2023-01-04,"2023-01-04 15:00:00",confirmed,407,58,21,high
+"Taytay Area 67",14.6007,121.1803,CALABARZON,Taytay,"San Antonio",,semi-commercial,2023-09-14,"2023-09-15 19:00:00",suspected,143,3,137,low
+"Taytay Area 68",14.6377,121.1253,CALABARZON,Taytay,Pangarap,"Farm 68 - Taytay",commercial,2023-10-28,"2023-10-29 14:00:00",suspected,136,101,12,critical
+"Antipolo Area 69",14.6372,121.1873,CALABARZON,Antipolo,"Bagong Silang","Farm 69 - Antipolo",backyard,2024-02-29,"2024-03-02 17:00:00",confirmed,73,6,8,
+"Lucena Area 70",13.9263,121.5837,CALABARZON,Lucena,"Barangay 3","Farm 70 - Lucena",backyard,2023-01-09,"2023-01-10 13:00:00",confirmed,141,72,35,low
+"Calamba Area 71",14.1421,121.0853,CALABARZON,Calamba,Pangarap,"Farm 71 - Calamba",semi-commercial,2023-12-01,"2023-12-03 02:00:00",false_alarm,488,189,29,medium
+"Angono Area 72",14.4676,121.1954,CALABARZON,Angono,,"Farm 72 - Angono",commercial,2023-12-10,"2023-12-11 15:00:00",confirmed,186,5,8,critical
+"Cainta Area 73",14.6141,121.1312,CALABARZON,Cainta,"Sta. Cruz","Farm 73 - Cainta",wild_boar,2024-07-20,"2024-07-22 04:00:00",suspected,23,6,0,low
+"Cainta Area 74",14.6451,121.1532,CALABARZON,Cainta,"Barangay 1",,backyard,2023-09-03,"2023-09-05 13:00:00",contained,43,24,28,high
+"San Pedro Area 75",14.2777,121.016,CALABARZON,"San Pedro","Sta. Cruz",,semi-commercial,2023-07-31,"2023-08-01 01:00:00",confirmed,32,4,27,high
+"Cainta Area 76",14.6561,121.0642,CALABARZON,Cainta,"Barangay 1","Farm 76 - Cainta",commercial,2023-04-08,"2023-04-09 08:00:00",suspected,190,13,114,medium
+"Dasmarinas Area 77",14.3594,121.0357,CALABARZON,Dasmarinas,"San Roque","Farm 77 - Dasmarinas",commercial,2024-03-12,"2024-03-13 08:00:00",contained,479,254,447,
+"San Pedro Area 78",14.3987,120.968,CALABARZON,"San Pedro",Bagumbayan,"Farm 78 - San Pedro",backyard,2024-02-19,"2024-02-21 05:00:00",resolved,61,7,13,medium
+"Lucena Area 79",14.0043,121.5767,CALABARZON,Lucena,"Bagong Silang","Farm 79 - Lucena",backyard,2023-02-16,"2023-02-17 00:00:00",confirmed,69,28,49,critical
+"Imus Area 80",14.5117,120.9667,CALABARZON,Imus,"San Jose","Farm 80 - Imus",commercial,2024-12-13,"2024-12-15 09:00:00",suspected,180,50,101,high
+"Santa Rosa Area 81",14.3717,121.0517,CALABARZON,"Santa Rosa","San Miguel",,commercial,2024-10-15,"2024-10-17 04:00:00",false_alarm,460,305,210,medium
+"Cavite City Area 82",14.3903,120.865,CALABARZON,"Cavite City",,"Farm 82 - Cavite City",wild_boar,2023-11-29,"2023-11-30 21:00:00",resolved,435,126,188,critical
+"Tayabas Area 83",13.9907,121.6043,CALABARZON,Tayabas,"San Antonio","Farm 83 - Tayabas",backyard,2024-07-26,"2024-07-27 15:00:00",false_alarm,370,49,104,
+"Antipolo Area 84",14.6842,121.1353,CALABARZON,Antipolo,"Barangay 3",,semi-commercial,2024-04-03,"2024-04-04 13:00:00",resolved,248,110,70,
+"Calamba Area 85",14.2151,121.2443,CALABARZON,Calamba,"Bagong Silang",,semi-commercial,2023-11-21,"2023-11-23 06:00:00",suspected,195,44,6,high
+"Imus Area 86",14.4167,120.8977,CALABARZON,Imus,Maligaya,"Farm 86 - Imus",wild_boar,2023-10-18,"2023-10-21 00:00:00",resolved,346,4,296,low
+"Dasmarinas Area 87",14.2914,121.0177,CALABARZON,Dasmarinas,,"Farm 87 - Dasmarinas",wild_boar,2024-03-17,"2024-03-18 15:00:00",confirmed,305,185,9,low
+"Bacoor Area 88",14.5041,120.9548,CALABARZON,Bacoor,Villa,"Farm 88 - Bacoor",wild_boar,2024-04-05,"2024-04-07 01:00:00",contained,335,87,240,low
+"Antipolo Area 89",14.5452,121.1263,CALABARZON,Antipolo,Bagumbayan,,semi-commercial,2024-09-04,"2024-09-04 02:00:00",contained,44,7,36,
+"Lipa Area 90",13.9267,121.0843,CALABARZON,Lipa,Bagumbayan,,wild_boar,2023-12-26,"2023-12-26 19:00:00",contained,343,45,229,high
+"Cavite City Area 91",14.4073,120.836,CALABARZON,"Cavite City",,"Farm 91 - Cavite City",backyard,2024-12-27,"2024-12-27 10:00:00",contained,279,43,114,
+"Taytay Area 92",14.4967,121.1393,CALABARZON,Taytay,Villa,"Farm 92 - Taytay",semi-commercial,2024-07-31,"2024-08-02 18:00:00",confirmed,157,73,31,
+"Tayabas Area 93",13.9767,121.6093,CALABARZON,Tayabas,"San Antonio","Farm 93 - Tayabas",semi-commercial,2024-08-06,"2024-08-07 17:00:00",false_alarm,470,134,271,medium
+"Bacoor Area 94",14.5221,120.9228,CALABARZON,Bacoor,"San Antonio",,wild_boar,2024-05-04,"2024-05-05 16:00:00",contained,230,149,178,critical
+"Los Baños Area 95",14.1387,121.2803,CALABARZON,"Los Baños",Pangarap,,semi-commercial,2023-01-16,"2023-01-17 21:00:00",resolved,280,62,183,medium
+"Tayabas Area 96",14.0487,121.5043,CALABARZON,Tayabas,"Sta. Ana",,wild_boar,2024-08-18,"2024-08-19 12:00:00",resolved,120,40,105,high
+"Tagaytay Area 97",14.098,120.9533,CALABARZON,Tagaytay,Poblacion,"Farm 97 - Tagaytay",wild_boar,2024-10-15,"2024-10-16 19:00:00",resolved,309,5,30,high
+"Tayabas Area 98",14.0607,121.5123,CALABARZON,Tayabas,,"Farm 98 - Tayabas",backyard,2023-08-30,"2023-08-30 21:00:00",confirmed,16,8,15,low
+"Cavite City Area 99",14.5603,120.891,CALABARZON,"Cavite City","San Isidro","Farm 99 - Cavite City",semi-commercial,2023-08-15,"2023-08-15 16:00:00",suspected,152,3,11,
+"Lucena Area 100",13.9473,121.5497,CALABARZON,Lucena,"Barangay 2",,semi-commercial,2023-01-21,"2023-01-22 14:00:00",false_alarm,34,16,12,
+"Lipa Area 101",13.9947,121.1093,CALABARZON,Lipa,Poblacion,"Farm 101 - Lipa",semi-commercial,2024-06-30,"2024-07-01 12:00:00",resolved,36,12,34,high
+"Dasmarinas Area 102",14.3474,120.9027,CALABARZON,Dasmarinas,,,wild_boar,2023-07-24,"2023-07-25 19:00:00",false_alarm,487,110,89,
+"Gumaca Area 103",13.8627,122.031,CALABARZON,Gumaca,"San Roque",,wild_boar,2024-04-21,"2024-04-23 21:00:00",confirmed,450,190,168,low
+"Imus Area 104",14.4907,120.8597,CALABARZON,Imus,"Barangay 3","Farm 104 - Imus",semi-commercial,2023-02-13,"2023-02-14 20:00:00",resolved,345,49,88,critical
+"Dasmarinas Area 105",14.4254,120.8367,CALABARZON,Dasmarinas,Poblacion,,wild_boar,2024-04-11,"2024-04-13 08:00:00",contained,318,224,131,medium
+"San Pedro Area 106",14.3557,121.115,CALABARZON,"San Pedro",Pangarap,,backyard,2023-08-15,"2023-08-15 18:00:00",suspected,239,13,193,high
+"Dasmarinas Area 107",14.2754,120.9827,CALABARZON,Dasmarinas,"Bagong Silang","Farm 107 - Dasmarinas",commercial,2024-05-29,"2024-05-31 22:00:00",false_alarm,292,231,89,high
+"Santa Rosa Area 108",14.3817,121.2067,CALABARZON,"Santa Rosa","San Isidro","Farm 108 - Santa Rosa",backyard,2023-01-23,"2023-01-24 21:00:00",confirmed,265,134,135,
+"Lipa Area 109",14.0317,121.2473,CALABARZON,Lipa,"San Isidro",,commercial,2024-10-09,"2024-10-09 13:00:00",contained,103,56,74,high
+"Lipa Area 110",14.0287,121.2323,CALABARZON,Lipa,"San Jose",,backyard,2024-02-20,"2024-02-22 09:00:00",contained,342,264,191,
+"Los Baños Area 111",14.0737,121.1413,CALABARZON,"Los Baños",Masagana,"Farm 111 - Los Baños",commercial,2024-05-09,"2024-05-10 17:00:00",suspected,68,49,40,low
+"Tagaytay Area 112",14.132,120.8503,CALABARZON,Tagaytay,"San Miguel",,wild_boar,2024-08-17,"2024-08-17 18:00:00",contained,321,201,117,medium
+"Lucena Area 113",13.9893,121.6907,CALABARZON,Lucena,Masagana,,wild_boar,2024-04-08,"2024-04-10 00:00:00",contained,436,249,269,
+"Batangas City Area 114",13.7935,120.9803,CALABARZON,"Batangas City","Bagong Silang",,wild_boar,2023-04-26,"2023-04-28 02:00:00",confirmed,187,57,37,high
+"Angono Area 115",14.5986,121.2234,CALABARZON,Angono,"San Jose",,semi-commercial,2024-12-23,"2024-12-24 23:00:00",false_alarm,287,20,274,critical
+"Imus Area 116",14.3987,120.9227,CALABARZON,Imus,"San Antonio","Farm 116 - Imus",backyard,2023-07-23,"2023-07-25 17:00:00",confirmed,438,342,126,
+"Angono Area 117",14.4916,121.1904,CALABARZON,Angono,,"Farm 117 - Angono",backyard,2024-01-13,"2024-01-15 05:00:00",suspected,48,6,6,
+"Tanauan Area 118",14.0513,121.163,CALABARZON,Tanauan,"Sta. Ana",,semi-commercial,2024-01-19,"2024-01-20 19:00:00",contained,185,32,92,high
+"Cavite City Area 119",14.5233,121,CALABARZON,"Cavite City",,"Farm 119 - Cavite City",backyard,2024-02-04,"2024-02-06 06:00:00",suspected,263,112,13,
+"Bacoor Area 120",14.3751,120.9138,CALABARZON,Bacoor,Masagana,,wild_boar,2024-08-10,"2024-08-10 21:00:00",confirmed,333,82,110,
+"Batangas City Area 121",13.6685,121.1133,CALABARZON,"Batangas City",Mabuhay,"Farm 121 - Batangas City",commercial,2023-10-03,"2023-10-03 18:00:00",suspected,407,267,297,high
+"Imus Area 122",14.5057,120.9307,CALABARZON,Imus,Pangarap,"Farm 122 - Imus",semi-commercial,2023-06-11,"2023-06-13 14:00:00",resolved,497,288,189,
+"Cavite City Area 123",14.4313,120.903,CALABARZON,"Cavite City",Poblacion,,backyard,2023-12-23,"2023-12-25 09:00:00",false_alarm,312,51,220,high
+"Tanauan Area 124",14.0663,121.191,CALABARZON,Tanauan,"Barangay 3",,wild_boar,2024-06-11,"2024-06-11 13:00:00",suspected,6,1,1,
+"Tayabas Area 125",14.1087,121.5623,CALABARZON,Tayabas,"Barangay 3",,commercial,2023-01-25,"2023-01-25 04:00:00",suspected,60,28,60,critical
+"Imus Area 126",14.4167,121.0157,CALABARZON,Imus,"Bagong Silang","Farm 126 - Imus",wild_boar,2024-02-08,"2024-02-10 13:00:00",confirmed,80,36,71,high
+"Los Baños Area 127",14.2337,121.2333,CALABARZON,"Los Baños",,"Farm 127 - Los Baños",commercial,2024-03-22,"2024-03-22 18:00:00",contained,181,107,71,medium
+"Tanauan Area 128",13.9923,121.195,CALABARZON,Tanauan,Bagumbayan,"Farm 128 - Tanauan",semi-commercial,2023-04-09,"2023-04-09 20:00:00",contained,213,133,170,
+"Tanauan Area 129",14.0683,121.051,CALABARZON,Tanauan,Pangarap,,backyard,2024-12-27,"2024-12-27 15:00:00",resolved,434,96,188,
+"Los Baños Area 130",14.1267,121.1413,CALABARZON,"Los Baños","Barangay 1","Farm 130 - Los Baños",commercial,2024-06-15,"2024-06-17 14:00:00",confirmed,64,9,13,low
+"Bacoor Area 131",14.3611,121.0398,CALABARZON,Bacoor,"Bagong Silang","Farm 131 - Bacoor",commercial,2024-12-30,"2024-12-30 18:00:00",contained,484,184,383,high
+"Calamba Area 132",14.1861,121.1453,CALABARZON,Calamba,"San Antonio",,wild_boar,2023-02-19,"2023-02-20 23:00:00",contained,128,46,25,high
+"Biñan Area 133",14.3963,121.0413,CALABARZON,Biñan,Bagumbayan,,wild_boar,2023-08-18,"2023-08-18 07:00:00",false_alarm,414,60,259,critical
+"Angono Area 134",14.4716,121.0654,CALABARZON,Angono,"San Isidro",,semi-commercial,2024-04-26,"2024-04-28 17:00:00",contained,179,29,68,
+"Cavite City Area 135",14.4213,120.925,CALABARZON,"Cavite City","Barangay 3",,semi-commercial,2023-06-21,"2023-06-23 05:00:00",suspected,290,41,226,critical
+"Cavite City Area 136",14.4253,120.9,CALABARZON,"Cavite City",Sampaguita,,semi-commercial,2024-09-02,"2024-09-03 14:00:00",resolved,166,58,139,
+"Tayabas Area 137",14.0037,121.6583,CALABARZON,Tayabas,"Barangay 3",,wild_boar,2024-07-26,"2024-07-28 02:00:00",false_alarm,207,139,67,
+"Cainta Area 138",14.4781,121.1152,CALABARZON,Cainta,Masagana,"Farm 138 - Cainta",backyard,2024-09-22,"2024-09-22 06:00:00",resolved,494,152,341,
+"Tayabas Area 139",13.9577,121.5733,CALABARZON,Tayabas,Mabuhay,"Farm 139 - Tayabas",backyard,2024-01-07,"2024-01-08 20:00:00",confirmed,480,97,202,low
+"Tagaytay Area 140",14.012,120.9073,CALABARZON,Tagaytay,,"Farm 140 - Tagaytay",wild_boar,2024-06-11,"2024-06-12 07:00:00",confirmed,442,36,177,medium
+"Taytay Area 141",14.6437,121.1633,CALABARZON,Taytay,Sampaguita,"Farm 141 - Taytay",commercial,2024-05-07,"2024-05-08 19:00:00",false_alarm,322,181,225,
+"Imus Area 142",14.5107,120.9117,CALABARZON,Imus,,"Farm 142 - Imus",wild_boar,2024-12-15,"2024-12-15 19:00:00",confirmed,399,37,208,critical
+"Cainta Area 143",14.4921,121.1212,CALABARZON,Cainta,Bagumbayan,,commercial,2024-04-22,"2024-04-22 09:00:00",contained,73,2,33,low
+"Cavite City Area 144",14.5443,120.984,CALABARZON,"Cavite City","Barangay 2","Farm 144 - Cavite City",backyard,2024-09-07,"2024-09-07 07:00:00",suspected,386,49,295,high
+"Los Baños Area 145",14.1117,121.1553,CALABARZON,"Los Baños",,,semi-commercial,2024-10-30,"2024-11-01 15:00:00",confirmed,83,26,35,critical
+"Bacoor Area 146",14.4351,121.0008,CALABARZON,Bacoor,"San Roque",,semi-commercial,2024-05-01,"2024-05-01 00:00:00",resolved,393,72,257,critical
+"San Pedro Area 147",14.4207,121.031,CALABARZON,"San Pedro",,"Farm 147 - San Pedro",backyard,2023-09-02,"2023-09-03 09:00:00",resolved,114,18,42,medium
+"Cavite City Area 148",14.4403,120.941,CALABARZON,"Cavite City",Sampaguita,,wild_boar,2024-04-13,"2024-04-15 00:00:00",contained,240,177,82,
+"Batangas City Area 149",13.7575,120.9663,CALABARZON,"Batangas City",,"Farm 149 - Batangas City",commercial,2024-05-17,"2024-05-17 08:00:00",confirmed,145,101,19,critical
+"Batangas City Area 150",13.7005,121.1233,CALABARZON,"Batangas City",Villa,,commercial,2024-01-20,"2024-01-22 01:00:00",suspected,468,21,65,
+"Angono Area 151",14.5476,121.2064,CALABARZON,Angono,,,wild_boar,2023-10-28,"2023-10-29 20:00:00",false_alarm,331,179,302,low
+"San Pedro Area 152",14.3997,120.961,CALABARZON,"San Pedro","Sta. Maria",,backyard,2023-02-22,"2023-02-24 09:00:00",resolved,178,142,33,low
+"Lucena Area 153",13.8783,121.5247,CALABARZON,Lucena,,"Farm 153 - Lucena",wild_boar,2023-05-11,"2023-05-13 01:00:00",confirmed,30,16,30,
+"Taytay Area 154",14.6387,121.2153,CALABARZON,Taytay,"San Antonio",,backyard,2023-07-18,"2023-07-19 10:00:00",resolved,483,192,340,
+"Cavite City Area 155",14.3993,120.943,CALABARZON,"Cavite City","Bagong Silang",,semi-commercial,2023-07-28,"2023-07-30 04:00:00",confirmed,283,41,244,low
+"Los Baños Area 156",14.2217,121.3223,CALABARZON,"Los Baños","Barangay 3","Farm 156 - Los Baños",wild_boar,2024-07-26,"2024-07-27 07:00:00",suspected,368,223,290,
+"Lipa Area 157",13.9277,121.1303,CALABARZON,Lipa,"San Isidro","Farm 157 - Lipa",semi-commercial,2023-05-18,"2023-05-19 14:00:00",false_alarm,43,32,41,
+"Lipa Area 158",13.8547,121.0803,CALABARZON,Lipa,,,backyard,2024-03-17,"2024-03-18 02:00:00",suspected,459,127,300,
+"Antipolo Area 159",14.5622,121.0893,CALABARZON,Antipolo,"San Isidro","Farm 159 - Antipolo",wild_boar,2024-02-26,"2024-02-28 00:00:00",resolved,295,117,37,low
+"Biñan Area 160",14.3533,121.1193,CALABARZON,Biñan,"San Miguel","Farm 160 - Biñan",commercial,2024-01-22,"2024-01-23 04:00:00",confirmed,274,117,117,critical
+"Antipolo Area 161",14.5092,121.1043,CALABARZON,Antipolo,"San Roque","Farm 161 - Antipolo",semi-commercial,2024-10-31,"2024-11-02 20:00:00",contained,168,15,168,
+"Tanauan Area 162",13.9993,121.232,CALABARZON,Tanauan,,"Farm 162 - Tanauan",wild_boar,2023-09-02,"2023-09-02 19:00:00",confirmed,34,8,5,
+"Tanauan Area 163",14.1323,121.091,CALABARZON,Tanauan,"San Roque","Farm 163 - Tanauan",semi-commercial,2023-06-21,"2023-06-21 16:00:00",false_alarm,82,33,20,
+"Taytay Area 164",14.5247,121.1883,CALABARZON,Taytay,"San Isidro","Farm 164 - Taytay",backyard,2023-12-22,"2023-12-24 15:00:00",resolved,240,40,185,low
+"San Pedro Area 165",14.4617,121.031,CALABARZON,"San Pedro",,"Farm 165 - San Pedro",backyard,2024-01-27,"2024-01-27 05:00:00",suspected,450,200,385,low
+"Antipolo Area 166",14.4892,121.2163,CALABARZON,Antipolo,,"Farm 166 - Antipolo",wild_boar,2024-12-30,"2024-12-31 22:00:00",resolved,403,239,335,critical
+"Cavite City Area 167",14.4143,120.96,CALABARZON,"Cavite City",Mabuhay,"Farm 167 - Cavite City",semi-commercial,2024-04-29,"2024-04-30 06:00:00",contained,137,62,122,low
+"Antipolo Area 168",14.6062,121.2693,CALABARZON,Antipolo,"San Miguel",,semi-commercial,2024-05-24,"2024-05-26 20:00:00",false_alarm,435,63,322,
+"Calamba Area 169",14.2871,121.1193,CALABARZON,Calamba,,"Farm 169 - Calamba",commercial,2024-12-01,"2024-12-01 23:00:00",suspected,498,293,310,medium
+"Biñan Area 170",14.3733,121.1093,CALABARZON,Biñan,"Barangay 2","Farm 170 - Biñan",commercial,2023-05-18,"2023-05-18 02:00:00",contained,491,218,303,
+"Lipa Area 171",13.9167,121.1503,CALABARZON,Lipa,,,backyard,2024-08-04,"2024-08-06 23:00:00",false_alarm,56,3,28,high
+"Angono Area 172",14.5396,121.2274,CALABARZON,Angono,"Sta. Cruz","Farm 172 - Angono",commercial,2023-12-05,"2023-12-07 21:00:00",suspected,313,107,312,medium
+"Los Baños Area 173",14.2077,121.2163,CALABARZON,"Los Baños",,"Farm 173 - Los Baños",commercial,2024-11-21,"2024-11-21 01:00:00",contained,57,1,56,high
+"Angono Area 174",14.4516,121.2024,CALABARZON,Angono,"San Miguel","Farm 174 - Angono",wild_boar,2023-11-15,"2023-11-15 13:00:00",confirmed,89,39,4,critical
+"Gumaca Area 175",13.8807,122.145,CALABARZON,Gumaca,Villa,,commercial,2023-11-22,"2023-11-22 12:00:00",contained,236,8,24,high
+"Cavite City Area 176",14.4103,120.861,CALABARZON,"Cavite City",Pangarap,"Farm 176 - Cavite City",semi-commercial,2024-04-02,"2024-04-03 23:00:00",resolved,237,0,66,high
+"Biñan Area 177",14.2573,121.0213,CALABARZON,Biñan,,,backyard,2023-08-18,"2023-08-20 14:00:00",false_alarm,468,1,200,
+"Dasmarinas Area 178",14.2564,120.8787,CALABARZON,Dasmarinas,"Bagong Silang",,wild_boar,2024-03-19,"2024-03-20 17:00:00",resolved,355,175,66,high
+"Cavite City Area 179",14.5633,120.883,CALABARZON,"Cavite City",,"Farm 179 - Cavite City",semi-commercial,2024-05-04,"2024-05-04 04:00:00",confirmed,128,101,127,medium
+"Calamba Area 180",14.1391,121.1273,CALABARZON,Calamba,"Sta. Cruz","Farm 180 - Calamba",wild_boar,2024-02-20,"2024-02-21 12:00:00",contained,358,249,186,
+"Dasmarinas Area 181",14.2694,120.8597,CALABARZON,Dasmarinas,"San Isidro",,wild_boar,2023-03-26,"2023-03-28 10:00:00",resolved,310,62,52,low
+"Cavite City Area 182",14.4923,120.926,CALABARZON,"Cavite City","San Isidro","Farm 182 - Cavite City",semi-commercial,2023-07-22,"2023-07-22 23:00:00",false_alarm,153,41,105,
+"Batangas City Area 183",13.6855,121.1083,CALABARZON,"Batangas City","San Antonio","Farm 183 - Batangas City",wild_boar,2024-06-24,"2024-06-25 03:00:00",confirmed,259,36,73,
+"Calamba Area 184",14.1851,121.2143,CALABARZON,Calamba,Bagumbayan,,wild_boar,2023-10-10,"2023-10-10 12:00:00",suspected,254,194,9,critical
+"Tagaytay Area 185",14.146,121.0083,CALABARZON,Tagaytay,,,wild_boar,2024-07-01,"2024-07-02 13:00:00",resolved,383,195,96,
+"Cainta Area 186",14.6581,121.1062,CALABARZON,Cainta,"San Miguel",,commercial,2023-07-21,"2023-07-22 09:00:00",suspected,88,58,12,low
+"Taytay Area 187",14.4717,121.2013,CALABARZON,Taytay,"San Roque",,commercial,2024-11-09,"2024-11-11 13:00:00",false_alarm,455,55,304,high
+"Taytay Area 188",14.5437,121.1973,CALABARZON,Taytay,Mabuhay,,backyard,2024-04-19,"2024-04-22 00:00:00",suspected,399,43,103,critical
+"Antipolo Area 189",14.6342,121.2113,CALABARZON,Antipolo,Maligaya,,backyard,2024-01-20,"2024-01-21 18:00:00",false_alarm,122,68,5,high
+"Imus Area 190",14.5167,120.8527,CALABARZON,Imus,"Barangay 1","Farm 190 - Imus",commercial,2023-03-09,"2023-03-09 18:00:00",contained,359,208,221,high
+"Batangas City Area 191",13.7795,121.0253,CALABARZON,"Batangas City",Mabuhay,"Farm 191 - Batangas City",commercial,2023-09-13,"2023-09-13 21:00:00",suspected,241,36,144,low
+"Bacoor Area 192",14.4111,121.0388,CALABARZON,Bacoor,"Sta. Ana",,semi-commercial,2023-12-30,"2024-01-01 07:00:00",false_alarm,85,41,80,low
+"Antipolo Area 193",14.5952,121.2383,CALABARZON,Antipolo,Pangarap,,commercial,2024-05-31,"2024-05-31 23:00:00",confirmed,496,264,341,high
+"Tanauan Area 194",14.0673,121.14,CALABARZON,Tanauan,"San Miguel","Farm 194 - Tanauan",backyard,2023-12-05,"2023-12-05 04:00:00",contained,325,71,225,
+"Taytay Area 195",14.6117,121.2253,CALABARZON,Taytay,,,commercial,2023-09-10,"2023-09-10 11:00:00",confirmed,95,27,72,low
+"Los Baños Area 196",14.1457,121.2923,CALABARZON,"Los Baños",Bagumbayan,"Farm 196 - Los Baños",backyard,2024-03-08,"2024-03-09 14:00:00",false_alarm,456,255,40,high
+"Bacoor Area 197",14.5391,120.9548,CALABARZON,Bacoor,Masagana,"Farm 197 - Bacoor",commercial,2024-10-11,"2024-10-12 14:00:00",resolved,251,183,244,low
+"Cavite City Area 198",14.4513,120.989,CALABARZON,"Cavite City","San Miguel",,commercial,2024-04-30,"2024-05-01 04:00:00",false_alarm,175,78,171,medium
+"Angono Area 199",14.6096,121.0754,CALABARZON,Angono,Villa,"Farm 199 - Angono",wild_boar,2023-02-02,"2023-02-03 08:00:00",resolved,111,21,73,
+"Lipa Area 200",13.9447,121.0963,CALABARZON,Lipa,"Sta. Ana","Farm 200 - Lipa",backyard,2024-06-15,"2024-06-15 05:00:00",contained,132,102,69,medium
+"Cavite City Area 201",14.4403,120.883,CALABARZON,"Cavite City","San Roque","Farm 201 - Cavite City",semi-commercial,2024-06-06,"2024-06-06 06:00:00",confirmed,178,41,117,critical
+"Bacoor Area 202",14.4151,120.9028,CALABARZON,Bacoor,,,commercial,2024-01-01,"2024-01-03 20:00:00",false_alarm,34,13,14,low
+"Taytay Area 203",14.4837,121.1463,CALABARZON,Taytay,Bagumbayan,"Farm 203 - Taytay",commercial,2024-05-08,"2024-05-08 06:00:00",confirmed,78,60,46,critical
+"Dasmarinas Area 204",14.2564,120.8727,CALABARZON,Dasmarinas,"San Isidro",,commercial,2024-08-27,"2024-08-27 22:00:00",false_alarm,435,207,60,low
+"San Pedro Area 205",14.3137,121.051,CALABARZON,"San Pedro","Sta. Cruz",,semi-commercial,2024-05-01,"2024-05-01 11:00:00",contained,37,9,22,
+"Taytay Area 206",14.4827,121.0403,CALABARZON,Taytay,Villa,"Farm 206 - Taytay",wild_boar,2023-11-12,"2023-11-13 06:00:00",false_alarm,385,104,134,medium
+"Cainta Area 207",14.5851,121.1602,CALABARZON,Cainta,,,commercial,2023-08-10,"2023-08-12 17:00:00",confirmed,106,8,26,low
+"Santa Rosa Area 208",14.3807,121.1317,CALABARZON,"Santa Rosa","Sta. Maria",,backyard,2024-12-22,"2024-12-22 08:00:00",confirmed,294,151,3,medium
+"Lucena Area 209",13.9793,121.7037,CALABARZON,Lucena,"Sta. Cruz","Farm 209 - Lucena",commercial,2024-12-05,"2024-12-07 17:00:00",contained,413,57,166,critical
+"Lipa Area 210",14.0027,121.1843,CALABARZON,Lipa,Villa,,semi-commercial,2024-01-18,"2024-01-20 22:00:00",suspected,313,36,32,medium
+"Dasmarinas Area 211",14.2294,120.9467,CALABARZON,Dasmarinas,"San Miguel","Farm 211 - Dasmarinas",commercial,2023-12-16,"2023-12-18 06:00:00",confirmed,313,135,62,
+"Imus Area 212",14.5257,120.8847,CALABARZON,Imus,"Sta. Ana",,wild_boar,2024-09-13,"2024-09-13 13:00:00",suspected,267,9,251,
+"Antipolo Area 213",14.6232,121.1153,CALABARZON,Antipolo,,,wild_boar,2023-11-13,"2023-11-15 15:00:00",resolved,196,31,113,
+"Calamba Area 214",14.2691,121.1993,CALABARZON,Calamba,,,semi-commercial,2024-06-23,"2024-06-23 13:00:00",resolved,378,73,129,high
+"Cainta Area 215",14.6731,121.1522,CALABARZON,Cainta,"Barangay 2","Farm 215 - Cainta",wild_boar,2024-09-25,"2024-09-25 23:00:00",false_alarm,344,51,262,critical
+"Santa Rosa Area 216",14.2887,121.1747,CALABARZON,"Santa Rosa",Sampaguita,"Farm 216 - Santa Rosa",semi-commercial,2023-12-02,"2023-12-02 04:00:00",contained,434,150,228,
+"Angono Area 217",14.5806,121.1474,CALABARZON,Angono,"Sta. Cruz","Farm 217 - Angono",backyard,2023-11-23,"2023-11-23 03:00:00",confirmed,476,82,108,low
+"Taytay Area 218",14.5517,121.2183,CALABARZON,Taytay,"Bagong Silang",,semi-commercial,2024-07-12,"2024-07-12 14:00:00",false_alarm,166,77,156,
+"Calamba Area 219",14.3011,121.1263,CALABARZON,Calamba,Maligaya,"Farm 219 - Calamba",commercial,2024-11-18,"2024-11-20 17:00:00",suspected,13,3,1,
+"Imus Area 220",14.5137,120.8437,CALABARZON,Imus,,"Farm 220 - Imus",commercial,2023-10-15,"2023-10-16 12:00:00",resolved,168,39,140,critical
+"Batangas City Area 221",13.8375,121.1093,CALABARZON,"Batangas City",Mabuhay,"Farm 221 - Batangas City",commercial,2024-11-20,"2024-11-20 23:00:00",confirmed,382,211,143,
+"Batangas City Area 222",13.7465,121.1123,CALABARZON,"Batangas City",Maligaya,"Farm 222 - Batangas City",commercial,2024-05-06,"2024-05-08 09:00:00",suspected,463,44,60,low
+"Cainta Area 223",14.5991,121.1712,CALABARZON,Cainta,"Barangay 2","Farm 223 - Cainta",semi-commercial,2024-12-21,"2024-12-21 01:00:00",suspected,109,42,54,critical
+"Dasmarinas Area 224",14.2404,120.9687,CALABARZON,Dasmarinas,,"Farm 224 - Dasmarinas",commercial,2023-03-26,"2023-03-28 02:00:00",suspected,348,121,200,medium
+"Taytay Area 225",14.6577,121.2213,CALABARZON,Taytay,"Sta. Maria",,wild_boar,2023-08-03,"2023-08-03 08:00:00",false_alarm,458,150,151,high
+"Batangas City Area 226",13.7545,121.0453,CALABARZON,"Batangas City",Pangarap,,semi-commercial,2024-09-25,"2024-09-26 23:00:00",contained,17,11,15,medium
+"Calamba Area 227",14.2131,121.2143,CALABARZON,Calamba,Pangarap,"Farm 227 - Calamba",commercial,2024-02-14,"2024-02-16 13:00:00",resolved,279,211,157,high
+"Batangas City Area 228",13.7095,120.9713,CALABARZON,"Batangas City","San Roque",,commercial,2024-01-22,"2024-01-24 02:00:00",resolved,267,205,125,low
+"Tanauan Area 229",14.1643,121.103,CALABARZON,Tanauan,,"Farm 229 - Tanauan",wild_boar,2023-05-14,"2023-05-14 19:00:00",suspected,268,12,71,critical
+"Tanauan Area 230",14.0163,121.125,CALABARZON,Tanauan,,,semi-commercial,2023-10-15,"2023-10-16 13:00:00",resolved,434,64,344,
+"Calamba Area 231",14.1891,121.1913,CALABARZON,Calamba,,,commercial,2023-12-25,"2023-12-27 03:00:00",false_alarm,239,126,225,critical
+"Santa Rosa Area 232",14.2317,121.0957,CALABARZON,"Santa Rosa","Barangay 2","Farm 232 - Santa Rosa",backyard,2024-02-14,"2024-02-14 17:00:00",false_alarm,75,28,43,low
+"Biñan Area 233",14.3583,121.0293,CALABARZON,Biñan,Villa,"Farm 233 - Biñan",semi-commercial,2023-08-30,"2023-08-30 03:00:00",suspected,303,209,81,critical
+"Tanauan Area 234",13.9833,121.183,CALABARZON,Tanauan,"Bagong Silang",,commercial,2023-11-25,"2023-11-25 12:00:00",suspected,393,219,389,
+"San Pedro Area 235",14.4667,120.964,CALABARZON,"San Pedro",,,backyard,2024-07-31,"2024-08-02 05:00:00",suspected,17,4,2,
+"Dasmarinas Area 236",14.2304,120.9657,CALABARZON,Dasmarinas,Mabuhay,"Farm 236 - Dasmarinas",backyard,2023-10-06,"2023-10-07 19:00:00",suspected,226,58,211,critical
+"Lipa Area 237",13.9967,121.1083,CALABARZON,Lipa,"Barangay 1","Farm 237 - Lipa",semi-commercial,2023-01-02,"2023-01-02 04:00:00",contained,210,159,101,medium
+"Batangas City Area 238",13.8165,121.0373,CALABARZON,"Batangas City","Barangay 3","Farm 238 - Batangas City",semi-commercial,2023-03-12,"2023-03-13 21:00:00",contained,447,90,299,low
+"Tayabas Area 239",13.9207,121.6553,CALABARZON,Tayabas,"Barangay 1","Farm 239 - Tayabas",wild_boar,2023-11-23,"2023-11-23 17:00:00",resolved,179,115,82,
+"Lucena Area 240",13.8833,121.6247,CALABARZON,Lucena,Sampaguita,"Farm 240 - Lucena",wild_boar,2024-06-04,"2024-06-06 05:00:00",confirmed,368,124,146,low
+"Batangas City Area 241",13.7315,121.0313,CALABARZON,"Batangas City","Sta. Maria",,commercial,2023-02-21,"2023-02-21 16:00:00",confirmed,389,95,156,high
+"San Pedro Area 242",14.4547,121.007,CALABARZON,"San Pedro","Sta. Maria","Farm 242 - San Pedro",commercial,2023-10-01,"2023-10-02 06:00:00",resolved,281,58,93,
+"Antipolo Area 243",14.4912,121.1823,CALABARZON,Antipolo,Bagumbayan,"Farm 243 - Antipolo",backyard,2024-06-12,"2024-06-13 09:00:00",false_alarm,211,93,62,critical
+"Antipolo Area 244",14.6792,121.2153,CALABARZON,Antipolo,Masagana,,backyard,2023-04-07,"2023-04-08 00:00:00",suspected,478,352,1,low
+"Dasmarinas Area 245",14.3724,120.8737,CALABARZON,Dasmarinas,"Sta. Cruz","Farm 245 - Dasmarinas",backyard,2023-05-08,"2023-05-10 02:00:00",contained,164,119,8,high
+"Calamba Area 246",14.1781,121.1003,CALABARZON,Calamba,"San Jose",,semi-commercial,2024-10-30,"2024-10-31 23:00:00",contained,332,25,220,low
+"Lucena Area 247",13.9113,121.6077,CALABARZON,Lucena,"Barangay 1","Farm 247 - Lucena",semi-commercial,2023-05-13,"2023-05-14 14:00:00",false_alarm,363,235,20,medium
+"Cavite City Area 248",14.5743,120.853,CALABARZON,"Cavite City","Bagong Silang","Farm 248 - Cavite City",backyard,2023-08-17,"2023-08-17 14:00:00",resolved,12,6,7,high
+"Cainta Area 249",14.6221,121.1242,CALABARZON,Cainta,"San Isidro","Farm 249 - Cainta",commercial,2024-06-30,"2024-07-02 22:00:00",confirmed,237,108,187,high
+"Cavite City Area 250",14.5213,120.889,CALABARZON,"Cavite City","Barangay 3",,commercial,2024-02-19,"2024-02-21 00:00:00",confirmed,330,162,320,
+"Lipa Area 251",13.9847,121.1063,CALABARZON,Lipa,,"Farm 251 - Lipa",backyard,2024-12-19,"2024-12-20 05:00:00",confirmed,107,63,46,high
+"Tagaytay Area 252",14.016,121.0013,CALABARZON,Tagaytay,"Bagong Silang","Farm 252 - Tagaytay",semi-commercial,2024-04-18,"2024-04-19 12:00:00",false_alarm,72,17,45,
+"Taytay Area 253",14.5617,121.0353,CALABARZON,Taytay,Pangarap,"Farm 253 - Taytay",semi-commercial,2023-12-14,"2023-12-15 12:00:00",confirmed,442,157,87,
+"San Pedro Area 254",14.2897,120.97,CALABARZON,"San Pedro",Bagumbayan,,backyard,2024-01-06,"2024-01-06 07:00:00",contained,324,132,292,low
+"Batangas City Area 255",13.6745,121.0943,CALABARZON,"Batangas City",Masagana,"Farm 255 - Batangas City",wild_boar,2023-11-23,"2023-11-24 11:00:00",contained,415,292,240,
+"Angono Area 256",14.4946,121.0544,CALABARZON,Angono,Bagumbayan,"Farm 256 - Angono",backyard,2024-05-08,"2024-05-10 09:00:00",suspected,176,104,42,
+"Los Baños Area 257",14.2157,121.1773,CALABARZON,"Los Baños",Maligaya,"Farm 257 - Los Baños",semi-commercial,2023-07-24,"2023-07-26 14:00:00",resolved,96,29,74,
+"Calamba Area 258",14.2571,121.0963,CALABARZON,Calamba,Bagumbayan,,commercial,2024-03-19,"2024-03-20 16:00:00",resolved,437,138,113,medium
+"Gumaca Area 259",13.9527,122.108,CALABARZON,Gumaca,Villa,"Farm 259 - Gumaca",backyard,2023-05-24,"2023-05-25 13:00:00",confirmed,355,140,339,critical
+"Biñan Area 260",14.2853,121.1183,CALABARZON,Biñan,"San Miguel",,backyard,2023-10-08,"2023-10-09 02:00:00",confirmed,63,16,10,
+"San Pedro Area 261",14.3417,121.036,CALABARZON,"San Pedro",,"Farm 261 - San Pedro",commercial,2024-02-24,"2024-02-24 13:00:00",false_alarm,465,307,208,
+"Bacoor Area 262",14.5281,120.9558,CALABARZON,Bacoor,"Bagong Silang",,wild_boar,2023-08-18,"2023-08-20 00:00:00",resolved,277,183,9,
+"Cavite City Area 263",14.5363,120.844,CALABARZON,"Cavite City",Pangarap,"Farm 263 - Cavite City",semi-commercial,2024-09-05,"2024-09-07 23:00:00",suspected,73,19,7,
+"Cainta Area 264",14.5041,121.1332,CALABARZON,Cainta,"Barangay 1","Farm 264 - Cainta",semi-commercial,2023-06-27,"2023-06-29 18:00:00",confirmed,179,30,77,critical
+"Tagaytay Area 265",14.025,121.0203,CALABARZON,Tagaytay,"Sta. Cruz","Farm 265 - Tagaytay",commercial,2023-10-12,"2023-10-13 12:00:00",suspected,164,35,147,critical
+"Cavite City Area 266",14.5403,120.914,CALABARZON,"Cavite City","San Miguel","Farm 266 - Cavite City",semi-commercial,2023-10-30,"2023-11-01 12:00:00",resolved,118,32,70,high
+"Gumaca Area 267",13.9237,122.125,CALABARZON,Gumaca,"Sta. Maria",,commercial,2024-08-09,"2024-08-11 16:00:00",confirmed,116,1,12,high
+"Cainta Area 268",14.6251,121.1482,CALABARZON,Cainta,,,commercial,2023-05-12,"2023-05-14 23:00:00",contained,371,276,367,medium
+"Gumaca Area 269",13.9927,122.066,CALABARZON,Gumaca,Maligaya,"Farm 269 - Gumaca",commercial,2024-07-21,"2024-07-23 06:00:00",false_alarm,460,200,323,high
+"Bacoor Area 270",14.3721,120.9788,CALABARZON,Bacoor,,"Farm 270 - Bacoor",wild_boar,2023-11-23,"2023-11-24 23:00:00",suspected,275,125,34,high
+"Dasmarinas Area 271",14.2744,120.8897,CALABARZON,Dasmarinas,"Barangay 1","Farm 271 - Dasmarinas",backyard,2024-11-16,"2024-11-16 09:00:00",resolved,397,162,334,
+"Calamba Area 272",14.1781,121.1083,CALABARZON,Calamba,,"Farm 272 - Calamba",backyard,2023-04-13,"2023-04-13 10:00:00",confirmed,111,8,96,critical
+"Bacoor Area 273",14.5361,120.9928,CALABARZON,Bacoor,"Sta. Maria",,backyard,2024-03-03,"2024-03-05 21:00:00",suspected,35,20,22,high
+"Tanauan Area 274",13.9973,121.061,CALABARZON,Tanauan,"Sta. Cruz",,commercial,2024-03-20,"2024-03-20 01:00:00",resolved,259,36,237,
+"Angono Area 275",14.5706,121.2444,CALABARZON,Angono,"Barangay 2",,semi-commercial,2024-12-15,"2024-12-16 13:00:00",suspected,496,189,423,critical
+"Los Baños Area 276",14.0717,121.2123,CALABARZON,"Los Baños",Bagumbayan,,commercial,2023-03-13,"2023-03-13 17:00:00",resolved,135,87,15,high
+"Santa Rosa Area 277",14.3517,121.0417,CALABARZON,"Santa Rosa","Bagong Silang",,wild_boar,2023-03-02,"2023-03-03 03:00:00",resolved,181,135,116,critical
+"Dasmarinas Area 278",14.3804,120.9027,CALABARZON,Dasmarinas,"San Isidro",,commercial,2024-04-20,"2024-04-21 06:00:00",resolved,277,110,76,critical
+"Cavite City Area 279",14.4213,120.864,CALABARZON,"Cavite City","San Jose",,backyard,2024-10-13,"2024-10-15 13:00:00",resolved,273,145,186,low
+"Taytay Area 280",14.5737,121.1293,CALABARZON,Taytay,"San Isidro",,semi-commercial,2024-10-16,"2024-10-18 23:00:00",confirmed,459,98,34,
+"Tagaytay Area 281",14.131,121.0323,CALABARZON,Tagaytay,"Barangay 3","Farm 281 - Tagaytay",semi-commercial,2024-01-24,"2024-01-25 08:00:00",contained,203,157,12,medium
+"Imus Area 282",14.3827,120.8967,CALABARZON,Imus,,"Farm 282 - Imus",wild_boar,2023-05-14,"2023-05-15 13:00:00",suspected,305,71,213,low
+"Santa Rosa Area 283",14.3107,121.0977,CALABARZON,"Santa Rosa","San Jose",,backyard,2023-10-20,"2023-10-22 05:00:00",contained,268,71,94,
+"Imus Area 284",14.4807,120.9597,CALABARZON,Imus,,"Farm 284 - Imus",semi-commercial,2023-07-16,"2023-07-17 06:00:00",contained,41,2,2,low
+"Tanauan Area 285",14.0453,121.073,CALABARZON,Tanauan,Masagana,,wild_boar,2024-12-31,"2025-01-02 08:00:00",resolved,111,80,78,
+"Tagaytay Area 286",14.131,120.9143,CALABARZON,Tagaytay,,"Farm 286 - Tagaytay",semi-commercial,2023-02-03,"2023-02-05 04:00:00",suspected,484,260,229,high
+"Lipa Area 287",13.8927,121.1833,CALABARZON,Lipa,,,semi-commercial,2023-12-08,"2023-12-10 10:00:00",false_alarm,332,97,45,high
+"Tagaytay Area 288",14.177,120.9153,CALABARZON,Tagaytay,"Bagong Silang","Farm 288 - Tagaytay",commercial,2024-11-30,"2024-12-01 06:00:00",resolved,442,143,138,critical
+"Lucena Area 289",14.0003,121.6267,CALABARZON,Lucena,Villa,,backyard,2023-06-30,"2023-06-30 20:00:00",false_alarm,48,26,26,low
+"Cavite City Area 290",14.5243,120.949,CALABARZON,"Cavite City","San Isidro",,wild_boar,2023-02-07,"2023-02-08 16:00:00",false_alarm,210,41,114,low
+"Tagaytay Area 291",14.012,120.9763,CALABARZON,Tagaytay,Maligaya,,semi-commercial,2024-10-14,"2024-10-14 12:00:00",false_alarm,16,9,5,
+"Tagaytay Area 292",14.171,120.8933,CALABARZON,Tagaytay,"Bagong Silang","Farm 292 - Tagaytay",wild_boar,2023-08-15,"2023-08-15 14:00:00",contained,59,37,31,medium
+"Lipa Area 293",13.9577,121.0723,CALABARZON,Lipa,"San Antonio",,backyard,2023-12-21,"2023-12-23 01:00:00",false_alarm,136,19,126,
+"Cavite City Area 294",14.4793,120.927,CALABARZON,"Cavite City",Poblacion,"Farm 294 - Cavite City",backyard,2024-07-04,"2024-07-06 23:00:00",false_alarm,108,2,79,low
+"Tayabas Area 295",13.9327,121.6143,CALABARZON,Tayabas,"San Antonio",,commercial,2023-08-14,"2023-08-15 12:00:00",false_alarm,360,9,52,medium
+"Bacoor Area 296",14.4411,120.8558,CALABARZON,Bacoor,"Sta. Ana",,wild_boar,2024-11-10,"2024-11-10 04:00:00",contained,25,10,4,low
+"Imus Area 297",14.3727,120.8517,CALABARZON,Imus,"San Antonio","Farm 297 - Imus",semi-commercial,2024-12-21,"2024-12-22 15:00:00",suspected,219,108,137,
+"Gumaca Area 298",13.9737,122.148,CALABARZON,Gumaca,Pangarap,"Farm 298 - Gumaca",commercial,2024-09-20,"2024-09-21 03:00:00",confirmed,418,43,305,medium
+"Los Baños Area 299",14.1327,121.2063,CALABARZON,"Los Baños",Poblacion,"Farm 299 - Los Baños",commercial,2024-07-26,"2024-07-28 05:00:00",suspected,211,151,137,
+"Santa Rosa Area 300",14.3767,121.0887,CALABARZON,"Santa Rosa",,,semi-commercial,2024-02-17,"2024-02-17 00:00:00",resolved,109,36,83,critical
+"Angono Area 301",14.5986,121.0994,CALABARZON,Angono,"Barangay 2","Farm 301 - Angono",semi-commercial,2024-11-03,"2024-11-04 10:00:00",contained,189,132,80,critical
+"Tanauan Area 302",14.1293,121.247,CALABARZON,Tanauan,Pangarap,"Farm 302 - Tanauan",commercial,2023-01-16,"2023-01-16 22:00:00",suspected,371,226,331,low
+"Batangas City Area 303",13.7465,121.0283,CALABARZON,"Batangas City",,"Farm 303 - Batangas City",semi-commercial,2023-04-29,"2023-04-29 10:00:00",suspected,78,35,6,high
+"Imus Area 304",14.3577,120.9287,CALABARZON,Imus,Poblacion,,commercial,2024-09-29,"2024-09-29 12:00:00",contained,118,35,36,low
+"Dasmarinas Area 305",14.2804,120.8367,CALABARZON,Dasmarinas,,,backyard,2023-08-31,"2023-09-02 11:00:00",resolved,151,84,133,critical
+"Taytay Area 306",14.5717,121.1483,CALABARZON,Taytay,"San Antonio","Farm 306 - Taytay",commercial,2023-01-29,"2023-01-31 12:00:00",confirmed,39,14,3,low
+"Taytay Area 307",14.6397,121.1173,CALABARZON,Taytay,Masagana,"Farm 307 - Taytay",wild_boar,2024-10-18,"2024-10-18 11:00:00",resolved,124,79,4,
+"Lucena Area 308",14.0303,121.6987,CALABARZON,Lucena,Bagumbayan,,semi-commercial,2024-04-05,"2024-04-05 11:00:00",confirmed,40,20,38,high
+"Dasmarinas Area 309",14.3104,120.8507,CALABARZON,Dasmarinas,Maligaya,"Farm 309 - Dasmarinas",backyard,2024-03-02,"2024-03-04 12:00:00",suspected,320,144,8,
+"Antipolo Area 310",14.5022,121.1293,CALABARZON,Antipolo,Maligaya,"Farm 310 - Antipolo",semi-commercial,2024-07-13,"2024-07-13 10:00:00",false_alarm,9,6,2,
+"Santa Rosa Area 311",14.3627,121.1107,CALABARZON,"Santa Rosa",,"Farm 311 - Santa Rosa",backyard,2023-07-28,"2023-07-28 15:00:00",suspected,227,37,113,high
+"Dasmarinas Area 312",14.4164,120.9417,CALABARZON,Dasmarinas,,"Farm 312 - Dasmarinas",wild_boar,2023-08-30,"2023-08-30 16:00:00",resolved,333,80,191,
+"Cavite City Area 313",14.4153,120.836,CALABARZON,"Cavite City",Bagumbayan,"Farm 313 - Cavite City",wild_boar,2023-05-21,"2023-05-22 09:00:00",contained,211,134,179,high
+"Los Baños Area 314",14.1477,121.2213,CALABARZON,"Los Baños","San Miguel",,semi-commercial,2024-04-16,"2024-04-17 16:00:00",resolved,23,3,12,medium
+"Imus Area 315",14.4027,120.9777,CALABARZON,Imus,"San Roque","Farm 315 - Imus",commercial,2023-03-21,"2023-03-22 15:00:00",confirmed,458,307,359,high
+"Bacoor Area 316",14.5541,120.9018,CALABARZON,Bacoor,Maligaya,"Farm 316 - Bacoor",wild_boar,2023-08-16,"2023-08-16 07:00:00",resolved,113,81,47,medium
+"Angono Area 317",14.4666,121.1794,CALABARZON,Angono,,"Farm 317 - Angono",semi-commercial,2024-01-06,"2024-01-07 22:00:00",resolved,158,86,0,low
+"Lucena Area 318",13.9953,121.6467,CALABARZON,Lucena,"San Isidro","Farm 318 - Lucena",wild_boar,2024-05-28,"2024-05-29 08:00:00",confirmed,230,78,171,
+"Los Baños Area 319",14.1387,121.2243,CALABARZON,"Los Baños",Mabuhay,"Farm 319 - Los Baños",semi-commercial,2023-11-08,"2023-11-09 13:00:00",confirmed,45,21,11,low
+"Tagaytay Area 320",14.2,120.9363,CALABARZON,Tagaytay,Villa,"Farm 320 - Tagaytay",wild_boar,2023-01-08,"2023-01-08 18:00:00",contained,459,92,346,
+"Biñan Area 321",14.3253,121.1393,CALABARZON,Biñan,Maligaya,,semi-commercial,2023-08-13,"2023-08-15 14:00:00",false_alarm,384,66,16,medium
+"Angono Area 322",14.5116,121.1954,CALABARZON,Angono,"Barangay 3","Farm 322 - Angono",backyard,2024-02-24,"2024-02-25 23:00:00",resolved,256,54,23,high
+"Bacoor Area 323",14.3881,120.9578,CALABARZON,Bacoor,"Sta. Cruz",,backyard,2023-06-10,"2023-06-10 03:00:00",false_alarm,481,34,250,high
+"Lucena Area 324",13.9823,121.6167,CALABARZON,Lucena,"San Miguel",,semi-commercial,2023-11-20,"2023-11-21 12:00:00",false_alarm,51,2,3,critical
+"Santa Rosa Area 325",14.3297,121.0517,CALABARZON,"Santa Rosa",Sampaguita,,commercial,2023-09-21,"2023-09-23 14:00:00",contained,133,34,113,
+"Santa Rosa Area 326",14.2697,121.1287,CALABARZON,"Santa Rosa","Barangay 3",,backyard,2023-10-22,"2023-10-24 16:00:00",contained,317,59,167,medium
+"Imus Area 327",14.5117,120.9687,CALABARZON,Imus,"Sta. Cruz","Farm 327 - Imus",wild_boar,2023-01-17,"2023-01-18 09:00:00",suspected,268,0,258,
+"San Pedro Area 328",14.4217,121.025,CALABARZON,"San Pedro",Bagumbayan,"Farm 328 - San Pedro",semi-commercial,2023-03-22,"2023-03-22 18:00:00",suspected,91,11,40,
+"San Pedro Area 329",14.3047,121.044,CALABARZON,"San Pedro",,"Farm 329 - San Pedro",backyard,2024-05-12,"2024-05-14 11:00:00",resolved,283,87,154,critical
+"Bacoor Area 330",14.4491,120.8588,CALABARZON,Bacoor,Maligaya,,backyard,2023-09-10,"2023-09-12 19:00:00",suspected,62,27,27,
+"Lipa Area 331",14.0377,121.1683,CALABARZON,Lipa,"Barangay 2",,backyard,2024-12-31,"2025-01-01 22:00:00",suspected,291,181,26,medium
+"Dasmarinas Area 332",14.3044,120.8847,CALABARZON,Dasmarinas,Sampaguita,"Farm 332 - Dasmarinas",semi-commercial,2024-01-29,"2024-01-29 09:00:00",suspected,314,223,228,high
+"Los Baños Area 333",14.1467,121.2473,CALABARZON,"Los Baños","Barangay 3","Farm 333 - Los Baños",semi-commercial,2024-06-30,"2024-07-01 20:00:00",contained,431,328,272,low
+"Tayabas Area 334",13.9197,121.5213,CALABARZON,Tayabas,Villa,"Farm 334 - Tayabas",wild_boar,2023-09-08,"2023-09-10 07:00:00",confirmed,97,15,97,critical
+"Dasmarinas Area 335",14.2394,121.0157,CALABARZON,Dasmarinas,Bagumbayan,"Farm 335 - Dasmarinas",wild_boar,2024-06-28,"2024-06-30 06:00:00",resolved,181,135,81,
+"Tayabas Area 336",14.0137,121.6563,CALABARZON,Tayabas,"San Miguel","Farm 336 - Tayabas",backyard,2023-11-15,"2023-11-15 18:00:00",suspected,261,143,259,critical
+"Antipolo Area 337",14.5632,121.2393,CALABARZON,Antipolo,,,backyard,2024-04-13,"2024-04-14 23:00:00",suspected,84,17,26,critical
+"Santa Rosa Area 338",14.2577,121.1087,CALABARZON,"Santa Rosa","San Isidro","Farm 338 - Santa Rosa",wild_boar,2024-05-11,"2024-05-13 12:00:00",resolved,204,24,151,low
+"Gumaca Area 339",13.8857,122.024,CALABARZON,Gumaca,"Barangay 2",,semi-commercial,2024-03-04,"2024-03-04 05:00:00",suspected,369,217,217,high
+"Gumaca Area 340",13.9477,122.088,CALABARZON,Gumaca,,"Farm 340 - Gumaca",wild_boar,2023-05-08,"2023-05-09 17:00:00",resolved,115,60,70,medium
+"Los Baños Area 341",14.2607,121.2883,CALABARZON,"Los Baños","Bagong Silang","Farm 341 - Los Baños",semi-commercial,2024-04-28,"2024-04-28 10:00:00",false_alarm,244,22,240,high
+"Tanauan Area 342",14.1343,121.079,CALABARZON,Tanauan,"San Roque","Farm 342 - Tanauan",commercial,2024-10-31,"2024-11-01 08:00:00",false_alarm,187,94,184,critical
+"Gumaca Area 343",13.8947,122.153,CALABARZON,Gumaca,,"Farm 343 - Gumaca",wild_boar,2024-05-30,"2024-06-01 06:00:00",contained,143,32,102,
+"Los Baños Area 344",14.0667,121.2673,CALABARZON,"Los Baños",Pangarap,"Farm 344 - Los Baños",commercial,2024-12-06,"2024-12-06 09:00:00",contained,434,331,18,high
+"Tanauan Area 345",14.0263,121.124,CALABARZON,Tanauan,"Barangay 3","Farm 345 - Tanauan",wild_boar,2024-01-12,"2024-01-12 10:00:00",contained,434,156,116,
+"Lucena Area 346",13.8903,121.6687,CALABARZON,Lucena,"San Isidro","Farm 346 - Lucena",commercial,2023-10-10,"2023-10-11 02:00:00",contained,213,144,89,
+"Imus Area 347",14.3617,120.9277,CALABARZON,Imus,Masagana,"Farm 347 - Imus",semi-commercial,2023-09-29,"2023-09-29 06:00:00",confirmed,121,52,49,high
+"Lipa Area 348",14.0107,121.1883,CALABARZON,Lipa,Bagumbayan,"Farm 348 - Lipa",commercial,2024-04-24,"2024-04-26 08:00:00",resolved,180,86,100,critical
+"Santa Rosa Area 349",14.2637,121.0857,CALABARZON,"Santa Rosa",,,backyard,2024-09-07,"2024-09-08 21:00:00",suspected,413,157,190,critical
+"Lipa Area 350",13.9127,121.1403,CALABARZON,Lipa,Sampaguita,"Farm 350 - Lipa",backyard,2023-06-03,"2023-06-04 06:00:00",suspected,375,289,209,
+"Lipa Area 351",13.8607,121.1063,CALABARZON,Lipa,Poblacion,"Farm 351 - Lipa",wild_boar,2024-03-11,"2024-03-11 07:00:00",false_alarm,20,8,13,medium
+"Tagaytay Area 352",14.059,120.9853,CALABARZON,Tagaytay,,"Farm 352 - Tagaytay",backyard,2023-08-28,"2023-08-29 21:00:00",contained,389,165,91,low
+"Cavite City Area 353",14.5413,120.818,CALABARZON,"Cavite City","San Isidro","Farm 353 - Cavite City",commercial,2023-07-28,"2023-07-30 15:00:00",resolved,161,3,117,critical
+"San Pedro Area 354",14.4537,120.955,CALABARZON,"San Pedro",Poblacion,"Farm 354 - San Pedro",semi-commercial,2023-07-26,"2023-07-28 19:00:00",resolved,243,122,153,
+"Biñan Area 355",14.2873,121.1223,CALABARZON,Biñan,,,commercial,2023-11-21,"2023-11-22 17:00:00",resolved,292,107,55,
+"Antipolo Area 356",14.4862,121.1483,CALABARZON,Antipolo,"San Antonio","Farm 356 - Antipolo",semi-commercial,2023-12-17,"2023-12-17 06:00:00",resolved,233,96,65,medium
+"Batangas City Area 357",13.7655,121.0343,CALABARZON,"Batangas City","Sta. Ana","Farm 357 - Batangas City",backyard,2023-10-16,"2023-10-16 06:00:00",suspected,101,36,57,medium
+"Cainta Area 358",14.6391,121.0692,CALABARZON,Cainta,"San Roque",,wild_boar,2023-01-29,"2023-01-31 01:00:00",confirmed,294,167,176,critical
+"Tagaytay Area 359",14.032,120.9573,CALABARZON,Tagaytay,,"Farm 359 - Tagaytay",commercial,2023-11-15,"2023-11-15 05:00:00",contained,315,38,188,low
+"Tanauan Area 360",14.1583,121.226,CALABARZON,Tanauan,"Barangay 3",,commercial,2023-09-29,"2023-10-01 04:00:00",resolved,21,2,20,medium
+"Lipa Area 361",13.9987,121.1633,CALABARZON,Lipa,"San Miguel",,semi-commercial,2024-02-09,"2024-02-11 11:00:00",confirmed,115,36,106,high
+"Los Baños Area 362",14.0797,121.2263,CALABARZON,"Los Baños",,"Farm 362 - Los Baños",wild_boar,2023-04-07,"2023-04-09 21:00:00",resolved,143,7,82,
+"Santa Rosa Area 363",14.2817,121.1747,CALABARZON,"Santa Rosa","San Isidro",,semi-commercial,2023-09-06,"2023-09-07 20:00:00",confirmed,75,46,45,critical
+"Los Baños Area 364",14.2647,121.3013,CALABARZON,"Los Baños","Barangay 2","Farm 364 - Los Baños",backyard,2024-07-06,"2024-07-06 14:00:00",suspected,243,7,212,medium
+"Imus Area 365",14.3617,121.0287,CALABARZON,Imus,Villa,"Farm 365 - Imus",wild_boar,2023-01-02,"2023-01-03 22:00:00",suspected,461,2,278,medium
+"Gumaca Area 366",13.9337,122.068,CALABARZON,Gumaca,"Sta. Maria","Farm 366 - Gumaca",backyard,2024-03-31,"2024-04-01 19:00:00",contained,223,89,220,medium
+"Tanauan Area 367",14.0453,121.089,CALABARZON,Tanauan,,"Farm 367 - Tanauan",semi-commercial,2024-02-01,"2024-02-01 15:00:00",false_alarm,489,179,126,medium
+"Taytay Area 368",14.5937,121.2243,CALABARZON,Taytay,"San Roque",,commercial,2023-10-19,"2023-10-19 18:00:00",confirmed,48,7,42,medium
+"Cavite City Area 369",14.5553,120.945,CALABARZON,"Cavite City",Maligaya,"Farm 369 - Cavite City",semi-commercial,2023-08-17,"2023-08-19 14:00:00",confirmed,36,18,13,low
+"Santa Rosa Area 370",14.2367,121.0997,CALABARZON,"Santa Rosa",Bagumbayan,"Farm 370 - Santa Rosa",semi-commercial,2023-09-21,"2023-09-22 01:00:00",confirmed,455,215,1,
+"Santa Rosa Area 371",14.3267,121.1687,CALABARZON,"Santa Rosa",Maligaya,"Farm 371 - Santa Rosa",commercial,2024-06-23,"2024-06-24 06:00:00",contained,396,54,131,medium
+"Lucena Area 372",13.8353,121.7107,CALABARZON,Lucena,"Barangay 3",,semi-commercial,2023-07-20,"2023-07-22 01:00:00",contained,367,215,112,medium
+"Bacoor Area 373",14.3641,120.9098,CALABARZON,Bacoor,"Barangay 3","Farm 373 - Bacoor",backyard,2024-01-17,"2024-01-18 07:00:00",confirmed,257,188,244,medium
+"Lipa Area 374",13.8607,121.1023,CALABARZON,Lipa,"Sta. Cruz","Farm 374 - Lipa",wild_boar,2024-12-09,"2024-12-09 21:00:00",contained,498,71,277,critical
+"Dasmarinas Area 375",14.3324,120.8717,CALABARZON,Dasmarinas,"Barangay 1","Farm 375 - Dasmarinas",commercial,2023-02-14,"2023-02-14 00:00:00",resolved,434,218,275,medium
+"Antipolo Area 376",14.6142,121.2733,CALABARZON,Antipolo,"San Roque",,backyard,2023-10-15,"2023-10-16 03:00:00",confirmed,244,195,85,
+"Batangas City Area 377",13.7975,120.9833,CALABARZON,"Batangas City",Pangarap,,commercial,2024-10-14,"2024-10-16 15:00:00",suspected,78,60,14,low
+"Batangas City Area 378",13.7015,121.0383,CALABARZON,"Batangas City",Masagana,"Farm 378 - Batangas City",commercial,2023-05-26,"2023-05-27 10:00:00",false_alarm,419,264,40,low
+"Lucena Area 379",13.9923,121.6287,CALABARZON,Lucena,"Barangay 3",,wild_boar,2024-08-16,"2024-08-17 15:00:00",contained,40,27,15,high
+"Angono Area 380",14.5856,121.0884,CALABARZON,Angono,"Bagong Silang","Farm 380 - Angono",commercial,2023-12-08,"2023-12-09 07:00:00",suspected,46,17,44,low
+"Calamba Area 381",14.2411,121.2383,CALABARZON,Calamba,Villa,,commercial,2024-05-28,"2024-05-28 12:00:00",contained,103,79,45,medium
+"Antipolo Area 382",14.6752,121.2713,CALABARZON,Antipolo,"Sta. Ana","Farm 382 - Antipolo",semi-commercial,2023-04-27,"2023-04-29 08:00:00",false_alarm,279,160,97,critical
+"Antipolo Area 383",14.6562,121.1433,CALABARZON,Antipolo,"Bagong Silang","Farm 383 - Antipolo",wild_boar,2024-08-27,"2024-08-28 17:00:00",false_alarm,90,10,36,medium
+"Lucena Area 384",13.9483,121.7057,CALABARZON,Lucena,"San Isidro",,semi-commercial,2023-06-06,"2023-06-06 22:00:00",confirmed,146,23,34,critical
+"Antipolo Area 385",14.5042,121.1033,CALABARZON,Antipolo,"Sta. Ana","Farm 385 - Antipolo",semi-commercial,2023-08-07,"2023-08-09 13:00:00",contained,67,5,0,
+"Tagaytay Area 386",14.182,120.8623,CALABARZON,Tagaytay,Mabuhay,,wild_boar,2023-09-11,"2023-09-13 17:00:00",confirmed,233,124,168,
+"Cavite City Area 387",14.4113,120.973,CALABARZON,"Cavite City",Masagana,,commercial,2023-12-04,"2023-12-05 14:00:00",suspected,408,194,304,
+"Cavite City Area 388",14.5663,120.946,CALABARZON,"Cavite City","Sta. Cruz",,commercial,2023-12-01,"2023-12-01 03:00:00",suspected,268,182,16,high
+"Santa Rosa Area 389",14.2257,121.1587,CALABARZON,"Santa Rosa",Sampaguita,"Farm 389 - Santa Rosa",backyard,2023-05-13,"2023-05-13 10:00:00",resolved,286,202,111,high
+"Santa Rosa Area 390",14.2867,121.0337,CALABARZON,"Santa Rosa",Masagana,,wild_boar,2023-07-19,"2023-07-19 18:00:00",confirmed,55,34,18,high
+"Imus Area 391",14.4407,120.9707,CALABARZON,Imus,"San Antonio",,semi-commercial,2023-07-18,"2023-07-18 09:00:00",resolved,182,38,70,high
+"Imus Area 392",14.4957,121.0217,CALABARZON,Imus,Mabuhay,"Farm 392 - Imus",wild_boar,2023-06-04,"2023-06-04 16:00:00",suspected,194,115,162,high
+"Taytay Area 393",14.6437,121.1213,CALABARZON,Taytay,Pangarap,"Farm 393 - Taytay",commercial,2024-03-02,"2024-03-02 20:00:00",suspected,55,43,0,high
+"Angono Area 394",14.5026,121.0734,CALABARZON,Angono,Pangarap,"Farm 394 - Angono",semi-commercial,2024-06-23,"2024-06-23 11:00:00",false_alarm,297,152,266,
+"Batangas City Area 395",13.7955,121.0473,CALABARZON,"Batangas City","Barangay 2",,backyard,2024-12-19,"2024-12-20 21:00:00",contained,143,17,122,low
+"Lipa Area 396",13.9007,121.1823,CALABARZON,Lipa,"Sta. Cruz","Farm 396 - Lipa",wild_boar,2024-05-08,"2024-05-10 17:00:00",resolved,364,181,189,
+"Tayabas Area 397",13.9577,121.5433,CALABARZON,Tayabas,Mabuhay,,wild_boar,2023-11-17,"2023-11-17 21:00:00",suspected,479,105,153,critical
+"Bacoor Area 398",14.3941,120.9378,CALABARZON,Bacoor,Poblacion,"Farm 398 - Bacoor",semi-commercial,2023-12-20,"2023-12-21 01:00:00",suspected,245,28,110,high
+"Los Baños Area 399",14.2247,121.2403,CALABARZON,"Los Baños",Masagana,"Farm 399 - Los Baños",wild_boar,2023-07-11,"2023-07-11 05:00:00",suspected,489,93,203,medium
+"Calamba Area 400",14.1931,121.0863,CALABARZON,Calamba,Bagumbayan,"Farm 400 - Calamba",wild_boar,2023-05-26,"2023-05-27 12:00:00",confirmed,330,9,215,critical
+"Calamba Area 401",14.2521,121.1633,CALABARZON,Calamba,Bagumbayan,,backyard,2023-07-16,"2023-07-19 00:00:00",resolved,167,39,127,
+"Cainta Area 402",14.4971,121.1732,CALABARZON,Cainta,,"Farm 402 - Cainta",wild_boar,2023-05-17,"2023-05-18 02:00:00",resolved,77,7,27,
+"Gumaca Area 403",13.9037,122.039,CALABARZON,Gumaca,Maligaya,,semi-commercial,2023-11-27,"2023-11-29 11:00:00",resolved,410,21,101,low
+"Bacoor Area 404",14.4331,121.0278,CALABARZON,Bacoor,"Barangay 3","Farm 404 - Bacoor",wild_boar,2024-02-17,"2024-02-19 17:00:00",confirmed,12,1,0,
+"Cainta Area 405",14.5331,121.1152,CALABARZON,Cainta,"Barangay 3","Farm 405 - Cainta",backyard,2024-01-21,"2024-01-23 23:00:00",confirmed,176,46,20,
+"Santa Rosa Area 406",14.3147,121.1737,CALABARZON,"Santa Rosa",,,semi-commercial,2024-06-29,"2024-06-30 16:00:00",suspected,441,44,214,high
+"Biñan Area 407",14.4223,121.1813,CALABARZON,Biñan,"Barangay 2",,wild_boar,2023-12-04,"2023-12-05 00:00:00",false_alarm,335,80,327,medium
+"Santa Rosa Area 408",14.2287,121.0927,CALABARZON,"Santa Rosa","Sta. Ana","Farm 408 - Santa Rosa",wild_boar,2024-07-11,"2024-07-12 12:00:00",confirmed,332,60,248,
+"Tagaytay Area 409",14.185,120.8633,CALABARZON,Tagaytay,Maligaya,"Farm 409 - Tagaytay",wild_boar,2023-07-13,"2023-07-15 23:00:00",suspected,259,4,42,
+"Taytay Area 410",14.5897,121.1443,CALABARZON,Taytay,Poblacion,,wild_boar,2024-05-19,"2024-05-19 12:00:00",confirmed,250,2,65,
+"Angono Area 411",14.4836,121.1074,CALABARZON,Angono,Bagumbayan,,semi-commercial,2023-02-24,"2023-02-26 19:00:00",suspected,289,127,254,
+"Tagaytay Area 412",14.102,120.9553,CALABARZON,Tagaytay,"San Miguel","Farm 412 - Tagaytay",backyard,2023-11-17,"2023-11-18 17:00:00",contained,293,233,282,
+"Dasmarinas Area 413",14.2594,120.9707,CALABARZON,Dasmarinas,"San Jose",,semi-commercial,2023-06-21,"2023-06-22 17:00:00",suspected,41,5,5,medium
+"Dasmarinas Area 414",14.3944,120.8907,CALABARZON,Dasmarinas,"Barangay 1","Farm 414 - Dasmarinas",semi-commercial,2023-02-08,"2023-02-09 15:00:00",false_alarm,476,206,74,high
+"Dasmarinas Area 415",14.2894,120.8657,CALABARZON,Dasmarinas,Poblacion,"Farm 415 - Dasmarinas",backyard,2024-09-10,"2024-09-10 02:00:00",contained,133,8,100,
+"Lipa Area 416",13.9217,121.0643,CALABARZON,Lipa,"San Antonio","Farm 416 - Lipa",backyard,2024-07-21,"2024-07-22 03:00:00",false_alarm,273,143,93,
+"Angono Area 417",14.5116,121.0644,CALABARZON,Angono,,"Farm 417 - Angono",commercial,2024-01-28,"2024-01-30 19:00:00",contained,190,149,59,high
+"Tanauan Area 418",14.1353,121.175,CALABARZON,Tanauan,"Sta. Ana",,backyard,2023-05-26,"2023-05-26 16:00:00",contained,315,207,107,low
+"San Pedro Area 419",14.4387,121.104,CALABARZON,"San Pedro","San Miguel","Farm 419 - San Pedro",backyard,2023-09-26,"2023-09-27 20:00:00",false_alarm,415,92,346,medium
+"Antipolo Area 420",14.6442,121.2153,CALABARZON,Antipolo,"San Roque","Farm 420 - Antipolo",commercial,2024-06-27,"2024-06-28 02:00:00",confirmed,196,43,73,
+"Biñan Area 421",14.3103,120.9853,CALABARZON,Biñan,"Sta. Ana",,semi-commercial,2024-05-20,"2024-05-20 02:00:00",suspected,204,41,138,low
+"Santa Rosa Area 422",14.2577,121.1427,CALABARZON,"Santa Rosa","Barangay 3","Farm 422 - Santa Rosa",wild_boar,2023-03-14,"2023-03-16 11:00:00",suspected,149,103,31,high
+"Antipolo Area 423",14.6212,121.1433,CALABARZON,Antipolo,,"Farm 423 - Antipolo",backyard,2024-12-30,"2024-12-30 19:00:00",false_alarm,210,95,36,
+"Imus Area 424",14.3657,121.0007,CALABARZON,Imus,,"Farm 424 - Imus",commercial,2024-10-02,"2024-10-02 19:00:00",false_alarm,488,170,270,medium
+"Biñan Area 425",14.3023,121.0743,CALABARZON,Biñan,,"Farm 425 - Biñan",commercial,2024-02-23,"2024-02-24 19:00:00",suspected,403,71,261,low
+"San Pedro Area 426",14.4107,121.13,CALABARZON,"San Pedro","Bagong Silang","Farm 426 - San Pedro",backyard,2023-08-07,"2023-08-08 18:00:00",suspected,88,54,61,low
+"Lipa Area 427",13.9437,121.1563,CALABARZON,Lipa,"San Isidro",,wild_boar,2024-12-17,"2024-12-19 07:00:00",suspected,99,65,44,
+"Cainta Area 428",14.6121,121.0752,CALABARZON,Cainta,"Sta. Cruz",,backyard,2024-06-09,"2024-06-09 16:00:00",resolved,177,53,120,
+"Tagaytay Area 429",14.073,120.9283,CALABARZON,Tagaytay,"San Antonio","Farm 429 - Tagaytay",semi-commercial,2023-09-18,"2023-09-20 14:00:00",contained,333,23,324,medium
+"Dasmarinas Area 430",14.4004,120.9057,CALABARZON,Dasmarinas,"San Jose","Farm 430 - Dasmarinas",semi-commercial,2024-11-14,"2024-11-16 13:00:00",confirmed,44,25,1,
+"Santa Rosa Area 431",14.3357,121.2047,CALABARZON,"Santa Rosa","San Miguel","Farm 431 - Santa Rosa",semi-commercial,2023-06-21,"2023-06-21 11:00:00",resolved,248,180,126,low
+"Lipa Area 432",13.8807,121.2523,CALABARZON,Lipa,"Sta. Maria","Farm 432 - Lipa",wild_boar,2023-03-03,"2023-03-05 10:00:00",false_alarm,158,80,127,high
+"Gumaca Area 433",13.8357,122.196,CALABARZON,Gumaca,Masagana,"Farm 433 - Gumaca",wild_boar,2023-08-02,"2023-08-03 13:00:00",false_alarm,131,104,107,
+"Cavite City Area 434",14.4323,120.956,CALABARZON,"Cavite City","San Isidro","Farm 434 - Cavite City",commercial,2023-06-08,"2023-06-08 23:00:00",false_alarm,420,289,410,medium
+"Cavite City Area 435",14.4033,120.911,CALABARZON,"Cavite City","Barangay 1","Farm 435 - Cavite City",semi-commercial,2024-12-24,"2024-12-24 15:00:00",confirmed,48,31,8,critical
+"Los Baños Area 436",14.0667,121.1743,CALABARZON,"Los Baños",Poblacion,,semi-commercial,2023-06-06,"2023-06-07 02:00:00",confirmed,55,37,52,critical
+"Antipolo Area 437",14.5262,121.1423,CALABARZON,Antipolo,"Sta. Cruz","Farm 437 - Antipolo",wild_boar,2024-12-31,"2025-01-02 21:00:00",false_alarm,199,139,187,medium
+"Biñan Area 438",14.4233,121.0423,CALABARZON,Biñan,"San Miguel","Farm 438 - Biñan",backyard,2024-02-22,"2024-02-23 15:00:00",contained,19,0,9,critical
+"Bacoor Area 439",14.4241,120.9258,CALABARZON,Bacoor,,,backyard,2024-12-26,"2024-12-28 00:00:00",suspected,79,6,5,
+"Gumaca Area 440",13.8677,122.168,CALABARZON,Gumaca,,"Farm 440 - Gumaca",semi-commercial,2023-07-04,"2023-07-04 23:00:00",suspected,35,7,35,high
+"Los Baños Area 441",14.1577,121.1773,CALABARZON,"Los Baños","Sta. Cruz","Farm 441 - Los Baños",backyard,2023-07-14,"2023-07-14 00:00:00",confirmed,347,17,268,low
+"Tayabas Area 442",13.9767,121.6303,CALABARZON,Tayabas,"Barangay 1","Farm 442 - Tayabas",backyard,2024-02-07,"2024-02-08 12:00:00",resolved,326,223,130,
+"Lipa Area 443",14.0417,121.2373,CALABARZON,Lipa,"San Jose","Farm 443 - Lipa",semi-commercial,2024-09-20,"2024-09-22 09:00:00",confirmed,175,52,33,
+"Imus Area 444",14.5137,120.8507,CALABARZON,Imus,,"Farm 444 - Imus",semi-commercial,2024-08-20,"2024-08-21 14:00:00",resolved,482,229,161,medium
+"Batangas City Area 445",13.6785,121.0823,CALABARZON,"Batangas City",Mabuhay,,commercial,2023-11-27,"2023-11-29 12:00:00",contained,263,144,101,medium
+"Tanauan Area 446",14.0153,121.179,CALABARZON,Tanauan,"Barangay 2","Farm 446 - Tanauan",semi-commercial,2023-08-12,"2023-08-14 23:00:00",confirmed,17,6,8,critical
+"Bacoor Area 447",14.5011,121.0048,CALABARZON,Bacoor,,,wild_boar,2023-02-08,"2023-02-08 05:00:00",false_alarm,362,138,23,
+"Tayabas Area 448",14.0927,121.6343,CALABARZON,Tayabas,Mabuhay,"Farm 448 - Tayabas",semi-commercial,2023-03-17,"2023-03-19 02:00:00",contained,199,46,116,medium
+"Cavite City Area 449",14.4693,120.826,CALABARZON,"Cavite City",,"Farm 449 - Cavite City",semi-commercial,2023-05-30,"2023-05-31 15:00:00",suspected,314,110,267,low
+"Tanauan Area 450",14.1733,121.223,CALABARZON,Tanauan,Bagumbayan,"Farm 450 - Tanauan",wild_boar,2024-10-09,"2024-10-11 18:00:00",contained,451,128,450,critical
+"Taytay Area 451",14.5527,121.1293,CALABARZON,Taytay,Maligaya,,wild_boar,2023-10-23,"2023-10-25 15:00:00",resolved,354,145,165,
+"Antipolo Area 452",14.5032,121.1333,CALABARZON,Antipolo,"San Roque",,semi-commercial,2024-07-11,"2024-07-12 00:00:00",suspected,232,70,202,medium
+"Calamba Area 453",14.1701,121.2443,CALABARZON,Calamba,"Bagong Silang","Farm 453 - Calamba",wild_boar,2024-01-14,"2024-01-16 03:00:00",false_alarm,100,32,55,high
+"Los Baños Area 454",14.0927,121.3163,CALABARZON,"Los Baños",,"Farm 454 - Los Baños",backyard,2023-06-18,"2023-06-18 07:00:00",resolved,382,122,112,
+"Taytay Area 455",14.5437,121.1233,CALABARZON,Taytay,"Sta. Cruz",,semi-commercial,2023-10-10,"2023-10-11 22:00:00",confirmed,487,213,115,
+"Tagaytay Area 456",14.158,120.8513,CALABARZON,Tagaytay,"Sta. Maria","Farm 456 - Tagaytay",semi-commercial,2024-03-29,"2024-03-30 20:00:00",false_alarm,204,134,162,
+"Taytay Area 457",14.6437,121.0973,CALABARZON,Taytay,"Barangay 1","Farm 457 - Taytay",wild_boar,2024-06-13,"2024-06-13 02:00:00",confirmed,442,282,414,low
+"Cainta Area 458",14.6241,121.0832,CALABARZON,Cainta,Sampaguita,,semi-commercial,2024-09-27,"2024-09-29 11:00:00",suspected,248,87,191,medium
+"Bacoor Area 459",14.4831,120.8808,CALABARZON,Bacoor,Masagana,"Farm 459 - Bacoor",backyard,2023-04-24,"2023-04-24 09:00:00",false_alarm,139,4,27,low
+"Calamba Area 460",14.1831,121.2373,CALABARZON,Calamba,Pangarap,"Farm 460 - Calamba",commercial,2023-01-12,"2023-01-12 15:00:00",contained,432,162,217,critical
+"Batangas City Area 461",13.7145,121.0413,CALABARZON,"Batangas City",,"Farm 461 - Batangas City",semi-commercial,2024-04-04,"2024-04-05 06:00:00",contained,293,122,114,
+"Taytay Area 462",14.4847,121.1963,CALABARZON,Taytay,"Barangay 1","Farm 462 - Taytay",backyard,2023-11-24,"2023-11-24 09:00:00",confirmed,316,1,131,high
+"Biñan Area 463",14.4253,121.0483,CALABARZON,Biñan,Pangarap,"Farm 463 - Biñan",wild_boar,2024-10-21,"2024-10-23 16:00:00",confirmed,315,205,227,low
+"Lucena Area 464",13.8463,121.7037,CALABARZON,Lucena,Sampaguita,,commercial,2024-01-20,"2024-01-22 14:00:00",confirmed,274,203,124,low
+"Antipolo Area 465",14.6542,121.1063,CALABARZON,Antipolo,"Bagong Silang","Farm 465 - Antipolo",commercial,2024-04-06,"2024-04-07 08:00:00",false_alarm,325,42,60,low
+"Bacoor Area 466",14.5321,120.9538,CALABARZON,Bacoor,"Sta. Maria",,semi-commercial,2023-07-17,"2023-07-18 13:00:00",resolved,188,129,73,low
+"Gumaca Area 467",13.9027,122.192,CALABARZON,Gumaca,"Bagong Silang","Farm 467 - Gumaca",commercial,2024-07-30,"2024-08-01 08:00:00",false_alarm,192,103,103,critical
+"Antipolo Area 468",14.6542,121.1573,CALABARZON,Antipolo,Masagana,"Farm 468 - Antipolo",commercial,2023-02-24,"2023-02-25 20:00:00",contained,196,137,119,medium
+"Angono Area 469",14.4376,121.1944,CALABARZON,Angono,"Sta. Ana",,backyard,2024-09-19,"2024-09-20 21:00:00",false_alarm,206,87,201,medium
+"Tagaytay Area 470",14.055,120.8513,CALABARZON,Tagaytay,"Barangay 3","Farm 470 - Tagaytay",backyard,2023-05-26,"2023-05-26 01:00:00",false_alarm,430,294,399,critical
+"Calamba Area 471",14.1401,121.1373,CALABARZON,Calamba,,"Farm 471 - Calamba",commercial,2023-10-06,"2023-10-07 07:00:00",contained,193,64,183,medium
+"Dasmarinas Area 472",14.2604,120.9187,CALABARZON,Dasmarinas,"San Antonio","Farm 472 - Dasmarinas",wild_boar,2024-01-07,"2024-01-08 02:00:00",false_alarm,11,7,1,
+"Lucena Area 473",14.0063,121.5867,CALABARZON,Lucena,,"Farm 473 - Lucena",commercial,2024-05-30,"2024-06-01 02:00:00",false_alarm,293,130,7,high
+"Los Baños Area 474",14.1707,121.1633,CALABARZON,"Los Baños",Villa,,backyard,2024-12-23,"2024-12-23 20:00:00",confirmed,410,46,409,critical
+"Bacoor Area 475",14.5281,120.9988,CALABARZON,Bacoor,"Sta. Maria","Farm 475 - Bacoor",wild_boar,2024-04-17,"2024-04-18 05:00:00",confirmed,52,36,26,
+"Angono Area 476",14.5176,121.2484,CALABARZON,Angono,"San Miguel",,wild_boar,2023-06-30,"2023-06-30 15:00:00",contained,26,7,8,critical
+"Cavite City Area 477",14.5563,120.986,CALABARZON,"Cavite City","San Jose","Farm 477 - Cavite City",wild_boar,2024-12-05,"2024-12-06 00:00:00",contained,27,3,26,low
+"Santa Rosa Area 478",14.3627,121.0677,CALABARZON,"Santa Rosa",Pangarap,,backyard,2023-01-16,"2023-01-16 14:00:00",suspected,76,17,54,
+"Tanauan Area 479",13.9913,121.058,CALABARZON,Tanauan,"Sta. Maria",,wild_boar,2023-04-04,"2023-04-06 05:00:00",suspected,294,41,286,critical
+"Imus Area 480",14.4837,120.8657,CALABARZON,Imus,"Barangay 3",,backyard,2023-11-15,"2023-11-15 05:00:00",confirmed,175,54,58,
+"Lucena Area 481",13.8953,121.6667,CALABARZON,Lucena,"Sta. Ana",,wild_boar,2023-07-20,"2023-07-22 16:00:00",suspected,240,33,198,low
+"Dasmarinas Area 482",14.4214,120.8617,CALABARZON,Dasmarinas,Villa,"Farm 482 - Dasmarinas",wild_boar,2024-02-14,"2024-02-15 00:00:00",resolved,274,83,116,
+"Calamba Area 483",14.1811,121.0873,CALABARZON,Calamba,Sampaguita,,semi-commercial,2023-03-22,"2023-03-24 17:00:00",confirmed,30,7,5,low
+"Imus Area 484",14.4627,120.9827,CALABARZON,Imus,,"Farm 484 - Imus",commercial,2023-03-09,"2023-03-09 14:00:00",false_alarm,182,116,97,
+"Biñan Area 485",14.3993,121.0293,CALABARZON,Biñan,"San Jose",,wild_boar,2024-08-20,"2024-08-22 19:00:00",false_alarm,83,9,20,
+"Tanauan Area 486",14.0683,121.093,CALABARZON,Tanauan,Bagumbayan,,wild_boar,2024-04-24,"2024-04-25 23:00:00",false_alarm,322,193,119,low
+"San Pedro Area 487",14.3977,120.966,CALABARZON,"San Pedro","San Antonio","Farm 487 - San Pedro",commercial,2024-12-21,"2024-12-22 06:00:00",suspected,293,213,221,
+"Biñan Area 488",14.2443,121.0803,CALABARZON,Biñan,Bagumbayan,"Farm 488 - Biñan",commercial,2024-08-21,"2024-08-21 18:00:00",resolved,65,18,51,
+"Cavite City Area 489",14.5533,120.917,CALABARZON,"Cavite City","Sta. Maria","Farm 489 - Cavite City",wild_boar,2023-04-28,"2023-04-28 16:00:00",confirmed,230,154,162,low
+"Bacoor Area 490",14.4211,120.9918,CALABARZON,Bacoor,"San Miguel",,semi-commercial,2024-07-22,"2024-07-23 20:00:00",resolved,439,119,325,medium
+"Dasmarinas Area 491",14.3374,121.0237,CALABARZON,Dasmarinas,"Sta. Maria",,commercial,2024-06-20,"2024-06-21 05:00:00",confirmed,361,181,113,low
+"Cavite City Area 492",14.4073,120.862,CALABARZON,"Cavite City","San Jose","Farm 492 - Cavite City",commercial,2023-06-09,"2023-06-10 21:00:00",false_alarm,145,25,91,critical
+"Imus Area 493",14.4547,120.8427,CALABARZON,Imus,Bagumbayan,"Farm 493 - Imus",wild_boar,2024-01-21,"2024-01-22 05:00:00",suspected,310,15,114,
+"Biñan Area 494",14.3533,121.0093,CALABARZON,Biñan,,"Farm 494 - Biñan",semi-commercial,2023-07-05,"2023-07-06 06:00:00",suspected,330,203,323,medium
+"Lipa Area 495",14.0237,121.0943,CALABARZON,Lipa,"San Isidro","Farm 495 - Lipa",backyard,2023-08-26,"2023-08-28 01:00:00",contained,300,209,285,low
+"Tagaytay Area 496",14.082,120.8623,CALABARZON,Tagaytay,"San Isidro","Farm 496 - Tagaytay",backyard,2023-03-27,"2023-03-27 14:00:00",false_alarm,74,1,11,high
+"Cainta Area 497",14.6421,121.0512,CALABARZON,Cainta,,"Farm 497 - Cainta",commercial,2024-12-23,"2024-12-23 18:00:00",suspected,441,231,234,low
+"Antipolo Area 498",14.6322,121.1913,CALABARZON,Antipolo,Maligaya,,commercial,2024-06-18,"2024-06-20 23:00:00",contained,289,65,140,critical
+"Biñan Area 499",14.3783,121.1143,CALABARZON,Biñan,"Bagong Silang","Farm 499 - Biñan",backyard,2023-04-12,"2023-04-14 03:00:00",false_alarm,277,11,271,
+"Los Baños Area 500",14.1947,121.2223,CALABARZON,"Los Baños","Sta. Maria",,semi-commercial,2024-12-05,"2024-12-07 17:00:00",confirmed,22,5,18,medium

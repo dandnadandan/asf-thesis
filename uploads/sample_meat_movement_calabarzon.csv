@@ -1,0 +1,501 @@
+source_location,source_latitude,source_longitude,source_province,source_city,destination_location,destination_latitude,destination_longitude,destination_province,destination_city,movement_date,meat_type,quantity_kg,quantity_heads
+"Tanauan Processing Facility 1",14.0833,121.106,CALABARZON,Tanauan,"Santa Rosa Distribution Center 1",14.3027,121.1837,CALABARZON,"Santa Rosa",2024-02-15,live_animal,,66
+"Bacoor Processing Facility 2",14.4281,120.8738,CALABARZON,Bacoor,"Biñan Distribution Center 2",14.4183,120.9993,CALABARZON,Biñan,2024-11-20,processed,4342,
+"Biñan Processing Facility 3",14.2883,121.1763,CALABARZON,Biñan,"Cavite City Distribution Center 3",14.4443,120.918,CALABARZON,"Cavite City",2024-05-08,live_animal,,128
+"Batangas City Processing Facility 4",13.7315,121.0213,CALABARZON,"Batangas City","Cainta Distribution Center 4",14.5051,121.0552,CALABARZON,Cainta,2023-07-06,live_animal,,41
+"Tayabas Processing Facility 5",13.9527,121.6393,CALABARZON,Tayabas,"Tanauan Distribution Center 5",14.1653,121.136,CALABARZON,Tanauan,2024-11-22,processed,1930,
+"Lucena Processing Facility 6",13.9473,121.6497,CALABARZON,Lucena,"Taytay Distribution Center 6",14.5277,121.1313,CALABARZON,Taytay,2024-05-09,fresh,932,
+"Taytay Processing Facility 7",14.6657,121.1253,CALABARZON,Taytay,"Cavite City Distribution Center 7",14.5113,120.993,CALABARZON,"Cavite City",2024-07-16,fresh,860,
+"Calamba Processing Facility 8",14.1341,121.0653,CALABARZON,Calamba,"San Pedro Distribution Center 8",14.4277,121.075,CALABARZON,"San Pedro",2024-02-22,frozen,4178,
+"Biñan Processing Facility 9",14.3203,121.0183,CALABARZON,Biñan,"Lucena Distribution Center 9",13.8573,121.5197,CALABARZON,Lucena,2023-09-25,frozen,4998,
+"San Pedro Processing Facility 10",14.3827,121.091,CALABARZON,"San Pedro","Dasmarinas Distribution Center 10",14.2514,121.0067,CALABARZON,Dasmarinas,2024-01-18,live_animal,,18
+"Gumaca Processing Facility 11",13.9977,122.177,CALABARZON,Gumaca,"Bacoor Distribution Center 11",14.4571,120.8678,CALABARZON,Bacoor,2024-03-13,frozen,4810,
+"Biñan Processing Facility 12",14.4213,121.0013,CALABARZON,Biñan,"Tayabas Distribution Center 12",13.9287,121.4983,CALABARZON,Tayabas,2024-10-25,processed,2194,
+"Cainta Processing Facility 13",14.4781,121.1822,CALABARZON,Cainta,"Gumaca Distribution Center 13",13.9527,122.089,CALABARZON,Gumaca,2023-12-15,fresh,3465,
+"Calamba Processing Facility 14",14.1951,121.1703,CALABARZON,Calamba,"Tayabas Distribution Center 14",13.9327,121.5783,CALABARZON,Tayabas,2024-02-27,fresh,4728,
+"Lucena Processing Facility 15",13.8903,121.5867,CALABARZON,Lucena,"Cavite City Distribution Center 15",14.5413,120.827,CALABARZON,"Cavite City",2023-06-22,live_animal,,105
+"Los Baños Processing Facility 16",14.1657,121.2863,CALABARZON,"Los Baños","Cainta Distribution Center 16",14.5571,121.0372,CALABARZON,Cainta,2023-12-22,processed,128,
+"Cainta Processing Facility 17",14.5681,121.0672,CALABARZON,Cainta,"Santa Rosa Distribution Center 17",14.3227,121.1747,CALABARZON,"Santa Rosa",2023-02-27,processed,1336,
+"Calamba Processing Facility 18",14.1861,121.2173,CALABARZON,Calamba,"Batangas City Distribution Center 18",13.7795,121.0733,CALABARZON,"Batangas City",2023-10-15,processed,1756,
+"Tayabas Processing Facility 19",14.0207,121.6803,CALABARZON,Tayabas,"Antipolo Distribution Center 19",14.5562,121.1463,CALABARZON,Antipolo,2024-12-31,frozen,381,
+"Gumaca Processing Facility 20",14.0127,122.088,CALABARZON,Gumaca,"Gumaca Distribution Center 20",13.8837,122.162,CALABARZON,Gumaca,2024-04-02,frozen,1277,
+"Antipolo Processing Facility 21",14.6452,121.1253,CALABARZON,Antipolo,"Santa Rosa Distribution Center 21",14.3507,121.0417,CALABARZON,"Santa Rosa",2024-06-24,frozen,2100,
+"Biñan Processing Facility 22",14.3343,121.0223,CALABARZON,Biñan,"Antipolo Distribution Center 22",14.5952,121.2393,CALABARZON,Antipolo,2023-12-05,processed,4559,
+"Dasmarinas Processing Facility 23",14.3224,120.9857,CALABARZON,Dasmarinas,"Batangas City Distribution Center 23",13.7925,121.1173,CALABARZON,"Batangas City",2024-10-13,processed,542,
+"Tayabas Processing Facility 24",14.0437,121.6683,CALABARZON,Tayabas,"Dasmarinas Distribution Center 24",14.3534,120.8807,CALABARZON,Dasmarinas,2024-07-20,frozen,214,
+"Imus Processing Facility 25",14.4047,120.9157,CALABARZON,Imus,"Tanauan Distribution Center 25",14.0793,121.109,CALABARZON,Tanauan,2024-09-27,fresh,2118,
+"Taytay Processing Facility 26",14.6007,121.0553,CALABARZON,Taytay,"Tayabas Distribution Center 26",14.0367,121.6773,CALABARZON,Tayabas,2024-01-31,live_animal,,16
+"Los Baños Processing Facility 27",14.1087,121.2423,CALABARZON,"Los Baños","Biñan Distribution Center 27",14.2463,121.0473,CALABARZON,Biñan,2023-03-25,fresh,2769,
+"Imus Processing Facility 28",14.4817,120.8607,CALABARZON,Imus,"Biñan Distribution Center 28",14.2433,121.0523,CALABARZON,Biñan,2024-01-21,fresh,4746,
+"Los Baños Processing Facility 29",14.2257,121.2253,CALABARZON,"Los Baños","Dasmarinas Distribution Center 29",14.3944,120.8887,CALABARZON,Dasmarinas,2024-06-02,live_animal,,57
+"Cainta Processing Facility 30",14.5181,121.1752,CALABARZON,Cainta,"Batangas City Distribution Center 30",13.7385,121.1393,CALABARZON,"Batangas City",2024-09-05,frozen,2364,
+"Dasmarinas Processing Facility 31",14.2724,120.8457,CALABARZON,Dasmarinas,"Tayabas Distribution Center 31",14.0857,121.6333,CALABARZON,Tayabas,2024-04-19,live_animal,,190
+"Gumaca Processing Facility 32",13.9087,122.109,CALABARZON,Gumaca,"Los Baños Distribution Center 32",14.2657,121.1593,CALABARZON,"Los Baños",2023-10-10,frozen,815,
+"San Pedro Processing Facility 33",14.3537,121.095,CALABARZON,"San Pedro","Los Baños Distribution Center 33",14.2267,121.1763,CALABARZON,"Los Baños",2023-04-09,fresh,3962,
+"Tagaytay Processing Facility 34",14.095,121.0213,CALABARZON,Tagaytay,"Calamba Distribution Center 34",14.2231,121.2023,CALABARZON,Calamba,2023-08-08,processed,2882,
+"Bacoor Processing Facility 35",14.4061,120.8768,CALABARZON,Bacoor,"Tanauan Distribution Center 35",14.1363,121.24,CALABARZON,Tanauan,2023-06-04,frozen,1685,
+"Dasmarinas Processing Facility 36",14.2674,120.8957,CALABARZON,Dasmarinas,"Cavite City Distribution Center 36",14.5073,120.842,CALABARZON,"Cavite City",2024-11-07,live_animal,,16
+"Cainta Processing Facility 37",14.6201,121.1432,CALABARZON,Cainta,"San Pedro Distribution Center 37",14.4257,121.083,CALABARZON,"San Pedro",2023-04-01,live_animal,,126
+"Cainta Processing Facility 38",14.4801,121.1142,CALABARZON,Cainta,"Los Baños Distribution Center 38",14.0777,121.1573,CALABARZON,"Los Baños",2023-09-22,live_animal,,173
+"Cainta Processing Facility 39",14.5461,121.0332,CALABARZON,Cainta,"Los Baños Distribution Center 39",14.1767,121.3293,CALABARZON,"Los Baños",2024-06-29,processed,4962,
+"Antipolo Processing Facility 40",14.6572,121.2553,CALABARZON,Antipolo,"Dasmarinas Distribution Center 40",14.2354,120.9607,CALABARZON,Dasmarinas,2023-08-01,processed,1360,
+"Imus Processing Facility 41",14.3807,120.9357,CALABARZON,Imus,"Bacoor Distribution Center 41",14.4411,120.9488,CALABARZON,Bacoor,2024-09-04,fresh,3941,
+"Tayabas Processing Facility 42",13.9647,121.5363,CALABARZON,Tayabas,"Tanauan Distribution Center 42",14.0993,121.13,CALABARZON,Tanauan,2023-01-09,live_animal,,94
+"Batangas City Processing Facility 43",13.7295,120.9623,CALABARZON,"Batangas City","Cainta Distribution Center 43",14.6331,121.2052,CALABARZON,Cainta,2023-08-20,frozen,898,
+"Biñan Processing Facility 44",14.2513,121.1163,CALABARZON,Biñan,"Lucena Distribution Center 44",13.8963,121.5467,CALABARZON,Lucena,2024-03-02,fresh,3051,
+"Bacoor Processing Facility 45",14.5581,120.9928,CALABARZON,Bacoor,"Taytay Distribution Center 45",14.6487,121.1503,CALABARZON,Taytay,2023-08-23,frozen,2174,
+"San Pedro Processing Facility 46",14.4037,120.976,CALABARZON,"San Pedro","Santa Rosa Distribution Center 46",14.3247,121.1627,CALABARZON,"Santa Rosa",2024-10-27,frozen,1093,
+"Antipolo Processing Facility 47",14.4942,121.0913,CALABARZON,Antipolo,"San Pedro Distribution Center 47",14.3857,120.962,CALABARZON,"San Pedro",2024-12-26,fresh,826,
+"Gumaca Processing Facility 48",13.8597,122.142,CALABARZON,Gumaca,"Tagaytay Distribution Center 48",14.119,121.0033,CALABARZON,Tagaytay,2024-07-12,processed,3856,
+"Gumaca Processing Facility 49",14.0037,122.186,CALABARZON,Gumaca,"Tagaytay Distribution Center 49",14.054,121.0103,CALABARZON,Tagaytay,2024-03-21,frozen,1176,
+"Lipa Processing Facility 50",13.9277,121.2013,CALABARZON,Lipa,"Imus Distribution Center 50",14.4577,120.9017,CALABARZON,Imus,2024-12-18,processed,3147,
+"Los Baños Processing Facility 51",14.1187,121.1393,CALABARZON,"Los Baños","Cavite City Distribution Center 51",14.4083,120.876,CALABARZON,"Cavite City",2023-12-13,live_animal,,172
+"Taytay Processing Facility 52",14.6067,121.2293,CALABARZON,Taytay,"Cainta Distribution Center 52",14.6221,121.1132,CALABARZON,Cainta,2024-06-02,live_animal,,154
+"San Pedro Processing Facility 53",14.2967,121.112,CALABARZON,"San Pedro","Dasmarinas Distribution Center 53",14.4004,120.8607,CALABARZON,Dasmarinas,2024-03-04,fresh,4109,
+"Tanauan Processing Facility 54",14.0033,121.142,CALABARZON,Tanauan,"Dasmarinas Distribution Center 54",14.3254,120.9747,CALABARZON,Dasmarinas,2023-10-12,live_animal,,40
+"Gumaca Processing Facility 55",13.9667,122.162,CALABARZON,Gumaca,"Bacoor Distribution Center 55",14.5541,120.9298,CALABARZON,Bacoor,2023-03-25,fresh,2746,
+"Angono Processing Facility 56",14.6046,121.0994,CALABARZON,Angono,"Cavite City Distribution Center 56",14.5753,120.904,CALABARZON,"Cavite City",2024-06-29,fresh,2843,
+"Bacoor Processing Facility 57",14.5181,120.9498,CALABARZON,Bacoor,"Batangas City Distribution Center 57",13.6695,121.0523,CALABARZON,"Batangas City",2023-08-24,frozen,3080,
+"Los Baños Processing Facility 58",14.1707,121.2573,CALABARZON,"Los Baños","San Pedro Distribution Center 58",14.4107,121.117,CALABARZON,"San Pedro",2023-09-27,frozen,4694,
+"Los Baños Processing Facility 59",14.1527,121.1553,CALABARZON,"Los Baños","Lipa Distribution Center 59",14.0207,121.0863,CALABARZON,Lipa,2024-11-14,processed,2428,
+"Taytay Processing Facility 60",14.6427,121.1903,CALABARZON,Taytay,"Tagaytay Distribution Center 60",14.197,121.0083,CALABARZON,Tagaytay,2023-08-04,processed,1191,
+"Imus Processing Facility 61",14.4977,120.9957,CALABARZON,Imus,"Tanauan Distribution Center 61",14.0513,121.183,CALABARZON,Tanauan,2023-04-14,frozen,4436,
+"Gumaca Processing Facility 62",13.8717,122.131,CALABARZON,Gumaca,"Biñan Distribution Center 62",14.3053,121.1783,CALABARZON,Biñan,2024-10-18,frozen,1005,
+"Los Baños Processing Facility 63",14.0957,121.2733,CALABARZON,"Los Baños","Calamba Distribution Center 63",14.2961,121.1423,CALABARZON,Calamba,2024-10-26,processed,3430,
+"Lucena Processing Facility 64",13.9933,121.6887,CALABARZON,Lucena,"Lucena Distribution Center 64",13.9373,121.6447,CALABARZON,Lucena,2024-04-15,frozen,969,
+"Lipa Processing Facility 65",13.8757,121.2233,CALABARZON,Lipa,"Tanauan Distribution Center 65",14.1773,121.161,CALABARZON,Tanauan,2024-05-30,live_animal,,17
+"Dasmarinas Processing Facility 66",14.3314,120.8597,CALABARZON,Dasmarinas,"San Pedro Distribution Center 66",14.3497,121.106,CALABARZON,"San Pedro",2024-06-15,frozen,1449,
+"Calamba Processing Facility 67",14.1321,121.2023,CALABARZON,Calamba,"Cainta Distribution Center 67",14.5311,121.0642,CALABARZON,Cainta,2023-12-03,live_animal,,7
+"Calamba Processing Facility 68",14.1761,121.2233,CALABARZON,Calamba,"Taytay Distribution Center 68",14.6417,121.0523,CALABARZON,Taytay,2023-02-02,frozen,2000,
+"Tagaytay Processing Facility 69",14.116,120.9983,CALABARZON,Tagaytay,"Angono Distribution Center 69",14.4336,121.2254,CALABARZON,Angono,2024-02-26,live_animal,,17
+"Imus Processing Facility 70",14.3777,120.9187,CALABARZON,Imus,"Lucena Distribution Center 70",14.0113,121.6407,CALABARZON,Lucena,2024-06-07,fresh,3482,
+"Gumaca Processing Facility 71",13.8627,122,CALABARZON,Gumaca,"Batangas City Distribution Center 71",13.8555,121.1253,CALABARZON,"Batangas City",2023-03-22,frozen,154,
+"Calamba Processing Facility 72",14.2141,121.1353,CALABARZON,Calamba,"Santa Rosa Distribution Center 72",14.3927,121.1507,CALABARZON,"Santa Rosa",2024-06-09,processed,4988,
+"San Pedro Processing Facility 73",14.2667,121.112,CALABARZON,"San Pedro","Lipa Distribution Center 73",13.8557,121.2023,CALABARZON,Lipa,2023-10-05,frozen,779,
+"Imus Processing Facility 74",14.5187,120.9757,CALABARZON,Imus,"Tanauan Distribution Center 74",14.1533,121.198,CALABARZON,Tanauan,2024-04-06,fresh,2172,
+"Lucena Processing Facility 75",14.0073,121.6597,CALABARZON,Lucena,"Lucena Distribution Center 75",13.8843,121.6997,CALABARZON,Lucena,2023-08-09,fresh,2477,
+"Biñan Processing Facility 76",14.2913,121.1333,CALABARZON,Biñan,"Santa Rosa Distribution Center 76",14.3037,121.0877,CALABARZON,"Santa Rosa",2023-01-04,live_animal,,21
+"Angono Processing Facility 77",14.5356,121.1964,CALABARZON,Angono,"Gumaca Distribution Center 77",13.8287,122.055,CALABARZON,Gumaca,2024-12-27,fresh,2419,
+"Batangas City Processing Facility 78",13.7855,120.9663,CALABARZON,"Batangas City","Imus Distribution Center 78",14.5007,120.9417,CALABARZON,Imus,2024-03-01,fresh,4165,
+"Los Baños Processing Facility 79",14.1437,121.2923,CALABARZON,"Los Baños","Tayabas Distribution Center 79",13.9257,121.6313,CALABARZON,Tayabas,2024-08-22,processed,3277,
+"Tayabas Processing Facility 80",13.9497,121.5033,CALABARZON,Tayabas,"Lipa Distribution Center 80",14.0237,121.1933,CALABARZON,Lipa,2023-01-20,fresh,575,
+"Gumaca Processing Facility 81",13.9617,122.007,CALABARZON,Gumaca,"Tagaytay Distribution Center 81",14.082,120.9463,CALABARZON,Tagaytay,2024-10-04,live_animal,,175
+"Angono Processing Facility 82",14.4346,121.2034,CALABARZON,Angono,"Antipolo Distribution Center 82",14.5822,121.2523,CALABARZON,Antipolo,2023-05-02,processed,2841,
+"Lucena Processing Facility 83",13.9463,121.6667,CALABARZON,Lucena,"Lipa Distribution Center 83",13.9027,121.1583,CALABARZON,Lipa,2024-12-21,processed,2541,
+"Lipa Processing Facility 84",14.0097,121.2573,CALABARZON,Lipa,"Tanauan Distribution Center 84",14.1553,121.206,CALABARZON,Tanauan,2024-12-06,processed,1478,
+"Gumaca Processing Facility 85",14.0067,122.005,CALABARZON,Gumaca,"Antipolo Distribution Center 85",14.5422,121.1123,CALABARZON,Antipolo,2024-12-09,processed,1823,
+"Cavite City Processing Facility 86",14.4893,120.807,CALABARZON,"Cavite City","Santa Rosa Distribution Center 86",14.2297,121.0277,CALABARZON,"Santa Rosa",2024-10-06,frozen,4426,
+"Lucena Processing Facility 87",14.0013,121.5467,CALABARZON,Lucena,"Tagaytay Distribution Center 87",14.093,121.0333,CALABARZON,Tagaytay,2024-06-29,processed,502,
+"Santa Rosa Processing Facility 88",14.2947,121.0947,CALABARZON,"Santa Rosa","Bacoor Distribution Center 88",14.5031,120.8798,CALABARZON,Bacoor,2024-11-13,fresh,2767,
+"Santa Rosa Processing Facility 89",14.4147,121.1617,CALABARZON,"Santa Rosa","Gumaca Distribution Center 89",13.9737,122.195,CALABARZON,Gumaca,2023-01-08,frozen,407,
+"Tayabas Processing Facility 90",13.9857,121.5983,CALABARZON,Tayabas,"Cainta Distribution Center 90",14.5051,121.0992,CALABARZON,Cainta,2023-03-15,processed,2734,
+"Cavite City Processing Facility 91",14.4833,120.989,CALABARZON,"Cavite City","Santa Rosa Distribution Center 91",14.3287,121.0747,CALABARZON,"Santa Rosa",2023-09-16,live_animal,,91
+"Taytay Processing Facility 92",14.5617,121.1863,CALABARZON,Taytay,"Taytay Distribution Center 92",14.6317,121.1993,CALABARZON,Taytay,2023-05-01,fresh,2947,
+"Santa Rosa Processing Facility 93",14.3967,121.0687,CALABARZON,"Santa Rosa","Santa Rosa Distribution Center 93",14.2627,121.2097,CALABARZON,"Santa Rosa",2024-03-22,frozen,3885,
+"Antipolo Processing Facility 94",14.5402,121.1463,CALABARZON,Antipolo,"Cavite City Distribution Center 94",14.4333,120.84,CALABARZON,"Cavite City",2023-10-02,live_animal,,49
+"Biñan Processing Facility 95",14.2683,121.0353,CALABARZON,Biñan,"Santa Rosa Distribution Center 95",14.3077,121.0327,CALABARZON,"Santa Rosa",2024-09-21,frozen,2749,
+"Lucena Processing Facility 96",14.0153,121.5167,CALABARZON,Lucena,"Batangas City Distribution Center 96",13.8085,121.0733,CALABARZON,"Batangas City",2023-12-01,fresh,1700,
+"Tanauan Processing Facility 97",14.1763,121.249,CALABARZON,Tanauan,"Calamba Distribution Center 97",14.1131,121.1633,CALABARZON,Calamba,2024-05-22,live_animal,,183
+"Antipolo Processing Facility 98",14.5142,121.1913,CALABARZON,Antipolo,"Calamba Distribution Center 98",14.2001,121.0713,CALABARZON,Calamba,2023-06-27,processed,4610,
+"Dasmarinas Processing Facility 99",14.3864,120.9417,CALABARZON,Dasmarinas,"Lipa Distribution Center 99",13.9687,121.2063,CALABARZON,Lipa,2023-04-15,frozen,2127,
+"Santa Rosa Processing Facility 100",14.3217,121.1187,CALABARZON,"Santa Rosa","Imus Distribution Center 100",14.4287,120.9787,CALABARZON,Imus,2023-12-11,frozen,382,
+"Los Baños Processing Facility 101",14.1547,121.2813,CALABARZON,"Los Baños","Cainta Distribution Center 101",14.5301,121.1382,CALABARZON,Cainta,2024-06-16,processed,2566,
+"Lucena Processing Facility 102",13.9373,121.6857,CALABARZON,Lucena,"Tayabas Distribution Center 102",14.0847,121.5533,CALABARZON,Tayabas,2023-07-05,live_animal,,8
+"San Pedro Processing Facility 103",14.2887,120.971,CALABARZON,"San Pedro","Angono Distribution Center 103",14.5166,121.0654,CALABARZON,Angono,2023-12-04,frozen,304,
+"Batangas City Processing Facility 104",13.7905,121.0483,CALABARZON,"Batangas City","Tayabas Distribution Center 104",14.0907,121.6623,CALABARZON,Tayabas,2024-01-15,fresh,3053,
+"Antipolo Processing Facility 105",14.4872,121.1693,CALABARZON,Antipolo,"Los Baños Distribution Center 105",14.1847,121.1513,CALABARZON,"Los Baños",2023-01-17,frozen,815,
+"Lucena Processing Facility 106",13.8783,121.6227,CALABARZON,Lucena,"Dasmarinas Distribution Center 106",14.3114,120.9497,CALABARZON,Dasmarinas,2023-07-10,live_animal,,61
+"Calamba Processing Facility 107",14.1301,121.0873,CALABARZON,Calamba,"San Pedro Distribution Center 107",14.4667,121.033,CALABARZON,"San Pedro",2023-07-23,processed,741,
+"Biñan Processing Facility 108",14.2573,121.1023,CALABARZON,Biñan,"Biñan Distribution Center 108",14.4033,121.1743,CALABARZON,Biñan,2023-05-05,processed,2595,
+"Biñan Processing Facility 109",14.2823,120.9973,CALABARZON,Biñan,"Cavite City Distribution Center 109",14.3913,120.878,CALABARZON,"Cavite City",2023-09-22,live_animal,,22
+"Lipa Processing Facility 110",13.9757,121.0643,CALABARZON,Lipa,"Cainta Distribution Center 110",14.5841,121.1562,CALABARZON,Cainta,2023-04-08,processed,2709,
+"Dasmarinas Processing Facility 111",14.3354,120.9717,CALABARZON,Dasmarinas,"Tanauan Distribution Center 111",14.0733,121.226,CALABARZON,Tanauan,2024-05-19,frozen,2832,
+"Santa Rosa Processing Facility 112",14.3147,121.1627,CALABARZON,"Santa Rosa","Tanauan Distribution Center 112",14.0183,121.071,CALABARZON,Tanauan,2024-11-03,processed,2511,
+"Tanauan Processing Facility 113",14.0073,121.21,CALABARZON,Tanauan,"Tayabas Distribution Center 113",14.0797,121.6753,CALABARZON,Tayabas,2023-07-06,live_animal,,52
+"Imus Processing Facility 114",14.3397,120.8447,CALABARZON,Imus,"Angono Distribution Center 114",14.5196,121.2424,CALABARZON,Angono,2024-02-19,live_animal,,174
+"Angono Processing Facility 115",14.4766,121.1674,CALABARZON,Angono,"Tagaytay Distribution Center 115",14.139,121.0163,CALABARZON,Tagaytay,2023-09-28,processed,4944,
+"Angono Processing Facility 116",14.5446,121.1354,CALABARZON,Angono,"Tanauan Distribution Center 116",14.0523,121.16,CALABARZON,Tanauan,2024-03-17,processed,568,
+"Antipolo Processing Facility 117",14.4842,121.1543,CALABARZON,Antipolo,"Tanauan Distribution Center 117",14.0943,121.153,CALABARZON,Tanauan,2024-03-31,live_animal,,138
+"Dasmarinas Processing Facility 118",14.4224,120.8667,CALABARZON,Dasmarinas,"Bacoor Distribution Center 118",14.4021,120.9108,CALABARZON,Bacoor,2023-08-01,frozen,164,
+"Cainta Processing Facility 119",14.5671,121.1972,CALABARZON,Cainta,"Angono Distribution Center 119",14.4676,121.2284,CALABARZON,Angono,2023-11-25,processed,3450,
+"Dasmarinas Processing Facility 120",14.2344,120.8677,CALABARZON,Dasmarinas,"Batangas City Distribution Center 120",13.7035,121.0453,CALABARZON,"Batangas City",2024-11-15,fresh,706,
+"Santa Rosa Processing Facility 121",14.2797,121.1507,CALABARZON,"Santa Rosa","Lucena Distribution Center 121",13.9153,121.6107,CALABARZON,Lucena,2024-04-17,frozen,2193,
+"Tayabas Processing Facility 122",13.9647,121.5263,CALABARZON,Tayabas,"Batangas City Distribution Center 122",13.8515,121.0953,CALABARZON,"Batangas City",2023-01-22,frozen,549,
+"Gumaca Processing Facility 123",13.8717,122.155,CALABARZON,Gumaca,"Biñan Distribution Center 123",14.2893,121.0073,CALABARZON,Biñan,2024-09-15,frozen,2520,
+"Taytay Processing Facility 124",14.5747,121.0633,CALABARZON,Taytay,"Angono Distribution Center 124",14.5316,121.2444,CALABARZON,Angono,2024-01-15,processed,2732,
+"Lucena Processing Facility 125",13.8913,121.6187,CALABARZON,Lucena,"Taytay Distribution Center 125",14.5207,121.0763,CALABARZON,Taytay,2024-12-29,fresh,4781,
+"Lucena Processing Facility 126",14.0063,121.5407,CALABARZON,Lucena,"Taytay Distribution Center 126",14.6507,121.2063,CALABARZON,Taytay,2024-06-16,processed,1024,
+"Imus Processing Facility 127",14.4107,120.9297,CALABARZON,Imus,"Cainta Distribution Center 127",14.5891,121.0572,CALABARZON,Cainta,2024-01-14,processed,3601,
+"Taytay Processing Facility 128",14.5297,121.2053,CALABARZON,Taytay,"Biñan Distribution Center 128",14.2943,121.0063,CALABARZON,Biñan,2023-10-26,fresh,583,
+"Gumaca Processing Facility 129",13.8707,122.195,CALABARZON,Gumaca,"Bacoor Distribution Center 129",14.4301,120.9768,CALABARZON,Bacoor,2023-05-18,processed,3252,
+"Imus Processing Facility 130",14.4367,120.8747,CALABARZON,Imus,"Biñan Distribution Center 130",14.2623,121.0853,CALABARZON,Biñan,2023-04-16,fresh,2623,
+"Calamba Processing Facility 131",14.1691,121.2313,CALABARZON,Calamba,"San Pedro Distribution Center 131",14.3727,121.046,CALABARZON,"San Pedro",2024-09-20,processed,663,
+"Lucena Processing Facility 132",13.9543,121.5887,CALABARZON,Lucena,"Batangas City Distribution Center 132",13.7745,121.0673,CALABARZON,"Batangas City",2024-04-21,processed,757,
+"Gumaca Processing Facility 133",14.0167,122.166,CALABARZON,Gumaca,"Tayabas Distribution Center 133",13.9217,121.5643,CALABARZON,Tayabas,2023-03-01,frozen,3284,
+"Lipa Processing Facility 134",13.8477,121.2233,CALABARZON,Lipa,"Imus Distribution Center 134",14.3907,121.0187,CALABARZON,Imus,2023-02-27,frozen,3172,
+"Batangas City Processing Facility 135",13.6935,121.0653,CALABARZON,"Batangas City","Tanauan Distribution Center 135",14.0133,121.215,CALABARZON,Tanauan,2024-09-15,live_animal,,137
+"Tayabas Processing Facility 136",13.9877,121.5563,CALABARZON,Tayabas,"Santa Rosa Distribution Center 136",14.3247,121.0707,CALABARZON,"Santa Rosa",2023-03-12,processed,4731,
+"Biñan Processing Facility 137",14.3683,121.1173,CALABARZON,Biñan,"Cainta Distribution Center 137",14.4861,121.0302,CALABARZON,Cainta,2024-04-06,live_animal,,56
+"Los Baños Processing Facility 138",14.0727,121.2343,CALABARZON,"Los Baños","Los Baños Distribution Center 138",14.2637,121.2273,CALABARZON,"Los Baños",2024-11-26,frozen,872,
+"Imus Processing Facility 139",14.5277,120.9757,CALABARZON,Imus,"Angono Distribution Center 139",14.4466,121.0704,CALABARZON,Angono,2024-10-29,processed,4865,
+"Tayabas Processing Facility 140",13.9767,121.5023,CALABARZON,Tayabas,"Tanauan Distribution Center 140",14.0573,121.116,CALABARZON,Tanauan,2024-11-18,processed,4113,
+"Tagaytay Processing Facility 141",14.025,121.0053,CALABARZON,Tagaytay,"Tanauan Distribution Center 141",14.1233,121.063,CALABARZON,Tanauan,2024-02-01,fresh,4133,
+"Taytay Processing Facility 142",14.6007,121.1043,CALABARZON,Taytay,"Santa Rosa Distribution Center 142",14.2347,121.1007,CALABARZON,"Santa Rosa",2023-04-11,live_animal,,46
+"Angono Processing Facility 143",14.5906,121.1934,CALABARZON,Angono,"Lipa Distribution Center 143",13.8717,121.2423,CALABARZON,Lipa,2023-02-01,processed,2850,
+"Dasmarinas Processing Facility 144",14.3554,120.9177,CALABARZON,Dasmarinas,"Lucena Distribution Center 144",13.8973,121.6907,CALABARZON,Lucena,2023-11-17,fresh,4924,
+"Bacoor Processing Facility 145",14.5121,120.8678,CALABARZON,Bacoor,"Taytay Distribution Center 145",14.5887,121.1643,CALABARZON,Taytay,2024-07-04,live_animal,,167
+"Cavite City Processing Facility 146",14.4513,120.839,CALABARZON,"Cavite City","Cavite City Distribution Center 146",14.5093,120.818,CALABARZON,"Cavite City",2024-11-02,frozen,346,
+"Tanauan Processing Facility 147",14.1293,121.17,CALABARZON,Tanauan,"Taytay Distribution Center 147",14.6417,121.2193,CALABARZON,Taytay,2023-03-31,fresh,4421,
+"Santa Rosa Processing Facility 148",14.3497,121.1117,CALABARZON,"Santa Rosa","Tagaytay Distribution Center 148",14.102,120.9773,CALABARZON,Tagaytay,2024-07-14,fresh,1327,
+"Batangas City Processing Facility 149",13.6575,121.0693,CALABARZON,"Batangas City","Lucena Distribution Center 149",14.0123,121.5967,CALABARZON,Lucena,2024-10-04,fresh,3297,
+"Taytay Processing Facility 150",14.6347,121.1013,CALABARZON,Taytay,"Imus Distribution Center 150",14.4877,120.9357,CALABARZON,Imus,2024-05-13,live_animal,,119
+"Tayabas Processing Facility 151",14.0467,121.5063,CALABARZON,Tayabas,"Angono Distribution Center 151",14.4616,121.0644,CALABARZON,Angono,2023-11-17,live_animal,,186
+"Cavite City Processing Facility 152",14.4373,120.912,CALABARZON,"Cavite City","San Pedro Distribution Center 152",14.3007,120.988,CALABARZON,"San Pedro",2023-04-24,live_animal,,137
+"Santa Rosa Processing Facility 153",14.3987,121.0457,CALABARZON,"Santa Rosa","Cainta Distribution Center 153",14.6151,121.0822,CALABARZON,Cainta,2024-06-11,processed,3726,
+"Tanauan Processing Facility 154",14.1073,121.101,CALABARZON,Tanauan,"Tagaytay Distribution Center 154",14.024,120.9773,CALABARZON,Tagaytay,2023-03-12,frozen,3153,
+"Tagaytay Processing Facility 155",14.155,120.9303,CALABARZON,Tagaytay,"Santa Rosa Distribution Center 155",14.3207,121.2167,CALABARZON,"Santa Rosa",2023-11-29,fresh,2022,
+"Lipa Processing Facility 156",13.9567,121.1353,CALABARZON,Lipa,"Angono Distribution Center 156",14.5986,121.1264,CALABARZON,Angono,2024-05-05,fresh,1749,
+"Imus Processing Facility 157",14.3327,120.9187,CALABARZON,Imus,"Los Baños Distribution Center 157",14.1027,121.2763,CALABARZON,"Los Baños",2023-06-07,processed,600,
+"Calamba Processing Facility 158",14.1731,121.0893,CALABARZON,Calamba,"Biñan Distribution Center 158",14.3323,121.0983,CALABARZON,Biñan,2024-09-16,processed,3264,
+"Santa Rosa Processing Facility 159",14.2477,121.1947,CALABARZON,"Santa Rosa","Santa Rosa Distribution Center 159",14.2487,121.1477,CALABARZON,"Santa Rosa",2024-08-24,fresh,4787,
+"Batangas City Processing Facility 160",13.6585,121.1443,CALABARZON,"Batangas City","San Pedro Distribution Center 160",14.4567,121.062,CALABARZON,"San Pedro",2023-06-11,live_animal,,54
+"Dasmarinas Processing Facility 161",14.4214,121.0297,CALABARZON,Dasmarinas,"Biñan Distribution Center 161",14.2853,121.0603,CALABARZON,Biñan,2023-06-14,frozen,3685,
+"Tagaytay Processing Facility 162",14.11,120.8663,CALABARZON,Tagaytay,"Calamba Distribution Center 162",14.1981,121.2483,CALABARZON,Calamba,2023-12-31,processed,1193,
+"Gumaca Processing Facility 163",14.0087,122.171,CALABARZON,Gumaca,"Bacoor Distribution Center 163",14.3681,120.9618,CALABARZON,Bacoor,2023-04-03,fresh,1729,
+"Gumaca Processing Facility 164",13.9997,122.153,CALABARZON,Gumaca,"Tayabas Distribution Center 164",13.9397,121.5063,CALABARZON,Tayabas,2023-08-17,fresh,3676,
+"Calamba Processing Facility 165",14.1971,121.1983,CALABARZON,Calamba,"Taytay Distribution Center 165",14.6497,121.1223,CALABARZON,Taytay,2023-03-11,live_animal,,30
+"Imus Processing Facility 166",14.4577,120.9257,CALABARZON,Imus,"Lucena Distribution Center 166",13.8993,121.6507,CALABARZON,Lucena,2024-01-03,processed,3066,
+"Angono Processing Facility 167",14.5976,121.1244,CALABARZON,Angono,"Dasmarinas Distribution Center 167",14.2524,120.8877,CALABARZON,Dasmarinas,2023-08-31,frozen,325,
+"Calamba Processing Facility 168",14.2991,121.2323,CALABARZON,Calamba,"Tagaytay Distribution Center 168",14.052,121.0293,CALABARZON,Tagaytay,2023-12-23,fresh,2225,
+"Bacoor Processing Facility 169",14.3931,121.0068,CALABARZON,Bacoor,"Taytay Distribution Center 169",14.6207,121.2043,CALABARZON,Taytay,2024-03-25,processed,4652,
+"Lipa Processing Facility 170",13.8967,121.1043,CALABARZON,Lipa,"Tagaytay Distribution Center 170",14.067,120.9113,CALABARZON,Tagaytay,2024-08-27,live_animal,,43
+"Calamba Processing Facility 171",14.1261,121.1713,CALABARZON,Calamba,"Cainta Distribution Center 171",14.6091,121.1932,CALABARZON,Cainta,2023-10-06,live_animal,,154
+"Santa Rosa Processing Facility 172",14.3027,121.0907,CALABARZON,"Santa Rosa","Biñan Distribution Center 172",14.3873,121.1083,CALABARZON,Biñan,2023-10-15,fresh,318,
+"Santa Rosa Processing Facility 173",14.2167,121.2027,CALABARZON,"Santa Rosa","Bacoor Distribution Center 173",14.4801,120.9658,CALABARZON,Bacoor,2023-09-18,fresh,1012,
+"Antipolo Processing Facility 174",14.6422,121.2283,CALABARZON,Antipolo,"San Pedro Distribution Center 174",14.3437,121.085,CALABARZON,"San Pedro",2024-05-23,frozen,4830,
+"Antipolo Processing Facility 175",14.5372,121.2073,CALABARZON,Antipolo,"Calamba Distribution Center 175",14.1311,121.0973,CALABARZON,Calamba,2024-04-03,fresh,1831,
+"Tagaytay Processing Facility 176",14.087,120.9483,CALABARZON,Tagaytay,"Antipolo Distribution Center 176",14.4952,121.1253,CALABARZON,Antipolo,2023-03-25,processed,392,
+"Tayabas Processing Facility 177",13.9327,121.5393,CALABARZON,Tayabas,"Lipa Distribution Center 177",13.9547,121.2373,CALABARZON,Lipa,2024-07-29,fresh,149,
+"Tanauan Processing Facility 178",14.0053,121.229,CALABARZON,Tanauan,"Dasmarinas Distribution Center 178",14.2604,120.9097,CALABARZON,Dasmarinas,2024-11-27,processed,1700,
+"Tanauan Processing Facility 179",14.0903,121.233,CALABARZON,Tanauan,"Cavite City Distribution Center 179",14.5523,120.878,CALABARZON,"Cavite City",2024-09-05,processed,379,
+"Lipa Processing Facility 180",13.8837,121.1323,CALABARZON,Lipa,"Lipa Distribution Center 180",13.9367,121.2553,CALABARZON,Lipa,2024-02-29,frozen,4865,
+"Biñan Processing Facility 181",14.3533,120.9973,CALABARZON,Biñan,"Gumaca Distribution Center 181",13.9417,122.021,CALABARZON,Gumaca,2023-01-18,frozen,4967,
+"Tanauan Processing Facility 182",14.0093,121.107,CALABARZON,Tanauan,"Dasmarinas Distribution Center 182",14.3284,120.9377,CALABARZON,Dasmarinas,2024-06-16,fresh,1579,
+"San Pedro Processing Facility 183",14.3357,120.997,CALABARZON,"San Pedro","Lucena Distribution Center 183",13.9013,121.5287,CALABARZON,Lucena,2023-01-29,frozen,4389,
+"Bacoor Processing Facility 184",14.5241,120.9988,CALABARZON,Bacoor,"Biñan Distribution Center 184",14.4233,121.1133,CALABARZON,Biñan,2023-10-19,live_animal,,172
+"San Pedro Processing Facility 185",14.4247,121.043,CALABARZON,"San Pedro","Gumaca Distribution Center 185",13.9137,122.01,CALABARZON,Gumaca,2024-06-23,processed,3631,
+"Cavite City Processing Facility 186",14.5623,120.879,CALABARZON,"Cavite City","Calamba Distribution Center 186",14.1601,121.0913,CALABARZON,Calamba,2023-02-10,live_animal,,109
+"Bacoor Processing Facility 187",14.4251,120.8858,CALABARZON,Bacoor,"Lipa Distribution Center 187",14.0297,121.1243,CALABARZON,Lipa,2023-02-21,live_animal,,57
+"Tayabas Processing Facility 188",13.9367,121.6393,CALABARZON,Tayabas,"Antipolo Distribution Center 188",14.4972,121.1903,CALABARZON,Antipolo,2024-09-13,live_animal,,20
+"Tayabas Processing Facility 189",13.9537,121.6823,CALABARZON,Tayabas,"Santa Rosa Distribution Center 189",14.2357,121.2137,CALABARZON,"Santa Rosa",2024-05-01,frozen,2267,
+"Santa Rosa Processing Facility 190",14.4087,121.0797,CALABARZON,"Santa Rosa","Lucena Distribution Center 190",13.9073,121.5267,CALABARZON,Lucena,2023-10-10,processed,1993,
+"Bacoor Processing Facility 191",14.5411,120.9068,CALABARZON,Bacoor,"Los Baños Distribution Center 191",14.0837,121.2073,CALABARZON,"Los Baños",2023-05-01,live_animal,,36
+"Lipa Processing Facility 192",13.9117,121.1293,CALABARZON,Lipa,"Lucena Distribution Center 192",13.9413,121.5677,CALABARZON,Lucena,2024-01-20,processed,259,
+"Los Baños Processing Facility 193",14.1497,121.2743,CALABARZON,"Los Baños","San Pedro Distribution Center 193",14.4487,121.056,CALABARZON,"San Pedro",2023-06-22,processed,1113,
+"Santa Rosa Processing Facility 194",14.3437,121.1037,CALABARZON,"Santa Rosa","Cainta Distribution Center 194",14.4971,121.2082,CALABARZON,Cainta,2023-12-11,processed,1901,
+"Tagaytay Processing Facility 195",14.172,121.0113,CALABARZON,Tagaytay,"Cavite City Distribution Center 195",14.4543,120.847,CALABARZON,"Cavite City",2024-12-22,fresh,824,
+"Santa Rosa Processing Facility 196",14.2897,121.1017,CALABARZON,"Santa Rosa","Gumaca Distribution Center 196",13.9377,122.17,CALABARZON,Gumaca,2023-10-18,live_animal,,195
+"Imus Processing Facility 197",14.5177,120.8607,CALABARZON,Imus,"San Pedro Distribution Center 197",14.2707,121.017,CALABARZON,"San Pedro",2024-09-21,processed,2824,
+"Angono Processing Facility 198",14.5656,121.2364,CALABARZON,Angono,"Cainta Distribution Center 198",14.6371,121.1692,CALABARZON,Cainta,2024-04-12,frozen,3948,
+"Taytay Processing Facility 199",14.5357,121.0403,CALABARZON,Taytay,"Calamba Distribution Center 199",14.2511,121.1843,CALABARZON,Calamba,2023-07-19,fresh,151,
+"Batangas City Processing Facility 200",13.8075,120.9633,CALABARZON,"Batangas City","Los Baños Distribution Center 200",14.1567,121.1633,CALABARZON,"Los Baños",2024-03-21,live_animal,,91
+"Taytay Processing Facility 201",14.6227,121.1563,CALABARZON,Taytay,"San Pedro Distribution Center 201",14.4257,120.962,CALABARZON,"San Pedro",2023-10-14,processed,3371,
+"Antipolo Processing Facility 202",14.6152,121.1053,CALABARZON,Antipolo,"Gumaca Distribution Center 202",13.8387,122.145,CALABARZON,Gumaca,2024-10-24,processed,206,
+"Gumaca Processing Facility 203",13.8567,122.009,CALABARZON,Gumaca,"Biñan Distribution Center 203",14.3513,121.1253,CALABARZON,Biñan,2023-04-12,processed,3683,
+"Bacoor Processing Facility 204",14.3711,121.0038,CALABARZON,Bacoor,"Tayabas Distribution Center 204",14.0987,121.5983,CALABARZON,Tayabas,2024-10-07,fresh,4761,
+"Calamba Processing Facility 205",14.2351,121.2353,CALABARZON,Calamba,"Imus Distribution Center 205",14.4287,120.8987,CALABARZON,Imus,2023-05-10,live_animal,,49
+"San Pedro Processing Facility 206",14.4527,121.079,CALABARZON,"San Pedro","Cavite City Distribution Center 206",14.4063,120.965,CALABARZON,"Cavite City",2024-05-22,processed,308,
+"Tanauan Processing Facility 207",14.1783,121.228,CALABARZON,Tanauan,"Calamba Distribution Center 207",14.1191,121.1043,CALABARZON,Calamba,2024-12-03,processed,2151,
+"Angono Processing Facility 208",14.4286,121.1034,CALABARZON,Angono,"Lipa Distribution Center 208",13.9907,121.2513,CALABARZON,Lipa,2023-04-05,frozen,2818,
+"Cavite City Processing Facility 209",14.3933,120.9,CALABARZON,"Cavite City","Cavite City Distribution Center 209",14.4523,120.917,CALABARZON,"Cavite City",2023-01-14,processed,2663,
+"Calamba Processing Facility 210",14.2601,121.1823,CALABARZON,Calamba,"Bacoor Distribution Center 210",14.4351,121.0228,CALABARZON,Bacoor,2023-05-12,processed,4655,
+"Angono Processing Facility 211",14.5446,121.1344,CALABARZON,Angono,"Batangas City Distribution Center 211",13.6865,121.0383,CALABARZON,"Batangas City",2024-07-01,fresh,3855,
+"Tagaytay Processing Facility 212",14.137,120.8733,CALABARZON,Tagaytay,"Tagaytay Distribution Center 212",14.023,120.9163,CALABARZON,Tagaytay,2023-12-01,live_animal,,26
+"Gumaca Processing Facility 213",14.0007,122.165,CALABARZON,Gumaca,"Tanauan Distribution Center 213",14.0733,121.194,CALABARZON,Tanauan,2024-05-31,live_animal,,40
+"Calamba Processing Facility 214",14.2731,121.1543,CALABARZON,Calamba,"Imus Distribution Center 214",14.3757,120.8637,CALABARZON,Imus,2023-12-31,fresh,3972,
+"Imus Processing Facility 215",14.4837,120.8407,CALABARZON,Imus,"Lucena Distribution Center 215",13.8443,121.6427,CALABARZON,Lucena,2023-04-14,processed,4175,
+"Los Baños Processing Facility 216",14.1347,121.1453,CALABARZON,"Los Baños","Tanauan Distribution Center 216",13.9903,121.214,CALABARZON,Tanauan,2023-05-31,processed,1163,
+"Gumaca Processing Facility 217",13.8667,122.179,CALABARZON,Gumaca,"Tagaytay Distribution Center 217",14.037,121.0023,CALABARZON,Tagaytay,2023-05-05,frozen,4556,
+"Lipa Processing Facility 218",13.9627,121.2093,CALABARZON,Lipa,"Tagaytay Distribution Center 218",14.063,120.9683,CALABARZON,Tagaytay,2023-11-25,frozen,4490,
+"Los Baños Processing Facility 219",14.1067,121.2143,CALABARZON,"Los Baños","Biñan Distribution Center 219",14.3353,121.1213,CALABARZON,Biñan,2024-09-08,live_animal,,157
+"Calamba Processing Facility 220",14.2841,121.2163,CALABARZON,Calamba,"Imus Distribution Center 220",14.5107,120.9787,CALABARZON,Imus,2023-01-17,processed,657,
+"Lipa Processing Facility 221",13.8717,121.1783,CALABARZON,Lipa,"Angono Distribution Center 221",14.4316,121.1364,CALABARZON,Angono,2024-06-25,live_animal,,30
+"Lucena Processing Facility 222",13.9773,121.6747,CALABARZON,Lucena,"Antipolo Distribution Center 222",14.5542,121.1103,CALABARZON,Antipolo,2023-12-15,processed,3137,
+"Tagaytay Processing Facility 223",14.108,120.9953,CALABARZON,Tagaytay,"Gumaca Distribution Center 223",13.8467,122.012,CALABARZON,Gumaca,2024-01-10,fresh,4765,
+"Los Baños Processing Facility 224",14.1497,121.3013,CALABARZON,"Los Baños","Biñan Distribution Center 224",14.3113,121.1403,CALABARZON,Biñan,2024-11-10,frozen,3068,
+"Los Baños Processing Facility 225",14.0767,121.2563,CALABARZON,"Los Baños","Cainta Distribution Center 225",14.4791,121.1072,CALABARZON,Cainta,2023-10-21,processed,1572,
+"Lipa Processing Facility 226",13.8737,121.2143,CALABARZON,Lipa,"Taytay Distribution Center 226",14.6307,121.0923,CALABARZON,Taytay,2023-05-11,live_animal,,101
+"Lipa Processing Facility 227",13.8887,121.2293,CALABARZON,Lipa,"Santa Rosa Distribution Center 227",14.3117,121.1277,CALABARZON,"Santa Rosa",2024-06-05,frozen,167,
+"Antipolo Processing Facility 228",14.6482,121.1403,CALABARZON,Antipolo,"Los Baños Distribution Center 228",14.1387,121.2013,CALABARZON,"Los Baños",2023-05-01,frozen,1411,
+"Tanauan Processing Facility 229",14.1073,121.15,CALABARZON,Tanauan,"Angono Distribution Center 229",14.5846,121.1794,CALABARZON,Angono,2023-03-14,processed,2376,
+"Dasmarinas Processing Facility 230",14.3294,121.0047,CALABARZON,Dasmarinas,"Tayabas Distribution Center 230",14.1037,121.6293,CALABARZON,Tayabas,2024-07-15,processed,1433,
+"Lucena Processing Facility 231",13.9503,121.6887,CALABARZON,Lucena,"Imus Distribution Center 231",14.3707,121.0337,CALABARZON,Imus,2024-12-22,fresh,3740,
+"Angono Processing Facility 232",14.5176,121.1204,CALABARZON,Angono,"Antipolo Distribution Center 232",14.6332,121.1063,CALABARZON,Antipolo,2023-12-26,frozen,2356,
+"Tanauan Processing Facility 233",14.0773,121.116,CALABARZON,Tanauan,"Batangas City Distribution Center 233",13.7835,120.9783,CALABARZON,"Batangas City",2024-09-07,live_animal,,32
+"Tayabas Processing Facility 234",14.0187,121.5763,CALABARZON,Tayabas,"Batangas City Distribution Center 234",13.6975,121.0613,CALABARZON,"Batangas City",2023-08-12,processed,3088,
+"Imus Processing Facility 235",14.4427,120.8827,CALABARZON,Imus,"Antipolo Distribution Center 235",14.6352,121.2313,CALABARZON,Antipolo,2024-12-30,processed,2267,
+"Bacoor Processing Facility 236",14.5471,120.9178,CALABARZON,Bacoor,"San Pedro Distribution Center 236",14.4407,121.124,CALABARZON,"San Pedro",2023-05-20,fresh,2108,
+"Dasmarinas Processing Facility 237",14.2884,120.9727,CALABARZON,Dasmarinas,"Tanauan Distribution Center 237",13.9943,121.121,CALABARZON,Tanauan,2023-09-15,live_animal,,193
+"Imus Processing Facility 238",14.3827,120.9547,CALABARZON,Imus,"San Pedro Distribution Center 238",14.4117,121.097,CALABARZON,"San Pedro",2023-04-23,processed,3008,
+"Tayabas Processing Facility 239",14.0167,121.5293,CALABARZON,Tayabas,"Imus Distribution Center 239",14.4667,120.9167,CALABARZON,Imus,2024-04-18,live_animal,,188
+"Lipa Processing Facility 240",13.8867,121.1163,CALABARZON,Lipa,"Tayabas Distribution Center 240",14.1117,121.6163,CALABARZON,Tayabas,2023-07-10,live_animal,,151
+"Biñan Processing Facility 241",14.3823,121.0983,CALABARZON,Biñan,"Santa Rosa Distribution Center 241",14.3317,121.2097,CALABARZON,"Santa Rosa",2024-01-20,processed,1669,
+"Lipa Processing Facility 242",13.8477,121.1103,CALABARZON,Lipa,"Batangas City Distribution Center 242",13.8305,121.0533,CALABARZON,"Batangas City",2024-03-19,frozen,4956,
+"Bacoor Processing Facility 243",14.4401,120.9238,CALABARZON,Bacoor,"Lucena Distribution Center 243",13.9873,121.5717,CALABARZON,Lucena,2024-06-12,frozen,2445,
+"Cavite City Processing Facility 244",14.3923,120.808,CALABARZON,"Cavite City","Bacoor Distribution Center 244",14.5231,120.9638,CALABARZON,Bacoor,2024-02-19,frozen,707,
+"Tagaytay Processing Facility 245",14.019,120.9083,CALABARZON,Tagaytay,"Tanauan Distribution Center 245",14.1233,121.141,CALABARZON,Tanauan,2023-09-28,fresh,4005,
+"San Pedro Processing Facility 246",14.3727,121.124,CALABARZON,"San Pedro","Santa Rosa Distribution Center 246",14.2497,121.1467,CALABARZON,"Santa Rosa",2024-03-06,frozen,268,
+"Cainta Processing Facility 247",14.4991,121.0542,CALABARZON,Cainta,"Cavite City Distribution Center 247",14.5603,120.879,CALABARZON,"Cavite City",2024-02-14,frozen,4824,
+"Gumaca Processing Facility 248",13.8957,122.128,CALABARZON,Gumaca,"Santa Rosa Distribution Center 248",14.2717,121.1217,CALABARZON,"Santa Rosa",2024-04-15,processed,3053,
+"Cavite City Processing Facility 249",14.4143,120.855,CALABARZON,"Cavite City","Angono Distribution Center 249",14.6056,121.1734,CALABARZON,Angono,2023-06-11,frozen,1911,
+"Biñan Processing Facility 250",14.2513,121.0813,CALABARZON,Biñan,"Imus Distribution Center 250",14.3707,120.9257,CALABARZON,Imus,2024-06-18,live_animal,,136
+"Gumaca Processing Facility 251",14.0037,122.141,CALABARZON,Gumaca,"Gumaca Distribution Center 251",13.8607,122.145,CALABARZON,Gumaca,2024-11-07,live_animal,,66
+"Cavite City Processing Facility 252",14.5573,120.885,CALABARZON,"Cavite City","Imus Distribution Center 252",14.4137,120.9637,CALABARZON,Imus,2024-06-23,fresh,1316,
+"Calamba Processing Facility 253",14.1531,121.1983,CALABARZON,Calamba,"Taytay Distribution Center 253",14.5847,121.1603,CALABARZON,Taytay,2024-09-05,frozen,1694,
+"Tagaytay Processing Facility 254",14.093,120.9823,CALABARZON,Tagaytay,"Santa Rosa Distribution Center 254",14.2847,121.0397,CALABARZON,"Santa Rosa",2023-11-28,live_animal,,94
+"Gumaca Processing Facility 255",13.9617,122.009,CALABARZON,Gumaca,"Biñan Distribution Center 255",14.3053,121.0723,CALABARZON,Biñan,2024-08-31,frozen,2058,
+"Cainta Processing Facility 256",14.6351,121.2212,CALABARZON,Cainta,"Bacoor Distribution Center 256",14.5101,120.9468,CALABARZON,Bacoor,2024-02-24,frozen,876,
+"Gumaca Processing Facility 257",13.8457,122.145,CALABARZON,Gumaca,"Taytay Distribution Center 257",14.5797,121.0433,CALABARZON,Taytay,2024-03-16,fresh,1739,
+"Tagaytay Processing Facility 258",14.146,120.9673,CALABARZON,Tagaytay,"Dasmarinas Distribution Center 258",14.3474,120.9027,CALABARZON,Dasmarinas,2024-06-11,processed,3012,
+"Cavite City Processing Facility 259",14.5423,120.827,CALABARZON,"Cavite City","Imus Distribution Center 259",14.3987,120.9247,CALABARZON,Imus,2024-05-07,frozen,4687,
+"Biñan Processing Facility 260",14.3073,121.1073,CALABARZON,Biñan,"Cavite City Distribution Center 260",14.5003,120.843,CALABARZON,"Cavite City",2023-11-11,frozen,4952,
+"Bacoor Processing Facility 261",14.5291,121.0118,CALABARZON,Bacoor,"Imus Distribution Center 261",14.3377,120.9457,CALABARZON,Imus,2023-02-08,processed,4613,
+"Cavite City Processing Facility 262",14.5633,120.848,CALABARZON,"Cavite City","Tanauan Distribution Center 262",14.0743,121.092,CALABARZON,Tanauan,2023-08-13,fresh,307,
+"Lucena Processing Facility 263",13.8583,121.6807,CALABARZON,Lucena,"Tanauan Distribution Center 263",13.9933,121.064,CALABARZON,Tanauan,2024-12-24,frozen,3138,
+"Taytay Processing Facility 264",14.6407,121.1223,CALABARZON,Taytay,"Santa Rosa Distribution Center 264",14.2467,121.2047,CALABARZON,"Santa Rosa",2023-08-16,processed,3275,
+"Lucena Processing Facility 265",13.8353,121.5697,CALABARZON,Lucena,"Cavite City Distribution Center 265",14.5723,120.992,CALABARZON,"Cavite City",2024-04-09,processed,2368,
+"Antipolo Processing Facility 266",14.5902,121.2433,CALABARZON,Antipolo,"Los Baños Distribution Center 266",14.1537,121.2053,CALABARZON,"Los Baños",2024-11-03,processed,3728,
+"Tagaytay Processing Facility 267",14.057,120.8433,CALABARZON,Tagaytay,"Calamba Distribution Center 267",14.1871,121.0983,CALABARZON,Calamba,2024-07-05,fresh,355,
+"Tagaytay Processing Facility 268",14.054,120.9973,CALABARZON,Tagaytay,"Angono Distribution Center 268",14.4676,121.1584,CALABARZON,Angono,2024-05-27,processed,4570,
+"Cainta Processing Facility 269",14.5731,121.2052,CALABARZON,Cainta,"Los Baños Distribution Center 269",14.2507,121.2823,CALABARZON,"Los Baños",2024-05-30,frozen,267,
+"San Pedro Processing Facility 270",14.3667,121.12,CALABARZON,"San Pedro","Lucena Distribution Center 270",13.9463,121.6957,CALABARZON,Lucena,2024-07-12,fresh,3886,
+"Tayabas Processing Facility 271",14.0937,121.5943,CALABARZON,Tayabas,"Angono Distribution Center 271",14.5136,121.2514,CALABARZON,Angono,2023-05-22,fresh,4392,
+"Santa Rosa Processing Facility 272",14.2437,121.0677,CALABARZON,"Santa Rosa","Lipa Distribution Center 272",13.9197,121.0773,CALABARZON,Lipa,2024-06-23,frozen,2044,
+"Los Baños Processing Facility 273",14.1597,121.3253,CALABARZON,"Los Baños","Taytay Distribution Center 273",14.5037,121.1973,CALABARZON,Taytay,2024-06-04,processed,4370,
+"Taytay Processing Facility 274",14.6137,121.2053,CALABARZON,Taytay,"Tayabas Distribution Center 274",14.0067,121.5303,CALABARZON,Tayabas,2023-01-22,frozen,2803,
+"Bacoor Processing Facility 275",14.5381,121.0128,CALABARZON,Bacoor,"Taytay Distribution Center 275",14.4967,121.2293,CALABARZON,Taytay,2024-04-16,frozen,937,
+"Tayabas Processing Facility 276",13.9357,121.5713,CALABARZON,Tayabas,"Tayabas Distribution Center 276",14.0607,121.5373,CALABARZON,Tayabas,2023-07-08,processed,3868,
+"San Pedro Processing Facility 277",14.3927,121.006,CALABARZON,"San Pedro","Dasmarinas Distribution Center 277",14.3694,120.9867,CALABARZON,Dasmarinas,2024-10-13,live_animal,,190
+"Calamba Processing Facility 278",14.2811,121.2533,CALABARZON,Calamba,"Los Baños Distribution Center 278",14.2047,121.3333,CALABARZON,"Los Baños",2024-07-14,processed,4107,
+"Tagaytay Processing Facility 279",14.109,120.9913,CALABARZON,Tagaytay,"Taytay Distribution Center 279",14.4727,121.1313,CALABARZON,Taytay,2023-07-16,live_animal,,154
+"Tanauan Processing Facility 280",14.0603,121.078,CALABARZON,Tanauan,"Taytay Distribution Center 280",14.5147,121.2293,CALABARZON,Taytay,2023-03-21,processed,361,
+"Lipa Processing Facility 281",13.9397,121.0903,CALABARZON,Lipa,"Batangas City Distribution Center 281",13.6565,120.9603,CALABARZON,"Batangas City",2024-02-12,processed,3178,
+"Cavite City Processing Facility 282",14.5573,120.973,CALABARZON,"Cavite City","Santa Rosa Distribution Center 282",14.3157,121.1857,CALABARZON,"Santa Rosa",2023-07-21,fresh,260,
+"Taytay Processing Facility 283",14.6407,121.0343,CALABARZON,Taytay,"Imus Distribution Center 283",14.5277,120.9877,CALABARZON,Imus,2023-11-06,fresh,3388,
+"Calamba Processing Facility 284",14.1521,121.0783,CALABARZON,Calamba,"Santa Rosa Distribution Center 284",14.4057,121.0197,CALABARZON,"Santa Rosa",2024-04-19,frozen,3363,
+"Los Baños Processing Facility 285",14.1657,121.1643,CALABARZON,"Los Baños","Tayabas Distribution Center 285",13.9457,121.5363,CALABARZON,Tayabas,2024-06-13,fresh,3357,
+"San Pedro Processing Facility 286",14.2827,121.103,CALABARZON,"San Pedro","Los Baños Distribution Center 286",14.2087,121.3163,CALABARZON,"Los Baños",2023-01-07,frozen,635,
+"Imus Processing Facility 287",14.3657,121.0297,CALABARZON,Imus,"Gumaca Distribution Center 287",13.8427,122.139,CALABARZON,Gumaca,2024-12-16,frozen,2616,
+"Santa Rosa Processing Facility 288",14.3217,121.1477,CALABARZON,"Santa Rosa","Dasmarinas Distribution Center 288",14.4284,121.0267,CALABARZON,Dasmarinas,2023-10-14,processed,4761,
+"Calamba Processing Facility 289",14.2421,121.1043,CALABARZON,Calamba,"Lipa Distribution Center 289",13.8447,121.0963,CALABARZON,Lipa,2024-02-05,processed,1247,
+"Lipa Processing Facility 290",13.9077,121.1723,CALABARZON,Lipa,"Tagaytay Distribution Center 290",14,120.9223,CALABARZON,Tagaytay,2024-10-11,frozen,118,
+"Tagaytay Processing Facility 291",14.143,120.9283,CALABARZON,Tagaytay,"Angono Distribution Center 291",14.4346,121.1554,CALABARZON,Angono,2023-05-19,live_animal,,59
+"Dasmarinas Processing Facility 292",14.3584,120.9777,CALABARZON,Dasmarinas,"Tayabas Distribution Center 292",14.0547,121.6133,CALABARZON,Tayabas,2023-06-26,processed,2242,
+"Bacoor Processing Facility 293",14.5551,121.0298,CALABARZON,Bacoor,"Imus Distribution Center 293",14.3917,120.8387,CALABARZON,Imus,2024-06-20,fresh,1507,
+"Tayabas Processing Facility 294",13.9407,121.4853,CALABARZON,Tayabas,"Calamba Distribution Center 294",14.2801,121.1443,CALABARZON,Calamba,2024-07-14,live_animal,,74
+"Cavite City Processing Facility 295",14.4233,120.854,CALABARZON,"Cavite City","Santa Rosa Distribution Center 295",14.3717,121.0307,CALABARZON,"Santa Rosa",2024-08-05,processed,1375,
+"Dasmarinas Processing Facility 296",14.2314,120.8837,CALABARZON,Dasmarinas,"Tanauan Distribution Center 296",13.9953,121.199,CALABARZON,Tanauan,2023-12-16,fresh,1329,
+"Tanauan Processing Facility 297",14.0423,121.092,CALABARZON,Tanauan,"Angono Distribution Center 297",14.6176,121.1794,CALABARZON,Angono,2023-03-09,fresh,2805,
+"Lucena Processing Facility 298",13.9163,121.5867,CALABARZON,Lucena,"Dasmarinas Distribution Center 298",14.3834,120.9107,CALABARZON,Dasmarinas,2023-06-18,frozen,1238,
+"Cainta Processing Facility 299",14.5401,121.1072,CALABARZON,Cainta,"Taytay Distribution Center 299",14.6267,121.0433,CALABARZON,Taytay,2024-02-17,frozen,3707,
+"Dasmarinas Processing Facility 300",14.3214,120.9577,CALABARZON,Dasmarinas,"Bacoor Distribution Center 300",14.3841,120.9308,CALABARZON,Bacoor,2024-12-14,fresh,1425,
+"Santa Rosa Processing Facility 301",14.2827,121.1787,CALABARZON,"Santa Rosa","Bacoor Distribution Center 301",14.5381,121.0238,CALABARZON,Bacoor,2023-02-16,live_animal,,37
+"Angono Processing Facility 302",14.5026,121.1974,CALABARZON,Angono,"Santa Rosa Distribution Center 302",14.2807,121.0587,CALABARZON,"Santa Rosa",2024-02-12,fresh,653,
+"Gumaca Processing Facility 303",13.9227,122.091,CALABARZON,Gumaca,"Tagaytay Distribution Center 303",14.107,120.9913,CALABARZON,Tagaytay,2024-05-10,fresh,2000,
+"Taytay Processing Facility 304",14.5307,121.1393,CALABARZON,Taytay,"Biñan Distribution Center 304",14.4283,121.0833,CALABARZON,Biñan,2024-02-03,processed,3378,
+"Biñan Processing Facility 305",14.4133,121.0893,CALABARZON,Biñan,"Angono Distribution Center 305",14.5636,121.2244,CALABARZON,Angono,2023-07-21,live_animal,,64
+"Dasmarinas Processing Facility 306",14.3574,120.8957,CALABARZON,Dasmarinas,"Santa Rosa Distribution Center 306",14.2367,121.0577,CALABARZON,"Santa Rosa",2023-03-11,processed,1199,
+"Tagaytay Processing Facility 307",14.026,120.8423,CALABARZON,Tagaytay,"Tagaytay Distribution Center 307",14.014,121.0313,CALABARZON,Tagaytay,2024-08-30,processed,3545,
+"Cavite City Processing Facility 308",14.4643,120.923,CALABARZON,"Cavite City","Los Baños Distribution Center 308",14.2457,121.1993,CALABARZON,"Los Baños",2024-05-13,fresh,3012,
+"Tagaytay Processing Facility 309",14.084,120.9413,CALABARZON,Tagaytay,"Tayabas Distribution Center 309",14.0607,121.6233,CALABARZON,Tayabas,2024-09-14,frozen,4968,
+"Tayabas Processing Facility 310",14.1167,121.5003,CALABARZON,Tayabas,"Lucena Distribution Center 310",13.8933,121.6437,CALABARZON,Lucena,2024-04-10,processed,3740,
+"Tayabas Processing Facility 311",14.0217,121.5143,CALABARZON,Tayabas,"Imus Distribution Center 311",14.3587,121.0317,CALABARZON,Imus,2023-05-07,fresh,4678,
+"Dasmarinas Processing Facility 312",14.2724,120.9897,CALABARZON,Dasmarinas,"Santa Rosa Distribution Center 312",14.2857,121.1167,CALABARZON,"Santa Rosa",2024-06-20,frozen,1184,
+"Batangas City Processing Facility 313",13.7905,121.0893,CALABARZON,"Batangas City","Cavite City Distribution Center 313",14.5063,120.985,CALABARZON,"Cavite City",2024-11-19,fresh,232,
+"Calamba Processing Facility 314",14.1511,121.1933,CALABARZON,Calamba,"Lucena Distribution Center 314",13.9553,121.5357,CALABARZON,Lucena,2023-11-25,fresh,3121,
+"Tagaytay Processing Facility 315",14.154,120.9353,CALABARZON,Tagaytay,"Tayabas Distribution Center 315",13.9797,121.6793,CALABARZON,Tayabas,2023-12-13,frozen,4104,
+"Antipolo Processing Facility 316",14.5022,121.2173,CALABARZON,Antipolo,"Biñan Distribution Center 316",14.3893,121.1313,CALABARZON,Biñan,2023-02-27,processed,3950,
+"Tayabas Processing Facility 317",14.0987,121.6643,CALABARZON,Tayabas,"Tagaytay Distribution Center 317",14.063,120.8373,CALABARZON,Tagaytay,2024-11-09,fresh,2365,
+"Tagaytay Processing Facility 318",14.196,120.8523,CALABARZON,Tagaytay,"Taytay Distribution Center 318",14.6467,121.0733,CALABARZON,Taytay,2023-05-26,live_animal,,22
+"Gumaca Processing Facility 319",13.9587,122.118,CALABARZON,Gumaca,"Calamba Distribution Center 319",14.1491,121.1493,CALABARZON,Calamba,2023-06-25,fresh,489,
+"Lipa Processing Facility 320",13.8927,121.0813,CALABARZON,Lipa,"Antipolo Distribution Center 320",14.6622,121.2563,CALABARZON,Antipolo,2023-12-11,live_animal,,31
+"Cainta Processing Facility 321",14.5151,121.0532,CALABARZON,Cainta,"Tagaytay Distribution Center 321",14.12,120.9163,CALABARZON,Tagaytay,2024-01-23,processed,4957,
+"Bacoor Processing Facility 322",14.4001,121.0138,CALABARZON,Bacoor,"Tagaytay Distribution Center 322",14.166,120.8913,CALABARZON,Tagaytay,2024-10-04,fresh,1257,
+"Lucena Processing Facility 323",13.8693,121.5357,CALABARZON,Lucena,"Los Baños Distribution Center 323",14.1457,121.3003,CALABARZON,"Los Baños",2024-07-13,processed,930,
+"Dasmarinas Processing Facility 324",14.4124,120.8957,CALABARZON,Dasmarinas,"Lucena Distribution Center 324",13.9303,121.5637,CALABARZON,Lucena,2023-08-03,fresh,1739,
+"San Pedro Processing Facility 325",14.4427,121.144,CALABARZON,"San Pedro","Taytay Distribution Center 325",14.4787,121.1943,CALABARZON,Taytay,2023-12-06,fresh,2817,
+"Tayabas Processing Facility 326",14.0337,121.4933,CALABARZON,Tayabas,"San Pedro Distribution Center 326",14.3557,121,CALABARZON,"San Pedro",2024-08-16,processed,3301,
+"Calamba Processing Facility 327",14.1921,121.1383,CALABARZON,Calamba,"Tayabas Distribution Center 327",14.0577,121.5163,CALABARZON,Tayabas,2023-10-22,processed,2971,
+"Imus Processing Facility 328",14.4427,120.8497,CALABARZON,Imus,"Lucena Distribution Center 328",13.9943,121.5227,CALABARZON,Lucena,2023-10-02,live_animal,,102
+"Cainta Processing Facility 329",14.5181,121.1322,CALABARZON,Cainta,"Angono Distribution Center 329",14.5336,121.1134,CALABARZON,Angono,2024-10-29,processed,1477,
+"Los Baños Processing Facility 330",14.1617,121.3293,CALABARZON,"Los Baños","San Pedro Distribution Center 330",14.2777,121.029,CALABARZON,"San Pedro",2024-12-14,fresh,3854,
+"Tanauan Processing Facility 331",14.1743,121.111,CALABARZON,Tanauan,"Tagaytay Distribution Center 331",14.066,120.9963,CALABARZON,Tagaytay,2023-10-31,live_animal,,90
+"Lucena Processing Facility 332",13.9853,121.6947,CALABARZON,Lucena,"Taytay Distribution Center 332",14.6067,121.0963,CALABARZON,Taytay,2024-05-28,processed,2097,
+"Cavite City Processing Facility 333",14.3853,120.995,CALABARZON,"Cavite City","Lipa Distribution Center 333",14.0097,121.1983,CALABARZON,Lipa,2024-07-23,frozen,4476,
+"Lipa Processing Facility 334",13.9257,121.1643,CALABARZON,Lipa,"Calamba Distribution Center 334",14.2461,121.0973,CALABARZON,Calamba,2023-12-11,live_animal,,33
+"Imus Processing Facility 335",14.4307,120.9837,CALABARZON,Imus,"Bacoor Distribution Center 335",14.4211,120.9728,CALABARZON,Bacoor,2023-12-31,processed,1072,
+"Cavite City Processing Facility 336",14.4643,120.827,CALABARZON,"Cavite City","Los Baños Distribution Center 336",14.2207,121.2443,CALABARZON,"Los Baños",2024-03-21,live_animal,,31
+"Santa Rosa Processing Facility 337",14.2727,121.1027,CALABARZON,"Santa Rosa","Tayabas Distribution Center 337",13.9507,121.5283,CALABARZON,Tayabas,2023-01-28,fresh,4417,
+"Lipa Processing Facility 338",13.9207,121.1113,CALABARZON,Lipa,"Cainta Distribution Center 338",14.6701,121.1482,CALABARZON,Cainta,2024-04-06,fresh,3502,
+"Cavite City Processing Facility 339",14.4293,120.982,CALABARZON,"Cavite City","Santa Rosa Distribution Center 339",14.3487,121.1487,CALABARZON,"Santa Rosa",2023-12-28,frozen,4352,
+"Tagaytay Processing Facility 340",14.011,120.8543,CALABARZON,Tagaytay,"Batangas City Distribution Center 340",13.6655,121.1013,CALABARZON,"Batangas City",2024-02-19,processed,2224,
+"San Pedro Processing Facility 341",14.3357,121.086,CALABARZON,"San Pedro","Cavite City Distribution Center 341",14.5023,120.811,CALABARZON,"Cavite City",2024-02-04,frozen,4221,
+"Calamba Processing Facility 342",14.2251,121.1063,CALABARZON,Calamba,"Los Baños Distribution Center 342",14.0887,121.2013,CALABARZON,"Los Baños",2024-01-11,fresh,3991,
+"Lucena Processing Facility 343",13.8923,121.5447,CALABARZON,Lucena,"Bacoor Distribution Center 343",14.5271,120.8718,CALABARZON,Bacoor,2023-03-09,live_animal,,44
+"Calamba Processing Facility 344",14.2371,121.1993,CALABARZON,Calamba,"Cavite City Distribution Center 344",14.3923,120.985,CALABARZON,"Cavite City",2024-01-02,live_animal,,90
+"Antipolo Processing Facility 345",14.6312,121.0983,CALABARZON,Antipolo,"Calamba Distribution Center 345",14.1851,121.1393,CALABARZON,Calamba,2023-07-07,fresh,2322,
+"Dasmarinas Processing Facility 346",14.3874,120.9967,CALABARZON,Dasmarinas,"Antipolo Distribution Center 346",14.6742,121.1373,CALABARZON,Antipolo,2023-01-10,live_animal,,66
+"Lipa Processing Facility 347",13.9977,121.1243,CALABARZON,Lipa,"San Pedro Distribution Center 347",14.3147,120.986,CALABARZON,"San Pedro",2023-03-30,fresh,1953,
+"Tayabas Processing Facility 348",14.0017,121.6453,CALABARZON,Tayabas,"Imus Distribution Center 348",14.4637,121.0337,CALABARZON,Imus,2023-09-23,processed,1464,
+"Gumaca Processing Facility 349",13.9437,122.092,CALABARZON,Gumaca,"Dasmarinas Distribution Center 349",14.3854,120.9167,CALABARZON,Dasmarinas,2024-09-03,fresh,2985,
+"Calamba Processing Facility 350",14.2281,121.2133,CALABARZON,Calamba,"Taytay Distribution Center 350",14.4727,121.1673,CALABARZON,Taytay,2023-06-15,fresh,3782,
+"Lucena Processing Facility 351",13.9573,121.6167,CALABARZON,Lucena,"Tanauan Distribution Center 351",14.1833,121.097,CALABARZON,Tanauan,2023-05-07,processed,3916,
+"Cavite City Processing Facility 352",14.4963,120.966,CALABARZON,"Cavite City","Antipolo Distribution Center 352",14.4972,121.1473,CALABARZON,Antipolo,2024-08-22,frozen,3108,
+"Dasmarinas Processing Facility 353",14.3994,120.8767,CALABARZON,Dasmarinas,"Angono Distribution Center 353",14.4866,121.2434,CALABARZON,Angono,2024-12-21,fresh,1562,
+"Cainta Processing Facility 354",14.6251,121.2112,CALABARZON,Cainta,"Tagaytay Distribution Center 354",14.153,120.9053,CALABARZON,Tagaytay,2023-06-22,fresh,594,
+"Lucena Processing Facility 355",14.0123,121.5957,CALABARZON,Lucena,"Lucena Distribution Center 355",14.0313,121.6697,CALABARZON,Lucena,2024-11-12,live_animal,,128
+"Cavite City Processing Facility 356",14.4253,120.873,CALABARZON,"Cavite City","Imus Distribution Center 356",14.4887,120.9247,CALABARZON,Imus,2023-10-19,processed,4569,
+"Tagaytay Processing Facility 357",14.104,120.9443,CALABARZON,Tagaytay,"Biñan Distribution Center 357",14.3363,121.1003,CALABARZON,Biñan,2024-10-07,live_animal,,156
+"Antipolo Processing Facility 358",14.5142,121.2413,CALABARZON,Antipolo,"Tanauan Distribution Center 358",14.1293,121.223,CALABARZON,Tanauan,2024-01-30,live_animal,,50
+"Lucena Processing Facility 359",14.0063,121.6887,CALABARZON,Lucena,"San Pedro Distribution Center 359",14.3977,121.029,CALABARZON,"San Pedro",2024-01-07,fresh,3573,
+"Imus Processing Facility 360",14.5087,120.8557,CALABARZON,Imus,"Taytay Distribution Center 360",14.5467,121.1863,CALABARZON,Taytay,2024-03-04,frozen,1898,
+"Taytay Processing Facility 361",14.6057,121.1513,CALABARZON,Taytay,"Cainta Distribution Center 361",14.4941,121.1972,CALABARZON,Cainta,2024-02-18,frozen,1112,
+"Taytay Processing Facility 362",14.6617,121.2133,CALABARZON,Taytay,"Los Baños Distribution Center 362",14.1507,121.2113,CALABARZON,"Los Baños",2024-08-26,live_animal,,72
+"Tayabas Processing Facility 363",14.0267,121.6823,CALABARZON,Tayabas,"Tanauan Distribution Center 363",13.9943,121.091,CALABARZON,Tanauan,2023-11-21,frozen,2458,
+"Taytay Processing Facility 364",14.5667,121.1753,CALABARZON,Taytay,"Calamba Distribution Center 364",14.2911,121.0683,CALABARZON,Calamba,2024-10-07,processed,4381,
+"San Pedro Processing Facility 365",14.4397,121.101,CALABARZON,"San Pedro","Lipa Distribution Center 365",13.9367,121.1953,CALABARZON,Lipa,2024-04-21,frozen,3655,
+"Batangas City Processing Facility 366",13.7135,121.1053,CALABARZON,"Batangas City","Santa Rosa Distribution Center 366",14.4097,121.0447,CALABARZON,"Santa Rosa",2023-12-19,fresh,911,
+"Taytay Processing Facility 367",14.5247,121.1423,CALABARZON,Taytay,"Lucena Distribution Center 367",13.8763,121.5337,CALABARZON,Lucena,2023-01-03,processed,2996,
+"Bacoor Processing Facility 368",14.5541,120.8568,CALABARZON,Bacoor,"Tanauan Distribution Center 368",14.0023,121.119,CALABARZON,Tanauan,2023-08-16,fresh,1609,
+"Calamba Processing Facility 369",14.2011,121.1023,CALABARZON,Calamba,"Taytay Distribution Center 369",14.5417,121.1393,CALABARZON,Taytay,2024-12-03,processed,795,
+"Antipolo Processing Facility 370",14.5042,121.1623,CALABARZON,Antipolo,"Tagaytay Distribution Center 370",14.098,120.9423,CALABARZON,Tagaytay,2024-02-05,live_animal,,146
+"Cavite City Processing Facility 371",14.5693,120.86,CALABARZON,"Cavite City","Calamba Distribution Center 371",14.1691,121.1403,CALABARZON,Calamba,2024-07-27,frozen,2820,
+"Lucena Processing Facility 372",13.8463,121.6467,CALABARZON,Lucena,"Lipa Distribution Center 372",14.0147,121.1163,CALABARZON,Lipa,2024-03-05,live_animal,,40
+"Dasmarinas Processing Facility 373",14.3594,120.8707,CALABARZON,Dasmarinas,"San Pedro Distribution Center 373",14.3207,121.061,CALABARZON,"San Pedro",2023-01-21,processed,1320,
+"Los Baños Processing Facility 374",14.0947,121.1423,CALABARZON,"Los Baños","Cavite City Distribution Center 374",14.5143,120.991,CALABARZON,"Cavite City",2023-05-23,frozen,4577,
+"Tanauan Processing Facility 375",14.0703,121.05,CALABARZON,Tanauan,"Antipolo Distribution Center 375",14.5832,121.2363,CALABARZON,Antipolo,2024-08-09,fresh,1666,
+"Cavite City Processing Facility 376",14.4763,120.89,CALABARZON,"Cavite City","Antipolo Distribution Center 376",14.5972,121.1043,CALABARZON,Antipolo,2024-01-23,fresh,4212,
+"Angono Processing Facility 377",14.6206,121.1324,CALABARZON,Angono,"Tagaytay Distribution Center 377",14.145,120.8663,CALABARZON,Tagaytay,2023-12-30,live_animal,,149
+"Angono Processing Facility 378",14.4566,121.1354,CALABARZON,Angono,"Tagaytay Distribution Center 378",14.082,120.9523,CALABARZON,Tagaytay,2023-03-09,frozen,912,
+"Gumaca Processing Facility 379",13.8507,122.03,CALABARZON,Gumaca,"Lucena Distribution Center 379",13.9533,121.7067,CALABARZON,Lucena,2023-01-06,processed,3619,
+"Gumaca Processing Facility 380",13.8857,122.108,CALABARZON,Gumaca,"Gumaca Distribution Center 380",13.9247,122.098,CALABARZON,Gumaca,2023-01-19,live_animal,,106
+"San Pedro Processing Facility 381",14.3167,121.001,CALABARZON,"San Pedro","Biñan Distribution Center 381",14.3703,121.1713,CALABARZON,Biñan,2023-10-05,fresh,3100,
+"Cainta Processing Facility 382",14.5751,121.0422,CALABARZON,Cainta,"Gumaca Distribution Center 382",13.9367,122.126,CALABARZON,Gumaca,2023-09-11,processed,3299,
+"Lipa Processing Facility 383",13.8537,121.0703,CALABARZON,Lipa,"Calamba Distribution Center 383",14.2731,121.1743,CALABARZON,Calamba,2024-08-20,live_animal,,112
+"Angono Processing Facility 384",14.5336,121.1244,CALABARZON,Angono,"San Pedro Distribution Center 384",14.3487,121.095,CALABARZON,"San Pedro",2023-12-31,processed,4553,
+"Imus Processing Facility 385",14.4797,120.9117,CALABARZON,Imus,"Tagaytay Distribution Center 385",14.034,121.0063,CALABARZON,Tagaytay,2023-04-12,live_animal,,64
+"Cavite City Processing Facility 386",14.4023,120.805,CALABARZON,"Cavite City","Tagaytay Distribution Center 386",14.159,120.8983,CALABARZON,Tagaytay,2024-06-15,frozen,4226,
+"Cavite City Processing Facility 387",14.4523,120.829,CALABARZON,"Cavite City","Bacoor Distribution Center 387",14.5041,121.0378,CALABARZON,Bacoor,2023-07-29,fresh,1474,
+"Angono Processing Facility 388",14.5766,121.1884,CALABARZON,Angono,"Lipa Distribution Center 388",13.8667,121.0973,CALABARZON,Lipa,2024-06-09,frozen,1256,
+"Antipolo Processing Facility 389",14.5892,121.1913,CALABARZON,Antipolo,"Bacoor Distribution Center 389",14.5571,120.8938,CALABARZON,Bacoor,2023-01-15,processed,2241,
+"San Pedro Processing Facility 390",14.4107,120.991,CALABARZON,"San Pedro","Dasmarinas Distribution Center 390",14.3064,120.8597,CALABARZON,Dasmarinas,2023-08-28,fresh,62,
+"Biñan Processing Facility 391",14.3273,121.0453,CALABARZON,Biñan,"Santa Rosa Distribution Center 391",14.2657,121.2087,CALABARZON,"Santa Rosa",2023-04-09,frozen,2860,
+"Lipa Processing Facility 392",14.0387,121.1473,CALABARZON,Lipa,"Cainta Distribution Center 392",14.6291,121.0642,CALABARZON,Cainta,2024-07-23,processed,929,
+"Santa Rosa Processing Facility 393",14.2757,121.1257,CALABARZON,"Santa Rosa","Tagaytay Distribution Center 393",14.019,120.9853,CALABARZON,Tagaytay,2023-06-12,fresh,3701,
+"Cainta Processing Facility 394",14.6001,121.0782,CALABARZON,Cainta,"Dasmarinas Distribution Center 394",14.3814,120.8807,CALABARZON,Dasmarinas,2024-01-25,processed,222,
+"Imus Processing Facility 395",14.4747,121.0227,CALABARZON,Imus,"Lipa Distribution Center 395",13.9397,121.1183,CALABARZON,Lipa,2024-12-07,fresh,4724,
+"Dasmarinas Processing Facility 396",14.3344,120.9737,CALABARZON,Dasmarinas,"Calamba Distribution Center 396",14.1731,121.1033,CALABARZON,Calamba,2024-11-21,fresh,2711,
+"Lipa Processing Facility 397",13.9627,121.2563,CALABARZON,Lipa,"Cavite City Distribution Center 397",14.5393,120.8,CALABARZON,"Cavite City",2024-07-08,live_animal,,152
+"Imus Processing Facility 398",14.3697,120.9117,CALABARZON,Imus,"Batangas City Distribution Center 398",13.7005,121.1123,CALABARZON,"Batangas City",2023-11-26,frozen,173,
+"Santa Rosa Processing Facility 399",14.2777,121.0487,CALABARZON,"Santa Rosa","San Pedro Distribution Center 399",14.3367,121.111,CALABARZON,"San Pedro",2024-03-02,live_animal,,119
+"Gumaca Processing Facility 400",13.8297,122.143,CALABARZON,Gumaca,"Tagaytay Distribution Center 400",14.177,120.8853,CALABARZON,Tagaytay,2023-11-22,frozen,3444,
+"San Pedro Processing Facility 401",14.3037,121.039,CALABARZON,"San Pedro","Calamba Distribution Center 401",14.1291,121.1143,CALABARZON,Calamba,2024-10-22,live_animal,,179
+"Angono Processing Facility 402",14.6176,121.2044,CALABARZON,Angono,"Tanauan Distribution Center 402",14.0053,121.177,CALABARZON,Tanauan,2023-05-31,live_animal,,167
+"Lipa Processing Facility 403",13.9227,121.1813,CALABARZON,Lipa,"Tagaytay Distribution Center 403",14.02,121.0073,CALABARZON,Tagaytay,2024-08-02,frozen,3590,
+"Batangas City Processing Facility 404",13.8445,121.0193,CALABARZON,"Batangas City","Angono Distribution Center 404",14.6216,121.1364,CALABARZON,Angono,2024-01-12,fresh,4695,
+"Los Baños Processing Facility 405",14.2497,121.1833,CALABARZON,"Los Baños","Imus Distribution Center 405",14.3507,120.8907,CALABARZON,Imus,2024-12-25,frozen,4606,
+"Antipolo Processing Facility 406",14.6832,121.1383,CALABARZON,Antipolo,"Gumaca Distribution Center 406",13.8487,122.044,CALABARZON,Gumaca,2023-03-16,fresh,2585,
+"Lipa Processing Facility 407",13.8757,121.2263,CALABARZON,Lipa,"Los Baños Distribution Center 407",14.0857,121.1573,CALABARZON,"Los Baños",2023-04-17,processed,944,
+"Cavite City Processing Facility 408",14.4913,120.957,CALABARZON,"Cavite City","Tagaytay Distribution Center 408",14.097,120.9953,CALABARZON,Tagaytay,2023-10-09,processed,3287,
+"Tanauan Processing Facility 409",14.0273,121.161,CALABARZON,Tanauan,"Bacoor Distribution Center 409",14.4761,120.9418,CALABARZON,Bacoor,2023-12-18,live_animal,,33
+"Tanauan Processing Facility 410",14.0373,121.183,CALABARZON,Tanauan,"Gumaca Distribution Center 410",13.9807,122.103,CALABARZON,Gumaca,2024-09-08,frozen,1225,
+"Cavite City Processing Facility 411",14.3993,120.814,CALABARZON,"Cavite City","Dasmarinas Distribution Center 411",14.3504,121.0367,CALABARZON,Dasmarinas,2024-01-19,processed,3285,
+"Santa Rosa Processing Facility 412",14.3927,121.0767,CALABARZON,"Santa Rosa","Lucena Distribution Center 412",13.9893,121.5907,CALABARZON,Lucena,2024-10-20,fresh,4892,
+"Tayabas Processing Facility 413",14.0457,121.6833,CALABARZON,Tayabas,"Batangas City Distribution Center 413",13.8175,121.0463,CALABARZON,"Batangas City",2023-01-05,frozen,2356,
+"Los Baños Processing Facility 414",14.1497,121.1923,CALABARZON,"Los Baños","Gumaca Distribution Center 414",13.9087,122.178,CALABARZON,Gumaca,2023-10-21,fresh,1614,
+"Tanauan Processing Facility 415",14.1093,121.209,CALABARZON,Tanauan,"Tayabas Distribution Center 415",14.0407,121.6693,CALABARZON,Tayabas,2024-08-21,frozen,3474,
+"Santa Rosa Processing Facility 416",14.2797,121.0197,CALABARZON,"Santa Rosa","Imus Distribution Center 416",14.4767,121.0067,CALABARZON,Imus,2023-04-03,live_animal,,183
+"Calamba Processing Facility 417",14.2591,121.1863,CALABARZON,Calamba,"Tayabas Distribution Center 417",14.0627,121.4843,CALABARZON,Tayabas,2023-05-22,frozen,2798,
+"Biñan Processing Facility 418",14.3013,121.0783,CALABARZON,Biñan,"Dasmarinas Distribution Center 418",14.3944,120.8747,CALABARZON,Dasmarinas,2024-05-08,fresh,3382,
+"Cavite City Processing Facility 419",14.5033,120.934,CALABARZON,"Cavite City","Taytay Distribution Center 419",14.5757,121.0553,CALABARZON,Taytay,2024-07-15,processed,2432,
+"Lipa Processing Facility 420",13.9837,121.1503,CALABARZON,Lipa,"Angono Distribution Center 420",14.4986,121.1524,CALABARZON,Angono,2023-11-21,processed,4737,
+"Tayabas Processing Facility 421",14.0957,121.5803,CALABARZON,Tayabas,"Bacoor Distribution Center 421",14.3621,120.8488,CALABARZON,Bacoor,2024-10-10,processed,2920,
+"Batangas City Processing Facility 422",13.6865,121.1493,CALABARZON,"Batangas City","San Pedro Distribution Center 422",14.3527,121.132,CALABARZON,"San Pedro",2024-01-31,frozen,2879,
+"Taytay Processing Facility 423",14.6337,121.2273,CALABARZON,Taytay,"Los Baños Distribution Center 423",14.1237,121.2533,CALABARZON,"Los Baños",2024-08-04,fresh,2991,
+"Biñan Processing Facility 424",14.4213,121.0553,CALABARZON,Biñan,"Calamba Distribution Center 424",14.1201,121.1893,CALABARZON,Calamba,2023-09-23,processed,2351,
+"Antipolo Processing Facility 425",14.6632,121.1543,CALABARZON,Antipolo,"Santa Rosa Distribution Center 425",14.3007,121.0967,CALABARZON,"Santa Rosa",2023-11-06,live_animal,,101
+"Dasmarinas Processing Facility 426",14.3834,120.8817,CALABARZON,Dasmarinas,"Tagaytay Distribution Center 426",14.065,120.9033,CALABARZON,Tagaytay,2023-07-12,fresh,4918,
+"Antipolo Processing Facility 427",14.5732,121.2653,CALABARZON,Antipolo,"Biñan Distribution Center 427",14.3093,121.0813,CALABARZON,Biñan,2023-04-07,frozen,1559,
+"Cainta Processing Facility 428",14.5571,121.0732,CALABARZON,Cainta,"Tayabas Distribution Center 428",14.0707,121.5663,CALABARZON,Tayabas,2023-12-28,fresh,1201,
+"Antipolo Processing Facility 429",14.5092,121.2313,CALABARZON,Antipolo,"Gumaca Distribution Center 429",13.9177,122.025,CALABARZON,Gumaca,2023-03-27,live_animal,,82
+"Lipa Processing Facility 430",13.9447,121.2273,CALABARZON,Lipa,"Bacoor Distribution Center 430",14.4281,120.8858,CALABARZON,Bacoor,2023-10-23,live_animal,,72
+"Dasmarinas Processing Facility 431",14.3324,120.9987,CALABARZON,Dasmarinas,"Cainta Distribution Center 431",14.5621,121.2192,CALABARZON,Cainta,2023-11-27,live_animal,,190
+"Cavite City Processing Facility 432",14.5753,120.827,CALABARZON,"Cavite City","Dasmarinas Distribution Center 432",14.2644,120.9007,CALABARZON,Dasmarinas,2023-03-14,fresh,567,
+"Cavite City Processing Facility 433",14.4383,120.807,CALABARZON,"Cavite City","Gumaca Distribution Center 433",13.8687,122.043,CALABARZON,Gumaca,2023-11-11,live_animal,,103
+"Lipa Processing Facility 434",14.0037,121.1293,CALABARZON,Lipa,"Cavite City Distribution Center 434",14.5533,120.838,CALABARZON,"Cavite City",2024-09-06,frozen,1685,
+"Lipa Processing Facility 435",13.9547,121.0753,CALABARZON,Lipa,"Angono Distribution Center 435",14.4596,121.2034,CALABARZON,Angono,2023-11-16,live_animal,,119
+"Tanauan Processing Facility 436",14.0943,121.054,CALABARZON,Tanauan,"Bacoor Distribution Center 436",14.3851,120.9918,CALABARZON,Bacoor,2023-08-24,live_animal,,184
+"Cainta Processing Facility 437",14.6421,121.0812,CALABARZON,Cainta,"Gumaca Distribution Center 437",13.8287,122.15,CALABARZON,Gumaca,2023-11-15,live_animal,,196
+"Cavite City Processing Facility 438",14.5573,120.992,CALABARZON,"Cavite City","Lipa Distribution Center 438",13.9447,121.2263,CALABARZON,Lipa,2023-02-10,fresh,1996,
+"Los Baños Processing Facility 439",14.1817,121.3023,CALABARZON,"Los Baños","Los Baños Distribution Center 439",14.1937,121.2073,CALABARZON,"Los Baños",2023-11-17,live_animal,,51
+"Angono Processing Facility 440",14.5346,121.1914,CALABARZON,Angono,"Taytay Distribution Center 440",14.6227,121.1283,CALABARZON,Taytay,2024-04-09,fresh,629,
+"Tanauan Processing Facility 441",14.0063,121.122,CALABARZON,Tanauan,"San Pedro Distribution Center 441",14.3527,120.988,CALABARZON,"San Pedro",2023-07-29,live_animal,,29
+"Tanauan Processing Facility 442",14.1193,121.152,CALABARZON,Tanauan,"Lipa Distribution Center 442",14.0277,121.1503,CALABARZON,Lipa,2023-06-10,frozen,4685,
+"San Pedro Processing Facility 443",14.2847,121.036,CALABARZON,"San Pedro","Antipolo Distribution Center 443",14.5762,121.1853,CALABARZON,Antipolo,2024-10-27,live_animal,,92
+"Cainta Processing Facility 444",14.5421,121.1202,CALABARZON,Cainta,"Biñan Distribution Center 444",14.3183,121.0283,CALABARZON,Biñan,2023-07-25,processed,2762,
+"Angono Processing Facility 445",14.4686,121.1704,CALABARZON,Angono,"Cainta Distribution Center 445",14.5291,121.1002,CALABARZON,Cainta,2023-07-27,fresh,4623,
+"Los Baños Processing Facility 446",14.1257,121.3123,CALABARZON,"Los Baños","Tanauan Distribution Center 446",14.1483,121.153,CALABARZON,Tanauan,2024-08-07,fresh,3672,
+"Dasmarinas Processing Facility 447",14.2744,120.8377,CALABARZON,Dasmarinas,"Imus Distribution Center 447",14.3737,120.9567,CALABARZON,Imus,2023-07-24,processed,2192,
+"Calamba Processing Facility 448",14.2981,121.2273,CALABARZON,Calamba,"Calamba Distribution Center 448",14.2601,121.2053,CALABARZON,Calamba,2024-05-25,frozen,3578,
+"Tayabas Processing Facility 449",13.9317,121.5233,CALABARZON,Tayabas,"Santa Rosa Distribution Center 449",14.3477,121.1567,CALABARZON,"Santa Rosa",2023-07-11,live_animal,,104
+"San Pedro Processing Facility 450",14.3177,121.026,CALABARZON,"San Pedro","San Pedro Distribution Center 450",14.3767,121.111,CALABARZON,"San Pedro",2023-01-15,fresh,2268,
+"Santa Rosa Processing Facility 451",14.4047,121.0707,CALABARZON,"Santa Rosa","Biñan Distribution Center 451",14.4313,121.0873,CALABARZON,Biñan,2023-03-09,frozen,1054,
+"Tagaytay Processing Facility 452",14.046,120.8363,CALABARZON,Tagaytay,"Dasmarinas Distribution Center 452",14.4114,120.9587,CALABARZON,Dasmarinas,2023-07-02,frozen,1712,
+"Batangas City Processing Facility 453",13.6755,121.0983,CALABARZON,"Batangas City","Tayabas Distribution Center 453",13.9217,121.5643,CALABARZON,Tayabas,2024-02-04,live_animal,,148
+"Calamba Processing Facility 454",14.2491,121.0883,CALABARZON,Calamba,"Tagaytay Distribution Center 454",14.136,120.9573,CALABARZON,Tagaytay,2024-10-17,frozen,3705,
+"Cainta Processing Facility 455",14.5751,121.1862,CALABARZON,Cainta,"Lucena Distribution Center 455",13.9563,121.6297,CALABARZON,Lucena,2023-04-17,frozen,4755,
+"Tayabas Processing Facility 456",14.1137,121.5733,CALABARZON,Tayabas,"San Pedro Distribution Center 456",14.2867,120.973,CALABARZON,"San Pedro",2023-04-19,processed,1311,
+"Lipa Processing Facility 457",13.8657,121.0933,CALABARZON,Lipa,"Lipa Distribution Center 457",13.9387,121.2043,CALABARZON,Lipa,2023-05-26,live_animal,,100
+"Antipolo Processing Facility 458",14.6782,121.2393,CALABARZON,Antipolo,"Lipa Distribution Center 458",13.9897,121.2433,CALABARZON,Lipa,2023-06-06,processed,4879,
+"Biñan Processing Facility 459",14.4123,121.1413,CALABARZON,Biñan,"Bacoor Distribution Center 459",14.3971,120.8618,CALABARZON,Bacoor,2024-07-07,frozen,3527,
+"Tanauan Processing Facility 460",14.0333,121.093,CALABARZON,Tanauan,"Batangas City Distribution Center 460",13.7335,121.0613,CALABARZON,"Batangas City",2024-04-01,frozen,4488,
+"Tayabas Processing Facility 461",14.1017,121.6723,CALABARZON,Tayabas,"Tanauan Distribution Center 461",14.0173,121.103,CALABARZON,Tanauan,2023-02-19,fresh,3534,
+"Imus Processing Facility 462",14.5127,120.9917,CALABARZON,Imus,"Dasmarinas Distribution Center 462",14.2734,120.8487,CALABARZON,Dasmarinas,2024-07-07,fresh,4024,
+"Bacoor Processing Facility 463",14.5011,120.9318,CALABARZON,Bacoor,"Batangas City Distribution Center 463",13.7315,120.9873,CALABARZON,"Batangas City",2024-07-20,frozen,1982,
+"Santa Rosa Processing Facility 464",14.2427,121.0727,CALABARZON,"Santa Rosa","Cainta Distribution Center 464",14.5991,121.1062,CALABARZON,Cainta,2023-09-15,live_animal,,60
+"San Pedro Processing Facility 465",14.3357,121.104,CALABARZON,"San Pedro","Angono Distribution Center 465",14.5386,121.0594,CALABARZON,Angono,2024-09-10,processed,1557,
+"Imus Processing Facility 466",14.4007,120.8677,CALABARZON,Imus,"Tagaytay Distribution Center 466",14.03,120.9463,CALABARZON,Tagaytay,2024-11-09,processed,4602,
+"San Pedro Processing Facility 467",14.2827,121.126,CALABARZON,"San Pedro","Lipa Distribution Center 467",13.9377,121.1083,CALABARZON,Lipa,2024-07-14,frozen,1481,
+"Los Baños Processing Facility 468",14.0817,121.1723,CALABARZON,"Los Baños","Angono Distribution Center 468",14.4316,121.0744,CALABARZON,Angono,2024-06-07,processed,4901,
+"Tayabas Processing Facility 469",14.0837,121.5983,CALABARZON,Tayabas,"Calamba Distribution Center 469",14.3021,121.1643,CALABARZON,Calamba,2024-07-02,live_animal,,199
+"Bacoor Processing Facility 470",14.4511,120.9688,CALABARZON,Bacoor,"Dasmarinas Distribution Center 470",14.3734,120.9497,CALABARZON,Dasmarinas,2023-07-31,fresh,3832,
+"Biñan Processing Facility 471",14.3213,121.1673,CALABARZON,Biñan,"Dasmarinas Distribution Center 471",14.2784,120.8807,CALABARZON,Dasmarinas,2024-04-05,live_animal,,184
+"San Pedro Processing Facility 472",14.2677,121.078,CALABARZON,"San Pedro","Lucena Distribution Center 472",13.9953,121.5187,CALABARZON,Lucena,2023-12-01,processed,4432,
+"Lipa Processing Facility 473",13.9647,121.1513,CALABARZON,Lipa,"Angono Distribution Center 473",14.5526,121.1564,CALABARZON,Angono,2023-11-08,frozen,805,
+"Santa Rosa Processing Facility 474",14.2537,121.1737,CALABARZON,"Santa Rosa","Santa Rosa Distribution Center 474",14.2797,121.0367,CALABARZON,"Santa Rosa",2024-06-22,frozen,1357,
+"Gumaca Processing Facility 475",13.9047,122.105,CALABARZON,Gumaca,"Calamba Distribution Center 475",14.1821,121.1543,CALABARZON,Calamba,2023-11-28,processed,4487,
+"Los Baños Processing Facility 476",14.0667,121.2173,CALABARZON,"Los Baños","San Pedro Distribution Center 476",14.3727,121.144,CALABARZON,"San Pedro",2023-10-28,frozen,506,
+"Lipa Processing Facility 477",13.9587,121.2203,CALABARZON,Lipa,"Imus Distribution Center 477",14.3827,120.9587,CALABARZON,Imus,2023-05-27,live_animal,,31
+"Imus Processing Facility 478",14.3977,120.9347,CALABARZON,Imus,"Imus Distribution Center 478",14.4547,120.9037,CALABARZON,Imus,2023-08-16,live_animal,,179
+"San Pedro Processing Facility 479",14.2887,120.981,CALABARZON,"San Pedro","Cainta Distribution Center 479",14.4841,121.1492,CALABARZON,Cainta,2023-03-28,frozen,2120,
+"Biñan Processing Facility 480",14.2543,121.0393,CALABARZON,Biñan,"Bacoor Distribution Center 480",14.4951,120.8458,CALABARZON,Bacoor,2023-08-16,frozen,1172,
+"Cainta Processing Facility 481",14.6391,121.1372,CALABARZON,Cainta,"Tagaytay Distribution Center 481",14.146,120.8493,CALABARZON,Tagaytay,2024-02-28,processed,3666,
+"Lipa Processing Facility 482",13.8427,121.0733,CALABARZON,Lipa,"Lipa Distribution Center 482",14.0007,121.1333,CALABARZON,Lipa,2024-10-27,processed,4744,
+"Antipolo Processing Facility 483",14.5412,121.2623,CALABARZON,Antipolo,"Tanauan Distribution Center 483",14.1503,121.176,CALABARZON,Tanauan,2023-08-13,frozen,4234,
+"Calamba Processing Facility 484",14.2771,121.1303,CALABARZON,Calamba,"Bacoor Distribution Center 484",14.4161,120.9608,CALABARZON,Bacoor,2024-07-16,processed,940,
+"Bacoor Processing Facility 485",14.5441,120.9728,CALABARZON,Bacoor,"Imus Distribution Center 485",14.4917,120.9157,CALABARZON,Imus,2023-07-29,processed,3982,
+"Bacoor Processing Facility 486",14.3951,120.9758,CALABARZON,Bacoor,"Batangas City Distribution Center 486",13.7235,121.0163,CALABARZON,"Batangas City",2024-09-01,live_animal,,39
+"Taytay Processing Facility 487",14.5887,121.1323,CALABARZON,Taytay,"Lucena Distribution Center 487",13.9163,121.6057,CALABARZON,Lucena,2023-11-13,live_animal,,109
+"Angono Processing Facility 488",14.4596,121.2374,CALABARZON,Angono,"Biñan Distribution Center 488",14.3763,121.1143,CALABARZON,Biñan,2023-08-16,frozen,4737,
+"Antipolo Processing Facility 489",14.5632,121.1033,CALABARZON,Antipolo,"Tanauan Distribution Center 489",14.1073,121.144,CALABARZON,Tanauan,2024-10-16,processed,1033,
+"Cavite City Processing Facility 490",14.5283,120.834,CALABARZON,"Cavite City","Dasmarinas Distribution Center 490",14.3884,120.9417,CALABARZON,Dasmarinas,2024-08-17,frozen,2418,
+"Dasmarinas Processing Facility 491",14.3984,121.0037,CALABARZON,Dasmarinas,"San Pedro Distribution Center 491",14.3017,121.107,CALABARZON,"San Pedro",2023-09-20,fresh,2919,
+"Los Baños Processing Facility 492",14.2497,121.3333,CALABARZON,"Los Baños","Tanauan Distribution Center 492",14.0713,121.07,CALABARZON,Tanauan,2023-04-09,fresh,4047,
+"Dasmarinas Processing Facility 493",14.3324,120.8607,CALABARZON,Dasmarinas,"Tayabas Distribution Center 493",14.0537,121.6513,CALABARZON,Tayabas,2023-03-15,processed,4783,
+"Cavite City Processing Facility 494",14.3963,120.838,CALABARZON,"Cavite City","Imus Distribution Center 494",14.3677,121.0367,CALABARZON,Imus,2024-07-13,processed,1385,
+"Tanauan Processing Facility 495",14.1443,121.226,CALABARZON,Tanauan,"Antipolo Distribution Center 495",14.6042,121.1573,CALABARZON,Antipolo,2024-08-17,live_animal,,138
+"Imus Processing Facility 496",14.3347,121.0067,CALABARZON,Imus,"Angono Distribution Center 496",14.6186,121.1834,CALABARZON,Angono,2024-08-09,frozen,671,
+"Angono Processing Facility 497",14.4816,121.2214,CALABARZON,Angono,"Tayabas Distribution Center 497",14.0147,121.6803,CALABARZON,Tayabas,2024-12-01,processed,2497,
+"Cainta Processing Facility 498",14.6631,121.0372,CALABARZON,Cainta,"Calamba Distribution Center 498",14.1301,121.1723,CALABARZON,Calamba,2024-09-19,processed,4629,
+"Lucena Processing Facility 499",13.9913,121.5877,CALABARZON,Lucena,"Tanauan Distribution Center 499",14.1233,121.22,CALABARZON,Tanauan,2024-11-08,fresh,1711,
+"Los Baños Processing Facility 500",14.1737,121.1743,CALABARZON,"Los Baños","Cainta Distribution Center 500",14.6571,121.2042,CALABARZON,Cainta,2024-06-13,frozen,2119,
