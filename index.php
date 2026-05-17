@@ -67,10 +67,11 @@ try {
       scroll-behavior: smooth;
     }
 
-    #asfMap {
+#asfMap {
       height: 600px;
       width: 100%;
       border-radius: 10px;
+      background: #0d1b2a;
       z-index: 1;
     }
     
@@ -78,6 +79,7 @@ try {
       height: 600px;
       width: 100%;
       border-radius: 10px;
+      background: #0d1b2a;
       z-index: 1;
     }
     
@@ -918,15 +920,20 @@ try {
         maxZoom: 18
       }).setView(calabarzonCenter, 9);
       
-      // Add OpenStreetMap tiles
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      // Add ESRI World Imagery satellite tiles
+      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
         maxZoom: 18
       }).addTo(asfMap);
       
       // Set map bounds to CALABARZON region
       asfMap.setMaxBounds(calabarzonBounds);
       
+      // Create a dedicated pane for the mask below the vector overlay pane (z:400)
+      asfMap.createPane('asfMaskPane');
+      asfMap.getPane('asfMaskPane').style.zIndex = 350;
+      asfMap.getPane('asfMaskPane').style.pointerEvents = 'none';
+
       // Initialize cartogram layer for animated circles
       mapLayers.cartogram = L.layerGroup().addTo(asfMap);
       
@@ -942,12 +949,70 @@ try {
         .then(response => response.json())
         .then(data => {
           calabarzonGeoJSON = data;
+          addCalabarzonMask(data);
           loadMapData();
         })
         .catch(err => {
           console.error('Error loading GeoJSON boundaries:', err);
           loadMapData(); // Fallback
         });
+    }
+
+    /**
+     * Add a dark mask over everything outside CALABARZON using an inverted polygon.
+     * World bounds → CALABARZON municipality polygons as holes.
+     */
+    function isCalabarzonFeature(feature) {
+      if (!feature.geometry || !feature.geometry.coordinates) return false;
+      const geoName = (feature.properties.shapeName || feature.properties.ADM3_EN || feature.properties.name || '').trim().toUpperCase();
+      let coords = feature.geometry.coordinates;
+      while (coords.length > 0 && Array.isArray(coords[0])) coords = coords[0];
+      if (coords.length < 2) return true;
+      const lng = coords[0], lat = coords[1];
+      if (lat < 13.1 || lat > 15.2 || lng < 120.3 || lng > 123.0) return false;
+      if (geoName === 'SAN JOSE' && (lat > 14.5 || lat < 13.5 || lng < 120.8)) return false;
+      if (geoName === 'SAN ANTONIO' && (lat > 14.5 || lng < 121.0)) return false;
+      if (geoName === 'ROSARIO' && (lat > 14.6 || lat < 13.6)) return false;
+      if (geoName === 'SAN NICOLAS' && lat > 14.5) return false;
+      if (geoName === 'SAN PASCUAL' && (lat > 14.0 || lat < 13.5)) return false;
+      if (geoName === 'PLARIDEL' && lng < 121.5) return false;
+      if (geoName === 'MABINI' && (lat > 14.0 || lat < 13.5)) return false;
+      if (geoName === 'RIZAL' && (lat > 14.5 || lat < 13.8 || lng < 121.0)) return false;
+      if (geoName === 'QUEZON CITY' || geoName === 'MANILA' || geoName === 'CITY OF MANILA') return false;
+      if (geoName === 'BUENAVISTA' && lat < 13.6) return false;
+      if (geoName === 'SANTA CRUZ' && lat < 13.8) return false;
+      if (geoName === 'MORONG' && lng < 120.6) return false;
+      if (geoName === 'SAN LUIS' && lat > 14.5) return false;
+      if (geoName === 'SANTO TOMAS' && lat > 14.5) return false;
+      if (geoName === 'SANTA MARIA' && lat > 14.5) return false;
+      if (geoName === 'VICTORIA' && lat > 14.5) return false;
+      return true;
+    }
+
+    function addCalabarzonMask(geoJsonData) {
+      const worldBounds = [[-90, -180], [-90, 180], [90, 180], [90, -180], [-90, -180]];
+      const rings = [worldBounds];
+
+      geoJsonData.features.forEach(function(feature) {
+        if (!isCalabarzonFeature(feature)) return;
+        const geomType = feature.geometry.type;
+        if (geomType === 'Polygon') {
+          rings.push(feature.geometry.coordinates[0].map(function(c) { return [c[1], c[0]]; }));
+        } else if (geomType === 'MultiPolygon') {
+          feature.geometry.coordinates.forEach(function(poly) {
+            rings.push(poly[0].map(function(c) { return [c[1], c[0]]; }));
+          });
+        }
+      });
+
+      L.polygon(rings, {
+        pane: 'asfMaskPane',
+        color: 'none',
+        weight: 0,
+        fillColor: '#0d1b2a',
+        fillOpacity: 1,
+        interactive: false
+      }).addTo(asfMap);
     }
 
     /**
@@ -1197,7 +1262,7 @@ try {
             }
             
             layer.bindPopup(popupContent);
-            
+
             // Hover styling interaction for polygons
             layer.on({
                 mouseover: function(e) {
@@ -1272,6 +1337,30 @@ try {
       isRunning: false
     };
     
+    function addSimulationMask(map, geoJsonData) {
+      const worldBounds = [[-90, -180], [-90, 180], [90, 180], [90, -180], [-90, -180]];
+      const rings = [worldBounds];
+      geoJsonData.features.forEach(function(feature) {
+        if (!isCalabarzonFeature(feature)) return;
+        const geomType = feature.geometry.type;
+        if (geomType === 'Polygon') {
+          rings.push(feature.geometry.coordinates[0].map(function(c) { return [c[1], c[0]]; }));
+        } else if (geomType === 'MultiPolygon') {
+          feature.geometry.coordinates.forEach(function(poly) {
+            rings.push(poly[0].map(function(c) { return [c[1], c[0]]; }));
+          });
+        }
+      });
+      L.polygon(rings, {
+        pane: 'simMaskPane',
+        color: 'none',
+        weight: 0,
+        fillColor: '#0d1b2a',
+        fillOpacity: 1,
+        interactive: false
+      }).addTo(map);
+    }
+
     /**
      * Initialize Simulation Map
      */
@@ -1292,16 +1381,30 @@ try {
         maxZoom: 18
       }).setView([14.0, 121.0], 9);
       
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors',
+      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
         maxZoom: 18
       }).addTo(simulationMap);
-      
+
       // Set map bounds to CALABARZON region
       simulationMap.setMaxBounds(calabarzonBounds);
-      
+
+      // Create a dedicated pane for the simulation mask
+      simulationMap.createPane('simMaskPane');
+      simulationMap.getPane('simMaskPane').style.zIndex = 350;
+      simulationMap.getPane('simMaskPane').style.pointerEvents = 'none';
+
       simulationLayers.simulation.addTo(simulationMap);
-      
+
+      // Add CALABARZON-only mask (hide everything outside region)
+      if (calabarzonGeoJSON) {
+        addSimulationMask(simulationMap, calabarzonGeoJSON);
+      } else {
+        fetch('assets/data/calabarzon-municipalities.geojson')
+          .then(r => r.json())
+          .then(data => addSimulationMask(simulationMap, data));
+      }
+
       // Load simulation locations
       loadSimulationLocations();
       loadSimulationSpreadData();
