@@ -505,46 +505,7 @@ function getNewsArticleNotifications($pdo) {
  * Get system alert notifications
  */
 function getSystemAlertNotifications($pdo) {
-    $notifications = [];
-    
-    try {
-        $sql = "SELECT sa.id, sa.alert_code, sa.alert_type, sa.severity,
-                       sa.title, sa.message, sa.created_at, sa.is_active
-                FROM system_alerts sa
-                WHERE sa.created_at >= DATE_SUB(NOW(), INTERVAL 7 DAY)
-                AND sa.is_active = 1
-                ORDER BY sa.created_at DESC
-                LIMIT 30";
-        
-        $stmt = $pdo->prepare($sql);
-        $stmt->execute();
-        $alerts = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        
-        foreach ($alerts as $alert) {
-            $priority = ($alert['severity'] === 'critical' || $alert['severity'] === 'high') ? 'urgent' : 'normal';
-            
-            $notifications[] = [
-                'id' => 'dynamic_system_alert_' . $alert['id'],
-                'user_id' => null,
-                'user_role' => 'administrator',
-                'notification_type' => 'system',
-                'title' => "⚠️ System Alert: {$alert['title']}",
-                'message' => $alert['message'],
-                'related_id' => $alert['id'],
-                'related_type' => 'system_alert',
-                'link' => 'system-alerts.php?view=' . $alert['id'],
-                'is_read' => 0,
-                'is_archived' => 0,
-                'priority' => $priority,
-                'created_at' => $alert['created_at'],
-                'read_at' => null
-            ];
-        }
-    } catch (PDOException $e) {
-        error_log("Error getting system alert notifications: " . $e->getMessage());
-    }
-    
-    return $notifications;
+    return [];
 }
 
 /**

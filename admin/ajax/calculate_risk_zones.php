@@ -1,8 +1,7 @@
 <?php
 /**
  * Calculate Risk Zones - AJAX Handler
- * Analyzes outbreaks, depopulation events, environmental data, and meat movement
- * to automatically calculate and generate risk zones by city/municipality
+ * Analyzes ASF outbreaks to automatically calculate and generate risk zones by city/municipality.
  * Uses ASF zoning classification: infected, buffer, surveillance, protected, free
  */
 
@@ -30,8 +29,6 @@ $clusterRadius = isset($_POST['clusterRadius']) ? floatval($_POST['clusterRadius
 $minOutbreaksForZone = isset($_POST['minOutbreaksForZone']) ? intval($_POST['minOutbreaksForZone']) : 2;
 $lookbackDays = isset($_POST['lookbackDays']) ? intval($_POST['lookbackDays']) : 90;
 $replaceExisting = isset($_POST['replaceExisting']) ? $_POST['replaceExisting'] : 'append';
-$includeEnvironmental = isset($_POST['includeEnvironmental']) && $_POST['includeEnvironmental'] === 'on';
-$includeMovement = isset($_POST['includeMovement']) && $_POST['includeMovement'] === 'on';
 
 $startTime = microtime(true);
 $userId = $_SESSION['user_id'];
@@ -46,25 +43,16 @@ try {
     // Get cutoff date
     $cutoffDate = date('Y-m-d', strtotime("-{$lookbackDays} days"));
     
-    // Step 1: Get ALL cities in CALABARZON from all data sources (union of all cities)
-    $allCitiesSql = "SELECT DISTINCT city, province 
-                     FROM (
-                       SELECT DISTINCT city, province FROM asf_outbreaks WHERE province = 'CALABARZON' AND city IS NOT NULL AND city != ''
-                       UNION
-                       SELECT DISTINCT city, province FROM depopulation_events WHERE province = 'CALABARZON' AND city IS NOT NULL AND city != ''
-                       UNION
-                       SELECT DISTINCT city, province FROM environmental_data WHERE province = 'CALABARZON' AND city IS NOT NULL AND city != ''
-                       UNION
-                       SELECT DISTINCT source_city as city, source_province as province FROM meat_movement WHERE source_province = 'CALABARZON' AND source_city IS NOT NULL AND source_city != ''
-                       UNION
-                       SELECT DISTINCT destination_city as city, destination_province as province FROM meat_movement WHERE destination_province = 'CALABARZON' AND destination_city IS NOT NULL AND destination_city != ''
-                     ) as all_cities
+    // Step 1: Get ALL cities in CALABARZON from ASF outbreaks only
+    $allCitiesSql = "SELECT DISTINCT city, province
+                     FROM asf_outbreaks
+                     WHERE province = 'CALABARZON' AND city IS NOT NULL AND city != ''
                      ORDER BY city";
     $stmt = $pdo->query($allCitiesSql);
     $allCities = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
     if (empty($allCities)) {
-        throw new Exception('No cities found in CALABARZON. Please upload data for at least one city.');
+        throw new Exception('No outbreak data found for CALABARZON. Please upload ASF outbreak data first.');
     }
     
     // Initialize city data structure for ALL cities
@@ -81,21 +69,19 @@ try {
             'center_lat' => 0,
             'center_lon' => 0,
             'total_outbreaks' => 0,
-            'total_depopulation' => 0,
             'last_outbreak_date' => null
         ];
     }
     
     // Step 2: Get outbreaks within lookback period and group by city
-    $outbreaksSql = "SELECT id, location_name, latitude, longitude, province, city, barangay,
-                            outbreak_date, total_pigs_affected, total_pigs_mortality, 
-                            total_pigs_depopulated, severity_level, status
-                     FROM asf_outbreaks 
-                     WHERE outbreak_date >= ? 
+    $outbreaksSql = "SELECT id, location_name, latitude, longitude, province, city,
+                            reported_date, severity_level
+                     FROM asf_outbreaks
+                     WHERE reported_date >= ?
                      AND province = 'CALABARZON'
-                     AND latitude IS NOT NULL 
+                     AND latitude IS NOT NULL
                      AND longitude IS NOT NULL
-                     ORDER BY city, outbreak_date DESC";
+                     ORDER BY city, reported_date DESC";
     $stmt = $pdo->prepare($outbreaksSql);
     $stmt->execute([$cutoffDate]);
     $outbreaks = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -127,21 +113,11 @@ try {
         
         // Get most recent outbreak date
         foreach ($cityData['outbreaks'] as $outbreak) {
-            $obDate = $outbreak['outbreak_date'];
+            $obDate = $outbreak['reported_date'];
             if ($cityData['last_outbreak_date'] === null || $obDate > $cityData['last_outbreak_date']) {
                 $cityData['last_outbreak_date'] = $obDate;
             }
         }
-        
-        // Get depopulation events for this city
-        $depopSql = "SELECT COUNT(*) as count, SUM(head_count) as total_heads
-                     FROM depopulation_events 
-                     WHERE city = ? AND province = ?
-                     AND event_date >= ?";
-        $depopStmt = $pdo->prepare($depopSql);
-        $depopStmt->execute([$cityData['city'], $cityData['province'], $cutoffDate]);
-        $depopResult = $depopStmt->fetch(PDO::FETCH_ASSOC);
-        $cityData['total_depopulation'] = intval($depopResult['count'] ?? 0);
     }
     unset($cityData);
     
@@ -156,7 +132,7 @@ try {
     
     foreach ($cityOutbreaks as $cityKey => $cityData) {
         // Calculate risk score for the city (simplified calculation)
-        $riskScore = calculateCityRiskScore($cityData, $includeEnvironmental, $includeMovement, $pdo, $cutoffDate);
+        $riskScore = calculateCityRiskScore($cityData);
         
         // Classify city into ASF zone type
         $zoneType = classifyCityZone($cityData, $riskScore);
@@ -186,17 +162,15 @@ try {
                 $factors = [
                     'zone_type' => $zoneType,
                     'total_outbreaks' => $cityData['total_outbreaks'],
-                    'depopulation_events' => $cityData['total_depopulation'],
                     'cluster_radius_km' => round($clusterRadius, 2)
                 ];
-                
+
                 // Update existing zone
                 $updateSql = "UPDATE risk_zones SET
                              risk_score = ?,
                              risk_level = ?,
                              nearby_outbreaks_count = ?,
                              last_outbreak_date = ?,
-                             depopulation_count = ?,
                              factors_contributing = ?,
                              updated_at = NOW()
                              WHERE id = ?";
@@ -206,7 +180,6 @@ try {
                     $riskLevel,
                     $cityData['total_outbreaks'],
                     $cityData['last_outbreak_date'],
-                    $cityData['total_depopulation'],
                     json_encode($factors),
                     $existingZone['id']
                 ]);
@@ -258,19 +231,18 @@ try {
         $factors = [
             'zone_type' => $zoneType,
             'total_outbreaks' => $cityData['total_outbreaks'],
-            'depopulation_events' => $cityData['total_depopulation'],
             'cluster_radius_km' => round($clusterRadius, 2)
         ];
-        
+
         // Insert risk zone
-        $insertSql = "INSERT INTO risk_zones 
-                     (zone_code, zone_name, province, city, 
+        $insertSql = "INSERT INTO risk_zones
+                     (zone_code, zone_name, province, city,
                       center_latitude, center_longitude, radius_km,
                       risk_level, risk_score, factors_contributing,
-                      nearby_outbreaks_count, last_outbreak_date, depopulation_count,
+                      nearby_outbreaks_count, last_outbreak_date,
                       status, identified_date, reviewed_by)
-                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'active', CURDATE(), ?)";
-        
+                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'active', CURDATE(), ?)";
+
         $insertStmt = $pdo->prepare($insertSql);
         $insertStmt->execute([
             $zoneCode,
@@ -285,7 +257,6 @@ try {
             json_encode($factors),
             $cityData['total_outbreaks'],
             $cityData['last_outbreak_date'],
-            $cityData['total_depopulation'],
             $userId
         ]);
         
@@ -341,155 +312,85 @@ function calculateDistance($lat1, $lon1, $lat2, $lon2) {
 }
 
 /**
- * Calculate risk score (0-100) for a city based on outbreak and depopulation data
+ * Calculate risk score (0-100) for a city based solely on ASF outbreak data
+ * Scoring breakdown:
+ *   Outbreak count:  0-60 pts  (10+ outbreaks = max)
+ *   Recency:         0-25 pts  (how recently the last outbreak occurred)
+ *   Severity:        0-15 pts  (average severity level across outbreaks)
  */
-function calculateCityRiskScore($cityData, $includeEnvironmental, $includeMovement, $pdo, $cutoffDate) {
+function calculateCityRiskScore($cityData) {
     $score = 0;
-    
-    // Outbreak factors (0-50 points)
+
+    // Outbreak count (0-60 points)
     $outbreakCount = $cityData['total_outbreaks'];
-    $outbreakScore = min(50, ($outbreakCount / 10) * 50); // Max 50 points for 10+ outbreaks
-    $score += $outbreakScore;
-    
-    // Depopulation factors (0-20 points)
-    $depopScore = min(20, ($cityData['total_depopulation'] / 5) * 20); // Max 20 points for 5+ events
-    $score += $depopScore;
-    
-    // Recency factor (0-15 points)
+    $score += min(60, ($outbreakCount / 10) * 60);
+
+    // Recency (0-25 points)
     if ($cityData['last_outbreak_date']) {
         $daysSince = (time() - strtotime($cityData['last_outbreak_date'])) / 86400;
-        if ($daysSince <= 7) {
-            $recencyScore = 15; // Very recent
-        } elseif ($daysSince <= 30) {
-            $recencyScore = 10; // Recent
-        } elseif ($daysSince <= 60) {
-            $recencyScore = 5; // Somewhat recent
-        } else {
-            $recencyScore = 2; // Older
+        if ($daysSince <= 7)       $score += 25;
+        elseif ($daysSince <= 30)  $score += 18;
+        elseif ($daysSince <= 60)  $score += 10;
+        elseif ($daysSince <= 90)  $score += 5;
+        else                       $score += 2;
+    }
+
+    // Severity (0-15 points) — average across all outbreaks in the city
+    $severityMap = ['critical' => 15, 'high' => 10, 'medium' => 5, 'low' => 2];
+    if (!empty($cityData['outbreaks'])) {
+        $totalSeverity = 0;
+        foreach ($cityData['outbreaks'] as $ob) {
+            $level = strtolower(trim($ob['severity_level'] ?? 'low'));
+            $totalSeverity += $severityMap[$level] ?? 2;
         }
-        $score += $recencyScore;
+        $score += min(15, $totalSeverity / count($cityData['outbreaks']));
     }
-    
-    // Environmental factors (0-10 points, if enabled)
-    if ($includeEnvironmental) {
-        $envSql = "SELECT AVG(temperature) as avg_temp, 
-                          AVG(humidity) as avg_humidity,
-                          AVG(rainfall) as avg_rainfall
-                   FROM environmental_data 
-                   WHERE city = ? AND province = ?
-                   AND recorded_at >= ?";
-        $envStmt = $pdo->prepare($envSql);
-        $envStmt->execute([$cityData['city'], $cityData['province'], $cutoffDate]);
-        $envData = $envStmt->fetch(PDO::FETCH_ASSOC);
-        
-        if ($envData) {
-            $avgTemp = $envData['avg_temp'] ?? 0;
-            $avgHumidity = $envData['avg_humidity'] ?? 0;
-            $envScore = 0;
-            if ($avgTemp > 25 && $avgTemp < 35) {
-                $envScore += 3; // Optimal temperature range
-            }
-            if ($avgHumidity > 60 && $avgHumidity < 90) {
-                $envScore += 3; // Optimal humidity range
-            }
-            if ($envData['avg_rainfall'] > 100) {
-                $envScore += 4; // High rainfall
-            }
-            $score += min(10, $envScore);
-        }
-    }
-    
-    // Movement factors (0-5 points, if enabled)
-    if ($includeMovement) {
-        $movementSql = "SELECT COUNT(*) as count
-                       FROM meat_movement 
-                       WHERE (source_city = ? AND source_province = ?)
-                          OR (destination_city = ? AND destination_province = ?)
-                       AND movement_date >= ?";
-        $movementStmt = $pdo->prepare($movementSql);
-        $movementStmt->execute([
-            $cityData['city'], $cityData['province'],
-            $cityData['city'], $cityData['province'],
-            $cutoffDate
-        ]);
-        $movementResult = $movementStmt->fetch(PDO::FETCH_ASSOC);
-        $movementCount = intval($movementResult['count'] ?? 0);
-        $movementScore = min(5, ($movementCount / 20) * 5); // Max 5 points for 20+ movements
-        $score += $movementScore;
-    }
-    
-    // Ensure score is between 0 and 100
+
     return max(0, min(100, round($score, 2)));
 }
 
 /**
- * Classify a city/municipality into ASF zone type based on risk factors
+ * Classify a city/municipality into ASF zone type based solely on outbreak data.
  * Returns: 'infected', 'buffer', 'surveillance', 'protected', or 'free'
  */
 function classifyCityZone($cityData, $riskScore) {
     $outbreakCount = $cityData['total_outbreaks'];
     $lastOutbreakDate = $cityData['last_outbreak_date'];
-    $depopCount = $cityData['total_depopulation'];
-    
-    // Check for recent outbreaks (within 60 days)
+
     $daysSince = null;
     if ($lastOutbreakDate) {
         $daysSince = (time() - strtotime($lastOutbreakDate)) / 86400;
     }
-    
-    // Infected Zone: Has outbreaks within 60 days OR very high risk score (>=80) with outbreaks
-    if ($outbreakCount > 0 && $lastOutbreakDate && $daysSince <= 60) {
+
+    // Infected Zone: outbreaks within the last 60 days, or score ≥80 with outbreaks
+    if ($outbreakCount > 0 && $daysSince !== null && $daysSince <= 60) {
         return 'infected';
     }
     if ($riskScore >= 80 && $outbreakCount > 0) {
         return 'infected';
     }
-    
-    // Buffer Zone: High risk score (60-79) with outbreaks OR high depopulation activity
-    // Also consider high risk score even without recent outbreaks but with depopulation
-    if ($riskScore >= 60 && $riskScore < 80 && $outbreakCount > 0) {
+
+    // Buffer Zone: score 60-79 with outbreaks
+    if ($riskScore >= 60 && $outbreakCount > 0) {
         return 'buffer';
     }
-    if ($depopCount >= 5 && $outbreakCount > 0) {
-        return 'buffer';
-    }
-    if ($riskScore >= 65 && $depopCount >= 3) {
-        return 'buffer';
-    }
-    
-    // Surveillance Zone: Medium risk score (40-59) OR moderate outbreak/depopulation activity
-    // This should include cities with some activity but not critical
-    if ($riskScore >= 40 && $riskScore < 60) {
+
+    // Surveillance Zone: score 35-59, or older outbreaks (61-180 days ago)
+    if ($riskScore >= 35 && $riskScore < 60) {
         return 'surveillance';
     }
-    if ($riskScore >= 30 && $outbreakCount > 0 && (!empty($daysSince) && $daysSince > 60)) {
+    if ($outbreakCount > 0 && $daysSince !== null && $daysSince > 60 && $daysSince <= 180) {
         return 'surveillance';
     }
-    if ($riskScore >= 25 && $depopCount > 0) {
-        return 'surveillance';
-    }
-    if ($outbreakCount > 0 && (!empty($daysSince) && $daysSince > 60 && $daysSince <= 180)) {
-        return 'surveillance';
-    }
-    
-    // Protected Zone: Low risk score (15-39) with no recent outbreaks
-    // Cities with low activity but still need monitoring
-    if ($riskScore >= 15 && $riskScore < 40) {
-        if ($outbreakCount == 0) {
-            return 'protected';
-        }
-        if (!empty($daysSince) && $daysSince > 90) {
-            return 'protected';
-        }
-        if ($depopCount > 0 && $depopCount < 3) {
-            return 'protected';
-        }
-    }
-    if ($riskScore >= 10 && $riskScore < 15 && $outbreakCount == 0 && $depopCount == 0) {
+
+    // Protected Zone: some outbreak history but score is low (outbreaks older than 180 days)
+    if ($outbreakCount > 0 && $daysSince !== null && $daysSince > 180) {
         return 'protected';
     }
-    
-    // Free Zone: Very low risk score (<15) and no outbreaks/depopulation (default fallback)
-    // Cities with minimal to no ASF activity
+    if ($riskScore >= 10 && $riskScore < 35 && $outbreakCount == 0) {
+        return 'protected';
+    }
+
+    // Free Zone: no outbreaks and very low score
     return 'free';
 }

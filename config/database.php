@@ -7,6 +7,12 @@
 // Set timezone to Philippines
 date_default_timezone_set('Asia/Manila');
 
+// Start session early (before any output) so headers are not yet sent
+require_once __DIR__ . '/../includes/session_manager.php';
+if (session_status() === PHP_SESSION_NONE) {
+    startSecureSession();
+}
+
 // Include date helper functions
 require_once __DIR__ . '/../includes/date_helper.php';
 

@@ -17,51 +17,54 @@
         $dateFrom = isset($_GET['date_from']) && $_GET['date_from'] !== '' ? trim($_GET['date_from']) : null;
         $dateTo = isset($_GET['date_to']) && $_GET['date_to'] !== '' ? trim($_GET['date_to']) : null;
         
-        // Build WHERE clause for date filtering
-        $outbreakConditions = [];
+        // Build WHERE clause for date filtering.
+        // Use COALESCE so CSV-uploaded records (reported_date) and manual entries (outbreak_date) both match.
+        $outbreakConditions = ["province = 'CALABARZON'"];
         $outbreakParams = [];
-        
+
         if ($dateFrom) {
-            $outbreakConditions[] = "outbreak_date >= ?";
+            $outbreakConditions[] = "COALESCE(outbreak_date, reported_date) >= ?";
             $outbreakParams[] = $dateFrom;
         }
-        
+
         if ($dateTo) {
-            $outbreakConditions[] = "outbreak_date <= ?";
+            $outbreakConditions[] = "COALESCE(outbreak_date, reported_date) <= ?";
             $outbreakParams[] = $dateTo;
         }
-        
-        $outbreakWhere = !empty($outbreakConditions) ? 'WHERE ' . implode(' AND ', $outbreakConditions) : '';
-        
-        // Get outbreaks from asf_outbreaks table and map status to zone_type
-        // Status mapping: confirmed->infected, contained->buffer, suspected->surveillance, resolved->protected, false_alarm->free
-        $outbreakSql = "SELECT 
+
+        $outbreakWhere = 'WHERE ' . implode(' AND ', $outbreakConditions);
+
+        // Build a city → zone_type lookup from the calculated risk_zones table.
+        $cityZoneMap = [];
+        $rzStmt = $pdo->query("SELECT city, factors_contributing FROM risk_zones WHERE province = 'CALABARZON'");
+        foreach ($rzStmt->fetchAll(PDO::FETCH_ASSOC) as $rz) {
+            $factors = json_decode($rz['factors_contributing'], true);
+            $zoneType = $factors['zone_type'] ?? null;
+            if ($zoneType && !empty($rz['city'])) {
+                $cityZoneMap[strtolower(trim($rz['city']))] = $zoneType;
+            }
+        }
+
+        // Query outbreaks — simple, no JOIN
+        $outbreakSql = "SELECT
                         id,
                         outbreak_code,
                         location_name,
-                        province, 
+                        province,
                         city,
                         barangay,
                         latitude,
                         longitude,
                         status,
-                        outbreak_date,
+                        COALESCE(outbreak_date, reported_date) AS outbreak_date,
                         reported_date,
                         total_pigs_affected,
                         total_pigs_mortality,
                         total_pigs_depopulated,
-                        severity_level,
-                        CASE 
-                            WHEN status = 'confirmed' THEN 'infected'
-                            WHEN status = 'contained' THEN 'buffer'
-                            WHEN status = 'suspected' THEN 'surveillance'
-                            WHEN status = 'resolved' THEN 'protected'
-                            WHEN status = 'false_alarm' THEN 'free'
-                            ELSE 'free'
-                        END as zone_type
+                        severity_level
                     FROM asf_outbreaks
                     {$outbreakWhere}
-                    ORDER BY outbreak_date DESC, reported_date DESC";
+                    ORDER BY COALESCE(outbreak_date, reported_date) DESC";
         
         $stmt = $pdo->prepare($outbreakSql);
         $stmt->execute($outbreakParams);
@@ -70,31 +73,38 @@
         // Group outbreaks by city and barangay, then calculate average coordinates
         $locationGroups = [];
         $zonePriority = ['infected' => 0, 'buffer' => 1, 'surveillance' => 2, 'protected' => 3, 'free' => 4];
-        
+        $severityZoneMap = ['critical' => 'infected', 'high' => 'buffer', 'medium' => 'surveillance', 'low' => 'protected'];
+
         foreach ($outbreaks as $outbreak) {
             // Create unique key for city + barangay combination
-            $locationKey = strtolower(trim($outbreak['province'] ?? 'CALABARZON') . '|' . 
-                                    trim($outbreak['city'] ?? '') . '|' . 
+            $locationKey = strtolower(trim($outbreak['province'] ?? 'CALABARZON') . '|' .
+                                    trim($outbreak['city'] ?? '') . '|' .
                                     trim($outbreak['barangay'] ?? ''));
-            
+
+            // Resolve zone type: prefer calculated risk_zones, fall back to severity_level
+            $cityKey = strtolower(trim($outbreak['city'] ?? ''));
+            $resolvedZone = $cityZoneMap[$cityKey]
+                ?? $severityZoneMap[strtolower($outbreak['severity_level'] ?? '')]
+                ?? 'free';
+
             if (!isset($locationGroups[$locationKey])) {
                 $locationGroups[$locationKey] = [
                     'province' => $outbreak['province'] ?? 'CALABARZON',
                     'city' => $outbreak['city'] ?? '',
                     'barangay' => $outbreak['barangay'] ?? null,
-                    'zone_type' => $outbreak['zone_type'],
-                    'priority' => $zonePriority[$outbreak['zone_type']] ?? 4,
+                    'zone_type' => $resolvedZone,
+                    'priority' => $zonePriority[$resolvedZone] ?? 4,
                     'outbreaks' => [],
                     'coordinates' => []
                 ];
             }
-            
+
             $locationGroups[$locationKey]['outbreaks'][] = $outbreak;
-            
-            // Use the highest priority zone type (lowest priority number = highest priority)
-            $newPriority = $zonePriority[$outbreak['zone_type']] ?? 4;
+
+            // Keep the highest-priority (most severe) zone type for the group
+            $newPriority = $zonePriority[$resolvedZone] ?? 4;
             if ($newPriority < $locationGroups[$locationKey]['priority']) {
-                $locationGroups[$locationKey]['zone_type'] = $outbreak['zone_type'];
+                $locationGroups[$locationKey]['zone_type'] = $resolvedZone;
                 $locationGroups[$locationKey]['priority'] = $newPriority;
             }
             
@@ -153,7 +163,7 @@
 
     // Reload latest historical outbreak data
     $stmt = $pdo->prepare("
-        SELECT 
+        SELECT
             id,
             outbreak_code,
             location_name,
@@ -163,22 +173,15 @@
             latitude,
             longitude,
             status,
-            outbreak_date,
+            COALESCE(outbreak_date, reported_date) AS outbreak_date,
             reported_date,
             total_pigs_affected,
             total_pigs_mortality,
             total_pigs_depopulated,
-            severity_level,
-            CASE 
-                WHEN status = 'confirmed' THEN 'infected'
-                WHEN status = 'contained' THEN 'buffer'
-                WHEN status = 'suspected' THEN 'surveillance'
-                WHEN status = 'resolved' THEN 'protected'
-                WHEN status = 'false_alarm' THEN 'free'
-                ELSE 'free'
-            END as zone_type
+            severity_level
         FROM asf_outbreaks
-        ORDER BY outbreak_date DESC
+        WHERE province = 'CALABARZON'
+        ORDER BY COALESCE(outbreak_date, reported_date) DESC
     ");
 
     $stmt->execute();
@@ -198,14 +201,18 @@
             trim($outbreak['barangay'] ?? '')
         );
 
-        if (!isset($locationGroups[$locationKey])) {
+        $cityKey2 = strtolower(trim($outbreak['city'] ?? ''));
+        $resolvedZone2 = $cityZoneMap[$cityKey2]
+            ?? $severityZoneMap[strtolower($outbreak['severity_level'] ?? '')]
+            ?? 'free';
 
+        if (!isset($locationGroups[$locationKey])) {
             $locationGroups[$locationKey] = [
                 'province' => $outbreak['province'] ?? 'CALABARZON',
                 'city' => $outbreak['city'] ?? '',
                 'barangay' => $outbreak['barangay'] ?? null,
-                'zone_type' => $outbreak['zone_type'],
-                'priority' => $zonePriority[$outbreak['zone_type']] ?? 4,
+                'zone_type' => $resolvedZone2,
+                'priority' => $zonePriority[$resolvedZone2] ?? 4,
                 'outbreaks' => [],
                 'coordinates' => []
             ];

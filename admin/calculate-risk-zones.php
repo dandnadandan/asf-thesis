@@ -36,25 +36,11 @@ try {
 }
 
 // Get data source statistics
-$dataStats = [
-    'outbreaks' => 0,
-    'depopulation_events' => 0,
-    'environmental_records' => 0,
-    'meat_movements' => 0
-];
+$dataStats = ['outbreaks' => 0];
 
 try {
     $stmt = $pdo->query("SELECT COUNT(*) as count FROM asf_outbreaks");
     $dataStats['outbreaks'] = $stmt->fetch()['count'] ?? 0;
-    
-    $stmt = $pdo->query("SELECT COUNT(*) as count FROM depopulation_events");
-    $dataStats['depopulation_events'] = $stmt->fetch()['count'] ?? 0;
-    
-    $stmt = $pdo->query("SELECT COUNT(*) as count FROM environmental_data");
-    $dataStats['environmental_records'] = $stmt->fetch()['count'] ?? 0;
-    
-    $stmt = $pdo->query("SELECT COUNT(*) as count FROM meat_movement");
-    $dataStats['meat_movements'] = $stmt->fetch()['count'] ?? 0;
 } catch (Exception $e) {
     error_log("Error fetching data statistics: " . $e->getMessage());
 }
@@ -97,41 +83,13 @@ include 'includes/sidebar.php';
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Data Source Statistics</h5>
-            <p class="text-muted">The risk zone calculation will analyze the following data sources:</p>
-            
+            <p class="text-muted">Risk zones are calculated exclusively from ASF outbreak records.</p>
             <div class="row">
               <div class="col-md-3">
                 <div class="card bg-primary text-white mb-3">
                   <div class="card-body">
                     <h6 class="card-title">ASF Outbreaks</h6>
                     <h3 class="mb-0"><?php echo number_format($dataStats['outbreaks']); ?></h3>
-                    <small>Records</small>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="card bg-danger text-white mb-3">
-                  <div class="card-body">
-                    <h6 class="card-title">Depopulation Events</h6>
-                    <h3 class="mb-0"><?php echo number_format($dataStats['depopulation_events']); ?></h3>
-                    <small>Events</small>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="card bg-info text-white mb-3">
-                  <div class="card-body">
-                    <h6 class="card-title">Environmental Data</h6>
-                    <h3 class="mb-0"><?php echo number_format($dataStats['environmental_records']); ?></h3>
-                    <small>Records</small>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="card bg-warning text-dark mb-3">
-                  <div class="card-body">
-                    <h6 class="card-title">Meat Movement</h6>
-                    <h3 class="mb-0"><?php echo number_format($dataStats['meat_movements']); ?></h3>
                     <small>Records</small>
                   </div>
                 </div>
@@ -149,7 +107,7 @@ include 'includes/sidebar.php';
             
             <div class="alert alert-info">
               <i class="bi bi-info-circle me-2"></i>
-              <strong>How it works:</strong> The system analyzes outbreaks, depopulation events, environmental conditions, and meat movement patterns by city/municipality to classify zones according to ASF zoning standards. Each city/municipality is classified as Infected, Buffer, Surveillance, Protected, or Free zone based on risk factors.
+              <strong>How it works:</strong> The system analyzes ASF outbreak records by city/municipality and classifies each city as an Infected, Buffer, Surveillance, Protected, or Free zone based on outbreak count, recency, and severity.
             </div>
             
             <form id="calculateRiskZonesForm">
@@ -180,25 +138,6 @@ include 'includes/sidebar.php';
                     <option value="update">Update existing zones only</option>
                   </select>
                   <small class="text-muted">How to handle existing risk zones</small>
-                </div>
-              </div>
-              
-              <div class="row mb-3">
-                <div class="col-md-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="includeEnvironmental" name="includeEnvironmental" checked>
-                    <label class="form-check-label" for="includeEnvironmental">
-                      Include environmental factors in risk calculation
-                    </label>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="includeMovement" name="includeMovement" checked>
-                    <label class="form-check-label" for="includeMovement">
-                      Include meat movement patterns in risk calculation
-                    </label>
-                  </div>
                 </div>
               </div>
               
@@ -268,7 +207,7 @@ include 'includes/sidebar.php';
               </div>
               <div class="list-group-item">
                 <h6 class="mb-1"><i class="bi bi-2-circle text-primary"></i> Risk Score Calculation</h6>
-                <p class="mb-0 small">Calculates risk scores based on outbreak frequency, depopulation events, environmental conditions, and meat movement patterns.</p>
+                <p class="mb-0 small">Calculates risk scores (0–100) based on outbreak count (60 pts), recency of last outbreak (25 pts), and average severity level (15 pts).</p>
               </div>
               <div class="list-group-item">
                 <h6 class="mb-1"><i class="bi bi-3-circle text-primary"></i> Risk Level Classification</h6>

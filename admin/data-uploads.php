@@ -317,6 +317,9 @@ include 'includes/sidebar.php';
                               <i class="bi bi-download"></i>
                             </a>
                           <?php endif; ?>
+                          <button type="button" class="btn btn-sm btn-outline-danger" onclick="confirmDeleteUpload(<?php echo $upload['id']; ?>, '<?php echo htmlspecialchars(addslashes($upload['file_name'])); ?>')">
+                            <i class="bi bi-trash"></i>
+                          </button>
                         </td>
                       </tr>
                     <?php endforeach; ?>
@@ -348,6 +351,35 @@ include 'includes/sidebar.php';
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Delete Upload Confirmation Modal -->
+<div class="modal fade" id="deleteUploadModal" tabindex="-1" aria-labelledby="deleteUploadModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="deleteUploadModalLabel">Delete Upload</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want to delete this upload?</p>
+        <p class="fw-bold" id="deleteUploadFileName"></p>
+        <div class="alert alert-danger small mb-0">
+          <strong>This will permanently delete:</strong>
+          <ul class="mb-0 mt-1">
+            <li>The uploaded file</li>
+            <li>All data records imported from this file</li>
+            <li>Any linked documents or attachments</li>
+            <li>All calculated risk zones and predictive model data</li>
+          </ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-danger" id="confirmDeleteBtn">Delete</button>
       </div>
     </div>
   </div>
@@ -545,6 +577,45 @@ function getStatusColor(status) {
   };
   return colors[status] || 'secondary';
 }
+
+let pendingDeleteId = null;
+
+function confirmDeleteUpload(uploadId, fileName) {
+  pendingDeleteId = uploadId;
+  document.getElementById('deleteUploadFileName').textContent = fileName;
+  const modal = new bootstrap.Modal(document.getElementById('deleteUploadModal'));
+  modal.show();
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('confirmDeleteBtn').addEventListener('click', function() {
+    if (!pendingDeleteId) return;
+
+    const btn = this;
+    btn.disabled = true;
+    btn.textContent = 'Deleting...';
+
+    const formData = new FormData();
+    formData.append('upload_id', pendingDeleteId);
+
+    fetch('ajax/delete_upload.php', { method: 'POST', body: formData })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          window.location.reload();
+        } else {
+          alert('Error: ' + (data.error || 'Failed to delete upload'));
+          btn.disabled = false;
+          btn.textContent = 'Delete';
+        }
+      })
+      .catch(() => {
+        alert('An error occurred. Please try again.');
+        btn.disabled = false;
+        btn.textContent = 'Delete';
+      });
+  });
+});
 </script>
 
 <style>

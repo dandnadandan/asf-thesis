@@ -881,6 +881,7 @@ try {
       cartogram: null  // Cartogram layer for risk zones
     };
     let zonePolygons = {}; // Store polygons by zone type for filtering
+    let currentGeoLayer = null; // Active GeoJSON layer on the map
     let calabarzonGeoJSON = null; // Store GeoJSON data
 
     document.addEventListener('DOMContentLoaded', function() {
@@ -932,7 +933,7 @@ try {
       // Set default date range (last 90 days)
       const today = new Date();
       const ninetyDaysAgo = new Date(today);
-      ninetyDaysAgo.setDate(today.getDate() - 90);
+      ninetyDaysAgo.setDate(today.getDate() - 365);
       document.getElementById('mapDateFrom').value = ninetyDaysAgo.toISOString().split('T')[0];
       document.getElementById('mapDateTo').value = today.toISOString().split('T')[0];
       
@@ -970,7 +971,7 @@ try {
     function clearDateFilter() {
       const today = new Date();
       const ninetyDaysAgo = new Date(today);
-      ninetyDaysAgo.setDate(today.getDate() - 90);
+      ninetyDaysAgo.setDate(today.getDate() - 365);
       document.getElementById('mapDateFrom').value = ninetyDaysAgo.toISOString().split('T')[0];
       document.getElementById('mapDateTo').value = today.toISOString().split('T')[0];
       loadMapData();
@@ -1068,6 +1069,7 @@ try {
     function updateCartogramWithPolygons(data) {
       // Clear existing layer
       mapLayers.cartogram.clearLayers();
+      if (currentGeoLayer) { currentGeoLayer = null; }
       zonePolygons = {};
       
       // Zone colors matching ASF zoning standards
@@ -1100,7 +1102,7 @@ try {
             if (outbreak.city) outbreakLookup[outbreak.city.trim().toUpperCase()] = outbreak;
         });
         
-        // Add GeoJSON layer
+        // Build and add GeoJSON layer directly to the cartogram group
         const geoLayer = L.geoJSON(calabarzonGeoJSON, {
           filter: function(feature) {
               const geoName = (feature.properties.shapeName || feature.properties.ADM3_EN || feature.properties.name || '').trim().toUpperCase();
@@ -1175,7 +1177,8 @@ try {
             };
             const statusLabel = statusLabels[zoneType] || 'Unknown';
             
-            // Group feature layer into the appropriate zone type for checkbox filtering
+            // Tag the layer with its zone type so applyZoneFilter can read it
+            layer._zoneType = zoneType;
             if (!zonePolygons[zoneType]) zonePolygons[zoneType] = [];
             zonePolygons[zoneType].push(layer);
             
@@ -1209,38 +1212,46 @@ try {
                     }
                 },
                 mouseout: function(e) {
-                    geoLayer.resetStyle(e.target);
+                    if (currentGeoLayer) currentGeoLayer.resetStyle(e.target);
+                    applyZoneFilter();
                 }
             });
           }
         });
         
-        // Append all grouped features explicitly to allow toggling logic
+        // Add the layer to the map and store globally
+        currentGeoLayer = geoLayer;
+        geoLayer.addTo(mapLayers.cartogram);
+
+        // Apply zone visibility filter
         applyZoneFilter();
-        
+
       } else {
         console.warn('GeoJSON boundaries or cities data is not available.', data);
       }
     }
-    
+
     /**
-     * Apply zone filter based on checkbox states for polygons
+     * Apply zone filter — show/hide zone types using setStyle (opacity toggle).
+     * Using setStyle avoids Leaflet's restriction on adding a layer to multiple groups.
      */
     function applyZoneFilter() {
-      // Clear all layers from map
-      mapLayers.cartogram.clearLayers();
-      
-      // Check each zone type checkbox and add layers if checked
+      if (!currentGeoLayer) return;
+
       const zoneTypes = ['infected', 'buffer', 'surveillance', 'protected', 'free'];
+      const activeZones = new Set();
       zoneTypes.forEach(zoneType => {
         const checkboxId = `zone${zoneType.charAt(0).toUpperCase() + zoneType.slice(1)}`;
         const checkbox = document.getElementById(checkboxId);
-        
-        if (checkbox && checkbox.checked && zonePolygons[zoneType]) {
-          // Add all layers of this zone type to the map
-          zonePolygons[zoneType].forEach(layer => {
-            layer.addTo(mapLayers.cartogram);
-          });
+        if (checkbox && checkbox.checked) activeZones.add(zoneType);
+      });
+
+      currentGeoLayer.eachLayer(function(layer) {
+        const zt = layer._zoneType || 'free';
+        if (activeZones.has(zt)) {
+          layer.setStyle({ fillOpacity: zt === 'protected' ? 0.7 : 0.65, opacity: 0.9 });
+        } else {
+          layer.setStyle({ fillOpacity: 0, opacity: 0 });
         }
       });
     }

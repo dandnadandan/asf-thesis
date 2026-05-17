@@ -46,8 +46,6 @@ function getSystemStatistics($pdo) {
             'total_risk_zones' => 0,
             'high_risk_zones' => 0,
             'total_environmental_records' => 0,
-            'total_alerts' => 0,
-            'active_alerts' => 0,
             'total_uploads' => 0,
             'pending_uploads' => 0,
             'total_reports' => 0,
@@ -97,13 +95,6 @@ function getSystemStatistics($pdo) {
         $stmt = $pdo->query("SELECT COUNT(*) as total FROM environmental_data");
         $stats['total_environmental_records'] = $stmt->fetch()['total'];
         
-        // Alert statistics
-        $stmt = $pdo->query("SELECT COUNT(*) as total FROM system_alerts");
-        $stats['total_alerts'] = $stmt->fetch()['total'];
-        
-        $stmt = $pdo->query("SELECT COUNT(*) as total FROM system_alerts WHERE status = 'active'");
-        $stats['active_alerts'] = $stmt->fetch()['total'];
-        
         // Data upload statistics
         $stmt = $pdo->query("SELECT COUNT(*) as total FROM data_uploads");
         $stats['total_uploads'] = $stmt->fetch()['total'];
@@ -135,8 +126,6 @@ function getSystemStatistics($pdo) {
             'total_risk_zones' => 0,
             'high_risk_zones' => 0,
             'total_environmental_records' => 0,
-            'total_alerts' => 0,
-            'active_alerts' => 0,
             'total_uploads' => 0,
             'pending_uploads' => 0,
             'total_reports' => 0,
@@ -722,13 +711,21 @@ $calabarzon_cumulative = getCalabarzonCumulativeAffected($pdo);
     }
     
     .stat-card {
-      border-left: 4px solid #4154f1;
+      border: none !important;
+      border-left: 0 !important;
+      border-left-width: 0 !important;
+      border-left-style: none !important;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
       transition: transform 0.3s ease;
+    }
+    .stat-card::before,
+    .stat-card::after {
+      display: none !important;
     }
     
     .stat-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transform: none;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
     }
     
     .chart-card {
@@ -777,7 +774,7 @@ $calabarzon_cumulative = getCalabarzonCumulativeAffected($pdo);
       <!-- Statistics Cards -->
       <div class="row mb-4">
         <div class="col-lg-3 col-md-6">
-          <div class="card stat-card">
+          <div class="card stat-card" style="border-left: 0 !important; border: none !important;">
             <div class="card-body">
               <h5 class="card-title">Total Outbreaks</h5>
               <div class="d-flex align-items-center">
@@ -791,7 +788,7 @@ $calabarzon_cumulative = getCalabarzonCumulativeAffected($pdo);
         </div>
 
         <div class="col-lg-3 col-md-6">
-          <div class="card stat-card">
+          <div class="card stat-card" style="border-left: 0 !important; border: none !important;">
             <div class="card-body">
               <h5 class="card-title">High-Risk Zones</h5>
               <div class="d-flex align-items-center">
@@ -805,7 +802,7 @@ $calabarzon_cumulative = getCalabarzonCumulativeAffected($pdo);
         </div>
 
         <div class="col-lg-3 col-md-6">
-          <div class="card stat-card">
+          <div class="card stat-card" style="border-left: 0 !important; border: none !important;">
             <div class="card-body">
               <h5 class="card-title">Pigs Depopulated</h5>
               <div class="d-flex align-items-center">
@@ -818,19 +815,6 @@ $calabarzon_cumulative = getCalabarzonCumulativeAffected($pdo);
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
-          <div class="card stat-card">
-            <div class="card-body">
-              <h5 class="card-title">Active Alerts</h5>
-              <div class="d-flex align-items-center">
-                <div class="ps-3">
-                  <h3 class="text-danger"><?php echo number_format($stats['active_alerts']); ?></h3>
-                  <span class="text-muted small"><?php echo number_format($stats['total_alerts']); ?> total alerts</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
       <!-- CALABARZON Visualization Reports -->
@@ -1145,9 +1129,6 @@ $calabarzon_cumulative = getCalabarzonCumulativeAffected($pdo);
             <div class="card-body">
               <h5 class="card-title">Quick Actions</h5>
               <div class="d-grid gap-2">
-                <a href="outbreaks.php" class="btn btn-danger">
-                  <i class="bi bi-exclamation-triangle me-2"></i>View Outbreaks
-                </a>
                 <a href="risk-zones.php" class="btn btn-warning">
                   <i class="bi bi-map me-2"></i>Risk Zones
                 </a>
@@ -1156,12 +1137,6 @@ $calabarzon_cumulative = getCalabarzonCumulativeAffected($pdo);
                 </a>
                 <a href="data-uploads.php" class="btn btn-primary">
                   <i class="bi bi-upload me-2"></i>Data Uploads
-                </a>
-                <a href="system-alerts.php" class="btn btn-danger">
-                  <i class="bi bi-bell me-2"></i>System Alerts
-                  <?php if ($stats['active_alerts'] > 0): ?>
-                    <span class="badge bg-light text-dark ms-2"><?php echo $stats['active_alerts']; ?></span>
-                  <?php endif; ?>
                 </a>
               </div>
             </div>

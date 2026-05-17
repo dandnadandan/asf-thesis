@@ -310,14 +310,19 @@ include 'includes/sidebar.php';
 ?>
 
 <main id="main" class="main">
-  <div class="pagetitle">
-    <h1>Risk Zones</h1>
-    <nav>
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-        <li class="breadcrumb-item active">Risk Zones</li>
-      </ol>
-    </nav>
+  <div class="pagetitle d-flex justify-content-between align-items-start">
+    <div>
+      <h1>Risk Zones</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+          <li class="breadcrumb-item active">Risk Zones</li>
+        </ol>
+      </nav>
+    </div>
+    <button type="button" class="btn btn-primary mt-1" data-bs-toggle="modal" data-bs-target="#calculateModal">
+      <i class="bi bi-calculator me-1"></i> Calculate Risk Zones
+    </button>
   </div><!-- End Page Title -->
 
   <section class="section">
@@ -679,6 +684,48 @@ include 'includes/sidebar.php';
   </section>
 
 </main><!-- End #main -->
+
+<!-- Calculate Risk Zones Modal -->
+<div class="modal fade" id="calculateModal" tabindex="-1" aria-labelledby="calculateModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="calculateModalLabel"><i class="bi bi-calculator me-2"></i>Calculate Risk Zones</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="calcForm">
+          <div class="mb-3">
+            <label for="calcLookbackDays" class="form-label">Lookback Period (days)</label>
+            <input type="number" class="form-control" id="calcLookbackDays" value="180" min="30" max="730">
+            <small class="text-muted">Analyze outbreaks from the last N days</small>
+          </div>
+          <div class="mb-3">
+            <label for="calcReplaceExisting" class="form-label">Existing Zones</label>
+            <select class="form-select" id="calcReplaceExisting">
+              <option value="replace">Replace all existing zones</option>
+              <option value="append">Append to existing zones</option>
+              <option value="update">Update existing zones only</option>
+            </select>
+          </div>
+        </div>
+        <div id="calcProgress" style="display:none;">
+          <div class="text-center py-3">
+            <div class="spinner-border text-primary mb-3" role="status"></div>
+            <p class="mb-0">Calculating risk zones from outbreak data...</p>
+          </div>
+        </div>
+        <div id="calcResult" style="display:none;"></div>
+      </div>
+      <div class="modal-footer" id="calcFooter">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" id="calcRunBtn" onclick="runCalculation()">
+          <i class="bi bi-play-fill me-1"></i>Run Calculation
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Zone Details Modal -->
 <div class="modal fade" id="zoneDetailsModal" tabindex="-1" aria-labelledby="zoneDetailsModalLabel" aria-hidden="true">
@@ -1158,6 +1205,74 @@ function escapeHtml(text) {
   div.textContent = text;
   return div.innerHTML;
 }
+
+function runCalculation() {
+  const btn = document.getElementById('calcRunBtn');
+  const form = document.getElementById('calcForm');
+  const progress = document.getElementById('calcProgress');
+  const result = document.getElementById('calcResult');
+  const footer = document.getElementById('calcFooter');
+
+  btn.disabled = true;
+  form.style.display = 'none';
+  progress.style.display = 'block';
+  result.style.display = 'none';
+  footer.style.display = 'none';
+
+  const formData = new FormData();
+  formData.append('lookbackDays', document.getElementById('calcLookbackDays').value);
+  formData.append('replaceExisting', document.getElementById('calcReplaceExisting').value);
+  formData.append('clusterRadius', '10');
+  formData.append('minOutbreaksForZone', '1');
+
+  fetch('ajax/calculate_risk_zones.php', { method: 'POST', body: formData })
+    .then(r => r.json())
+    .then(data => {
+      progress.style.display = 'none';
+      result.style.display = 'block';
+      footer.style.display = 'flex';
+
+      if (data.success) {
+        result.innerHTML = `
+          <div class="alert alert-success mb-0">
+            <strong><i class="bi bi-check-circle me-1"></i>Done!</strong> ${data.message}<br>
+            <small>Infected: ${data.infected_zones} &bull; Buffer: ${data.buffer_zones} &bull; Surveillance: ${data.surveillance_zones} &bull; Protected: ${data.protected_zones} &bull; Free: ${data.free_zones}</small>
+          </div>`;
+        footer.innerHTML = '<button class="btn btn-primary" onclick="location.reload()"><i class="bi bi-arrow-clockwise me-1"></i>Reload Page</button>';
+      } else {
+        result.innerHTML = `<div class="alert alert-danger mb-0"><i class="bi bi-exclamation-triangle me-1"></i>${escapeHtml(data.message || 'Calculation failed.')}</div>`;
+        btn.disabled = false;
+        form.style.display = 'block';
+        result.style.display = 'block';
+      }
+    })
+    .catch(() => {
+      progress.style.display = 'none';
+      result.style.display = 'block';
+      result.innerHTML = '<div class="alert alert-danger mb-0">Request failed. Please try again.</div>';
+      btn.disabled = false;
+      form.style.display = 'block';
+      footer.style.display = 'flex';
+    });
+}
+
+// Reset modal state when it's closed
+document.addEventListener('DOMContentLoaded', function() {
+  const calcModal = document.getElementById('calculateModal');
+  if (calcModal) {
+    calcModal.addEventListener('hidden.bs.modal', function() {
+      document.getElementById('calcForm').style.display = 'block';
+      document.getElementById('calcProgress').style.display = 'none';
+      document.getElementById('calcResult').style.display = 'none';
+      document.getElementById('calcFooter').style.display = 'flex';
+      document.getElementById('calcFooter').innerHTML = `
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" id="calcRunBtn" onclick="runCalculation()">
+          <i class="bi bi-play-fill me-1"></i>Run Calculation
+        </button>`;
+    });
+  }
+});
 </script>
 
 <style>

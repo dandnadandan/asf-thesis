@@ -811,6 +811,26 @@ h6 {
   padding: 0;
 }
 
+.card-icon.rounded-circle {
+  background: transparent !important;
+  background-color: transparent !important;
+  font-size: 15px;
+  line-height: 1;
+  width: auto;
+  height: auto;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.card-icon.rounded-circle + div h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+}
+
 .dashboard .card-icon {
   font-size: 32px;
   line-height: 0;

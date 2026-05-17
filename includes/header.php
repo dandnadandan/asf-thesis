@@ -1,15 +1,34 @@
 <?php
 // Header section for ASF Surveillance System
+$_publicCurrentUser = null;
+$_publicProfileImage = 'uploads/profile-img.jpg';
+
+if (isLoggedIn()) {
+    $_publicCurrentUser = getCurrentUser();
+    try {
+        if (!isset($pdo)) {
+            require_once __DIR__ . '/../config/database.php';
+            $database = new Database();
+            $pdo = $database->getConnection();
+        }
+        $stmt = $pdo->prepare("SELECT profile_image FROM user_accounts WHERE id = :id");
+        $stmt->execute([':id' => $_publicCurrentUser['id']]);
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+        if ($row && !empty($row['profile_image']) && file_exists(__DIR__ . '/../' . $row['profile_image'])) {
+            $_publicProfileImage = $row['profile_image'];
+        }
+    } catch (Exception $e) {}
+}
 ?>
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="d-flex align-items-center">
-        <a href="index.php" class="logo d-flex align-items-center ms-5">
+        <i class="bi bi-list toggle-sidebar-btn me-2" style="padding-left: 5px;"></i>
+        <a href="index.php" class="logo d-flex align-items-center">
           <img src="uploads/asf_logo.png" alt="ASF Surveillance Logo" class="d-lg-none" style="height: 60px; margin-right: 15px; object-fit: contain;">
           <img src="uploads/asf_logo.png" alt="ASF Surveillance Logo" class="d-none d-lg-block" style="height: 60px; margin-right: 15px; object-fit: contain;">
           <div class="d-none d-lg-block" style="font-size: 1.6rem; color:rgb(77, 106, 130); white-space: nowrap; font-weight: bold;">CALABARZON</div>
         </a>
-        <i class="bi bi-list toggle-sidebar-btn" style="margin-left: 0px;"></i>
     </div><!-- End Logo -->
 
 
@@ -220,12 +239,46 @@
 */
 ?>
 
-<!-- login button link here -->
-        <div class="login-section ms-auto">
-          <a href="login.php" class="btn btn-primary login-btn">
-            <i class="bi bi-person-circle me-2"></i>
-            <span class="btn-text">Login</span>
-            <div class="btn-overlay"></div>
-          </a>
+<!-- login / profile section -->
+        <div class="ms-auto">
+          <?php if ($_publicCurrentUser): ?>
+            <nav class="header-nav">
+              <ul class="d-flex align-items-center mb-0">
+                <li class="nav-item dropdown pe-3">
+                  <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                    <span class="dropdown-toggle"><?php echo htmlspecialchars($_publicCurrentUser['name']); ?></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                    <li class="dropdown-header">
+                      <h6><?php echo htmlspecialchars($_publicCurrentUser['name']); ?></h6>
+                      <span><?php echo htmlspecialchars($_publicCurrentUser['role']); ?></span>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <?php if ($_publicCurrentUser['role'] === 'administrator'): ?>
+                    <li>
+                      <a class="dropdown-item d-flex align-items-center" href="admin/index.php">
+                        <i class="bi bi-speedometer2 me-2"></i><span>Admin Dashboard</span>
+                      </a>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <?php endif; ?>
+                    <li>
+                      <a class="dropdown-item d-flex align-items-center" href="logout.php">
+                        <i class="bi bi-box-arrow-right me-2"></i><span>Sign Out</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          <?php else: ?>
+            <div class="login-section">
+              <a href="login.php" class="btn btn-primary login-btn">
+                <i class="bi bi-person-circle me-2"></i>
+                <span class="btn-text">Login</span>
+                <div class="btn-overlay"></div>
+              </a>
+            </div>
+          <?php endif; ?>
         </div>
   </header><!-- End Header -->

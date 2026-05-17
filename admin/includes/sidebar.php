@@ -16,6 +16,13 @@ if (!function_exists('canManageUsers')) {
   <ul class="sidebar-nav" id="sidebar-nav">
 
     <li class="nav-item">
+      <a class="nav-link collapsed" href="../index.php" style="background: rgba(65, 84, 241, 0.15);">
+        <i class="bi bi-arrow-left-circle"></i>
+        <span>Back to Home</span>
+      </a>
+    </li><!-- End Back to Home Nav -->
+
+    <li class="nav-item">
       <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? '' : 'collapsed'; ?>" href="index.php">
         <i class="bi bi-grid"></i>
         <span>Dashboard</span>
@@ -30,28 +37,6 @@ if (!function_exists('canManageUsers')) {
     </li><!-- End Users Nav -->
     <?php endif; ?>
 
-    <li class="nav-item">
-      <a class="nav-link collapsed" data-bs-target="#outbreaks-nav" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-exclamation-triangle"></i><span>Outbreak Management</span><i class="bi bi-chevron-down ms-auto"></i>
-      </a>
-      <ul id="outbreaks-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-        <li>
-          <a href="outbreaks.php">
-            <i class="bi bi-circle"></i><span>All Outbreaks</span>
-          </a>
-        </li>
-        <li>
-          <a href="outbreaks.php?status=active">
-            <i class="bi bi-circle"></i><span>Active Outbreaks</span>
-          </a>
-        </li>
-        <li>
-          <a href="outbreaks.php?status=confirmed">
-            <i class="bi bi-circle"></i><span>Confirmed Outbreaks</span>
-          </a>
-        </li>
-      </ul>
-    </li><!-- End Outbreaks Nav -->
 
     <li class="nav-item">
       <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'depopulation-events.php' ? '' : 'collapsed'; ?>" href="depopulation-events.php">
@@ -68,31 +53,10 @@ if (!function_exists('canManageUsers')) {
     </li><!-- End Meat Movement Nav -->
 
     <li class="nav-item">
-      <a class="nav-link collapsed" data-bs-target="#risk-zones-nav" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-map"></i><span>Risk Zones</span><i class="bi bi-chevron-down ms-auto"></i>
+      <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'risk-zones.php' ? '' : 'collapsed'; ?>" href="risk-zones.php">
+        <i class="bi bi-map"></i>
+        <span>Risk Zones</span>
       </a>
-      <ul id="risk-zones-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-        <li>
-          <a href="risk-zones.php">
-            <i class="bi bi-circle"></i><span>All Risk Zones</span>
-          </a>
-        </li>
-        <li>
-          <a href="risk-zones.php?level=high">
-            <i class="bi bi-circle"></i><span>High-Risk Zones</span>
-          </a>
-        </li>
-        <li>
-          <a href="risk-zones.php?level=critical">
-            <i class="bi bi-circle"></i><span>Critical Zones</span>
-          </a>
-        </li>
-        <li>
-          <a href="calculate-risk-zones.php">
-            <i class="bi bi-calculator"></i><span>Calculate Risk Zones</span>
-          </a>
-        </li>
-      </ul>
     </li><!-- End Risk Zones Nav -->
 
     <!-- <li class="nav-item">
@@ -116,21 +80,6 @@ if (!function_exists('canManageUsers')) {
       </a>
     </li><!-- End Data Uploads Nav -->
 
-    <?php if (canManageSystemAlerts()): ?>
-    <li class="nav-item">
-      <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'system-alerts.php' ? '' : 'collapsed'; ?>" href="system-alerts.php">
-        <i class="bi bi-bell"></i>
-        <span>System Alerts</span>
-      </a>
-    </li><!-- End System Alerts Nav -->
-    <?php endif; ?>
-
-    <li class="nav-item">
-      <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'reports.php' ? '' : 'collapsed'; ?>" href="reports.php">
-        <i class="bi bi-bar-chart"></i>
-        <span>Reports</span>
-      </a>
-    </li><!-- End Reports Nav -->
 
     <?php if (canManageContent()): ?>
     <li class="nav-item">
@@ -199,13 +148,6 @@ if (!function_exists('canManageUsers')) {
       </a>
     </li><!-- End System Settings Nav -->
     <?php endif; ?>
-
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="../index.php">
-        <i class="bi bi-house"></i>
-        <span>Back to Home</span>
-      </a>
-    </li><!-- End Home Page Nav -->
 
   </ul>
 

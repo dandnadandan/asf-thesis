@@ -38,12 +38,12 @@ if (isset($currentUser['id'])) {
 <header id="header" class="header fixed-top d-flex align-items-center">
 
 <div class="d-flex align-items-center">
-        <a href="index.php" class="logo d-flex align-items-center ms-5">
+        <i class="bi bi-list toggle-sidebar-btn me-2" style="padding-left: 5px;"></i>
+        <a href="../index.php" class="logo d-flex align-items-center">
           <img src="../uploads/asf_logo.png" alt="ASF Surveillance Logo" class="d-lg-none" style="height: 60px; margin-right: 15px; object-fit: contain;">
           <img src="../uploads/asf_logo.png" alt="ASF Surveillance Logo" class="d-none d-lg-block" style="height: 60px; margin-right: 15px; object-fit: contain;">
           <div class="d-none d-lg-block" style="font-size: 1.6rem; color:rgb(77, 106, 130); white-space: nowrap; font-weight: bold;">CALABARZON</div>
         </a>
-        <i class="bi bi-list toggle-sidebar-btn" style="margin-left: 0px;"></i>
     </div><!-- End Logo -->
 
   <nav class="header-nav ms-auto">
